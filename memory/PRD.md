@@ -35,6 +35,9 @@ PRODUCT REQUIREMENTS: Full visual redesign and responsive polish. Better desktop
 - Added `allowedHosts: true` to vite dev server config so the Emergent preview URL isn't blocked
 - Verified clean production build (`yarn build` passes)
 
+### 2026-06 (fork)
+- Fixed blank preview: platform supervisor runs `yarn start` from `/app/frontend`, which did not exist. Added `/app/frontend/package.json` launcher whose `start` script runs the Vite dev server in `/app/enrollment-ui/New folder` on 0.0.0.0:3000. Preview now survives restarts/forks. Never run Vite manually in background — use `sudo supervisorctl restart frontend`.
+
 ## Prioritized backlog
 ### P1
 - Visually verify redesigned Landing + Registration pages against a live Keycloak + backend stack

@@ -1,0 +1,7 @@
+{
+  "name": "enrollment-ui-launcher",
+  "private": true,
+  "scripts": {
+    "start": "cd \"../enrollment-ui/New folder\" && NODE_OPTIONS=--max-old-space-size=4096 yarn dev --host 0.0.0.0 --port 3000"
+  }
+}
