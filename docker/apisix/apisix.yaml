@@ -1,0 +1,136 @@
+upstreams:
+  - id: 1
+    name: "master-service-upstream"
+    type: roundrobin
+    nodes:
+      "master-service:8081": 1
+  - id: 2
+    name: "inward-service-upstream"
+    type: roundrobin
+    nodes:
+      "inward-service:8082": 1
+  - id: 3
+    name: "policy-service-upstream"
+    type: roundrobin
+    nodes:
+      "policy-service:8083": 1
+  - id: 4
+    name: "workflow-service-upstream"
+    type: roundrobin
+    nodes:
+      "workflow-service:8084": 1
+  - id: 5
+    name: "member-service-upstream"
+    type: roundrobin
+    nodes:
+      "member-service:8085": 1
+  - id: 6
+    name: "ecard-service-upstream"
+    type: roundrobin
+    nodes:
+      "ecard-service:8086": 1
+  - id: 7
+    name: "tpa-service-upstream"
+    type: roundrobin
+    nodes:
+      "tpa-service:8087": 1
+  - id: 8
+    name: "insurer-service-upstream"
+    type: roundrobin
+    nodes:
+      "insurer-service:8088": 1
+  - id: 9
+    name: "provider-service-upstream"
+    type: roundrobin
+    nodes:
+      "provider-service:8089": 1
+
+routes:
+  - id: 1
+    uri: "/v1/corporate-group*"
+    upstream_id: 1
+  - id: 2
+    uri: "/v1/corporates*"
+    upstream_id: 1
+  - id: 3
+    uri: "/v1/brokers*"
+    upstream_id: 1
+  - id: 4
+    uri: "/v1/agents*"
+    upstream_id: 1
+  - id: 5
+    uri: "/v1/insurer*"
+    upstream_id: 8
+  - id: 6
+    uri: "/v1/plan-types*"
+    upstream_id: 1
+  - id: 7
+    uri: "/v1/documentmaster*"
+    upstream_id: 1
+  - id: 8
+    uri: "/api/v1/groups*"
+    upstream_id: 1
+  - id: 9
+    uri: "/api/v1/users*"
+    upstream_id: 1
+
+  - id: 10
+    uri: "/v1/files/inwards*"
+    upstream_id: 2
+  - id: 11
+    uri: "/v1/scan/files*"
+    upstream_id: 2
+  - id: 12
+    uri: "/v1/files/presigned-url*"
+    upstream_id: 2
+  - id: 13
+    uri: "/v1/generateId/inwardno*"
+    upstream_id: 2
+  - id: 14
+    uri: "/v1/xml-parser*"
+    upstream_id: 2
+
+  - id: 15
+    uri: "/v1/ocr*"
+    upstream_id: 3
+  - id: 16
+    uri: "/v1/policy-endorsements*"
+    upstream_id: 3
+  - id: 17
+    uri: "/v1/enroll/policy*"
+    upstream_id: 3
+  - id: 18
+    uri: "/v1/policies*"
+    upstream_id: 3
+
+  - id: 19
+    uri: "/api/v1/workflow*"
+    upstream_id: 4
+
+  - id: 20
+    uri: "/v1/enrollment/progress*"
+    upstream_id: 5
+  - id: 21
+    uri: "/v1/member*"
+    upstream_id: 5
+  - id: 22
+    uri: "/v1/members*"
+    upstream_id: 5
+
+  - id: 23
+    uri: "/v1/ecards*"
+    upstream_id: 6
+
+  - id: 24
+    uri: "/v1/tpa*"
+    upstream_id: 7
+  - id: 25
+    uri: "/v1/escalation-matrix*"
+    upstream_id: 7
+  - id: 26
+    uri: "/v1/provider*"
+    upstream_id: 9
+  - id: 27
+    uri: "/v1/Provider-Blacklist*"
+    upstream_id: 9
+#END

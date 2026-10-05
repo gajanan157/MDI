@@ -1,0 +1,12 @@
+include:
+  - project: 'teaadevops/gitlab-ci-common'
+    ref: frontend   # 👈 IMPORTANT (your template branch)
+    file:
+      - '/templates/frontend.yml'
+
+variables:
+  APP_NAME: "frontend-react"
+  IMAGE_TAG: "release-${CI_PIPELINE_IID}"
+  IMAGE_NAME: "${HARBOR_URL}/frontend-apps/${APP_NAME}"
+  NODE_OPTIONS: "--max-old-space-size=4096"
+  GIT_DEPTH: "0"

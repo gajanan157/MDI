@@ -1,0 +1,17 @@
+com\mdindia\enrollment\policy\controller\PolicyProcessController.class
+com\mdindia\enrollment\policy\controller\PolicySearchController.class
+com\mdindia\enrollment\policy\entity\WorkItemEntity.class
+com\mdindia\enrollment\policy\repository\PolicyRepository.class
+com\mdindia\enrollment\policy\entity\PolicyEntity.class
+com\mdindia\enrollment\policy\client\UserDirectoryClient$1.class
+com\mdindia\enrollment\policy\entity\PolicyEntity$Builder.class
+com\mdindia\enrollment\policy\entity\WorkItemEntity$Builder.class
+com\mdindia\enrollment\policy\entity\PolicyEndorsementEntity$Builder.class
+com\mdindia\enrollment\policy\repository\PolicyEndorsementRepository.class
+com\mdindia\enrollment\policy\client\UserDirectoryClient.class
+com\mdindia\enrollment\policy\entity\PolicyEndorsementEntity.class
+com\mdindia\enrollment\policy\repository\WorkItemRepository.class
+com\mdindia\enrollment\policy\controller\OcrWorkItemController.class
+com\mdindia\enrollment\policy\controller\EndorsementController.class
+com\mdindia\enrollment\policy\client\NotificationPublisher.class
+com\mdindia\enrollment\policy\PolicyServiceApplication.class

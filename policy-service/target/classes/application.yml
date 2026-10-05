@@ -1,0 +1,31 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: policy-service
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/enrolment}
+    driverClassName: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root}
+  flyway:
+    # All services share one database, so each keeps its own migration history table.
+    table: flyway_history_policy
+    # Run V1+ even though the shared schema already has other services' tables.
+    baseline-on-migrate: true
+    baseline-version: 0
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      # Flyway owns the schema; Hibernate only checks that entities match it.
+      ddl-auto: validate
+    show-sql: false
+
+# Used to show user display names (GET /api/v1/users) in work item responses.
+services:
+  master:
+    url: ${MASTER_SERVICE_URL:http://localhost:8081}
+  # Receives notifications and broadcasts them on /ws/notifications.
+  workflow:
+    url: ${WORKFLOW_SERVICE_URL:http://localhost:8084}

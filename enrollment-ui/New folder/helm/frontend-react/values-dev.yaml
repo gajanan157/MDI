@@ -1,0 +1,30 @@
+image:
+  repository: registry.mdindia.com/frontend-apps/frontend-react
+  tag: release-latest   # SAME TAG promoted
+
+tlsSecret: dev-frontend-tls
+
+env:
+  VITE_MODE: "dev"
+  VITE_USE_MOCK: "false"
+  VITE_BASE_URL: "https://rke2-dp.mdindia.com/dev"
+  VITE_API_BASE_URL_KEYCLOCK: "https://authdev.mdindia.com/" 
+
+  VITE_API_BASE_URL_MAIN: "https://rke2-dp.mdindia.com/dev/common-master-service"
+  VITE_API_BASE_URL_MASTER: "https://rke2-dp.mdindia.com/dev/tpa-management-service"
+  VITE_API_BASE_URL_INSURER: "https://rke2-dp.mdindia.com/dev/insurer-management-service"
+  VITE_API_BASE_URL_CORPORATE: "https://rke2-dp.mdindia.com/dev/corporate-management-service"
+  VITE_API_BASE_URL_POLICY_SEARCH: "https://rke2-dp.mdindia.com/dev/policy-management-service"
+  VITE_API_BASE_URL_BROKER: "https://rke2-dp.mdindia.com/dev/broker-management-service"
+  VITE_API_BASE_URL_MASTER_BENEFIT: "https://rke2-dp.mdindia.com/dev/master-product-policy-management-service"
+  VITE_API_BASE_URL_DOCUMENT: "https://scan-file-management-dev.mdindia.com"
+  VITE_API_BASE_URL_DOCUMENT2: "https://rke2-dp.mdindia.com/dev/document-upload-management-service"
+  VITE_API_BASE_URL_ID_GENERATOR: "https://rke2-dp.mdindia.com/dev/document-upload-management-service"
+  VITE_API_BASE_URL_AGENT: "https://rke2-dp.mdindia.com/dev/agent-management-service"
+  VITE_API_BASE_URL_PROVIDER: "https://rke2-dp.mdindia.com/dev/provider-management-service"
+  VITE_API_BASE_MEMBER_DATA: "https://rke2-dp.mdindia.com/dev/member-enrollment-review-staging-data"
+  VITE_API_BASE_XML_PARSE: "https://rke2-dp.mdindia.com/dev/xml-parser-service"
+  VITE_API_BASE_MEMBER_SERVICE: "https://rke2-dp.mdindia.com/dev/master-member-enrollment-service"
+  VITE_API_BASE_E_CARD_PRINT_SERVICE: "https://rke2-dp.mdindia.com/dev/ecard-print-service"
+  VITE_API_BASE_URL_USERS: "https://rke2-dp.mdindia.com/dev/user-impersonation-service"
+  VITE_API_BASE_URL_BENEFITSCONFIGURATION: "https://rke2-dp.mdindia.com/dev/benefit-configuration-service"

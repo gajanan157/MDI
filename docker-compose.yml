@@ -1,0 +1,246 @@
+version: '3.8'
+
+services:
+  # -------------------------------------------------------
+  # PostgreSQL 16
+  # -------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mdindia_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      # Creates one extra database per service that owns its data (tpa_db, ...). Runs on first start only.
+      - ./docker/postgres/create-databases.sql:/docker-entrypoint-initdb.d/20-create-databases.sql:ro
+    networks:
+      - microservices-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # -------------------------------------------------------
+  # Apache Kafka (KRaft mode)
+  # -------------------------------------------------------
+  kafka:
+    image: confluentinc/cp-kafka:7.6.1
+    container_name: kafka
+    ports:
+      - "9092:9092"
+      - "9094:9094"
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: 'CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT'
+      KAFKA_ADVERTISED_LISTENERS: 'PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092'
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@kafka:29093'
+      KAFKA_LISTENERS: 'PLAINTEXT://kafka:29092,CONTROLLER://kafka:29093,PLAINTEXT_HOST://0.0.0.0:9092'
+      KAFKA_INTER_BROKER_LISTENER_NAME: 'PLAINTEXT'
+      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
+      KAFKA_LOG_DIRS: '/tmp/kraft-combined-logs'
+      CLUSTER_ID: 'MkU3OEVBNTcwNTJENDM2Qk'
+    networks:
+      - microservices-net
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    container_name: kafka-ui
+    ports:
+      - "8080:8080"
+    environment:
+      KAFKA_CLUSTERS_0_NAME: local-cluster
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
+    depends_on:
+      - kafka
+    networks:
+      - microservices-net
+
+  # -------------------------------------------------------
+  # Apache APISIX Gateway
+  # -------------------------------------------------------
+  apisix:
+    image: apache/apisix:3.9.0-debian
+    container_name: apisix
+    restart: always
+    volumes:
+      - ./docker/apisix/config.yaml:/usr/local/apisix/conf/config.yaml:ro
+      - ./docker/apisix/apisix.yaml:/usr/local/apisix/conf/apisix.yaml:ro
+    ports:
+      - "9080:9080"
+    networks:
+      - microservices-net
+
+  # -------------------------------------------------------
+  # Microservices
+  # -------------------------------------------------------
+  master-service:
+    build:
+      context: ./master-service
+      dockerfile: Dockerfile
+    container_name: master-service
+    ports:
+      - "8081:8081"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/mdindia_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  inward-service:
+    build:
+      context: ./inward-service
+      dockerfile: Dockerfile
+    container_name: inward-service
+    ports:
+      - "8082:8082"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/mdindia_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  policy-service:
+    build:
+      context: ./policy-service
+      dockerfile: Dockerfile
+    container_name: policy-service
+    ports:
+      - "8083:8083"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/mdindia_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+      - MASTER_SERVICE_URL=http://master-service:8081
+      - WORKFLOW_SERVICE_URL=http://workflow-service:8084
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  workflow-service:
+    build:
+      context: ./workflow-service
+      dockerfile: Dockerfile
+    container_name: workflow-service
+    ports:
+      - "8084:8084"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/mdindia_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  member-service:
+    build:
+      context: ./member-service
+      dockerfile: Dockerfile
+    container_name: member-service
+    ports:
+      - "8085:8085"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/mdindia_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  ecard-service:
+    build:
+      context: ./ecard-service
+      dockerfile: Dockerfile
+    container_name: ecard-service
+    ports:
+      - "8086:8086"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/mdindia_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  tpa-service:
+    build:
+      context: ./tpa-service
+      dockerfile: Dockerfile
+    container_name: tpa-service
+    ports:
+      - "8087:8087"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/tpa_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  insurer-service:
+    build:
+      context: ./insurer-service
+      dockerfile: Dockerfile
+    container_name: insurer-service
+    ports:
+      - "8088:8088"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/insurer_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+  provider-service:
+    build:
+      context: ./provider-service
+      dockerfile: Dockerfile
+    container_name: provider-service
+    ports:
+      - "8089:8089"
+    environment:
+      - DB_URL=jdbc:postgresql://postgres:5432/provider_db
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - microservices-net
+
+volumes:
+  postgres-data:
+
+networks:
+  microservices-net:
+    driver: bridge

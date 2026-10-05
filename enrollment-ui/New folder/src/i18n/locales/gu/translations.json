@@ -1,0 +1,2383 @@
+{
+  "nav": {
+    "insurermanagement": {
+      "insurermanagement": "વીમાકર્તા કાર્યાલય મોડ્યુલ",
+      "insurer": "વીમાકર્તા",
+      "office": "કાર્યાલય",
+      "contact-person": "સંપર્ક વ્યક્તિ",
+      "brand-history": "બ્રાન્ડ ઇતિહાસ",
+      "merger": "વિલીન"
+    },
+    "dashboards": {
+      "dashboards": "ડેશબોર્ડ્સ",
+      "insurermanagement": "વીમાકર્તા કાર્યાલય મોડ્યુલ",
+      "insurer": "વીમાકર્તા",
+      "ic-checklist": "IC ઓનબોર્ડિંગ ચેકલિસ્ટ",
+      "office": "કાર્યાલય",
+      "contact-person": "સંપર્ક વ્યક્તિ",
+      "brand-history": "બ્રાન્ડ ઇતિહાસ",
+      "merger": "વિલીન",
+      "home": "હોમ",
+      "tpamanagement": "શાખા મોડ્યુલ",
+      "tpa": "TPA",
+      "branches": "શાખાઓ",
+      "escalation-matrix": "એસ્કલેશન મેટ્રિક્સ",
+      "officeHierarchy": "કાર્યાલય હાયરાર્કી",
+      "dashboard": "ડેશબોર્ડ",
+      "adminDashboard": "એડમિન ડેશબોર્ડ",
+      "policy-benefit": "પોલિસી લાભ",
+      "master-product": "માસ્ટર પ્રોડક્ટ",
+      "mbmmanagement": "MBM મેનેજમેન્ટ",
+      "enrollmentsystem": "નોંધણી સિસ્ટમ",
+      "inwardtsystem": "ઇનવર્ડ સિસ્ટમ",
+      "inward": "ઇનવર્ડ",
+      "psu-inward": "પીએસયુ આવક",
+      "assignment-management": "સોંપણી મેનેજમેન્ટ",
+      "inward-management": "ઇનવર્ડ મેનેજમેન્ટ",
+      "user-management": "વપરાશકર્તા મેનેજમેન્ટ",
+      "user": "વપરાશકર્તાઓ",
+      "masterManagement": "માસ્ટર મેનેજમેન્ટ",
+      "corporate1": "કોર્પોરેટ માસ્ટર",
+      "corporate": "કોર્પોરેટ ગ્રુપ",
+      "broker": "બ્રોકર માસ્ટર",
+      "agent": "એજન્ટ માસ્ટર",
+      "create": "માસ્ટર બનાવો",
+      "empanel": "એમ્પેનલ",
+      "provider-masters": "પ્રોવાઇડર મેનેજમેન્ટ",
+      "policy-searcch": "પોલિસી શોધ",
+      "e-card": "-કાર્ડ સેટિંગ્સ",
+      "ecard": "-કાર્ડ",
+      "ecardmanagement": "ઈ-કાર્ડ વ્યવસ્થાપન",
+      "policy-mapping": "પોલિસી મેપિંગ",
+      "provider-masters-empanel": "એમ્પેનલ",
+      "provider-masters-create": "બનાવો",
+      "provider-masters-providers": "પ્રોવાઇડર્સ",
+      "provider-masters-network-providers": "નેટવર્ક પ્રોવાઇડર્સ",
+      "provider-masters-network-hospitals": "નેટવર્ક હોસ્પિટલો",
+      "provider-masters-non-network-providers": "બિન-નેટવર્ક પ્રોવાઇડર્સ",
+      "provider-masters-non-network-hospitals": "બિન-નેટવર્ક હોસ્પિટલો",
+      "provider-masters-blacklist-master": "બ્લેકલિસ્ટ માસ્ટર",
+      "provider-masters-excluded-hospitals": "બાકાત પ્રોવાઇડર્સ",
+      "provider-masters-excluded-hospitals-bulk-exclude": "બલ્ક બહિષ્કૃત",
+      "provider-masters-rohini-master": "રોહિણી માસ્ટર",
+      "provider-masters-ic-provider-code-master": "IC પ્રોવાઇડર કોડ માસ્ટર",
+      "provider-masters-ic-provisioning": "IC પ્રોવિઝનિંગ",
+      "provider-masters-bank-verification": "IC-Provider બેંક વિગતો",
+      "provider-masters-agreement-detail": "કરાર જુઓ",
+      "provider-masters-agreement-new": "નવો કરાર",
+      "provider-masters-agreement-edit": "કરાર સંપાદિત કરો",
+      "provider-masters-providers-details": "પ્રોવાઇડર વિગતો",
+      "provider-masters-providers-agreement-tab": "કરાર",
+      "provider-masters-ic-corporate-mapping": "IC અને કોર્પોરેટ પ્રોવાઇડર મેપિંગ",
+      "provider-masters-ic-corporate-mapping-add-new-network": "બલ્ક IC મેપિંગ",
+      "provider-masters-excludetableview": "બાકાત ટેબલ વ્યૂ",
+      "provider-masters-ic-mapping": "IC મેપિંગ",
+      "provider-masters-corporate-mapping": "કોર્પોરેટ મેપિંગ",
+      "provider-masters-provider-master": "પ્રોવાઇડર માસ્ટર",
+      "provider-masters-bulk-operations": "બલ્ક ઓપરેશન્સ",
+      "provider-masters-ic-provider-bulk-mapping": "IC-Provider Bulk Mapping",
+      "provider-masters-masters": "માસ્ટર્સ",
+      "provider-masters-dashboard": "ડેશબોર્ડ",
+      "provider-masters-documents": "દસ્તાવેજો",
+      "provider-masters-soc": "SOC"
+    },
+    "settings": {
+      "settings": "સેટિંગ્સ",
+      "general": "સામાન્ય",
+      "appearance": "દેખાવ"
+    },
+    "tpa": {
+      "title": "TPA",
+      "information": "TPA માહિતી",
+      "fields": {
+        "tpaCode": {
+          "label": "TPA કોડ",
+          "placeholder": "TPA કોડ દાખલ કરો"
+        },
+        "legalName": {
+          "label": "કાનૂની નામ",
+          "placeholder": "કાનૂની નામ દાખલ કરો"
+        },
+        "cinNumber": {
+          "label": "CIN નંબર",
+          "placeholder": "CIN નંબર દાખલ કરો"
+        },
+        "contactEmail": {
+          "label": "સંપર્ક ઇમેઇલ",
+          "placeholder": "સંપર્ક ઇમેઇલ દાખલ કરો"
+        },
+        "contactPhone": {
+          "label": "સંપર્ક ફોન",
+          "placeholder": "સંપર્ક ફોન દાખલ કરો"
+        }
+      },
+      "buttons": {
+        "edit": "સંપાદિત કરો",
+        "update": "અપડેટ કરો"
+      }
+    },
+    "address": {
+      "title": "સરનામું માહિતી",
+      "fields": {
+        "address": {
+          "label": "સરનામું",
+          "placeholder": "સરનામું દાખલ કરો"
+        },
+        "addressType": {
+          "label": "સરનામું પ્રકાર",
+          "placeholder": "સરનામું પ્રકાર"
+        },
+        "postalCode": {
+          "label": "પિન કોડ",
+          "placeholder": "પિન કોડ દાખલ કરો"
+        },
+        "state": {
+          "label": "રાજ્ય",
+          "placeholder": "રાજ્ય"
+        },
+        "city": {
+          "label": "શહેર",
+          "placeholder": "શહેર"
+        }
+      },
+      "types": {
+        "physical": "ભૌતિક",
+        "postal": "ટપાલ",
+        "both": "બંને"
+      }
+    }
+  },
+  "branch": {
+    "title": "TPA શાખાઓ",
+    "addBranch": "શાખા ઉમેરો",
+    "search": "શોધ",
+    "hideSearch": "શોધ છુપાવો",
+    "filtersTitle": "TPA શાખા ફિલ્ટર્સ",
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "code": "કોડ",
+      "businessUnit": "વ્યવસાય એકમ",
+      "branch": "શાખા",
+      "city": "શહેર",
+      "state": "રાજ્ય",
+      "contactPhone": "સંપર્ક ફોન",
+      "contactEmail": "સંપર્ક ઇમેઇલ"
+    },
+    "searchFields": {
+      "branchName": "શાખાનું નામ",
+      "businessUnit": "વ્યવસાય એકમ",
+      "recordStatus": "રેકોર્ડ સ્થિતિ"
+    },
+    "confirm": {
+      "title": "શું તમે ખાતરી કરો છો?",
+      "deleteDescription": "શું તમે આ રેકોર્ડ કાઢી નાખવા માંગો છો?",
+      "deleteAction": "કાઢી નાખો",
+      "deleteSuccess": "રેકોર્ડ કાઢી નાખ્યો",
+      "error": "હાલમાં રેકોર્ડ કાઢી શકાતો નથી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો."
+    },
+    "searchButton": {
+      "apply": "લાગુ કરો",
+      "applying": "લાગુ કરી રહ્યા છીએ...",
+      "reset": "રીસેટ"
+    },
+    "paginationObj": {
+      "pageSize": "પેજ સાઇઝ",
+      "page": "પેજ"
+    }
+  },
+  "branchForm": {
+    "pageTitle": "TPA શાખાઓ",
+    "sectionTitle": "શાખા વિગતો",
+    "fields": {
+      "branchName": {
+        "label": "શાખાનું નામ",
+        "placeholder": "શાખાનું નામ દાખલ કરો"
+      },
+      "parentBranch": {
+        "label": "મુખ્ય શાખા",
+        "placeholder": "મુખ્ય શાખા"
+      },
+      "phoneNumber": {
+        "label": "ફોન નંબર",
+        "placeholder": "અલ્પવિરામથી અલગ કરેલા ફોન નંબરો દાખલ કરો"
+      },
+      "email": {
+        "label": "ઇમેઇલ",
+        "placeholder": "ઇમેઇલ સરનામું દાખલ કરો"
+      },
+      "businessUnit": {
+        "label": "વ્યવસાય એકમ"
+      }
+    },
+    "buttons": {
+      "cancel": "રદ કરો",
+      "edit": "સંપાદિત કરો",
+      "submit": "સબમિટ કરો",
+      "submitting": "સબમિટ થઈ રહ્યું છે...",
+      "update": "અપડેટ કરો",
+      "updating": "અપડેટ થઈ રહ્યું છે...",
+      "save": "સાચવો"
+    },
+    "breadcrumb": {
+      "branches": "શાખાઓ",
+      "viewBranch": "શાખા જુઓ",
+      "addBranch": "શાખા ઉમેરો"
+    }
+  },
+  "insurer": {
+    "pageTitle": "વીમાકર્તા કાર્યાલય મોડ્યુલ",
+    "buttons": {
+      "search": "શોધ",
+      "hideSearch": "શોધ છુપાવો",
+      "addInsurer": "વીમાકર્તા ઉમેરો"
+    },
+    "searchFields": {
+      "insuranceCompany": "વીમા કંપની",
+      "irdaiCode": "IRDAI કોડ"
+    },
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "insuranceCompanyName": "વીમા કંપનીનું નામ",
+      "irdaiCode": "IRDAI કોડ",
+      "brandName": "બ્રાન્ડ નામ",
+      "insurerCode": "વીમાકર્તા કોડ",
+      "type": "પ્રકાર",
+      "status": "સ્થિતિ"
+    },
+    "pagination": {
+      "pageSize": "પેજ સાઇઝ",
+      "page": "પેજ"
+    }
+  },
+  "insurerForm": {
+    "generalInfoTitle": "સામાન્ય માહિતી",
+    "fields": {
+      "irdaiInsurerCode": {
+        "label": "IRDAI કોડ",
+        "placeholder": "IRDAI કોડ દાખલ કરો"
+      },
+      "insurerCode": {
+        "label": "વીમા કોડ",
+        "placeholder": "વીમા કોડ દાખલ કરો"
+      },
+      "insuranceCompany": {
+        "label": "વીમા કંપની",
+        "placeholder": "વીમા કંપની દાખલ કરો"
+      },
+      "insurerType": {
+        "label": "વીમાકર્તા પ્રકાર",
+        "placeholder": "વીમાકર્તા પ્રકાર"
+      },
+      "officeCode": {
+        "label": "ઓફિસ કોડ",
+        "placeholder": "ઓફિસ કોડ દાખલ કરો"
+      },
+      "pan": {
+        "label": "PAN",
+        "placeholder": "PAN દાખલ કરો"
+      },
+      "gstin": {
+        "label": "GSTIN",
+        "placeholder": "GSTIN દાખલ કરો"
+      },
+      "email": {
+        "label": "ઈમેલ",
+        "placeholder": "ઈમેલ દાખલ કરો"
+      },
+      "phone": {
+        "label": "ફોન",
+        "placeholder": "ફોન દાખલ કરો"
+      }
+    },
+    "brandLogo": {
+      "label": "બ્રાન્ડ લોગો",
+      "uploadSuccess": "દસ્તાવેજ સફળતાપૂર્વક અપલોડ થયું",
+      "uploadFailed": "અપલોડ નિષ્ફળ થયું"
+    },
+    "documents": {
+      "uploadDocument": "દસ્તાવેજ અપલોડ કરો",
+      "principalAgreement": "મુખ્ય કરાર",
+      "document": "દસ્તાવેજ",
+      "addendum": "એડેન્ડમ",
+      "renewal": "નવીનીકરણ",
+      "others": "અન્ય",
+      "title": "બધા દસ્તાવેજો",
+      "viewMore": "વધુ જુઓ",
+      "viewLess": "ઓછું જુઓ"
+    }
+  },
+  "contactPerson": {
+    "title": "સંપર્ક વ્યક્તિ વિગતો",
+    "addButton": "સંપર્ક વ્યક્તિ ઉમેરો",
+    "errors": {
+      "mobile": "મોબાઇલ નંબર ભૂલ"
+    },
+    "table": {
+      "action": "ક્રિયા",
+      "fullName": "પૂરું નામ",
+      "designation": "હોદ્દો",
+      "department": "વિભાગ",
+      "priority": "પ્રાથમિકતા",
+      "noData": "કોઈ સંપર્ક વ્યક્તિ ઉમેરવામાં આવી નથી"
+    },
+    "actions": {
+      "edit": "સંપાદિત કરો",
+      "remove": "દૂર કરો"
+    }
+  },
+  "contactPersonform": {
+    "title": "સંપર્ક વ્યક્તિની વિગતો",
+    "addButton": "સંપર્ક વ્યક્તિ ઉમેરો",
+    "fields": {
+      "prefix": "ઉપસર્ગ",
+      "firstName": "પ્રથમ નામ",
+      "middleName": "મધ્ય નામ",
+      "lastName": "અટક",
+      "domain": "ડોમેન",
+      "role": "ભૂમિકા",
+      "gender": "લિંગ",
+      "dateOfBirth": "જન્મ તારીખ",
+      "designation": "હોદ્દો",
+      "department": "વિભાગ",
+      "priority": "પ્રાથમિકતા",
+      "notes": "નોંધો",
+      "contactDetails": "સંપર્ક વિગતો",
+      "remarks": "નોંધ",
+      "contactType": "સંપર્ક પ્રકાર",
+      "contactValue": "સંપર્ક મૂલ્ય",
+      "addContact": "સંપર્ક ઉમેરો"
+    },
+    "placeholders": {
+      "firstName": "પ્રથમ નામ દાખલ કરો",
+      "middleName": "મધ્ય નામ દાખલ કરો",
+      "lastName": "અટક દાખલ કરો",
+      "designation": "હોદ્દો દાખલ કરો",
+      "department": "વિભાગ દાખલ કરો",
+      "notes": "નોંધો દાખલ કરો",
+      "dateOfBirth": "YYYY-MM-DD",
+      "remarks": "નોંધ દાખલ કરો"
+    },
+    "options": {
+      "prefix": {
+        "mr": "શ્રી",
+        "ms": "કુમારી",
+        "mrs": "શ્રીમતી",
+        "dr": "ડૉ."
+      },
+      "gender": {
+        "male": "પુરુષ",
+        "female": "સ્ત્રી"
+      },
+      "priority": {
+        "1": "પ્રાથમિકતા 1",
+        "2": "પ્રાથમિકતા 2",
+        "3": "પ્રાથમિકતા 3",
+        "4": "પ્રાથમિકતા 4",
+        "5": "પ્રાથમિકતા 5"
+      }
+    },
+    "errors": {
+      "mobile": "મોબાઇલ નંબર ભૂલ"
+    },
+    "table": {
+      "action": "ક્રિયા",
+      "fullName": "પૂરું નામ",
+      "designation": "હોદ્દો",
+      "department": "વિભાગ",
+      "priority": "પ્રાથમિકતા",
+      "noData": "કોઈ સંપર્ક વ્યક્તિ ઉમેરાઈ નથી"
+    },
+    "actions": {
+      "edit": "સંપાદિત કરો",
+      "remove": "દૂર કરો"
+    }
+  },
+  "whatsAppEnabled": "વોટ્સએપ સક્રિય",
+  "breadcrumbs": {
+    "enrolmentSystem": "નોંધણી સિસ્ટમ",
+    "dashboard": "ડેશબોર્ડ",
+    "corporateInward": "કોર્પોરેટ ઇનવર્ડ",
+    "insurer": "વીમાકર્તા",
+    "addInsurer": "વીમાકર્તા ઉમેરો",
+    "viewInsurer": "વીમાકર્તા જુઓ"
+  },
+  "upload": "અપલોડ કરો",
+  "office": {
+    "search": {
+      "insurerName": "વીમાકર્તાનું નામ",
+      "officeCode": "ઓફિસ કોડ",
+      "officeName": "ઓફિસનું નામ",
+      "officeType": "ઓફિસનો પ્રકાર",
+      "serviceType": "સેવાનો પ્રકાર"
+    },
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "insuranceCompanyName": "વીમા કંપનીનું નામ",
+      "officeName": "ઓફિસનું નામ",
+      "officeType": "ઓફિસનો પ્રકાર",
+      "officeCode": "ઓફિસ કોડ",
+      "underwritingCenter": "શું અંડરરાઇટિંગ સેન્ટર છે",
+      "effectiveFrom": "અમલ તારીખથી",
+      "effectiveTo": "અમલ તારીખ સુધી",
+      "status": "સ્થિતિ",
+      "active": "સક્રિય",
+      "inactive": "નિષ્ક્રિય"
+    },
+    "actions": {
+      "view": "જુઓ",
+      "assignContactPerson": "સંપર્ક વ્યક્તિ સોંપો"
+    },
+    "buttons": {
+      "addOffice": "ઓફિસ ઉમેરો",
+      "addNewOffice": "નવી ઓફિસ ઉમેરો",
+      "edit": "સંપાદિત કરો",
+      "createOffice": "ઓફિસ બનાવો",
+      "creating": "બનાવવામાં આવી રહ્યું છે...",
+      "updateOffice": "ઓફિસ અપડેટ કરો",
+      "updating": "અપડેટ કરવામાં આવી રહ્યું છે..."
+    },
+    "breadcrumbs": {
+      "offices": "ઓફિસો",
+      "viewOffice": "ઓફિસ જુઓ",
+      "addNewOffice": "નવી ઓફિસ ઉમેરો"
+    }
+  },
+  "officeAdd": {
+    "sectionTitle": "ઓફિસ માહિતી",
+    "insuranceCompany": "વીમા કંપની",
+    "officeType": "ઓફિસ પ્રકાર",
+    "officeName": "ઓફિસ નામ",
+    "officeCode": "ઓફિસ કોડ",
+    "underwriting": "અંડરરાઇટિંગ છે",
+    "reportingOfficeType": "રિપોર્ટિંગ ઓફિસ પ્રકાર",
+    "reportingOffice": "રિપોર્ટિંગ ઓફિસ",
+    "placeholders": {
+      "insuranceCompany": "કંપની પસંદ કરો",
+      "officeType": "ઓફિસ પ્રકાર પસંદ કરો",
+      "officeName": "ઓફિસ નામ દાખલ કરો",
+      "officeCode": "ઓફિસ કોડ દાખલ કરો",
+      "reportingOfficeType": "રિપોર્ટિંગ પ્રકાર પસંદ કરો",
+      "reportingOffice": "રિપોર્ટિંગ ઓફિસ પસંદ કરો"
+    },
+    "errors": {
+      "insuranceCompanyRequired": "વીમા કંપની જરૂરી છે"
+    },
+    "officeTypeOptions": {
+      "ho": "HO (મુખ્ય ઓફિસ)",
+      "ro": "RO (પ્રાદેશિક ઓફિસ)",
+      "do": "DO (વિભાગીય ઓફિસ)",
+      "uo": "UO (અંડરરાઇટિંગ ઓફિસ)"
+    }
+  },
+  "serviceDetails": {
+    "title": "સેવા વિગતો",
+    "addService": "સેવા ઉમેરો",
+    "noData": "કોઈ સેવા વિગતો ઉમેરાઈ નથી",
+    "table": {
+      "action": "ક્રિયા",
+      "serviceName": "સેવાનું નામ",
+      "startDate": "પ્રારંભ તારીખ",
+      "endDate": "અંત તારીખ",
+      "servicingAllocation": "સેવા ફાળવણી"
+    },
+    "actions": {
+      "edit": "સંપાદિત કરો",
+      "remove": "દૂર કરો"
+    },
+    "allocation": {
+      "both": "બંને (કોર્પોરેટ, રિટેલ)"
+    }
+  },
+  "assignContactForm": {
+    "title": "સંપર્ક વ્યક્તિ સોંપો",
+    "fields": {
+      "contactPerson": {
+        "label": "સંપર્ક વ્યક્તિ",
+        "placeholder": "સંપર્ક વ્યક્તિ પસંદ કરો",
+        "defaultValue": "સંપર્ક વ્યક્તિ પસંદ કરો"
+      },
+      "designation": {
+        "label": "હોદ્દો",
+        "placeholder": "હોદ્દો દાખલ કરો"
+      },
+      "officeName": {
+        "label": "ઓફિસનું નામ",
+        "placeholder": "ઓફિસનું નામ દાખલ કરો"
+      },
+      "officeCode": {
+        "label": "ઓફિસ કોડ",
+        "placeholder": "ઓફિસ કોડ દાખલ કરો"
+      }
+    }
+  },
+  "servicesForm": {
+    "fields": {
+      "startDate": {
+        "label": "શરૂઆત તારીખ"
+      },
+      "endDate": {
+        "label": "સમાપ્તિ તારીખ"
+      },
+      "servicingAllocation": {
+        "label": "સેવા ફાળવણી",
+        "defaultValue": "ફાળવણી"
+      }
+    }
+  },
+  "inwardList": {
+    "pageTitle": "ઇનવર્ડ",
+    "createInward": "ઇનવર્ડ બનાવો",
+    "downloadReport": "રિપોર્ટ ડાઉનલોડ કરો",
+    "downloadExcel": "એક્સેલ તરીકે ડાઉનલોડ કરો",
+    "actions": {
+      "view": "જુઓ"
+    },
+    "searchFields": {
+      "startDate": "શરૂઆત તારીખ",
+      "endDate": "સમાપ્તિ તારીખ",
+      "inwardNumber": "ઇનવર્ડ નંબર",
+      "corporateName": "કોર્પોરેટ નામ"
+    },
+    "tableHeaders": {
+      "srNo": "ક્રમ નં.",
+      "actions": "ક્રિયાઓ",
+      "inwardNumber": "ઇનવર્ડ નંબર",
+      "receivedAt": "પ્રાપ્ત થયેલ તારીખ",
+      "createdBy": "દ્વારા બનાવેલ",
+      "inwardType": "ઇનવર્ડ પ્રકાર",
+      "department": "વિભાગ",
+      "branchName": "શાખાનું નામ",
+      "receivedChannel": "પ્રાપ્ત ચેનલ",
+      "entityName": "એન્ટિટી નામ",
+      "policyNumber": "પોલિસી નંબર"
+    }
+  },
+  "createInwardForm": {
+    "fields": {
+      "tpaBranch": {
+        "label": "TPA શાખા",
+        "placeholder": "TPA શાખા"
+      },
+      "receivedChannel": {
+        "label": "પ્રાપ્ત ચેનલ",
+        "placeholder": "ચેનલ"
+      },
+      "department": {
+        "label": "વિભાગ",
+        "placeholder": "વિભાગ"
+      },
+      "sourceEntityType": {
+        "label": "સ્ત્રોત એન્ટિટી પ્રકાર",
+        "placeholder": "સ્ત્રોત એન્ટિટી પ્રકાર"
+      },
+      "sourceEntity": {
+        "label": "સ્ત્રોત એન્ટિટી",
+        "placeholder": "સ્ત્રોત એન્ટિટી"
+      },
+      "sourceReferenceNo": {
+        "label": "સ્ત્રોત સંદર્ભ નંબર",
+        "placeholder": "સંદર્ભ નંબર દાખલ કરો"
+      },
+      "category": {
+        "label": "શ્રેણી",
+        "placeholder": "શ્રેણી"
+      },
+      "subCategory": {
+        "label": "ઉપ શ્રેણી",
+        "placeholder": "ઉપ શ્રેણી"
+      },
+      "priority": {
+        "label": "પ્રાથમિકતા",
+        "placeholder": "પ્રાથમિકતા"
+      }
+    },
+    "buttons": {
+      "upload": "અપલોડ કરો",
+      "uploading": "અપલોડ થઈ રહ્યું છે..."
+    },
+    "dropdowns": {
+      "receivedChannel": {
+        "email": "ઈમેઇલ",
+        "portal": "પોર્ટલ",
+        "physicalFile": "ભૌતિક ફાઇલ",
+        "courier": "કુરિયર"
+      },
+      "sourceEntityType": {
+        "corporate": "કોર્પોરેટ",
+        "broker": "બ્રોકર",
+        "agent": "એજન્ટ",
+        "insurer": "વીમાદાતા",
+        "policy": "પોલિસી"
+      },
+      "priority": {
+        "high": "ઉચ્ચ",
+        "medium": "મધ્યમ",
+        "low": "નીચું"
+      }
+    }
+  },
+  "modalTitles": {
+    "createManualInward": "મેન્યુઅલ ઇનવર્ડ બનાવો",
+    "uploadRohiniHospitalList": "રોહિણી હોસ્પિટલ યાદી અપલોડ કરો",
+    "memberDetails": "સભ્ય વિગતો",
+    "createInward": "ઇનવર્ડ બનાવો",
+    "assignUser": "વપરાશકર્તા સોંપો",
+    "uploadDocument": "દસ્તાવેજ અપલોડ કરો",
+    "addMember": "સભ્ય ઉમેરો"
+  },
+  "inwardView": {
+    "breadcrumb": {
+      "inwardManagement": "ઇનવર્ડ મેનેજમેન્ટ",
+      "inward": "ઇનવર્ડ",
+      "viewInward": "ઇનવર્ડ જુઓ"
+    },
+    "tableHeaders": {
+      "srNo": "ક્રમ નં.",
+      "documentName": "દસ્તાવેજનું નામ",
+      "documentType": "દસ્તાવેજ પ્રકાર",
+      "action": "ક્રિયા"
+    },
+    "actions": {
+      "openInNewTab": "નવા ટેબમાં ખોલો"
+    },
+    "emptyState": {
+      "title": "કોઈ દસ્તાવેજ મળ્યો નથી",
+      "description": "આ ઇનવર્ડ નંબર માટે કોઈ દસ્તાવેજ ઉપલબ્ધ નથી."
+    }
+  },
+  "inwardUploadDoc": {
+    "title": "ઇનવર્ડ નં",
+    "fields": {
+      "ocrOption": "OCR વિકલ્પ",
+      "ocrRequired": "OCR જરૂરી",
+      "ocrNotRequired": "OCR જરૂરી નથી",
+      "documentType": {
+        "label": "દસ્તાવેજ પ્રકાર",
+        "placeholder": "પ્રકાર પસંદ કરો"
+      },
+      "uploadDocuments": "દસ્તાવેજો અપલોડ કરો"
+    },
+    "uploadSection": {
+      "clickToUpload": "ફાઇલો અપલોડ કરવા માટે ક્લિક કરો",
+      "allowedFormats": "માન્ય: PDF, Excel, Word | પ્રતિ ફાઇલ મહત્તમ 50MB"
+    },
+    "buttons": {
+      "uploadDocuments": "દસ્તાવેજો અપલોડ કરો"
+    }
+  },
+  "corporateGroupMaster": {
+    "title": "કોર્પોરેટ ગ્રુપ",
+    "masterManagement": "માસ્ટર મેનેજમેન્ટ",
+    "buttons": {
+      "add": "કોર્પોરેટ ગ્રુપ ઉમેરો",
+      "view": "જુઓ"
+    },
+    "search": {
+      "legalName": "કાનૂની નામ",
+      "recordStatus": "રેકોર્ડ સ્થિતિ"
+    },
+    "section": {
+      "information": "કોર્પોરેટ ગ્રુપ માહિતી"
+    },
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "groupName": "ગ્રુપ નામ",
+      "groupCode": "ગ્રુપ કોડ",
+      "legalName": "કાનૂની નામ",
+      "cin": "CIN નંબર",
+      "pan": "PAN નંબર",
+      "gstin": "GSTIN"
+    },
+    "fields": {
+      "groupName": "ગ્રુપનું નામ",
+      "legalName": "કાનૂની નામ",
+      "websiteUrl": "વેબસાઇટ URL",
+      "cin": "CIN",
+      "pan": "PAN",
+      "gstin": "GSTIN",
+      "effectiveFrom": "પ્રભાવી તારીખથી",
+      "effectiveTo": "પ્રભાવી તારીખ સુધી"
+    },
+    "placeholder": {
+      "groupName": "ગ્રુપનું નામ દાખલ કરો",
+      "legalName": "કાનૂની નામ દાખલ કરો",
+      "websiteUrl": "https://example.com",
+      "cin": "CIN દાખલ કરો",
+      "pan": "PAN દાખલ કરો",
+      "gstin": "GSTIN દાખલ કરો"
+    }
+  },
+  "corporateMaster": {
+    "title": "કોર્પોરેટ",
+    "masterManagement": "માસ્ટર મેનેજમેન્ટ",
+    "buttons": {
+      "add": "કોર્પોરેટ ઉમેરો",
+      "view": "જુઓ",
+      "search": "શોધો",
+      "hideSearch": "શોધ છુપાવો"
+    },
+    "search": {
+      "legalName": "કાનૂની નામ",
+      "recordStatus": "રેકોર્ડ સ્થિતિ"
+    },
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "legalName": "કાનૂની નામ",
+      "tradeName": "વેપાર નામ",
+      "corporateType": "કોર્પોરેટ પ્રકાર",
+      "corporateCode": "કોર્પોરેટ કોડ",
+      "corporateGroupName": "કોર્પોરેટ ગ્રુપ નામ",
+      "pan": "PAN નંબર",
+      "gstin": "GSTIN",
+      "cin": "CIN નંબર",
+      "contactEmail": "સંપર્ક ઈમેલ",
+      "contactPhone": "સંપર્ક ફોન"
+    },
+    "breadcrumb": {
+      "add": "કોર્પોરેટ ઉમેરો",
+      "view": "કોર્પોરેટ જુઓ",
+      "corporate": "કોર્પોરેટ",
+      "enrolmentSystem": "નોંધણી સિસ્ટમ",
+      "dashboard": "ડેશબોર્ડ",
+      "corporateInward": "કોર્પોરેટ ઇનવર્ડ"
+    },
+    "section": {
+      "corporateInformation": "કોર્પોરેટ માહિતી",
+      "corporateHrInformation": "કોર્પોરેટ HR માહિતી"
+    },
+    "form": {
+      "legalName": "કાનૂની નામ",
+      "corporateType": "કોર્પોરેટ પ્રકાર",
+      "corporateGroup": "કોર્પોરેટ ગ્રુપ",
+      "pan": "PAN",
+      "gstin": "GSTIN",
+      "cin": "CIN",
+      "industrySector": "ઉદ્યોગ ક્ષેત્ર",
+      "sizeBand": "સાઇઝ બેન્ડ",
+      "effectiveFrom": "પ્રભાવ તારીખથી",
+      "effectiveTo": "પ્રભાવ તારીખ સુધી",
+      "employeeCount": "કર્મચારીઓની સંખ્યા",
+      "websiteUrl": "વેબસાઇટ URL",
+      "contactEmail": "સંપર્ક ઇમેલ",
+      "phoneNumber": "ફોન નંબર",
+      "corporateHrName": "કોર્પોરેટ HR નામ",
+      "corporateHrPhone": "ફોન નંબર",
+      "corporateHrEmail": "ઇમેલ"
+    },
+    "placeholder": {
+      "legalName": "કાનૂની નામ દાખલ કરો",
+      "pan": "PAN દાખલ કરો",
+      "gstin": "GSTIN દાખલ કરો",
+      "cin": "CIN દાખલ કરો",
+      "employeeCount": "કર્મચારીઓની સંખ્યા દાખલ કરો",
+      "websiteUrl": "વેબસાઇટ URL દાખલ કરો",
+      "contactEmail": "કોમા દ્વારા અલગ ઇમેલ દાખલ કરો",
+      "phoneNumber": "કોમા દ્વારા અલગ ફોન નંબર દાખલ કરો",
+      "effectiveFrom": "શરૂઆતની તારીખ પસંદ કરો",
+      "effectiveTo": "અંતિમ તારીખ પસંદ કરો",
+      "corporateHrName": "નામ દાખલ કરો",
+      "corporateHrPhone": "ફોન દાખલ કરો",
+      "corporateHrEmail": "ઇમેલ દાખલ કરો"
+    }
+  },
+  "brokerMaster": {
+    "title": "બ્રોકર",
+    "masterManagement": "માસ્ટર મેનેજમેન્ટ",
+    "breadcrumb": {
+      "broker": "બ્રોકર",
+      "add": "બ્રોકર ઉમેરો",
+      "view": "બ્રોકર જુઓ",
+      "enrolmentSystem": "નોંધણી સિસ્ટમ",
+      "dashboard": "ડેશબોર્ડ",
+      "corporateInward": "કોર્પોરેટ ઇનવર્ડ"
+    },
+    "button": {
+      "add": "બ્રોકર ઉમેરો"
+    },
+    "search": {
+      "brokerName": "બ્રોકર નામ",
+      "recordStatus": "રેકોર્ડ સ્થિતિ"
+    },
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "brokerCode": "બ્રોકર કોડ",
+      "legalName": "કાનૂની નામ",
+      "irdaBrokerCode": "IRDAI કોડ",
+      "contactEmail": "ઇમેલ",
+      "contactPhone": "ફોન નંબર"
+    },
+    "section": {
+      "brokerInformation": "બ્રોકર માહિતી"
+    },
+    "form": {
+      "legalName": "કાનૂની નામ",
+      "irdaBrokerCode": "બ્રોકર IRDAI કોડ",
+      "contactPhone": "ફોન નંબર",
+      "contactEmail": "ઇમેલ"
+    },
+    "placeholder": {
+      "legalName": "કાનૂની નામ દાખલ કરો",
+      "irdaBrokerCode": "IRDAI કોડ દાખલ કરો",
+      "contactPhone": "કોમા દ્વારા અલગ ફોન નંબર દાખલ કરો",
+      "contactEmail": "ઇમેલ સરનામું દાખલ કરો"
+    }
+  },
+  "agentMaster": {
+    "title": "એજન્ટ",
+    "masterManagement": "માસ્ટર મેનેજમેન્ટ",
+    "breadcrumb": {
+      "agent": "એજન્ટ",
+      "add": "એજન્ટ ઉમેરો",
+      "view": "એજન્ટ જુઓ",
+      "enrolmentSystem": "નોંધણી સિસ્ટમ",
+      "dashboard": "ડેશબોર્ડ",
+      "corporateInward": "કોર્પોરેટ ઇનવર્ડ"
+    },
+    "button": {
+      "add": "એજન્ટ ઉમેરો"
+    },
+    "search": {
+      "legalName": "કાનૂની નામ",
+      "recordStatus": "રેકોર્ડ સ્થિતિ",
+      "filterTitle": "એજન્ટ ફિલ્ટર"
+    },
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "legalName": "કાનૂની નામ",
+      "tradeCode": "ટ્રેડ કોડ",
+      "email": "ઇમેલ",
+      "phoneNumber": "ફોન નંબર",
+      "agentType": "એજન્ટ પ્રકાર",
+      "agentCategory": "એજન્ટ કેટેગરી"
+    },
+    "section": {
+      "agentInformation": "એજન્ટ માહિતી"
+    },
+    "form": {
+      "legalName": "કાનૂની નામ",
+      "agentType": "એજન્ટ પ્રકાર",
+      "agentCode": "એજન્ટ કોડ",
+      "email": "ઇમેલ",
+      "phone": "ફોન",
+      "licenseValidFrom": "લાઇસન્સ માન્ય શરૂઆત",
+      "licenseValidTo": "લાઇસન્સ માન્ય અંત"
+    },
+    "placeholder": {
+      "legalName": "કાનૂની નામ દાખલ કરો",
+      "agentCode": "કોડ દાખલ કરો",
+      "email": "ઇમેલ દાખલ કરો",
+      "phone": "ફોન નંબર દાખલ કરો"
+    },
+    "dropdown": {
+      "agentType": "એજન્ટ પ્રકાર"
+    }
+  },
+  "policySearch": {
+    "title": "પોલિસી શોધ",
+    "breadcrumb": {
+      "policySearch": "પોલિસી શોધ"
+    },
+    "search": {
+      "insurerName": "વીમા કંપનીનું નામ",
+      "inwardNumber": "ઇનવર્ડ નંબર",
+      "policyNumber": "પોલિસી નંબર",
+      "corporateName": "કોર્પોરેટ નામ"
+    },
+    "table": {
+      "actions": "ક્રિયાઓ",
+      "policyNumber": "પોલિસી નંબર",
+      "proposerName": "પ્રસ્તાવકનું નામ",
+      "insurerName": "વીમા કંપનીનું નામ",
+      "policyDate": "પોલિસી તારીખ",
+      "grossPremium": "કુલ પ્રીમિયમ",
+      "coverageType": "કવરેજ પ્રકાર",
+      "memberType": "સભ્ય પ્રકાર",
+      "brokerName": "બ્રોકરનું નામ",
+      "masterProductName": "માસ્ટર પ્રોડક્ટ નામ",
+      "policyStatus": "પોલિસી સ્થિતિ",
+      "tpaServicingBranchName": "TPA સર્વિસિંગ બ્રાન્ચ નામ"
+    },
+    "viewMemberData": "સભ્યની માહિતી જુઓ",
+    "sections": {
+      "policyInformation": "પોલિસી માહિતી",
+      "insurerInformation": "વીમાકર્તા માહિતી",
+      "tpaInformation": "TPA માહિતી",
+      "brokerInformation": "બ્રોકર માહિતી"
+    },
+    "details": {
+      "policyNumber": "પોલિસી નંબર",
+      "previousPolicyNumber": "અગાઉનો પોલિસી નંબર",
+      "policyDate": "પોલિસી તારીખ",
+      "policyInsurerType": "પોલિસી વીમાકર્તા પ્રકાર",
+      "policyTypeProposer": "પ્રસ્તાવકનો પ્રકાર",
+      "proposerName": "પ્રસ્તાવકનું નામ",
+      "proposerSector": "પ્રસ્તાવક ક્ષેત્ર",
+      "agentCode": "એજન્ટ કોડ",
+      "recordType": "રેકોર્ડ પ્રકાર",
+      "renewalType": "નવીનીકરણ પ્રકાર",
+      "structureType": "રચના પ્રકાર",
+      "previousIssueDate": "અગાઉની ઇશ્યુ તારીખ",
+      "coveredFamilyCount": "આવરી લેવાયેલા પરિવારોની સંખ્યા",
+      "totalInsuredPersonAtInception": "શરૂઆતમાં કુલ વીમાધારકો",
+      "totalEmployeeCountAtInception": "શરૂઆતમાં કુલ કર્મચારીઓ",
+      "policyNetPremium": "નેટ પ્રીમિયમ",
+      "grossPremium": "ગ્રોસ પ્રીમિયમ",
+      "policyStatus": "પોલિસી સ્થિતિ",
+      "insurerName": "વીમાકર્તાનું નામ",
+      "insurerIssuingOfficeName": "વીમાકર્તા ઇશ્યુ ઓફિસનું નામ",
+      "tpaFees": "TPA ફી",
+      "tpaSpocName": "TPA SPOC નામ",
+      "tpaSpocEmail": "TPA SPOC ઇમેઇલ",
+      "tpaSpocMobile": "TPA SPOC મોબાઇલ",
+      "tpaServicingBranchName": "TPA સર્વિસિંગ શાખાનું નામ",
+      "brokerName": "બ્રોકરનું નામ",
+      "coverageType": "કવરેજ પ્રકાર",
+      "memberType": "સભ્ય પ્રકાર",
+      "masterProductName": "માસ્ટર પ્રોડક્ટ નામ"
+    }
+  },
+  "dashboard": {
+    "pageTitle": "ડેશબોર્ડ",
+    "totalInward": "કુલ ઇનવર્ડ",
+    "corporateInward": {
+      "title": "કોર્પોરેટ ઇનવર્ડ",
+      "subtitle": "કોર્પોરેટ નોંધણીઓનું સંચાલન કરો",
+      "recordFor": "માટેના રેકોર્ડ"
+    },
+    "retailInward": {
+      "title": "રિટેલ ઇનવર્ડ",
+      "subtitle": "રિટેલ નોંધણીઓનું સંચાલન કરો",
+      "recordFor": "માટેના રેકોર્ડ"
+    }
+  },
+  "corporateInward": {
+    "pageTitle": "કોર્પોરેટ ઇનવર્ડ",
+    "breadcrumb": {
+      "dashboard": "ડેશબોર્ડ",
+      "corporateInward": "કોર્પોરેટ ઇનવર્ડ"
+    },
+    "cards": {
+      "totalInwards": "કુલ ઇનવર્ડ",
+      "pending": "બાકી",
+      "qcPending": "QC બાકી",
+      "masterUpdatePending": "માસ્ટર અપડેટ બાકી",
+      "completed": "પૂર્ણ",
+      "rejectedInward": "નકારાયેલ ઇનવર્ડ"
+    },
+    "buttons": {
+      "createManualInward": "મેન્યુઅલ ઇનવર્ડ બનાવો",
+      "downloadReport": "રિપોર્ટ ડાઉનલોડ કરો",
+      "downloadExcel": "એક્સેલ ડાઉનલોડ કરો",
+      "refresh": "રિફ્રેશ",
+      "view": "જુઓ"
+    },
+    "searchFields": {
+      "insurerName": "વીમાકર્તાનું નામ",
+      "inwardNumber": "ઇનવર્ડ નંબર",
+      "corporateName": "કોર્પોરેટ નામ",
+      "policyNumber": "પોલિસી નંબર",
+      "startDate": "શરૂઆત તારીખ",
+      "endDate": "અંતિમ તારીખ"
+    },
+    "columns": {
+      "action": "ક્રિયા",
+      "srNo": "ક્રમ નં.",
+      "inwardNumber": "ઇનવર્ડ નંબર",
+      "policyNumber": "પોલિસી નંબર",
+      "inwardDateTime": "ઇનવર્ડ તારીખ અને સમય",
+      "inwardType": "ઇનવર્ડ પ્રકાર",
+      "documentType": "દસ્તાવેજ પ્રકાર",
+      "insurerName": "વીમાકર્તાનું નામ",
+      "corporateName": "કોર્પોરેટ નામ",
+      "status": "સ્થિતિ",
+      "remark": "ટિપ્પણી"
+    }
+  },
+  "endorsementSummary": {
+    "title": "એન્ડોર્સમેન્ટ સારાંશ",
+    "viewEndorsementMemberData": "એન્ડોર્સમેન્ટ સભ્ય ડેટા જુઓ",
+    "viewDocument": "દસ્તાવેજ જુઓ",
+    "policy": {
+      "inwardNumber": "ઇનવર્ડ નંબર",
+      "policyStatus": "પોલિસી સ્થિતિ",
+      "icName": "આઈસી નામ",
+      "policyNumber": "પોલિસી નંબર",
+      "previousPolicyNumber": "અગાઉનો પોલિસી નંબર",
+      "policyType": "પોલિસી પ્રકાર",
+      "coverageType": "કવરેજ પ્રકાર",
+      "policyStartDate": "પોલિસી શરૂઆતની તારીખ",
+      "policyEndDate": "પોલિસી સમાપ્તિ તારીખ",
+      "policyIssueDate": "પોલિસી જારી તારીખ",
+      "corporateName": "કોર્પોરેટ નામ",
+      "corporateGSTNo": "કોર્પોરેટ GST નંબર",
+      "address": "સરનામું",
+      "state": "રાજ્ય",
+      "district": "જિલ્લો",
+      "pincode": "પિનકોડ",
+      "brokerCode": "બ્રોકર કોડ",
+      "brokerName": "બ્રોકરનું નામ",
+      "tpaSpocName": "TPA SPOC નામ",
+      "tpaEmail": "TPA ઇમેઇલ",
+      "tpaMobile": "TPA મોબાઇલ",
+      "policySumInsured": "પોલિસીની વીમિત રકમ",
+      "netPremium": "નેટ પ્રીમિયમ",
+      "grossPremium": "કુલ પ્રીમિયમ",
+      "stateGST": "રાજ્ય GST",
+      "totalGST": "કુલ GST",
+      "policyTaxInvoiceDate": "પોલિસી ટેક્સ ઇન્વૉઇસ તારીખ",
+      "policyRenewalType": "પોલિસી રિન્યુઅલ પ્રકાર",
+      "recordType": "રેકોર્ડ પ્રકાર",
+      "vipFlag": "VIP ફ્લેગ"
+    },
+    "endorsement": {
+      "endorsementNumber": "એન્ડોર્સમેન્ટ નંબર",
+      "endorsementType": "એન્ડોર્સમેન્ટ પ્રકાર",
+      "status": "સ્થિતિ",
+      "requestDate": "વિનંતી તારીખ",
+      "effectiveDate": "પ્રભાવિત તારીખ",
+      "receivedDate": "પ્રાપ્ત તારીખ",
+      "invoiceDate": "ઇન્વૉઇસ તારીખ",
+      "invoiceNumber": "ઇન્વૉઇસ નંબર",
+      "creditNoteNumber": "ક્રેડિટ નોટ નંબર",
+      "addedMembers": "ઉમેરાયેલા સભ્યો",
+      "deletedMembers": "દૂર કરાયેલા સભ્યો",
+      "modifiedMembers": "સુધારેલા સભ્યો",
+      "premiumAdded": "ઉમેરાયેલ પ્રીમિયમ",
+      "premiumDeducted": "કપાયેલ પ્રીમિયમ",
+      "netPremium": "નેટ પ્રીમિયમ",
+      "totalPremium": "કુલ પ્રીમિયમ",
+      "stateGST": "રાજ્ય GST",
+      "centralGST": "કેન્દ્રીય GST",
+      "igst": "IGST",
+      "remark": "ટિપ્પણી",
+      "inwardNumber": "ઇનવર્ડ નંબર",
+      "createdBy": "બનાવનાર",
+      "createdAt": "બનાવવાની તારીખ",
+      "updatedAt": "અપડેટ તારીખ"
+    },
+    "common": {
+      "yes": "હા",
+      "no": "ના"
+    }
+  },
+  "summary": {
+    "title": "સારાંશ",
+    "viewMemberData": "સભ્ય ડેટા જુઓ",
+    "sections": {
+      "insurerDetails": "વીમાકર્તાની વિગતો",
+      "corporateDetails": "કોર્પોરેટ વિગતો",
+      "tpaDetails": "TPA વિગતો",
+      "policyDetails": "પોલિસીની વિગતો",
+      "intermediaryDetails": "મધ્યસ્થી વિગતો"
+    },
+    "fields": {
+      "insurerName": "વીમાકર્તાનું નામ",
+      "productName": "ઉત્પાદનનું નામ",
+      "insurerType": "વીમાકર્તાનો પ્રકાર",
+      "issuingOffice": "જારી કરનાર કચેરી",
+      "corporateName": "કોર્પોરેટ નામ",
+      "groupName": "ગ્રુપનું નામ",
+      "address": "સરનામું",
+      "state": "રાજ્ય",
+      "district": "જિલ્લો",
+      "email": "ઇમેઇલ",
+      "mobile": "મોબાઇલ",
+      "tpaName": "TPA શાખાનું નામ",
+      "spocName": "SPOC નામ",
+      "policyNumber": "પોલિસી નંબર",
+      "policyType": "પોલિસી પ્રકાર",
+      "policyPlan": "પોલિસી યોજના",
+      "policyStatus": "પોલિસીની સ્થિતિ",
+      "issueDate": "જારી તારીખ",
+      "startDate": "શરૂઆત તારીખ",
+      "endDate": "સમાપ્તિ તારીખ",
+      "totalSumInsured": "કુલ વીમિત રકમ",
+      "totalLivesInsured": "કુલ વીમિત સભ્યો",
+      "premium": "પ્રીમિયમ",
+      "brokerName": "બ્રોકરનું નામ",
+      "brokerCode": "બ્રોકર કોડ",
+      "contactNumber": "સંપર્ક નંબર"
+    }
+  },
+  "memberData": {
+    "title": "સભ્ય ડેટા",
+    "search": {
+      "memberId": "સભ્ય આઈડી",
+      "employeeId": "કર્મચારી આઈડી",
+      "nameOfInsured": "વીમાધારકનું નામ",
+      "healthCardNumber": "હેલ્થ કાર્ડ નંબર"
+    },
+    "buttons": {
+      "enrolledRecord": "નોંધાયેલ રેકોર્ડ",
+      "failedRecord": "નિષ્ફળ રેકોર્ડ",
+      "downloadReport": "રિપોર્ટ ડાઉનલોડ કરો",
+      "downloadAsExcel": "એક્સેલ તરીકે ડાઉનલોડ કરો",
+      "hideSearch": "શોધ છુપાવો",
+      "search": "શોધ",
+      "viewECard": "ઈ-કાર્ડ જુઓ",
+      "details": "વિગતો"
+    },
+    "messages": {
+      "updatingRecords": "સભ્ય રેકોર્ડ અપડેટ થઈ રહ્યા છે... કૃપા કરીને રાહ જુઓ."
+    },
+    "stats": {
+      "totalMembers": "કુલ સભ્યો",
+      "self": "સ્વ",
+      "dependents": "આશ્રિતો",
+      "enrolled": "નોંધાયેલ",
+      "failed": "નિષ્ફળ"
+    },
+    "columns": {
+      "action": "ક્રિયા",
+      "memberId": "સભ્ય આઈડી",
+      "employeeId": "કર્મચારી આઈડી",
+      "healthCardNumber": "હેલ્થ કાર્ડ નંબર",
+      "nameOfInsured": "વીમાધારકનું નામ",
+      "dateOfBirth": "જન્મ તારીખ",
+      "age": "ઉંમર",
+      "gender": "લિંગ",
+      "relationship": "સંબંધ",
+      "enrolmentStatus": "નોંધણી સ્થિતિ",
+      "enrolmentStatusReason": "નોંધણી સ્થિતિનું કારણ",
+      "sumInsured": "વીમિત રકમ",
+      "recordStatus": "રેકોર્ડ સ્થિતિ"
+    }
+  },
+  "endorsementMemberList": {
+    "title": "સભ્ય માહિતી",
+    "buttons": {
+      "search": "શોધો",
+      "hideSearch": "શોધ છુપાવો",
+      "downloadReport": "રિપોર્ટ ડાઉનલોડ કરો",
+      "downloadExcel": "એક્સેલ તરીકે ડાઉનલોડ કરો",
+      "viewECard": "ઈ-કાર્ડ જુઓ",
+      "details": "વિગતો"
+    },
+    "search": {
+      "memberId": "સભ્ય આઈડી",
+      "employeeId": "કર્મચારી આઈડી",
+      "insuredName": "વીમાધારકનું નામ"
+    },
+    "tableHeaders": {
+      "action": "ક્રિયા",
+      "memberId": "સભ્ય આઈડી",
+      "employeeId": "કર્મચારી આઈડી",
+      "healthCardNumber": "હેલ્થ કાર્ડ નંબર",
+      "insuredName": "વીમાધારકનું નામ",
+      "dateOfBirth": "જન્મ તારીખ",
+      "age": "ઉંમર",
+      "gender": "લિંગ",
+      "relationship": "સંબંધ",
+      "sumInsured": "વીમિત રકમ",
+      "endorsementAction": "એન્ડોર્સમેન્ટ કાર્યવાહી",
+      "reason": "કારણ"
+    },
+    "reports": {
+      "memberReport": "સભ્ય રિપોર્ટ",
+      "failedMemberReport": "નિષ્ફળ સભ્ય રિપોર્ટ"
+    },
+    "messages": {
+      "downloadFailed": "ડાઉનલોડ નિષ્ફળ ગયું"
+    }
+  },
+  "endorsementTabs": {
+    "mainTabs": {
+      "totalRequested": "કુલ વિનંતી કરેલ",
+      "additionsRequested": "ઉમેરાની વિનંતી કરેલ",
+      "modificationsRequested": "ફેરફાર માટે વિનંતી કરેલ",
+      "deletionsRequested": "કાઢી નાખવા માટે વિનંતી કરેલ"
+    },
+    "subTabs": {
+      "success": "સફળ",
+      "failed": "નિષ્ફળ"
+    }
+  },
+  "memberDetails": {
+    "labels": {
+      "insurerName": "વીમાકર્તાનું નામ",
+      "policyNumber": "પોલિસી નંબર",
+      "previousPolicyNumber": "અગાઉની પોલિસી નંબર",
+      "employeeId": "કર્મચારી આઈડી",
+      "policyDescription": "પોલિસી વર્ણન",
+      "policyStatus": "પોલિસી સ્થિતિ",
+      "healthCardNumber": "હેલ્થ કાર્ડ નંબર",
+      "memberId": "સભ્ય આઈડી",
+      "mdid": "એમડીઆઈડી",
+      "corporateName": "કોર્પોરેટ નામ",
+      "riskFromDate": "જોખમ શરૂ તારીખ",
+      "riskToDate": "જોખમ સમાપ્તિ તારીખ",
+      "dateOfJoining": "જોડાવાની તારીખ",
+      "grade": "ગ્રેડ",
+      "agentCode": "એજન્ટ કોડ",
+      "insuredPersonName": "વીમાધારકનું નામ",
+      "relation": "સંબંધ",
+      "dateOfBirth": "જન્મ તારીખ",
+      "ipCoveredFromDate": "IP કવરેજ શરૂ તારીખ",
+      "age": "ઉંમર",
+      "gender": "લિંગ",
+      "ipSumInsured": "IP વીમિત રકમ",
+      "ipPhone": "IP ફોન",
+      "ipEmail": "IP ઇમેઇલ",
+      "location": "સ્થાન",
+      "endorsementNumber": "એન્ડોર્સમેન્ટ નંબર",
+      "endorsementRequestDate": "એન્ડોર્સમેન્ટ વિનંતી તારીખ",
+      "endorsementEffectiveDate": "એન્ડોર્સમેન્ટ અમલ તારીખ",
+      "endorsementReceivedDate": "એન્ડોર્સમેન્ટ પ્રાપ્ત તારીખ",
+      "dateOfInception": "પ્રારંભ તારીખ",
+      "exceptionCategory": "અપવાદ શ્રેણી",
+      "exceptionApprovalRemark": "અપવાદ મંજૂરી નોંધ"
+      
+    },
+    "messages": {
+      "loadingMemberDetails": "સભ્યની વિગતો લોડ થઈ રહી છે..."
+    }
+  },
+  "enrollmentSteps": {
+    "insurer": "વીમાકર્તા",
+    "corporate": "કોર્પોરેટ",
+    "policy": "પોલિસી",
+    "intermediatory": "મધ્યસ્થી",
+    "tpaSpoc": "TPA સંપર્ક વ્યક્તિ"
+  },
+  "stepNavigation": {
+    "buttons": {
+      "back": "પાછળ",
+      "next": "આગળ",
+      "save": "સાચવો",
+      "approve": "મંજૂર કરો",
+      "reassign": "ફરી સોંપો"
+    },
+    "stages": {
+      "qcReviewStage": "🧐 QC સમીક્ષા તબક્કો",
+      "processingStage": "⚙️ પ્રક્રિયા તબક્કો"
+    },
+    "messages": {
+      "qcReviewPending": "QC સમીક્ષા બાકી છે: કૃપા કરીને મંજૂરી પહેલાં સબમિટ કરાયેલા તમામ દસ્તાવેજોની કાળજીપૂર્વક ચકાસણી કરો.",
+      "processingInProgress": "પ્રક્રિયા ચાલુ છે: પોલિસી શેડ્યૂલ મુજબ તમામ ફરજિયાત વિગતોની ચકાસણી અને સુધારણા કરો."
+    }
+  },
+  "memberExcel": {
+    "fields": {
+      "insurerName": "વીમાકર્તાનું નામ",
+      "policyNumber": "પોલિસી નંબર",
+      "endorsementNumber": "એન્ડોર્સમેન્ટ નંબર"
+    },
+    "placeholders": {
+      "insurer": "વીમાકર્તા",
+      "policyNumber": "પોલિસી નંબર",
+      "endorsementNumber": "એન્ડોર્સમેન્ટ નંબર"
+    },
+    "buttons": {
+      "reset": "રીસેટ",
+      "search": "શોધો",
+      "searching": "શોધાઈ રહ્યું છે..."
+    }
+  },
+  "spocForm": {
+    "labels": {
+      "spocName": "SPOC નામ",
+      "spocEmailId": "SPOC ઈમેલ આઈડી",
+      "spocMobileNumber": "SPOC મોબાઇલ નંબર",
+      "telephoneNumber": "ટેલિફોન નંબર",
+      "tpaFees": "TPA ફી (ટકાવારીમાં)",
+      "tpaServicingBranch": "TPA સેવા શાખા",
+      "tpaSpoc": "TPA સંપર્ક વ્યક્તિ"
+    },
+    "placeholders": {
+      "spocName": "SPOC નામ દાખલ કરો",
+      "emailId": "ઈમેલ આઈડી દાખલ કરો",
+      "mobileNumber": "મોબાઇલ નંબર દાખલ કરો",
+      "telephoneNumber": "ટેલિફોન નંબર દાખલ કરો",
+      "tpaFees": "TPA ફી દાખલ કરો",
+      "selectBranch": "શાખા પસંદ કરો",
+      "selectSpoc": "SPOC પસંદ કરો"
+    }
+  },
+  "brokerForm": {
+    "channelType": {
+      "label": "ચેનલ પ્રકાર",
+      "placeholder": "ચેનલ પ્રકાર પસંદ કરો"
+    },
+    "channelOptions": {
+      "broker": "બ્રોકર",
+      "agent": "એજન્ટ",
+      "direct": "ડાયરેક્ટ"
+    },
+    "broker": {
+      "dropdown": {
+        "label": "બ્રોકર નામ",
+        "placeholder": "બ્રોકર પસંદ કરો"
+      },
+      "fields": {
+        "code": "બ્રોકર કોડ",
+        "email": "ઈમેઇલ આઈડી",
+        "mobile": "મોબાઇલ નંબર",
+        "telephone": "ટેલિફોન નંબર"
+      }
+    },
+    "agent": {
+      "dropdown": {
+        "label": "એજન્ટ નામ",
+        "placeholder": "એજન્ટ પસંદ કરો"
+      },
+      "fields": {
+        "code": "એજન્ટ કોડ",
+        "email": "ઈમેઇલ આઈડી",
+        "mobile": "મોબાઇલ નંબર",
+        "telephone": "ટેલિફોન નંબર"
+      }
+    }
+  },
+  "icForm": {
+    "insurerName": "વીમાકારનું નામ",
+    "insurerType": "વીમાકાર પ્રકાર",
+    "productName": "ઉત્પાદન નામ",
+    "issuingOffice": "જારી કાર્યાલય",
+    "headOffice": "મુખ્ય કાર્યાલય",
+    "divisionalOffice": "વિભાગીય કાર્યાલય",
+    "placeholders": {
+      "insurer": "વીમાકાર",
+      "type": "પ્રકાર",
+      "product": "ઉત્પાદન",
+      "issuingOffice": "કાર્યાલય પસંદ કરો",
+      "headOffice": "મુખ્ય કાર્યાલય પસંદ કરો",
+      "divisionalOffice": "વિભાગીય કાર્યાલય પસંદ કરો"
+    }
+  },
+  "corporateForm": {
+    "labels": {
+      "corporateName": "કોર્પોરેટ નામ",
+      "groupName": "ગ્રુપ નામ",
+      "email": "ઈમેઇલ",
+      "contactNumber": "સંપર્ક નંબર",
+      "address": "સરનામું",
+      "telephone": "ટેલિફોન નંબર",
+      "pinCode": "પિન કોડ",
+      "state": "રાજ્ય",
+      "city": "શહેર",
+      "industrySector": "ઉદ્યોગ ક્ષેત્ર",
+      "panNumber": "પોલિસી પ્રપોઝર પાન નંબર",
+      "gstNumber": "પોલિસી પ્રપોઝર GST નંબર"
+    },
+    "placeholders": {
+      "corporateName": "કોર્પોરેટ નામ",
+      "groupName": "ગ્રુપ નામ",
+      "email": "ઈમેઇલ દાખલ કરો",
+      "contactNumber": "સંપર્ક નંબર દાખલ કરો",
+      "address": "સરનામું દાખલ કરો",
+      "telephone": "ટેલિફોન નંબર દાખલ કરો",
+      "pinCode": "પિન કોડ દાખલ કરો",
+      "state": "રાજ્ય",
+      "city": "શહેર",
+      "industrySector": "ઉદ્યોગ ક્ષેત્ર",
+      "panNumber": "પાન નંબર દાખલ કરો",
+      "gstNumber": "GST નંબર દાખલ કરો"
+    },
+    "actions": {
+      "addCorporate": "કોર્પોરેટ ઉમેરો"
+    }
+  },
+  "source": "સ્ત્રોત",
+  "enrolmentType": "નોંધણી પ્રકાર",
+  "providerMaster": {
+    "moduleName": "પ્રોવાઇડર મેનેજમેન્ટ",
+    "providerMasterLabel": "પ્રોવાઇડર માસ્ટર",
+    "title": {
+      "providers": "પ્રોવાઇડર્સ",
+      "addProvider": "પ્રોવાઇડર ઉમેરો",
+      "icCorporateMapping": "IC કોર્પોરેટ મેપિંગ"
+    },
+    "breadcrumb": {
+      "providers": "પ્રોવાઇડર્સ",
+      "addProvider": "પ્રોવાઇડર ઉમેરો",
+      "providerDetails": "પ્રોવાઇડર વિગતો"
+    },
+    "button": {
+      "addProvider": "પ્રોવાઇડર ઉમેરો",
+      "cancel": "રદ કરો",
+      "saveProvider": "પ્રોવાઇડર સાચવો",
+      "saving": "સાચવી રહ્યા છીએ…",
+      "add": "ઉમેરો",
+      "search": "શોધ",
+      "hideSearch": "શોધ છુપાવો",
+      "downloadReport": "રિપોર્ટ ડાઉનલોડ કરો",
+      "save": "સાચવો"
+    },
+    "toolbar": {
+      "auditLog": "ઑડિટ લોગ",
+      "auditLogTitle": "આ ટેબ માટે ફીલ્ડ-સ્તરના ફેરફારનો ઇતિહાસ જુઓ",
+      "auditLogUnavailable": "પ્રોવાઇડર ID ઉપલબ્ધ નથી",
+      "auditLogDialogTitle": "ઑડિટ લોગ — {{section}}",
+      "loadingAuditLog": "ઑડિટ લોગ લોડ થઈ રહ્યું છે…",
+      "icWiseEmpanelmentStatus": "IC વાઇઝ નામાંકન સ્થિતિ",
+      "icWiseEmpanelmentStatusTitle": "વીમાદાર દ્વારા IC વાઇઝ નામાંકન સ્થિતિ જુઓ",
+      "icWiseEmpanelmentStatusAria": "IC વાઇઝ નામાંકન સ્થિતિ જુઓ",
+      "providerStatusWithIcs": "IC સાથે પ્રોવાઇડર સ્થિતિ",
+      "network": "નેટવર્ક",
+      "networkType": "નેટવર્ક પ્રકાર",
+      "tpaNetwork": "TPA નેટવર્ક",
+      "insurerNetwork": "ઇન્શ્યોરર નેટવર્ક",
+      "viewAllNetworkTypes": "બધું જુઓ",
+      "viewAllNetworkTypesAria": "બધા નેટવર્ક પ્રકાર જુઓ",
+      "allNetworkTypes": "બધા નેટવર્ક પ્રકાર",
+      "agreement": "કરાર",
+      "agreementType": "કરાર પ્રકાર",
+      "verify": "ચકાસો",
+      "insurerName": "વીમાદારનું નામ",
+      "networkStatus": "નેટવર્ક સ્થિતિ",
+      "mappedSince": "મેપ થયું",
+      "close": "બંધ કરો",
+      "auditColumns": {
+        "section": "વિભાગ",
+        "certificate": "પ્રમાણપત્ર",
+        "recordCode": "રેકોર્ડ કોડ",
+        "recordName": "રેકોર્ડ નામ",
+        "fieldName": "ફીલ્ડ નામ",
+        "oldValue": "જૂનું મૂલ્ય",
+        "newValue": "નવું મૂલ્ય",
+        "action": "ક્રિયા",
+        "changedBy": "દ્વારા બદલાયું",
+        "dateTime": "તારીખ અને સમય"
+      }
+    },
+    "chooseFile": {
+      "chooseFile": "ફાઇલ પસંદ કરો",
+      "noFileChosen": "કોઈ ફાઇલ પસંદ નથી",
+      "uploading": "અપલોડ થઈ રહ્યું છે…",
+      "removing": "દૂર કરવામાં આવે છે…",
+      "remove": "{{label}} દૂર કરો",
+      "browse": "બ્રાઉઝ કરો",
+      "browseButton": "બ્રાઉઝ",
+      "dropFileHere": "ફાઇલ અહીં છોડો અથવા",
+      "dropOrBrowseAria": "{{label}}: ફાઇલ અહીં છોડો અથવા બ્રાઉઝ કરો"
+    },
+    "summaryBar": {
+      "providerName": "પ્રોવાઇડર નામ",
+      "address": "સરનામું",
+      "providerCode": "પ્રોવાઇડર કોડ",
+      "rohiniId": "રોહિણી ID"
+    },
+    "common": {
+      "status": "સ્થિતિ",
+      "active": "સક્રિય",
+      "inactive": "નિષ્ક્રિય",
+      "view": "જુઓ",
+      "edit": "સંપાદિત કરો",
+      "delete": "કાઢી નાખો",
+      "yes": "હા",
+      "no": "ના",
+      "description": "વર્ણન",
+      "master": "માસ્ટર",
+      "actions": "ક્રિયાઓ",
+      "download": "ડાઉનલોડ",
+      "duplicateFileName": "સમાન નામવાળી ફાઇલ પહેલેથી અપલોડ છે. કૃપા કરીને અલગ ફાઇલ પસંદ કરો."
+    },
+    "mastersPage": {
+      "title": "માસ્ટર્સ",
+      "breadcrumbMasters": "માસ્ટર્સ",
+      "auditLog": "ઑડિટ લોગ",
+      "auditLogTitle": "આ માસ્ટર માટે ફેરફાર ઇતિહાસ જુઓ",
+      "deleteTitle": "શું તમે ચોક્કસ છો?",
+      "deleteDescription": "શું તમે ખરેખર \"{{label}}\" કાઢી નાખવા માંગો છો?",
+      "deleteAction": "કાઢી નાખો",
+      "deleteError": "હમણાં રેકોર્ડ કાઢી શકાતો નથી. કૃપા કરીને પછી ફરી પ્રયાસ કરો.",
+      "thisRecord": "આ રેકોર્ડ",
+      "recordDeleted": "રેકોર્ડ સફળતાપૂર્વક કાઢી નાખ્યો.",
+      "identifierLevel": "ઓળખ સ્તર",
+      "issuingAuthorityName": "જારી કરનાર સત્તા નામ",
+      "applicableProviderType": "લાગુ પ્રોવાઇડર પ્રકાર",
+      "effectiveFrom": "પ્રભાવી થી",
+      "effectiveTo": "પ્રભાવી સુધી",
+      "activeFlag": "સક્રિય ધ્વજ",
+      "classCode": "વર્ગ કોડ",
+      "subclassCode": "ઉપ-વર્ગ કોડ",
+      "isActive": "સક્રિય છે",
+      "serviceType": "સેવા પ્રકાર",
+      "discountType": "ડિસ્કાઉન્ટ પ્રકાર",
+      "inclusionExclusionType": "પ્રકાર",
+      "inclusion": "સમાવેશ",
+      "exclusion": "બાકાત",
+      "createTitle": "માસ્ટર રેકોર્ડ ઉમેરો",
+      "editTitle": "માસ્ટર રેકોર્ડ સંપાદિત કરો",
+      "select": "પસંદ કરો",
+      "superAdminOnlyEdit": "ફક્ત સુપર એડમિન માસ્ટર રેકોર્ડ સંપાદિત કરી શકે છે."
+    },
+    "agreement": {
+      "newAgreement": "નવો કરાર",
+      "noAgreements": "કોઈ કરાર ઉપલબ્ધ નથી",
+      "detailsNotFound": "પ્રોવાઇડર કરાર વિગતો મળી નથી",
+      "agreementType": "કરાર પ્રકાર",
+      "applicableScope": "લાગુ વ્યાપ",
+      "agreementName": "કરાર નામ",
+      "type": "પ્રકાર",
+      "scope": "વ્યાપ",
+      "applicableIcs": "લાગુ IC",
+      "effectiveFrom": "પ્રભાવી થી",
+      "soc": "SOC",
+      "discount": "ડિસ્કાઉન્ટ",
+      "addDiscount": "ડિસ્કાઉન્ટ ઉમેરો",
+      "socDiscountPending": "બાકી",
+      "socDiscountComplete": "પૂર્ણ",
+      "sortAsc": "ચડતા ક્રમમાં ગોઠવો",
+      "sortDesc": "ઉતરતા ક્રમમાં ગોઠવો",
+      "pinColumn": "કૉલમ પિન કરો",
+      "noPin": "પિન નહીં",
+      "pinLeft": "ડાબે પિન",
+      "pinRight": "જમણે પિન",
+      "chooseColumns": "કૉલમ પસંદ કરો",
+      "filters": "ફિલ્ટર્સ",
+      "columns": "કૉલમ",
+      "reset": "રીસેટ",
+      "addFilter": "ફિલ્ટર ઉમેરો",
+      "filterPlaceholder": "{{label}} ફિલ્ટર કરો",
+      "searchPlaceholder": "શોધ...",
+      "allAgreementNames": "બધા કરાર નામ",
+      "columnMenu": "કૉલમ મેનુ",
+      "seeMore": "વધુ જુઓ",
+      "seeLess": "ઓછું જુઓ",
+      "removeFilter": "{{label}} ફિલ્ટર દૂર કરો",
+      "insuranceCompany": "વીમા કંપની",
+      "effectiveFromInvolvement": "પ્રભાવી તારીખ (સંબંધ)",
+      "uploadedOn": "{{date}} ના રોજ અપલોડ કર્યું",
+      "noDataAvailable": "કોઈ ડેટા ઉપલબ્ધ નથી",
+      "sections": {
+        "basicDetails": "કરાર મૂળ વિગતો",
+        "terms": "કરાર શરતો",
+        "document": "કરાર દસ્તાવેજ",
+        "scope": "લાગુ વ્યાપ",
+        "remarks": "ટિપ્પણીઓ"
+      },
+      "fields": {
+        "agreementName": "કરાર નામ",
+        "agreementType": "કરાર પ્રકાર",
+        "agreementVersion": "કરાર સંસ્કરણ",
+        "status": "સ્થિતિ",
+        "dateOfEmpanelment": "પેનલમાં સામેલ તારીખ",
+        "gicInceptionDate": "GIC શરૂઆત તારીખ",
+        "ppnInceptionDate": "PPN શરૂઆત તારીખ",
+        "signAgreementSentDate": "સહી કરાર મોકલવાની તારીખ",
+        "agreementCopyAvailable": "કરાર નકલ ઉપલબ્ધ",
+        "providerSignatoryName": "પ્રોવાઇડર સહીકર્તા નામ",
+        "providerSignatoryDesignation": "પ્રોવાઇડર સહીકર્તા હોદ્દો",
+        "effectiveFrom": "પ્રભાવી થી",
+        "effectiveTo": "પ્રભાવી સુધી",
+        "agreementDurationDays": "કરાર અવધિ (દિવસ)",
+        "agreementDocument": "કરાર દસ્તાવેજ",
+        "supportingDocument": "સહાયક દસ્તાવેજ",
+        "remarks": "ટિપ્પણીઓ",
+        "selectAgreementName": "કરાર નામ પસંદ કરો",
+        "select": "પસંદ કરો",
+        "selectInsurer": "વીમાદાતા પસંદ કરો",
+        "selectInsurers": "વીમાદાતાઓ પસંદ કરો",
+        "enterRemarks": "ટિપ્પણી દાખલ કરો",
+        "ppnState": "PPN રાજ્ય",
+        "ppnCity": "PPN શહેર"
+      },
+      "filterOptions": {
+        "allTypes": "બધા પ્રકાર",
+        "bipartite": "દ્વિપક્ષીય",
+        "tripartite": "ત્રિપક્ષીય",
+        "allScopes": "બધા વ્યાપ",
+        "psu": "PSU",
+        "selectedIcs": "પસંદ કરેલ IC",
+        "allStatus": "બધી સ્થિતિ",
+        "active": "સક્રિય",
+        "terminated": "સમાપ્ત",
+        "expired": "એક્સપાયર્ડ",
+        "draft": "ડ્રાફ્ટ"
+      },
+      "mappingSuccess": {
+        "title": "Confirmation",
+        "close": "Close",
+        "view": "View",
+        "gic": "GIC -All active Insurance Companies have been mapped successfully.",
+        "gipsa": "GIPSA- ALL PSUs have been mapped successfully."
+      },
+      "noGipsaRemarksAvailable": "કોઈ GIPSA ટિપ્પણીઓ ઉપલબ્ધ નથી",
+      "psuPpnCityCreateGipsaAgreement": "Provider belongs to a PPN city. Please create a GIPSA Agreement.",
+      "agreementTypesTitle": "કરાર પ્રકારો",
+      "noAgreementTypes": "કોઈ કરાર પ્રકારો ઉપલબ્ધ નથી",
+      "moreAgreementTypes": "+{{count}} વધુ",
+      "moreAgreementTypesAria": "{{count}} વધુ કરાર પ્રકારો બતાવો"
+    },
+    "search": {
+      "filterTitle": "પ્રોવાઇડર ફિલ્ટર્સ",
+      "hospitalName": "પ્રોવાઇડર નામ",
+      "rohiniCode": "પ્રોવાઇડર રોહિણી કોડ",
+      "providerCode": "પ્રોવાઇડર કોડ",
+      "agreementType": "Agreement Type",
+      "state": "State",
+      "city": "City",
+      "insurerCompany": "Insurer Company",
+      "expiringInDays": "આગામી (દિવસ) માં રોહિણી સમાપ્તિ",
+      "rohiniExpiryDate": "ROHINI Expiry Date",
+      "rohiniExpiryStatus": "ROHINI Expiry Status",
+      "rohiniExpiryStatusAll": "All",
+      "rohiniExpiryStatusActive": "Active",
+      "rohiniExpiryStatusExpired": "Expired",
+      "providerNetworkType": "પ્રોવાઇડર નેટવર્ક પ્રકાર",
+      "providerType": "પ્રોવાઇડર પ્રકાર",
+      "networkSource": "નેટવર્ક સ્ત્રોત"
+    },
+    "table": {
+      "providerCode": "પ્રોવાઇડર કોડ",
+      "providerName": "પ્રોવાઇડર નામ",
+      "providerType": "પ્રોવાઇડર પ્રકાર",
+      "providerNetworkType": "પ્રોવાઇડર નેટવર્ક પ્રકાર",
+      "networkSource": "નેટવર્ક સ્ત્રોત",
+      "providerRohiniCode": "પ્રોવાઇડર રોહિણી કોડ",
+      "rohiniExpiryAlert": "રોહિણી સમાપ્તિ એલર્ટ",
+      "noOfBeds": "બેડની સંખ્યા",
+      "city": "શહેર",
+      "state": "રાજ્ય",
+      "address": "સરનામું"
+    },
+    "export": {
+      "noData": "વર્તમાન ફિલ્ટર્સ સાથે નિકાસ માટે કોઈ ડેટા નથી.",
+      "hint": "વર્તમાન શોધ ફિલ્ટર્સ અને સ્થિતિ કાર્ડ (ટેબલ સ્કોપ) ઉપયોગ કરીને નિકાસ.",
+      "exporting": "નિકાસ થઈ રહી છે…",
+      "downloadExcel": "Excel તરીકે ડાઉનલોડ કરો",
+      "failed": "નિકાસ નિષ્ફળ"
+    },
+    "network": {
+      "both": "બંને",
+      "network": "નેટવર્ક",
+      "nonNetwork": "બિન-નેટવર્ક",
+      "insurer": "વીમાદાતા",
+      "tpa": "TPA"
+    },
+    "tabs": {
+      "hospital-details": "ઝલક",
+      "agreement": "કરાર",
+      "provider-owner": "માલિક",
+      "infrastructure-facility": "ઇન્ફ્રા અને સુવિધા",
+      "owners-info": "સંપર્ક",
+      "ic-corporate": "નેટવર્ક મેનેજમેન્ટ",
+      "bank-details": "બેંકિંગ વિગતો",
+      "hospital-document": "દસ્તાવેજો",
+      "soc": "SOC",
+      "hospital-discount": "ડિસ્કાઉન્ટ"
+    },
+    "mappingSubTab": {
+      "ic": "વીમા કંપની",
+      "corporate": "કોર્પોરેટ"
+    },
+    "breadcrumbTrail": {
+      "editAgreement": "કરાર સંપાદિત કરો",
+      "viewAgreement": "કરાર જુઓ",
+      "newAgreement": "નવો કરાર",
+      "addSoc": "SOC ઉમેરો",
+      "editSoc": "SOC સંપાદિત કરો",
+      "viewSoc": "SOC જુઓ",
+      "addOwner": "માલિક ઉમેરો",
+      "editOwner": "માલિક સંપાદિત કરો",
+      "providerRestrictions": "પ્રોવાઇડર પ્રતિબંધ",
+      "editRestriction": "પ્રતિબંધ સંપાદિત કરો",
+      "viewRestriction": "પ્રતિબંધ જુઓ",
+      "addRestriction": "પ્રતિબંધ ઉમેરો",
+      "newIcMapping": "નવી IC મેપિંગ",
+      "newCorporateMapping": "નવી કોર્પોરેટ મેપિંગ",
+      "editCorporateMapping": "કોર્પોરેટ મેપિંગ સંપાદિત કરો",
+      "editIcMapping": "IC મેપિંગ સંપાદિત કરો",
+      "viewCorporateMapping": "કોર્પોરેટ મેપિંગ જુઓ",
+      "viewIcMapping": "IC મેપિંગ જુઓ"
+    },
+    "addForm": {
+      "providerDetails": "પ્રોવાઇડર વિગતો",
+      "providerName": "પ્રોવાઇડર નામ",
+      "providerNamePlaceholder": "પ્રોવાઇડર નામ દાખલ કરો",
+      "providerType": "પ્રોવાઇડર પ્રકાર",
+      "providerNetworkType": "પ્રોવાઇડર નેટવર્ક પ્રકાર",
+      "providerNetworkTypeDefault": "પસંદ કરો",
+      "networkProvider": "નેટવર્ક પ્રોવાઇડર",
+      "nonNetworkProvider": "નોન-નેટવર્ક પ્રોવાઇડર",
+      "icSelection": "IC પસંદગી",
+      "icSelectionDefault": "એક અથવા વધુ પસંદ કરો",
+      "empanelmentSource": "એમ્પેનલમેન્ટ સ્ત્રોત",
+      "empanelmentSourceDefault": "પસંદ કરો",
+      "openExistingProvider": "હાલનો પ્રોવાઇડર ખોલો",
+      "duplicateRohiniTitle": "પ્રોવાઇડર પહેલેથી અસ્તિત્વમાં છે",
+      "duplicateRohiniMessage": "આ ROHINI ID સાથેનો પ્રોવાઇડર પહેલેથી અસ્તિત્વમાં છે",
+      "duplicateRohiniRedirect": "Redirect",
+      "duplicateRohiniCancel": "રદ કરો",
+      "rohiniNumber": "રોહિણી નંબર",
+      "rohiniPlaceholder": "13-અંકનો રોહિણી નંબર",
+      "providerCategory": "પ્રોવાઇડર કેટેગરી",
+      "providerCategoryDefault": "પ્રોવાઇડર કેટેગરી",
+      "providerSubclass": "પ્રોવાઇડર સબક્લાસ",
+      "ownershipType": "માલિકી પ્રકાર",
+      "addressDetails": "સરનામું વિગતો",
+      "addressLine1": "સરનામું લાઇન 1",
+      "addressLine2": "સરનામું લાઇન 2",
+      "pincode": "પિનકોડ",
+      "pincodePlaceholder": "6-અંકનો પિનકોડ",
+      "city": "શહેર",
+      "cityPlaceholder": "પિનકોડથી આપમેળે ભરાશે",
+      "state": "રાજ્ય",
+      "statePlaceholder": "પિનકોડથી આપમેળે ભરાશે",
+      "district": "જિલ્લો",
+      "districtPlaceholder": "જિલ્લો દાખલ કરો",
+      "contactDetails": "સંપર્ક વિગતો",
+      "clinicalSpeciality": "ક્લિનિકલ સ્પેશિયાલિટી",
+      "clinicalSpecialityDefault": "એક અથવા વધુ પસંદ કરો",
+      "websiteUrl": "વેબસાઇટ URL",
+      "websitePlaceholder": "https://",
+      "mobileNo": "મોબાઇલ નં.",
+      "mobilePlaceholder": "10-અંકનો મોબાઇલ નંબર",
+      "telephoneNo": "ટેલિફોન નં.",
+      "telephonePlaceholder": "ટેલિફોન નંબર",
+      "faxNo": "ફેક્સ નં.",
+      "faxPlaceholder": "ફેક્સ નંબર",
+      "email": "ઇમેઇલ",
+      "emailPlaceholder": "ઇમેઇલ સરનામું દાખલ કરો",
+      "address": "સરનામું",
+      "addressPlaceholder": "સરનામું દાખલ કરો",
+      "panNo": "PAN No",
+      "panPlaceholder": "ABCDE1234F",
+      "providerTypeDefault": "હોસ્પિટલ"
+    },
+    "errors": {
+      "noWritePermission": "લેખન permission નથી"
+    },
+    "rohiniMaster": {
+      "title": "રોહિણી માસ્ટર",
+      "filterTitle": "રોહિણી માસ્ટર ફિલ્ટર્સ",
+      "upload": "અપલોડ",
+      "versionLog": "વર્ઝન લોગ",
+      "viewDetails": "રોહિણી વિગતો",
+      "recordStatus": "રેકોર્ડ સ્થિતિ",
+      "filterAll": "બધા",
+      "rohiniCode": "રોહિણી કોડ",
+      "rohiniExpiryDate": "રોહિણી સમાપ્તિ તારીખ",
+      "nextRenewalDue": "આગામી નવીકરણ તારીખ",
+      "location": "સ્થાન",
+      "cityTown": "શહેર / ટાઉન",
+      "cityVillageTown": "શહેર / ગામ / ટાઉન",
+      "pinCode": "પિન કોડ",
+      "emailId": "ઈમેઇલ આઈડી",
+      "contactNumber": "સંપર્ક નંબર",
+      "registrationStatus": "નોંધણી સ્થિતિ",
+      "networkType": "નેટવર્ક પ્રકાર",
+      "recordStatusField": "રેકોર્ડ સ્થિતિ",
+      "latitude": "અક્ષાંશ",
+      "longitude": "રેખાંશ",
+      "rohiniExpiredDate": "રોહિણી સમાપ્તિ તારીખ",
+      "rohiniNextRenewalDueDate": "રોહિણી આગામી નવીકરણ તારીખ",
+      "openMapFor": "{{coords}} માટે નકશો ખોલો",
+      "viewOnMap": "નકશા પર જુઓ: {{coords}}",
+      "locationDialogTitle": "સ્થાન",
+      "close": "બંધ કરો",
+      "noCoordinates": "કોઈ કોઓર્ડિનેટ્સ ઉપલબ્ધ નથી",
+      "mapAriaLabel": "સ્થાન દર્શાવતો નકશો",
+      "fetchListFailed": "રોહિણી સૂચી લોડ કરવામાં નિષ્ફળ",
+      "loadVersionLogFailed": "વર્ઝન લોગ લોડ કરવામાં નિષ્ફળ",
+      "exportHint": "વર્તમાન શોધ ફિલ્ટર્સ (ટેબલ વ્યાપ) વડે નિકાસ.",
+      "versionLogSearch": {
+        "inwardNumber": "ઇનવર્ડ નંબર",
+        "fileName": "ફાઇલ નામ",
+        "fromDate": "તારીખથી",
+        "toDate": "તારીખ સુધી"
+      },
+      "versionLogColumns": {
+        "inwardNumber": "ઇનવર્ડ નંબર",
+        "fileName": "ફાઇલ નામ",
+        "userName": "વપરાશકર્તા નામ",
+        "createdDate": "બનાવવાની તારીખ"
+      },
+      "uploadForm": {
+        "atLeastOneFile": "ઓછામાં ઓછી એક ફાઇલ જરૂરી છે",
+        "fileSizeMax": "દરેક ફાઇલ 50MB કરતાં ઓછી હોવી જોઈએ",
+        "excelOnly": "ફક્ત Excel ફાઇલો (.xls, .xlsx) માન્ય છે",
+        "unsupportedFormat": "અસમર્થિત ફાઇલ ફોર્મેટ",
+        "excelHint": "માન્ય: ફક્ત Excel (.xls, .xlsx) | દરેક ફાઇલ માટે મહત્તમ 50MB",
+        "clickToUploadExcel": "Excel ફાઇલ અપલોડ કરવા ક્લિક કરો",
+        "clickToUploadFile": "ફાઇલ અપલોડ કરવા ક્લિક કરો",
+        "processing": "પ્રક્રિયા ચાલુ છે…",
+        "loadingBranchDepartment": "TPA શાખા અને વિભાગ લોડ થઈ રહ્યા છે…",
+        "branchNotAvailable": "TPA શાખા \"{{branch}}\" ઉપલબ્ધ નથી.",
+        "departmentNotAvailable": "વિભાગ \"{{department}}\" ઉપલબ્ધ નથી.",
+        "branchDepartmentLoading": "શાખા અને વિભાગ હજુ લોડ થઈ રહ્યા છે. કૃપા કરીને ફરી પ્રયાસ કરો.",
+        "couldNotResolveBranch": "TPA શાખા \"{{branch}}\" શોધી શકાઈ નહીં.",
+        "couldNotResolveDepartment": "વિભાગ \"{{department}}\" શોધી શકાયો નહીં.",
+        "uploadFailed": "અપલોડ નિષ્ફળ",
+        "uploadMissingInwardOrFile": "અપલોડ પૂર્ણ થયું પરંતુ ઇનવર્ડ નંબર અથવા ફાઇલ આઈડી ગેરહાજર છે. રોહિણી માસ્ટર નોંધણી શક્ય નથી.",
+        "registrationCompleted": "રોહિણી માસ્ટર નોંધણી પૂર્ણ.",
+        "registeringWithMaster": "રોહિણી માસ્ટર સાથે નોંધણી…",
+        "inwardCreatedOnUpload": "Excel ફાઇલ અપલોડ કરતાં તમારો ઇનવર્ડ નંબર બને છે. પછી અમે તેને રોહિણી માસ્ટર સાથે નોંધણી કરીએ છીએ.",
+        "uploadDocumentsLabel": "દસ્તાવેજો અપલોડ કરો",
+        "uploadDocumentsAction": "દસ્તાવેજો અપલોડ કરો",
+        "noInwardReturned": "અપલોડ સફળ પરંતુ ઇનવર્ડ નંબર મળ્યો નહીં. રોહિણી માસ્ટર સાથે નોંધણી શક્ય નથી.",
+        "noFileReference": "અપલોડ સફળ પરંતુ ફાઇલ સંદર્ભ મળ્યો નહીં. રોહિણી માસ્ટર સાથે લિંક શક્ય નથી.",
+        "missingInwardNumber": "અપલોડ સફળ પરંતુ ઇનવર્ડ નંબર ગેરહાજર છે. રોહિણી માસ્ટર સાથે નોંધણી શક્ય નથી.",
+        "documentsUploadedSuccess": "દસ્તાવેજો સફળતાપૂર્વક અપલોડ થયા",
+        "inwardNoLabel": "ઇનવર્ડ નં.:"
+      }
+    },
+    "expiry": {
+      "noDate": "કોઈ સમાપ્તિ તારીખ નથી",
+      "expiredLessThanOneDay": "1 દિવસ કરતાં ઓછા સમય પહેલાં સમાપ્ત",
+      "expiredAgo": "{{days}} {{unit}} પહેલાં સમાપ્ત",
+      "warningExpiresIn": "ચેતવણી: {{days}} {{unit}}માં સમાપ્ત",
+      "expiresIn": "{{days}} {{unit}}માં સમાપ્ત",
+      "day": "દિવસ",
+      "days": "દિવસ",
+      "emptyValue": "—"
+    },
+    "detailTabs": {
+      "documents": {
+        "upload": "અપલોડ",
+        "uploadSuccessful": "અપલોડ સફળ",
+        "uploadSuccessMessage": "દસ્તાવેજ સફળતાપૂર્વક અપલોડ થયો.",
+        "uploadDocument": "દસ્તાવેજ અપલોડ કરો",
+        "selectDocument": "દસ્તાવેજ પસંદ કરો",
+        "documentLabel": "દસ્તાવેજ",
+        "startDateOptional": "પ્રારંભ તારીખ (વૈકલ્પિક)",
+        "validTillOptional": "માન્ય તારીખ (વૈકલ્પિક)",
+        "chooseDocumentType": "દસ્તાવેજ પ્રકાર પસંદ કરો...",
+        "noIcInfo": "IC માહિતી ઉપલબ્ધ નથી"
+      },
+      "bank": {
+        "title": "બેંક વિગતો",
+        "cancelCheque": "રદ ચેક",
+        "panCard": "PAN કાર્ડ",
+        "verifyingIfsc": "IFSC ચકાસાઈ રહ્યું છે...",
+        "verifyIfsc": "IFSC ચકાસો",
+        "ifscVerified": "IFSC ચકાસાયેલ",
+        "ifscNotVerified": "IFSC ચકાસાયેલ નથી",
+        "ifscVerify": "IFSC ચકાસો",
+        "bankAddressPlaceholder": "સંપૂર્ણ સરનામું",
+        "documents": {
+          "preview": "દસ્તાવેજ પૂર્વાવલોકન",
+          "noDocumentUploaded": "કોઈ દસ્તાવેજ અપલોડ થયો નથી.",
+          "uploadingDocument": "દસ્તાવેજ અપલોડ થઈ રહ્યો છે…",
+          "loadingDocument": "દસ્તાવેજ લોડ થઈ રહ્યો છે…",
+          "clickOrDropToReplace": "બદલવા માટે ક્લિક કરો અથવા છોડો",
+          "dropFileHere": "ફાઇલ અહીં છોડો અથવા",
+          "browse": "બ્રાઉઝ કરો",
+          "uploadHint": "PDF, JPG, JPEG, અથવા PNG"
+        },
+        "validation": {
+          "completeRequiredFields": "બધા જરૂરી બેંક ફીલ્ડ પૂર્ણ કરો",
+          "uploadDocuments": "રદ ચેક અને PAN કાર્ડ અપલોડ કરો",
+          "accountTypeRequired": "ખાતા પ્રકાર જરૂરી છે",
+          "accountHolderTypeRequired": "ખાતાધારક પ્રકાર જરૂરી છે"
+        },
+        "fields": {
+          "accountHolderName": "ખાતાધારકનું નામ",
+          "accountNumber": "ખાતા નંબર",
+          "accountType": "ખાતા પ્રકાર",
+          "accountHolderType": "ખાતાધારક પ્રકાર",
+          "bankName": "બેંકનું નામ",
+          "bankBranch": "બેંક શાખા",
+          "ifscCode": "IFSC કોડ",
+          "micrCode": "MICR કોડ",
+          "panNo": "PAN નં.",
+          "panHolderName": "PAN ધારકનું નામ",
+          "tanNo": "TAN નં.",
+          "bankAddress": "બેંક સરનામું"
+        }
+      },
+      "owner": {
+        "addOwner": "માલિક ઉમેરો",
+        "noOwnerInfo": "કોઈ માલિક માહિતી ઉપલબ્ધ નથી",
+        "noIcInfo": "IC માહિતી ઉપલબ્ધ નથી",
+        "deletingContact": "સંપર્ક વ્યક્તિ કાઢી રહ્યા છીએ",
+        "deleteContact": "સંપર્ક વ્યક્તિ કાઢો",
+        "deleting": "કાઢી રહ્યા છીએ…",
+        "sections": {
+          "ownerDetails": "માલિક વિગતો",
+          "address": "સરનામું",
+          "details": "વિગતો",
+          "contact": "સંપર્ક"
+        },
+        "fields": {
+          "ownerName": "માલિકનું નામ",
+          "designation": "હોદ્દો",
+          "qualification": "લાયકાત",
+          "gender": "લિંગ",
+          "selectGender": "લિંગ પસંદ કરો",
+          "male": "પુરુષ",
+          "female": "સ્ત્રી",
+          "pinCode": "પિન કોડ"
+        }
+      },
+      "contactPersons": {
+        "addContactPerson": "સંપર્ક વ્યક્તિ ઉમેરો",
+        "noContactDetails": "બતાવવા માટે કોઈ સંપર્ક વિગતો નથી",
+        "noContactPersonsOnFile": "કોઈ સંપર્ક વ્યક્તિ દાખલ નથી",
+        "noNameOnFile": "કોઈ નામ દાખલ નથી",
+        "defaultRole": "સંપર્ક વ્યક્તિ",
+        "noDesignation": "કોઈ હોદ્દો નથી",
+        "fields": {
+          "role": "ભૂમિકા",
+          "name": "નામ",
+          "mobile": "મોબાઇલ",
+          "telephone": "ટેલિફોન"
+        },
+        "roles": {
+          "keyContactPerson": "મુખ્ય સંપર્ક વ્યક્તિ",
+          "billingDepartment": "બિલિંગ વિભાગ",
+          "issueHandler": "ઇશ્યુ હેન્ડલર",
+          "tpaCoordinator": "TPA સંકોષક",
+          "contactPerson": "સંપર્ક વ્યક્તિ",
+          "ceo": "CEO",
+          "chiefExecutive": "મુખ્ય કાર્યકારી અધિકારી"
+        }
+      },
+      "providerDetails": {
+        "providerInformation": "પ્રદાતા માહિતી",
+        "addressDetails": "સરનામું વિગતો",
+        "contactDetails": "સંપર્ક વિગતો",
+        "certificates": "પ્રમાણપત્રો",
+        "removeCertificate": "પ્રમાણપત્ર દૂર કરો",
+        "noIcInfo": "IC માહિતી ઉપલબ્ધ નથી",
+        "changeBeforeSave": "સાચવતા પહેલાં ઓછામાં ઓછું એક ક્ષેત્ર બદલો.",
+        "identifierDetails": "ઓળખકર્તા વિગતો",
+        "oldProviderCodes": "જૂના પ્રદાતા કોડ",
+        "noIdentifierData": "કોઈ ઓળખકર્તા ડેટા ઉપલબ્ધ નથી",
+        "noCertificateAvailable": "કોઈ પ્રમાણપત્ર ઉપલબ્ધ નથી",
+        "certificateFileNotAvailable": "પ્રમાણપત્ર ફાઇલ ઉપલબ્ધ નથી.",
+        "notRegistered": "નોંધાયેલ નથી",
+        "viewCertificate": "પ્રમાણપત્ર જુઓ",
+        "removeRohiniNumber": "રોહિણી નંબર દૂર કરો",
+        "removeOldProviderCode": "જૂનો પ્રદાતા કોડ દૂર કરો",
+        "fields": {
+          "grade": "ગ્રેડ",
+          "careTier": "સંભાળ સ્તર",
+          "dayCare": "ડે કેર",
+          "signatoryName": "હસ્તાક્ષરકર્તા નામ",
+          "signatoryDesignation": "હસ્તાક્ષરકર્તા હોદ્દો",
+          "systemOfMedicine": "ચિકિત્સા પદ્ધતિ",
+          "tpaServicingBranch": "TPA સેવા શાખા",
+          "serviceEmail": "સેવા ઇમેઇલ",
+          "zone": "ઝોન",
+          "pinCode": "પિન કોડ",
+          "location": "સ્થાન",
+          "telePhoneNo": "ટેલિફોન નં.",
+          "mobNo": "મોબાઇલ નં.",
+          "websiteAvailable": "વેબસાઇટ ઉપલબ્ધ",
+          "category": "શ્રેણી",
+          "registrationNo": "નોંધણી નંબર",
+          "registrationAct": "નોંધણી અધિનિયમ",
+          "providerRohiniId": "પ્રદાતા રોહિણી ID",
+          "certName": "નામ",
+          "certValidFrom": "માન્ય થી",
+          "certValidTo": "માન્ય સુધી"
+        }
+      }
+    },
+    "icMapping": {
+      "bulkMapping": "બલ્ક IC મેપિંગ",
+      "upload": "અપલોડ",
+      "loading": {
+        "networkMappings": "નેટવર્ક મેપિંગ લોડ થઈ રહી છે...",
+        "inward": "ઇનવર્ડ {{inwardNo}} લોડ થઈ રહ્યું છે..."
+      },
+      "search": {
+        "networkSummaryTitle": "નેટવર્ક સારાંશ શોધ",
+        "inwardTitle": "બલ્ક મેપિંગ ઇનવર્ડ શોધ",
+        "providerName": "પ્રદાતા નામ",
+        "insuranceCompany": "વીમા કંપની",
+        "inwardNo": "ઇનવર્ડ નંબર",
+        "insurerName": "વીમાદાતા નામ",
+        "rohiniNumber": "રોહિણી નંબર"
+      },
+      "export": {
+        "landingHint": "વર્તમાન શોધ ફિલ્ટર્સનો ઉપયોગ કરીને વર્તમાન પાનું નિકાસ કરે છે."
+      },
+      "columns": {
+        "insuranceCompany": "વીમા કંપની",
+        "corporateName": "કોર્પોરેટ નામ",
+        "providerName": "પ્રદાતા નામ",
+        "providerCode": "પ્રદાતા કોડ",
+        "rohiniNumber": "રોહિણી નંબર",
+        "icProviderCode": "IC પ્રદાતા કોડ",
+        "networkSource": "નેટવર્ક સ્રોત",
+        "networkMode": "નેટવર્ક મોડ",
+        "tariffType": "ટેરિફ પ્રકાર",
+        "cashlessStatus": "કેશલેસ સ્થિતિ",
+        "reimbursement": "પરતફેર",
+        "status": "સ્થિતિ",
+        "statusActive": "સક્રિય",
+        "statusInactive": "નિષ્ક્રિય",
+        "bankMatch": "બેંક મેળ",
+        "networkActive": "નેટવર્ક સક્રિય",
+        "agreementStatus": "કરાર સ્થિતિ"
+      },
+      "toolbar": {
+        "newIcMapping": "નવી IC મેપિંગ",
+        "newCorporate": "નવું કોર્પોરેટ",
+        "networkMappingTypeAria": "નેટવર્ક મેપિંગ પ્રકાર"
+      },
+      "empty": {
+        "noIcMapping": "કોઈ IC નેટવર્ક મેપિંગ મળી નથી",
+        "noCorporateMapping": "કોઈ કોર્પોરેટ નેટવર્ક મેપિંગ મળી નથી",
+        "noCorporateMappingHint": "આ પ્રદાતા માટે પ્રથમ મેપિંગ ઉમેરવા ઉપર \"+ નવું કોર્પોરેટ\" નો ઉપયોગ કરો."
+      },
+      "actions": {
+        "unmap": "અનમેપ"
+      },
+      "searchFields": {
+        "corporateName": "કોર્પોરેટ નામ",
+        "insuranceCompanyName": "વીમા કંપની નામ",
+        "icProviderCode": "IC પ્રદાતા કોડ",
+        "bankMatchStatus": "બેંક મેળ સ્થિતિ",
+        "insurerName": "વીમાદાતા નામ",
+        "all": "બધા",
+        "matched": "મેળ",
+        "mismatch": "અમેળ",
+        "pending": "બાકી"
+      },
+      "formToolbar": {
+        "updateMapping": "મેપિંગ અપડેટ કરો",
+        "updating": "અપડેટ થઈ રહ્યું છે...",
+        "loading": "લોડ થઈ રહ્યું છે..."
+      },
+      "bankMatch": {
+        "matched": "મેળ",
+        "mismatch": "અમેળ",
+        "pending": "બાકી"
+      },
+      "form": {
+        "mappingEntityAria": "મેપિંગ એન્ટિટી",
+        "insuranceCompany": "વીમા કંપની",
+        "selectInsuranceCompany": "વીમા કંપની પસંદ કરો",
+        "corporate": "કોર્પોરેટ",
+        "selectCorporate": "કોર્પોરેટ પસંદ કરો",
+        "isDepanel": "De-empanel",
+        "hospitalListFile": "હોસ્પિટલ સૂચિ ફાઇલ",
+        "uploadFile": "ફાઇલ અપલોડ કરો",
+        "submitting": "સબમિટ થઈ રહ્યું છે…",
+        "submit": "સબમિટ"
+      },
+      "validation": {
+        "insuranceCompanyRequired": "વીમા કંપની જરૂરી છે",
+        "corporateRequired": "કોર્પોરેટ જરૂરી છે",
+        "hospitalListFileRequired": "હોસ્પિટલ સૂચિ ફાઇલ જરૂરી છે",
+        "hospitalListFileInvalidFormat": "માત્ર .xlsx, .xls અને .csv ફાઇલો સપોર્ટેડ છે",
+        "effectiveDateOrder": "પ્રભાવી થી તારીખ, પ્રભાવી સુધી તારીખ કરતાં પહેલાં અથવા તે જ દિવસે હોવી જોઈએ.",
+        "icProviderCodeSpecialChar": "વિશેષ અક્ષરો સ્વીકારવામાં આવતા નથી",
+        "icProviderCodeAlphanumeric": "માત્ર અક્ષરો, સંખ્યાઓ અને હાઇફનની મંજૂરી છે"
+      },
+      "errors": {
+        "branchUnavailable": "TPA શાખા \"Pune-HO\" ઉપલબ્ધ નથી.",
+        "departmentUnavailable": "વિભાગ \"Provider Network\" ઉપલબ્ધ નથી.",
+        "contextLoading": "શાખા અને વિભાગ હજુ લોડ થઈ રહ્યા છે. કૃપા કરીને ફરી પ્રયાસ કરો.",
+        "uploadFailed": "હોસ્પિટલ સૂચિ ફાઇલ અપલોડ કરવામાં નિષ્ફળ.",
+        "inwardNotFound": "ઇનવર્ડ મળ્યું નથી",
+        "loadInwardFailed": "ઇનવર્ડ લોડ કરવામાં નિષ્ફળ"
+      },
+      "success": {
+        "uploadWithInward": "હોસ્પિટલ સૂચિ સફળતાપૂર્વક અપલોડ થઈ. ઇનવર્ડ નં.: {{inwardNo}}"
+      },
+      "agreementStatus": {
+        "completed": "પૂર્ણ",
+        "pending": "બાકી"
+      },
+      "bankMatchCompare": {
+        "compare": "તુલના કરો",
+        "clickCompareHint": "વિગતો જોવા માટે તુલના કરો પર ક્લિક કરો",
+        "title": "બેંક વિગતો તુલના",
+        "insurer": "વીમાદાતા",
+        "mismatchFields": "અમેલ ફીલ્ડ્સ: {{count}}",
+        "updateProviderDetails": "પ્રોવાઇડર વિગતો અપડેટ કરો",
+        "columns": {
+          "field": "ફીલ્ડ",
+          "provider": "પ્રોવાઇડર",
+          "status": "સ્થિતિ"
+        },
+        "fields": {
+          "accountName": "ખાતા નામ",
+          "accountNumber": "ખાતા નંબર",
+          "ifscCode": "IFSC કોડ",
+          "bankName": "બેંક નામ",
+          "branch": "શાખા"
+        }
+      }
+    },
+    "soc": {
+      "innerTab": {
+        "soc": "SOC",
+        "discount": "ડિસ્કાઉન્ટ",
+        "ariaLabel": "SOC અથવા ડિસ્કાઉન્ટ"
+      },
+      "toolbar": {
+        "addSoc": "SOC ઉમેરો",
+        "addDiscount": "ડિસ્કાઉન્ટ ઉમેરો"
+      },
+      "search": {
+        "title": "SOC શોધ"
+      },
+      "empty": {
+        "notFound": "SOC મળ્યું નથી",
+        "hint": "આ પ્રદાતા માટે પ્રથમ શુલ્ક અનુસૂચી ઉમેરવા ઉપર \"SOC ઉમેરો\" નો ઉપયોગ કરો."
+      },
+      "columns": {
+        "viewSoc": "SOC જુઓ",
+        "version": "સંસ્કરણ",
+        "socName": "SOC નામ",
+        "applicableIcs": "લાગુ IC",
+        "lastUpdated": "છેલ્લું અપડેટ",
+        "startDate": "પ્રારંભ તારીખ",
+        "endDate": "સમાપ્તિ તારીખ",
+        "duration": "અવધિ"
+      },
+      "searchFields": {
+        "allStatus": "બધી સ્થિતિ"
+      },
+      "details": {
+        "title": "SOC વિગતો",
+        "lastUpdatedOn": "SOC છેલ્લું અપડેટ તારીખ",
+        "startDate": "SOC પ્રારંભ તારીખ",
+        "endDate": "SOC સમાપ્તિ તારીખ",
+        "startDateView": "પ્રારંભ તારીખ",
+        "endDateView": "સમાપ્તિ તારીખ",
+        "lastUpdatedOnView": "છેલ્લું અપડેટ તારીખ"
+      },
+      "versionHistory": {
+        "title": "સંસ્કરણ ઇતિહાસ",
+        "active": "સક્રિય",
+        "openInNewTab": "નવા ટેબમાં ખોલો",
+        "openDocument": "દસ્તાવેજ ખોલો",
+        "viewInNewTab": "{{name}} નવા ટેબમાં જુઓ",
+        "openNamed": "{{name}} ખોલો",
+        "activeSoc": "{{name}} સક્રિય SOC",
+        "noDocument": "હજુ સુધી કોઈ SOC દસ્તાવેજ અપલોડ થયો નથી.",
+        "showFewer": "ઓછા સંસ્કરણ બતાવો",
+        "viewAll": "બધા સંસ્કરણ જુઓ"
+      },
+      "upload": {
+        "selectFile": "ફાઇલ પસંદ કરો",
+        "removeFile": "પસંદ કરેલી ફાઇલ દૂર કરો"
+      },
+      "applicableIc": {
+        "title": "લાગુ વીમા કંપનીઓ",
+        "selectInsurerSr": "વીમાદાતા કંપનીઓ પસંદ કરો",
+        "loadingInsurers": "વીમાદાતા કંપનીઓ લોડ થઈ રહી છે...",
+        "selectInsurers": "વીમાદાતા કંપનીઓ પસંદ કરો",
+        "noInsurersYet": "હજુ સુધી કોઈ વીમાદાતા કંપની ઉમેરાઈ નથી",
+        "addInsurers": "વીમાદાતા કંપનીઓ ઉમેરો",
+        "insurerName": "વીમાદાતા નામ",
+        "effectiveFrom": "પ્રભાવી તારીખથી",
+        "action": "ક્રિયા",
+        "removeInsurer": "{{name}} દૂર કરો",
+        "noIcInfo": "કોઈ IC માહિતી ઉપલબ્ધ નથી",
+        "oneIcSelected": "1 IC પસંદ",
+        "icsSelected": "{{count}} IC પસંદ",
+        "scopes": {
+          "selectIc": "IC પસંદ કરો",
+          "allIcs": "બધા IC",
+          "gipsa": "GIPSA",
+          "gic": "GIC",
+          "psu": "PSU"
+        }
+      },
+      "discount": {
+        "title": "ડિસ્કાઉન્ટ",
+        "standaloneHint": "આ પ્રદાતા માટે ડિસ્કાઉન્ટ નિયમ બનાવો.",
+        "viewHint": "આ SOC માટે ડિસ્કાઉન્ટ કોન્ફિગરેશન.",
+        "editHint": "આ SOC માટે ડિસ્કાઉન્ટ કોન્ફિગર કરો.",
+        "type": "ડિસ્કાઉન્ટ પ્રકાર",
+        "category": "ડિસ્કાઉન્ટ શ્રેણી",
+        "categoryMultiSelect": "ડિસ્કાઉન્ટ શ્રેણી (વ્યક્તિગત ડિસ્કાઉન્ટ – બહુ-પસંદ)",
+        "enterPercentHint": "દરેક પસંદ કરેલી શ્રેણી માટે ડિસ્કાઉન્ટ % દાખલ કરો",
+        "ppnDiscount": "PPN ડિસ્કાઉન્ટ",
+        "enterPpn": "PPN દાખલ કરો",
+        "tatForDiscount": "ડિસ્કાઉન્ટ માટે TAT",
+        "tatDaysPlaceholder": "દિવસ...",
+        "days": "દિવસ",
+        "applicableOn": "ડિસ્કાઉન્ટ લાગુ પર",
+        "inclusion": "સમાવેશ",
+        "searchInclusion": "સમાવેશ શોધો અને પસંદ કરો",
+        "exclusion": "બહિષ્કાર",
+        "searchExclusion": "બહિષ્કાર શોધો અને પસંદ કરો",
+        "ipd": "IPD",
+        "opd": "OPD",
+        "selected": "પસંદ કરેલ",
+        "serviceType": "સેવા પ્રકાર",
+        "serviceTypeRequired": "IPD અથવા OPD પસંદ કરો.",
+        "selectServiceTypeToChooseDiscounts": "ડિસ્કાઉન્ટ પ્રકાર પસંદ કરવા IPD અથવા OPD પસંદ કરો.",
+        "selectIpdDiscount": "IPD ડિસ્કાઉન્ટ પસંદ કરો",
+        "selectOpdDiscount": "OPD ડિસ્કાઉન્ટ પસંદ કરો",
+        "opdDiscountRequired": "OPD ડિસ્કાઉન્ટ પસંદ કરો અને % દાખલ કરો.",
+        "discountPercent": "ડિસ્કાઉન્ટ %",
+        "enterDiscountPercent": "% દાખલ કરો",
+        "additionalDiscount": "વધારાનું ડિસ્કાઉન્ટ",
+        "effectiveFrom": "પ્રભાવી તારીખથી",
+        "effectiveTo": "પ્રભાવી તારીખ સુધી",
+        "selectDate": "તારીખ પસંદ કરો",
+        "remarks": "ટિપ્પણીઓ",
+        "remarksPlaceholder": "ટિપ્પણીઓ ઉમેરો...",
+        "supportingDocument": "સહાયક દસ્તાવેજ",
+        "supportingDocumentHint": "PDF, DOC, અથવા DOCX (મહત્તમ 10MB)",
+        "done": "પૂર્ણ",
+        "searchSelect": "શોધો અને પસંદ કરો...",
+        "componentDiscounts": {
+          "title": "ઘટક ડિસ્કાઉન્ટ",
+          "add": "ઉમેરો",
+          "selectComponent": "ઘટક પસંદ કરો",
+          "emptyHint": "ઓછામાં ઓછું એક ઘટક પસંદ કરો અને % દાખલ કરો.",
+          "component": "ઘટક",
+          "discountPercent": "ડિસ્કાઉન્ટ %",
+          "applicableOn": "લાગુ પર",
+          "removeRow": "પંક્તિ દૂર કરો"
+        },
+        "sections": {
+          "agreement": "કરાર",
+          "scope": "કરાર અને વ્યાપ",
+          "insuranceCo": "વીમા કંપની",
+          "corporate": "કોર્પોરેટ",
+          "category": "શ્રેણી",
+          "discount": "ડિસ્કાઉન્ટ",
+          "inclExcl": "સમાવેશ / બહિષ્કાર",
+          "inclExclDetails": "સમાવેશ, બહિષ્કાર અને વિગતો",
+          "details": "વિગતો"
+        },
+        "search": {
+          "title": "ડિસ્કાઉન્ટ શોધ"
+        },
+        "empty": {
+          "notFound": "ડિસ્કાઉન્ટ મળ્યું નહીં",
+          "hint": "ડિસ્કાઉન્ટ નિયમ બનાવવા ડિસ્કાઉન્ટ ઉમેરો પર ક્લિક કરો, અથવા તમારી શોધ સમાયોજિત કરો."
+        },
+        "columns": {
+          "viewDiscount": "ડિસ્કાઉન્ટ જુઓ",
+          "version": "SOC સંસ્કરણ",
+          "agreementType": "કરાર પ્રકાર",
+          "insuranceCo": "વીમા કંપની",
+          "corporate": "કોર્પોરેટ",
+          "discountType": "ડિસ્કાઉન્ટ પ્રકાર",
+          "categories": "શ્રેણીઓ",
+          "ppnDiscount": "PPN ડિસ્કાઉન્ટ",
+          "applicableIcs": "લાગુ IC",
+          "effectiveFrom": "અસરકારક તારીખથી"
+        },
+        "types": {
+          "select": "પસંદ કરો",
+          "individual": "વ્યક્તિગત ડિસ્કાઉન્ટ",
+          "netBill": "નેટ બિલ ડિસ્કાઉન્ટ",
+          "approvedAmount": "મંજૂર રકમ ડિસ્કાઉન્ટ",
+          "package": "પેકેજ ડિસ્કાઉન્ટ"
+        },
+        "panelTitles": {
+          "individual": "વ્યક્તિગત",
+          "netBill": "નેટ બિલ",
+          "approvedAmountDiscount": "મંજૂર રકમ",
+          "package": "પેકેજ"
+        },
+        "applicableOnOptions": {
+          "select": "પસંદ કરો",
+          "ppnSoc": "PPN SOC",
+          "privateIcSoc": "Private IC SOC",
+          "nonPpnPackage": "Non PPN Package",
+          "noPackage": "No Package"
+        },
+        "fields": {
+          "agreementName": "કરાર નામ",
+          "agreementType": "કરાર પ્રકાર",
+          "soc": "SOC",
+          "selectSoc": "SOC પસંદ કરો",
+          "selectAgreementName": "કરાર નામ પસંદ કરો",
+          "allIc": "બધા IC",
+          "allPolicyholders": "બધા પોલિસીધારકો",
+          "insurers": "વીમા કંપનીઓ",
+          "corporate": "કોર્પોરેટ"
+        },
+        "validation": {
+          "completeRequiredFields": "સાચવતા પહેલા જરૂરી ડિસ્કાઉન્ટ ફીલ્ડ પૂર્ણ કરો."
+        }
+      }
+    },
+    "standaloneAgreement": {
+      "notFound": "કરાર મળ્યો નથી",
+      "validation": {
+        "pdfOnly": "માત્ર PDF ફાઇલો માન્ય છે.",
+        "supportingDocTypes": "માત્ર PDF, DOCX, PNG, JPG, JPEG, અને EML ફાઇલો માન્ય છે."
+      }
+    },
+    "excludedProvider": {
+      "bulkExclude": {
+        "label": "બલ્ક બહિષ્કૃત",
+        "search": {
+          "inwardTitle": "બલ્ક બહિષ્કૃત ઇનવર્ડ શોધ"
+        },
+        "loadingInwards": "બલ્ક બહિષ્કૃત ઇનવર્ડ લોડ થઈ રહ્યા છે…",
+        "loadingInward": "ઇનવર્ડ {{inwardNo}} લોડ થઈ રહ્યું છે…",
+        "errors": {
+          "inwardNotFound": "ઇનવર્ડ મળ્યો નહીં.",
+          "loadInwardFailed": "ઇનવર્ડ લોડ કરવામાં નિષ્ફળ."
+        }
+      },
+      "filterTitle": "બહિષ્કૃત હોસ્પિટલ ફિલ્ટર્સ",
+      "viewDetails": "બહિષ્કૃત હોસ્પિટલ વિગતો",
+      "uploadListTitle": "બહિષ્કૃત પ્રોવાઇડર સૂચી અપલોડ કરો",
+      "uploadSuccessful": "અપલોડ સફળ",
+      "requestFailed": "વિનંતી નિષ્ફળ",
+      "inwardValidated": "ઇનવર્ડ સફળતાપૂર્વક બનાવ્યો. પ્રોસેસ કરવા માટે ઇનવર્ડ ખોલો.",
+      "uploadOrValidationFailed": "અપલોડ અથવા માન્યતા નિષ્ફળ",
+      "inwardMissing": "ઇનવર્ડ નંબર ગેરહાજર છે. સૂચી અપલોડ કરતા પહેલા ઇનવર્ડ બનાવો.",
+      "selectBothDocuments": "દસ્તાવેજ અને સહાયક દસ્તાવેજ બંને પસંદ કરો.",
+      "validating": "માન્ય કરી રહ્યા છીએ…",
+      "preparingExport": "નિકાસ તૈયાર કરી રહ્યા છીએ…",
+      "exportHint": "વર્તમાન શોધ ફિલ્ટર્સ (ટેબલ જેટલો વ્યાપ) વડે નિકાસ.",
+      "pincodeNumbersOnly": "પિનકોડમાં ફક્ત નંબરો હોવા જોઈએ",
+      "search": {
+        "insurerName": "વીમાદાતાનું નામ",
+        "restrictedBy": "દ્વારા પ્રતિબંધિત"
+      },
+      "restrictedBy": {
+        "tpa": "TPA",
+        "insurer": "INSURER"
+      },
+      "table": {
+        "insurerCompanyName": "વીમા કંપનીનું નામ",
+        "effectiveFrom": "પ્રભાવી થી"
+      },
+      "view": {
+        "providerName": "પ્રોવાઇડર નામ",
+        "insurerCompanyName": "વીમા કંપનીનું નામ",
+        "providerCode": "પ્રોવાઇડર કોડ",
+        "rohiniCode": "રોહિણી કોડ",
+        "effectiveFrom": "પ્રભાવી થી",
+        "effectiveTo": "પ્રભાવી સુધી",
+        "remarkCategory": "ટિપ્પણી શ્રેણી",
+        "status": "સ્થિતિ",
+        "claimScope": "દાવાનો વ્યાપ",
+        "remarks": "ટિપ્પણીઓ",
+        "facilities": "સુવિધાઓ",
+        "excludedBy": "દ્વારા બહિષ્કૃત"
+      },
+      "uploadDialog": {
+        "selectBlacklistedBy": "બ્લેકલિસ્ટ કરનાર પસંદ કરો",
+        "selectRestrictionType": "પ્રતિબંધ પ્રકાર પસંદ કરો",
+        "selectInvestigationType": "તપાસ પ્રકાર પસંદ કરો",
+        "selectIc": "IC પસંદ કરો",
+        "selectRestrictionApplicableFor": "પ્રતિબંધ લાગુ પસંદ કરો",
+        "restrictionType": "પ્રતિબંધ પ્રકાર",
+        "restrictedBy": "દ્વારા પ્રતિબંધિત",
+        "effectiveFrom": "પ્રભાવી થી",
+        "insurerCompany": "વીમા કંપની",
+        "restrictionApplicableFor": "પ્રતિબંધ લાગુ",
+        "investigationType": "તપાસ પ્રકાર",
+        "document": "દસ્તાવેજ (Excel, CSV અથવા PDF)",
+        "supportingDocument": "સહાયક દસ્તાવેજ (PDF, DOCX, PNG, JPG, JPEG, EML)",
+        "remark": "ટિપ્પણી",
+        "remarkPlaceholder": "વૈકલ્પિક ટિપ્પણી...",
+        "excluded": "બહિષ્કૃત",
+        "watchlisted": "વૉચલિસ્ટ",
+        "fullInvestigation": "સંપૂર્ણ તપાસ",
+        "partialInvestigation": "આંશિક તપાસ",
+        "cashlessOnHold": "કેશલેસ હોલ્ડ પર",
+        "reimbursement": "પરતફેડ",
+        "submit": "સબમિટ",
+        "submitting": "સબમિટ થઈ રહ્યું છે…",
+        "inwardNoLabel": "ઇનવર્ડ નં.:"
+      },
+      "uploadResult": {
+        "exclude": "બહિષ્કૃત",
+        "newAdd": "નવું ઉમેર",
+        "total": "કુલ"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: master-service
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/enrolment}
+    driverClassName: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root}
+  flyway:
+    # All services share one database, so each keeps its own migration history table.
+    table: flyway_history_master
+    # Run V1+ even though the shared schema already has other services' tables.
+    baseline-on-migrate: true
+    baseline-version: 0
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      # Flyway owns the schema; Hibernate only checks that entities match it.
+      ddl-auto: validate
+    show-sql: false
+
+# Local login (used when the UI runs with VITE_ENABLE_KEYCLOAK=false).
+# Override AUTH_JWT_SECRET outside local development.
+auth:
+  jwt:
+    secret: ${AUTH_JWT_SECRET:local-dev-only-secret-change-me-0123456789}
+    ttl: ${AUTH_JWT_TTL:PT8H}

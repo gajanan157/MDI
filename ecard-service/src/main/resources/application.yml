@@ -1,0 +1,23 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: ecard-service
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/enrolment}
+    driverClassName: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root}
+  flyway:
+    # All services share one database, so each keeps its own migration history table.
+    table: flyway_history_ecard
+    # Run V1+ even though the shared schema already has other services' tables.
+    baseline-on-migrate: true
+    baseline-version: 0
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      # Flyway owns the schema; Hibernate only checks that entities match it.
+      ddl-auto: validate
+    show-sql: false

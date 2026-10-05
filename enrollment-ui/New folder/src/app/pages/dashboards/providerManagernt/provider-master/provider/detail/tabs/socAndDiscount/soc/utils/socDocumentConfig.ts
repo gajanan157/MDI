@@ -1,0 +1,7 @@
+export {
+  isSocDocumentPdf,
+  SOC_DOCUMENT_ACCEPT,
+  SOC_DOCUMENT_MAX_BYTES,
+  SOC_DOCUMENT_S3_BUCKET,
+  SOC_DOCUMENT_S3_SUB_BUCKET,
+} from "./socConfig";

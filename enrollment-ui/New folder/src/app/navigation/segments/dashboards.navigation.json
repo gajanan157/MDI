@@ -1,0 +1,361 @@
+[
+    {
+        "id": "dashboards.tpamanagement",
+        "path": "/tpa-management",
+        "type": "collapse",
+        "title": "Branch Module",
+        "transKey": "nav.dashboards.tpamanagement",
+        "icon": "dashboards.insurermanagement",
+        "permission": "",
+        "childs": [
+            {
+                "id": "dashboards.tpamanagement-tpa",
+                "type": "item",
+                "path": "/tpa-management/tpa",
+                "title": "TPA",
+                "transKey": "nav.dashboards.tpa",
+                "permission": "tpa,super.admin"
+            },
+            {
+                "id": "dashboards.tpamanagement-branches",
+                "type": "item",
+                "path": "/tpa-management/branches",
+                "title": "Branches",
+                "transKey": "nav.dashboards.branches",
+                "permission": "branch,super.admin"
+            }
+        ]
+    },
+    {
+        "id": "dashboards.insurermanagement",
+        "path": "/insurer-management",
+        "type": "collapse",
+        "title": "Insurer Office Module",
+        "transKey": "nav.dashboards.insurermanagement",
+        "icon": "dashboards.tpamanagement",
+        "permission": "",
+        "childs": [
+            {
+                "id": "dashboards.insurermanagement-insurer",
+                "type": "item",
+                "path": "/insurer-management/insurer",
+                "title": "Insurer",
+                "transKey": "nav.dashboards.insurer",
+                "permission": "insurer,super.admin"
+            },
+            {
+                "id": "dashboards.insurermanagement-office",
+                "type": "item",
+                "path": "/insurer-management/office",
+                "title": "Office",
+                "transKey": "nav.dashboards.office",
+                "permission": "insurer-office,super.admin"
+            },
+            {
+                "id": "dashboards.insurermanagement-office-hierarchy",
+                "type": "item",
+                "path": "/insurer-management/office-hierarchy",
+                "title": "Office Hierarchy",
+                "transKey": "nav.dashboards.officeHierarchy",
+                "permission": "insurer-office-hierarchy,super.admin"
+            }
+        ]
+    },
+    {
+        "id": "dashboards.enrollmentsystem",
+        "path": "/enrolment-system",
+        "type": "collapse",
+        "title": "Enrolment System",
+        "transKey": "nav.dashboards.enrollmentsystem",
+        "icon": "dashboards.enrollmentsystem",
+        "permission": "super.admin,corporate_enrolment_admin,enrolment_super_admin,corporate_enrolment_processor,corporate_enrolment_qc,corporate_endorsement_processor,corporate_endorsement_qc,inward_team,enrolment_e_card_admin,enrolment_e_card_processor",     
+        "childs": [
+            {
+                "id": "dashboards.enrollmentsystem-adminDashboard",
+                "type": "item",
+                "path": "/enrolment-system/admin-dashboard",
+                "title": "Admin Dashboard",
+                "transKey": "nav.dashboards.adminDashboard",
+                "permission": "super.admin,corporate_enrolment_admin,enrolment_super_admin,super.admin"
+            },
+            {
+                "id": "dashboards.enrollmentsystem-dashboard",
+                "type": "item",
+                "path": "/enrolment-system/dashboard",
+                "title": "Dashboard",
+                "transKey": "nav.dashboards.dashboard",
+                "permission": "super.admin,inward_team,corporate_enrolment_admin,enrolment_super_admin,corporate_enrolment_processor,corporate_enrolment_qc,corporate_endorsement_processor,corporate_endorsement_qc"
+            },
+            {
+                "id": "dashboards.enrollmentsystem-policy-searcch",
+                "type": "item",
+                "path": "/enrolment-system/policy-search",
+                "title": "Policy Search",
+                "transKey": "nav.dashboards.policy-searcch",
+                "permission": "super.admin,corporate_enrolment_admin,enrolment_super_admin,corporate_enrolment_processor,corporate_enrolment_qc,corporate_endorsement_processor,corporate_endorsement_qc"
+            },
+            {
+                "id": "dashboards.enrollmentsystem",
+                "path": "/enrolment-system",
+                "type": "collapse",
+                "title": "",
+                "transKey": "nav.dashboards.inward",
+                "icon": "dashboards.inward-management",
+                "permission": "",
+                "childs": [
+                    {
+                        "id": "dashboards.inward-management-tpa",
+                        "type": "item",
+                        "path": "/inward-management/psu-inward",
+                        "title": "",
+                        "transKey": "nav.dashboards.psu-inward",
+                        "permission": "super.admin,corporate_enrolment_admin,enrolment_super_admin,inward_team"
+                    }
+                ]
+            },
+            {
+                "id": "dashboards.enrollmentsystem2323",
+                "path": "/enrolment-system",
+                "type": "collapse",
+                "title": "",
+                "transKey": "nav.dashboards.ecardmanagement",
+                "icon": "dashboards.enrollmentsystem",
+                "permission": "",
+                "childs": [
+                    {
+                        "id": "dashboards.enrollmentsystem-ecard",
+                        "type": "item",
+                        "path": "/enrolment-system/e-cards",
+                        "title": "E-Card Configuration",
+                        "transKey": "nav.dashboards.ecard",
+                        "permission": "super.admin,corporate_enrolment_admin,enrolment_super_admin,enrolment_e_card_admin,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor"
+                    },
+                    {
+                        "id": "dashboards.enrollmentsystem-e-card",
+                        "type": "item",
+                        "path": "/enrolment-system/e-card-configuration",
+                        "title": "E-Card Configuration",
+                        "transKey": "nav.dashboards.e-card",
+                        "permission": "super.admin,corporate_enrolment_admin,enrolment_super_admin,enrolment_e_card_admin,enrolment_e_card_processor,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dashboards.masterManagement",
+        "path": "/master-management",
+        "type": "collapse",
+        "title": "Master Management",
+        "transKey": "nav.dashboards.masterManagement",
+        "icon": "dashboards.masterManagement",
+        "permission": "",
+        "childs": [
+            {
+                "id": "dashboards.masterManagement-corporate-group",
+                "type": "item",
+                "path": "/master-management/corporate-group",
+                "title": "Corporate",
+                "transKey": "nav.dashboards.corporate",
+                "permission": "super.admin,corporate-group,corporate_enrolment_admin,enrolment_super_admin,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor,corporate_enrolment_admin"
+            },
+            {
+                "id": "dashboards.masterManagement-corporate",
+                "type": "item",
+                "path": "/master-management/corporate",
+                "title": "Corporate",
+                "transKey": "nav.dashboards.corporate1",
+                "permission": "super.admin,corporate,corporate_enrolment_admin,enrolment_super_admin,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor,corporate_enrolment_admin"
+            },
+            {
+                "id": "dashboards.masterManagement-broker",
+                "type": "item",
+                "path": "/master-management/broker",
+                "title": "Broker",
+                "transKey": "nav.dashboards.broker",
+                "permission": "super.admin,broker,corporate_enrolment_admin,enrolment_super_admin,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor,corporate_enrolment_admin"
+            },
+            {
+                "id": "dashboards.masterManagement-agent",
+                "type": "item",
+                "path": "/master-management/agent",
+                "title": "Agent",
+                "transKey": "nav.dashboards.agent",
+                "permission": "super.admin,agent,corporate_enrolment_admin,enrolment_super_admin,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor,corporate_enrolment_admin"
+            },
+            {
+                "id": "dashboards.dashboards.masterManagement-master-product",
+                "type": "item",
+                "path": "/master-management/master-product",
+                "title": "Master Product",
+                "transKey": "nav.dashboards.master-product",
+                "permission": "super.admin,master-product,corporate_enrolment_admin,enrolment_super_admin,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor,corporate_enrolment_admin"
+            }
+        ]
+    },
+    {
+        "id": "dashboards.inward-management",
+        "path": "/inward-management",
+        "type": "collapse",
+        "title": "Inward Management",
+        "transKey": "nav.dashboards.inward-management",
+        "icon": "dashboards.inward-management",
+        "permission": "",
+        "childs": [
+            {
+                "id": "dashboards.inward-management-tpa",
+                "type": "item",
+                "path": "/inward-management/inward",
+                "title": "Inward Management",
+                "transKey": "nav.dashboards.inward",
+                "permission": "super.admin,inward"
+            }
+        ]
+    },
+    {
+        "id": "dashboards.provider-masters",
+        "path": "/provider-masters",
+        "type": "collapse",
+        "title": "Providers Management",
+        "transKey": "nav.dashboards.provider-masters",
+        "icon": "dashboards.provider-masters",
+        "permission": "",
+        "childs": [
+            {
+                "id": "dashboards.provider-masters-dashboard",
+                "type": "item",
+                "path": "/provider-masters/dashboard",
+                "title": "Dashboard",
+                "transKey": "nav.dashboards.provider-masters-dashboard",
+                "permission": "super.admin,provider-dashboard,provider.admin"
+            },
+            {
+                "id": "dashboards.provider-masters-empanel",
+                "type": "item",
+                "path": "/provider-masters/empanel",
+                "title": "Hospital Empanelment",
+                "transKey": "nav.dashboards.provider-masters-empanel",
+                "permission": "super.admin,provider-list,provider.admin"
+            },
+            {
+                "id": "dashboards.provider-masters-provider-master",
+                "path": "/provider-masters/master",
+                "type": "collapse",
+                "title": "Provider Master",
+                "transKey": "nav.dashboards.provider-masters-provider-master",
+                "icon": "dashboards.provider-masters",
+                "permission": "",
+                "childs": [
+                    {
+                        "id": "dashboards.provider-masters-providers",
+                        "type": "item",
+                        "path": "/provider-masters/providers",
+                        "title": "Providers",
+                        "transKey": "nav.dashboards.provider-masters-providers",
+                        "permission": "super.admin,provider-list,provider.admin,bank-details.processor,bank-details.qc,discount.processor, discount.qc"
+                    },
+                    {
+                        "id": "dashboards.provider-masters-masters",
+                        "type": "item",
+                        "path": "/provider-masters/masters",
+                        "title": "Masters",
+                        "transKey": "nav.dashboards.provider-masters-masters",
+                        "permission": "super.admin,provider-list,provider.admin,bank-details.processor,bank-details.qc",
+                        "hidden": true
+                    },
+                    {
+                        "id": "dashboards.provider-masters-bulk-operations",
+                        "path": "/provider-masters/bulk-operations",
+                        "type": "collapse",
+                        "title": "Bulk Operations",
+                        "transKey": "nav.dashboards.provider-masters-bulk-operations",
+                        "icon": "dashboards.provider-masters-bulk-operations",
+                        "permission": "",
+                        "childs": [
+                            {
+                                "id": "dashboards.provider-masters-ic-provisioning",
+                                "type": "item",
+                                "path": "/provider-masters/ic-provisioning",
+                                "title": "IC Provisioning",
+                                "transKey": "nav.dashboards.provider-masters-ic-provisioning",
+                                "permission": "super.admin,provider-ic-provisioning,provider.admin,bank-details.processor,bank-details.qc,discount.processor, discount.qc",
+                                "hidden": true
+                            },
+                            {
+                                "id": "dashboards.provider-masters-excluded-hospitals",
+                                "type": "item",
+                                "path": "/provider-masters/excluded-hospitals",
+                                "title": "Excluded Providers",
+                                "transKey": "nav.dashboards.provider-masters-excluded-hospitals",
+                                "permission": "super.admin,provider-excluded,provider.admin,bank-details.processor,bank-details.qc,discount.processor, discount.qc"
+                            },
+                            {
+                                "id": "dashboards.provider-masters-rohini-master",
+                                "type": "item",
+                                "path": "/provider-masters/rohini-master",
+                                "title": "Rohini Master",
+                                "transKey": "nav.dashboards.provider-masters-rohini-master",
+                                "permission": "super.admin,provider-rohini-master,provider.admin,bank-details.processor,bank-details.qc,discount.processor, discount.qc"
+                            },
+                            {
+                                "id": "dashboards.provider-masters-ic-corporate-mapping",
+                                "type": "item",
+                                "path": "/provider-masters/ic-corporate-mapping",
+                                "title": "IC - Provider Bulk Mapping",
+                                "transKey": "nav.dashboards.provider-masters-ic-provider-bulk-mapping",
+                                "permission": "super.admin,provider-ic-corporate-mapping,provider.admin,bank-details.processor,bank-details.qc,discount.processor, discount.qc"
+                            },
+                            {
+                                "id": "dashboards.provider-masters-bank-verification",
+                                "type": "item",
+                                "path": "/provider-masters/bank-verification",
+                                "title": "IC-Provider Bank Details",
+                                "transKey": "nav.dashboards.provider-masters-bank-verification",
+                                "permission": "super.admin,provider-bank-verification,provider.admin,bank-details.processor,bank-details.qc,discount.processor, discount.qc",
+                                "hidden": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dashboards.user-management",
+        "path": "/user-management",
+        "type": "collapse",
+        "title": "Inward Management",
+        "transKey": "nav.dashboards.user-management",
+        "icon": "dashboards.user-management",
+        "permission": "",
+        "childs": [
+            {
+                "id": "dashboards.user-management-tpa",
+                "type": "item",
+                "path": "/user-management/users",
+                "title": "User Management",
+                "transKey": "nav.dashboards.user",
+                "permission": "super.admin,manager_administration,enrolment_super_admin,corporate_enrolment_admin"
+            }
+        ]
+    },
+    {
+        "id": "benefits.configuration",
+        "path": "/benefits-configuration",
+        "type": "collapse",
+        "title": "Benefits Configuration",
+        "transKey": "",
+        "icon": "dashboards.tpamanagement",
+        "permission": "",
+        "childs": [
+            {
+                "id": "benefits.configuration.master",
+                "type": "item",
+                "path": "/benefits-configuration/benefits-master",
+                "title": "Masters",
+                "transKey": "",
+                "permission": "super.admin,policy-benefit,corporate_enrolment_admin,enrolment_super_admin,corporate_endorsement_qc,corporate_endorsement_processor,corporate_enrolment_qc,corporate_enrolment_processor,corporate_enrolment_admin"
+            }
+        ]
+    }
+]

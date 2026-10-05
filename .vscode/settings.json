@@ -1,0 +1,13 @@
+{
+  // The Java language server ran out of memory and never finished importing the Maven modules.
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m",
+  // Keep the web app, build output and logs out of the Java import.
+  "java.import.exclusions": [
+    "**/node_modules/**",
+    "**/enrollment-ui/**",
+    "**/target/**",
+    "**/logs/**",
+    "**/dist/**"
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

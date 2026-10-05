@@ -1,0 +1,20 @@
+/** Field keys for `GET /v1/provider/network-mapping`. */
+export const GLOBAL_NETWORK_MAPPING_KEYS = {
+  providerNetworkMappingId: "providerNetworkMappingId",
+  providerId: "providerId",
+  insurerId: "insurerId",
+  insurerName: "insurerName",
+  insurerCode: "insurerCode",
+  providerName: "providerName",
+  providerCode: "providerCode",
+  rohiniRegistryCode: "rohiniRegistryCode",
+  insurerProviderCode: "insurerProviderCode",
+  providerMappingCategory: "providerMappingCategory",
+  category: "category",
+  providerStatus: "providerStatus",
+  rowType: "rowType",
+  providerNetworkSource: "providerNetworkSource",
+  providerNetworkIsActive: "providerNetworkIsActive",
+  providerNetworkMode: "providerNetworkMode",
+  providerBankMatchWithIC: "providerBankMatchWithIC",
+} as const;

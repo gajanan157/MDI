@@ -1,0 +1,10 @@
+com\mdindia\enrollment\tpa\TpaServiceApplication.class
+com\mdindia\enrollment\tpa\dto\TpaMapper.class
+com\mdindia\enrollment\tpa\entity\TpaEntity.class
+com\mdindia\enrollment\tpa\entity\Address.class
+com\mdindia\enrollment\tpa\repository\TpaRepository.class
+com\mdindia\enrollment\tpa\repository\TpaBranchRepository.class
+com\mdindia\enrollment\tpa\controller\EscalationMatrixController.class
+com\mdindia\enrollment\tpa\controller\TpaController.class
+com\mdindia\enrollment\tpa\entity\TpaBranchEntity.class
+com\mdindia\enrollment\tpa\controller\TpaBranchController.class

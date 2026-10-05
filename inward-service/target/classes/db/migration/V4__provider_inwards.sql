@@ -1,0 +1,18 @@
+-- Provider Management inwards: who created and who is working on an inward, what it contains, and who sent it.
+ALTER TABLE public.inwards
+    ADD COLUMN IF NOT EXISTS created_by character varying(255),
+    ADD COLUMN IF NOT EXISTS assigned_to character varying(255),
+    ADD COLUMN IF NOT EXISTS document_type character varying(255),
+    ADD COLUMN IF NOT EXISTS source_entity_name character varying(255);
+
+-- Sample provider inwards. department_id points at the "Provider Network" department in tpa-service.
+INSERT INTO public.inwards (inward_no, created_at, department_id, entity_id, entity_type, inward_priority, inward_received_channel,
+                            inward_received_tpa_branch_id, inward_source_reference_no, s3bucket_name, s3sub_bucket_name, status,
+                            category, sub_category, app_name, corporate_name, insurer_name, created_by, assigned_to, document_type, source_entity_name) VALUES
+ ('INW-PRV-0001', now() - interval '2 hours',  'dep-provider-network', 'INS-001', 'INSURER', 'HIGH',   'EMAIL',  'br-0006', 'REF-NIA-7781', 'provider-network', 'IC_PROVIDER_MAPPING', 'PROCESSOR_PENDING', 'PROVIDER_MANAGEMENT', 'NETWORK', 'PROVIDER_PORTAL', NULL, 'The New India Assurance Co. Ltd.', 'ram.chaughule', NULL,            'IC_PROVIDER_MAPPING', 'The New India Assurance Co. Ltd.'),
+ ('INW-PRV-0002', now() - interval '5 hours',  'dep-provider-network', 'INS-005', 'INSURER', 'MEDIUM', 'PORTAL', 'br-0006', 'REF-HDFC-310',  'provider-network', 'PROVIDER_BLACKLIST',  'QC_PENDING',        'PROVIDER_MANAGEMENT', 'NETWORK', 'PROVIDER_PORTAL', NULL, 'HDFC ERGO General Insurance Co. Ltd.', 'akshay.more', 'kiran.patel',  'PROVIDER_EXCLUSION_RECORDS', 'HDFC ERGO General Insurance Co. Ltd.'),
+ ('INW-PRV-0003', now() - interval '1 day',    'dep-provider-network', 'INS-002', 'INSURER', 'MEDIUM', 'EMAIL',  'br-0006', 'REF-UII-552',   'provider-network', 'IC_PROVIDER_MAPPING', 'COMPLETED',         'PROVIDER_MANAGEMENT', 'NETWORK', 'PROVIDER_PORTAL', NULL, 'United India Insurance Co. Ltd.', 'ram.chaughule', 'akshay.more', 'IC_PROVIDER_MAPPING', 'United India Insurance Co. Ltd.'),
+ ('INW-PRV-0004', now() - interval '2 days',   'dep-provider-network', 'INS-006', 'INSURER', 'LOW',    'POST',   'br-0006', 'REF-ICICI-91',  'provider-network', 'PROVIDER_ROHINI',     'REJECTED_INWARD',   'PROVIDER_MANAGEMENT', 'NETWORK', 'PROVIDER_PORTAL', NULL, 'ICICI Lombard General Insurance Co. Ltd.', 'akshay.more', 'kiran.patel', 'ROHINI_MASTER', 'ICICI Lombard General Insurance Co. Ltd.'),
+ ('INW-PRV-0005', now() - interval '3 days',  'dep-provider-network', 'INS-003', 'INSURER', 'HIGH',   'EMAIL',  'br-0006', 'REF-NIC-204',   'provider-network', 'PROVIDER_BLACKLIST',  'PROCESSOR_PENDING', 'PROVIDER_MANAGEMENT', 'NETWORK', 'PROVIDER_PORTAL', NULL, 'National Insurance Co. Ltd.', 'kiran.patel', 'akshay.more', 'PROVIDER_WATCHLIST_RECORDS', 'National Insurance Co. Ltd.'),
+ ('INW-PRV-0006', now() - interval '4 days',  'dep-provider-network', 'INS-004', 'INSURER', 'MEDIUM', 'PORTAL', 'br-0006', 'REF-OIC-118',   'provider-network', 'IC_PROVIDER_MAPPING', 'QC_PENDING',        'PROVIDER_MANAGEMENT', 'NETWORK', 'PROVIDER_PORTAL', NULL, 'Oriental Insurance Co. Ltd.', 'ram.chaughule', 'kiran.patel', 'IC_PROVIDER_MAPPING', 'Oriental Insurance Co. Ltd.'),
+ ('INW-PRV-0007', now() - interval '6 days',  'dep-provider-network', 'INS-001', 'INSURER', 'LOW',    'EMAIL',  'br-0006', 'REF-NIA-7702',  'provider-network', 'PROVIDER_ROHINI',     'COMPLETED',         'PROVIDER_MANAGEMENT', 'NETWORK', 'PROVIDER_PORTAL', NULL, 'The New India Assurance Co. Ltd.', 'kiran.patel', 'ram.chaughule', 'ROHINI_MASTER', 'The New India Assurance Co. Ltd.');

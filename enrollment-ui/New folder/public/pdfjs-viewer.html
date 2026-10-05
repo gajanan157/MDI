@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PDF.js Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #525252;
+    }
+    #viewerContainer {
+      position: absolute;
+      inset: 0;
+      overflow: auto;
+    }
+    .page {
+      margin: 10px auto;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div id="viewerContainer"></div>
+
+  <script type="module">
+    import * as pdfjsLib from "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs";
+    import {
+      PDFViewer,
+      EventBus,
+      PDFLinkService,
+      PDFRenderingQueue,
+    } from "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf_viewer.min.mjs";
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs";
+
+    const params = new URLSearchParams(window.location.search);
+    let pdfUrl = params.get("file");
+
+    if (!pdfUrl) {
+      document.body.innerHTML =
+        "<div style='color:white;padding:20px'>No PDF specified</div>";
+      throw new Error("No PDF URL");
+    }
+
+    pdfUrl = decodeURIComponent(pdfUrl);
+
+    const initialPage =
+      Number(new URLSearchParams(location.hash.replace("#", "")).get("page")) ||
+      1;
+
+    const container = document.getElementById("viewerContainer");
+
+    const eventBus = new EventBus();
+    const linkService = new PDFLinkService({ eventBus });
+    const renderingQueue = new PDFRenderingQueue();
+
+    const viewer = new PDFViewer({
+      container,
+      eventBus,
+      linkService,
+      renderingQueue,
+    });
+
+    linkService.setViewer(viewer);
+
+    const loadingTask = pdfjsLib.getDocument(pdfUrl);
+
+    loadingTask.promise.then((pdf) => {
+      viewer.setDocument(pdf);
+      linkService.setDocument(pdf);
+      viewer.currentPageNumber = initialPage;
+
+      // 🔑 EXPOSE API FOR REACT
+      window.PDFViewerApplication = {
+        pdfViewer: viewer,
+        pdfDocument: pdf,
+        eventBus,
+        initialized: true,
+
+        get page() {
+          return viewer.currentPageNumber;
+        },
+        set page(val) {
+          viewer.currentPageNumber = val;
+        },
+
+        get pagesCount() {
+          return pdf.numPages;
+        },
+      };
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+/* Main Layout Styles */
+[data-layout="main-layout"] {
+  @apply [--main-panel-width:4.5rem] [--margin-x:1rem] [--prime-panel-min-width:64px] [--prime-panel-width:230px] md:[--margin-x:1.5rem] lg:[--main-panel-width:5rem] lg:[--prime-panel-width:240px] xl:[--margin-x:2rem];
+}
+
+[data-layout="main-layout"] #root {
+  @apply flex h-full min-h-[var(--app-vh)] flex-1 flex-col;
+}
+
+[data-layout="main-layout"].is-sidebar-open {
+  @apply xl:[--margin-x:1.5rem];
+}
+
+[data-layout="main-layout"] main.main-content,
+[data-layout="main-layout"] .app-header {
+  @apply md:ltr:ml-(--main-panel-width) md:rtl:mr-(--main-panel-width);
+}
+
+[data-layout="main-layout"].is-sidebar-open main.main-content,
+[data-layout="main-layout"].is-sidebar-open .app-header {
+  @apply xl:ltr:ml-[calc(var(--main-panel-width)+var(--prime-panel-width))] xl:rtl:mr-[calc(var(--main-panel-width)+var(--prime-panel-width))];
+}
+
+[data-layout="main-layout"] .prime-panel {
+  @apply invisible fixed top-0 z-30 h-full w-[calc(var(--main-panel-width)+var(--prime-panel-width))] -translate-x-full transform-gpu transition-[transform,translate,visibility] delay-150 duration-[.25s] ease-in md:delay-[unset] ltr:left-0 rtl:right-0 rtl:translate-x-full;
+}
+
+[data-layout="main-layout"].is-sidebar-open .prime-panel {
+  @apply visible translate-x-0 ease-out;
+}
+
+[data-layout="main-layout"] .main-panel {
+  @apply invisible fixed top-0 z-40 h-full w-(--main-panel-width) shrink-0 -translate-x-full transform-gpu transition-[transform,visibility] duration-200 ease-in md:visible md:z-60 md:translate-x-0 ltr:left-0 rtl:right-0 rtl:translate-x-full md:rtl:translate-x-0;
+}
+
+[data-layout="main-layout"].is-sidebar-open .main-panel {
+  @apply visible translate-x-0;
+}
+
+/* Sideblock */
+[data-layout="sideblock"] {
+  @apply [--margin-x:1rem] [--sidebar-panel-width:17.5rem] 2xl:[--margin-x:3rem];
+}
+
+@media (min-width: 921px) {
+  [data-layout="sideblock"] {
+    @apply [--margin-x:1.5rem];
+  }
+}
+
+[data-layout="sideblock"] #root {
+  /* Flex column so the Root shell fills the viewport (PWA + browser) */
+  @apply flex h-full min-h-[var(--app-vh)] flex-1 flex-col;
+}
+
+/* Main content fills viewport; when sidebar is open, inset with padding (no margin+width overflow) */
+[data-layout="sideblock"] main.main-content {
+  @apply box-border w-full max-w-full min-w-0 overflow-x-hidden ltr:ml-0 ltr:pl-0 rtl:mr-0 rtl:pr-0;
+}
+
+[data-layout="sideblock"] {
+  @apply [--sidebar-collapsed-width:4rem];
+}
+
+/* Align with fixed Header: mobile ~3.25rem (py-2 + h-8), sm+ min-h-10 = 2.5rem */
+[data-layout="sideblock"] .sidebar-panel {
+  @apply invisible fixed z-30 w-(--sidebar-panel-width) -translate-x-full transform-gpu transition-[transform,visibility,width] duration-[.25s] ease-in ltr:left-0 rtl:right-0 rtl:translate-x-full;
+  top: max(3.25rem, calc(env(safe-area-inset-top, 0px) + 2.75rem));
+  height: calc(100vh - max(3.25rem, calc(env(safe-area-inset-top, 0px) + 2.75rem)));
+}
+
+@media (min-width: 640px) {
+  [data-layout="sideblock"] .sidebar-panel {
+    top: max(2.5rem, env(safe-area-inset-top, 0px));
+    height: calc(100vh - max(2.5rem, env(safe-area-inset-top, 0px)));
+  }
+}
+
+@supports (height: 100dvh) {
+  [data-layout="sideblock"] .sidebar-panel {
+    height: calc(100dvh - max(3.25rem, calc(env(safe-area-inset-top, 0px) + 2.75rem)));
+  }
+
+  @media (min-width: 640px) {
+    [data-layout="sideblock"] .sidebar-panel {
+      height: calc(100dvh - max(2.5rem, env(safe-area-inset-top, 0px)));
+    }
+  }
+}
+
+/* Show sidebar only when opened - applies to all screen sizes */
+[data-layout="sideblock"].is-sidebar-open .sidebar-panel {
+  @apply visible translate-x-0 ease-out;
+}
+
+/* Create provider fixed bar: when sidebar is open, move bar right so Individual/Group buttons stay visible */
+[data-layout="sideblock"].is-sidebar-open .create-form-fixed-bar {
+  left: var(--sidebar-panel-width) !important;
+  transition: left 0.25s ease-in-out;
+}
+[dir="rtl"] [data-layout="sideblock"].is-sidebar-open .create-form-fixed-bar {
+  left: auto !important;
+  right: var(--sidebar-panel-width) !important;
+  transition: right 0.25s ease-in-out;
+}
+
+/* On screens > 920px, when sidebar is open, pad content so it sits beside the panel */
+@media (min-width: 921px) {
+  [data-layout="sideblock"].is-sidebar-open main.main-content {
+    @apply ltr:pl-(--sidebar-panel-width) rtl:pr-(--sidebar-panel-width);
+  }
+}
+
+
+/* App shell around AgGridSuperWrapper: one clean frame; inner root border is redundant and can clip at the bottom */
+.ag-grid-shell .ag-root-wrapper {
+  border: none !important;
+}
+.ag-row-pointer-on-click .ag-row {
+  cursor: pointer;
+}
+
+.ag-header-cell-text{font-size: 11px !important;}
+.ag-cell-value{font-size: 11px !important}
+
+/* Bulk IC Mapping grids ù keep headers, cells, and custom renderers on 11px */
+.bulk-ic-mapping-grid .ag-cell,
+.bulk-ic-mapping-grid .ag-cell-value,
+.bulk-ic-mapping-grid .ag-header-cell-text {
+  font-size: 11px !important;
+  line-height: 1.25rem !important;
+}
+.input-label{font-size: 11px !important;color: black!important;}
+.sub_section_title{font-size: 15px !important;}
+.select-form__value-container .css-hlgwow{font-size: 11px !important}
+.css-19bb58m{font-size: 11px !important;color: #000!important;}
+.css-1jqq78o-placeholder{color: #000!important;font-size: 11px !important;}
+.css-b62m3t-container{height: 34px!important;}
+
+/* Documents tab ù version detail rows inside ag-grid full-width cells */
+.documents-master-grid .ag-full-width-row {
+  background: #f8fafc !important;
+  border-bottom: 1px solid #e5e7eb !important;
+}
+.documents-master-grid .ag-full-width-row .ag-full-width-container,
+.documents-master-grid .ag-full-width-row .ag-full-width-cell {
+  width: 100% !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  line-height: normal !important;
+  border: none !important;
+}
+.documents-master-grid .ag-row.ag-full-width-row .ag-cell:not(.ag-full-width-cell) {
+  display: none !important;
+}
+.documents-master-grid .ag-full-width-row .ag-cell-wrapper,
+.documents-master-grid .ag-full-width-row .ag-cell-value {
+  padding: 0 !important;
+  height: 100%;
+  overflow: hidden;
+}
+.documents-master-grid .document-version-detail {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.infrastructure-master-grid .ag-theme-alpine {
+  --ag-row-height: 26px;
+  --ag-header-height: 30px;
+  --ag-cell-horizontal-padding: 8px;
+  --ag-border-color: rgb(226 232 240 / 0.9);
+  --ag-header-background-color: rgb(248 250 252);
+  --ag-odd-row-background-color: rgb(255 255 255);
+  --ag-row-hover-color: rgb(238 242 255 / 0.65);
+  --ag-selected-row-background-color: rgb(224 231 255 / 0.55);
+  --ag-font-size: 11px;
+}
+.infrastructure-master-grid .ag-header {
+  border-bottom: 1px solid rgb(199 210 254 / 0.45);
+  background: linear-gradient(180deg, rgb(248 250 252) 0%, rgb(241 245 249) 100%);
+}
+.infrastructure-master-grid .ag-header-cell,
+.infrastructure-master-grid .ag-cell {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.infrastructure-master-grid .ag-row.infra-grid-category-row {
+  background: rgb(255 255 255) !important;
+  border-top: 1px solid rgb(226 232 240 / 0.9);
+  border-bottom: 1px solid rgb(241 245 249);
+}
+.infrastructure-master-grid .ag-row.infra-grid-category-row .ag-cell {
+  font-weight: 600;
+}
+.infrastructure-master-grid .ag-row.infra-grid-child-row:nth-child(even) {
+  background-color: rgb(248 250 252 / 0.55);
+}
+.infrastructure-master-grid .ag-row.infra-grid-child-row:hover {
+  background-color: rgb(239 246 255 / 0.85) !important;
+}
+.infrastructure-master-grid .ag-row.ag-row-selected.infra-grid-child-row {
+  background-color: rgb(224 231 255 / 0.7) !important;
+}
+.infrastructure-master-grid .ag-cell-inline-editing input,
+.infrastructure-master-grid .ag-cell-inline-editing select,
+.infrastructure-master-grid .ag-text-field-input {
+  border-radius: 0.375rem !important;
+  border: 1px solid rgb(199 210 254) !important;
+  font-size: 11px !important;
+  padding: 2px 6px !important;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 0.05);
+}
+.infrastructure-master-grid .ag-cell-wrapper,
+.infrastructure-master-grid .ag-cell-value {
+  line-height: 1.25;
+  width: 100%;
+  height: 100%;
+}
+.infrastructure-master-grid .ag-cell.infra-grid-cell-left {
+  text-align: left;
+}
+.infrastructure-master-grid .ag-cell.infra-grid-cell-center {
+  text-align: center;
+}
+.infrastructure-master-grid .ag-cell.infra-grid-cell-left .ag-cell-wrapper,
+.infrastructure-master-grid .ag-cell.infra-grid-cell-left .ag-cell-value {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.infrastructure-master-grid .ag-cell.infra-grid-cell-center .ag-cell-wrapper,
+.infrastructure-master-grid .ag-cell.infra-grid-cell-center .ag-cell-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infrastructure-master-grid .ag-header-cell.infra-grid-cell-left .ag-header-cell-comp-wrapper,
+.infrastructure-master-grid .ag-header-cell.infra-grid-cell-left .ag-header-cell-label {
+  justify-content: flex-start;
+}
+.infrastructure-master-grid .ag-header-cell.infra-grid-cell-center .ag-header-cell-comp-wrapper,
+.infrastructure-master-grid .ag-header-cell.infra-grid-cell-center .ag-header-cell-label {
+  justify-content: center;
+}
+.infrastructure-master-grid .infra-grid-cell-center .ag-header-cell-label,
+.infrastructure-master-grid .infra-grid-cell-left .ag-header-cell-label {
+  width: 100%;
+}
+.infrastructure-master-grid .ag-header-cell-text {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: rgb(51 65 85);
+}
+.infrastructure-master-grid .flatpickr-calendar {
+  box-shadow: 0 10px 25px rgb(15 23 42 / 0.12);
+  border: 1px solid rgb(199 210 254 / 0.6);
+  border-radius: 0.75rem;
+}

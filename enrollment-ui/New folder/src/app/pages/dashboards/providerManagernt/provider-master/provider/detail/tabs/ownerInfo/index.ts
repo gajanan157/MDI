@@ -1,0 +1,1 @@
+export { OwnerInfoTab } from "./OwnerInfoTab";

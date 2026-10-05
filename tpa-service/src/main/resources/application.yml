@@ -1,0 +1,20 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: tpa-service
+  datasource:
+    # This service owns its own database (tpa_db); it shares nothing with the enrolment services.
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/tpa_db}
+    driverClassName: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root}
+  flyway:
+    table: flyway_history_tpa
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      # Flyway owns the schema; Hibernate only checks that entities match it.
+      ddl-auto: validate
+    show-sql: false

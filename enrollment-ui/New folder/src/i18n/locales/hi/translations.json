@@ -1,0 +1,2356 @@
+{
+  "nav": {
+    "insurermanagement": {
+      "insurermanagement": "बीमाकर्ता कार्यालय मॉड्यूल",
+      "insurer": "बीमाकर्ता",
+      "office": "कार्यालय",
+      "contact-person": "संपर्क व्यक्ति",
+      "brand-history": "ब्रांड इतिहास",
+      "merger": "विलय"
+    },
+    "dashboards": {
+      "dashboards": "डैशबोर्ड",
+      "insurermanagement": "बीमाकर्ता कार्यालय मॉड्यूल",
+      "insurer": "बीमाकर्ता",
+      "ic-checklist": "आईसी ऑनबोर्डिंग चेकलिस्ट",
+      "office": "कार्यालय",
+      "contact-person": "संपर्क व्यक्ति",
+      "brand-history": "ब्रांड इतिहास",
+      "merger": "विलय",
+      "home": "होम",
+      "tpamanagement": "शाखा मॉड्यूल",
+      "tpa": "टीपीए",
+      "branches": "शाखाएँ",
+      "escalation-matrix": "एस्केलेशन मैट्रिक्स",
+      "officeHierarchy": "कार्यालय पदानुक्रम",
+      "dashboard": "डैशबोर्ड",
+      "adminDashboard": "एडमिन डैशबोर्ड",
+      "policy-benefit": "पॉलिसी लाभ",
+      "master-product": "मास्टर प्रोडक्ट",
+      "mbmmanagement": "एमबीएम प्रबंधन",
+      "enrollmentsystem": "नामांकन प्रणाली",
+      "inwardtsystem": "इनवर्ड प्रणाली",
+      "inward": "इनवर्ड",
+      "psu-inward": "पीएसयू आवक",
+      "assignment-management": "असाइनमेंट प्रबंधन",
+      "inward-management": "इनवर्ड प्रबंधन",
+      "user-management": "उपयोगकर्ता प्रबंधन",
+      "user": "उपयोगकर्ता",
+      "masterManagement": "मास्टर प्रबंधन",
+      "corporate1": "कॉर्पोरेट मास्टर",
+      "corporate": "कॉर्पोरेट समूह",
+      "broker": "ब्रोकर मास्टर",
+      "agent": "एजेंट मास्टर",
+      "create": "मास्टर बनाएँ",
+      "empanel": "पैनल में शामिल करें",
+      "provider-masters": "प्रदाता प्रबंधन",
+      "policy-searcch": "पॉलिसी खोज",
+      "e-card": "ई-कार्ड सेटिंग्स",
+      "ecard": "ई-कार्ड",
+      "ecardmanagement": "ई-कार्ड प्रबंधन",
+      "policy-mapping": "पॉलिसी मैपिंग",
+      "provider-masters-empanel": "पैनल में शामिल करें",
+      "provider-masters-create": "बनाएँ",
+      "provider-masters-providers": "प्रदाता",
+      "provider-masters-network-providers": "नेटवर्क प्रदाता",
+      "provider-masters-network-hospitals": "नेटवर्क अस्पताल",
+      "provider-masters-non-network-providers": "गैर-नेटवर्क प्रदाता",
+      "provider-masters-non-network-hospitals": "गैर-नेटवर्क अस्पताल",
+      "provider-masters-blacklist-master": "ब्लैकलिस्ट मास्टर",
+      "provider-masters-excluded-hospitals": "बहिष्कृत प्रदाता",
+      "provider-masters-excluded-hospitals-bulk-exclude": "बल्क बहिष्कृत",
+      "provider-masters-rohini-master": "रोहिणी मास्टर",
+      "provider-masters-ic-provider-code-master": "आईसी प्रदाता कोड मास्टर",
+      "provider-masters-ic-provisioning": "आईसी प्रोविजनिंग",
+      "provider-masters-bank-verification": "आईसी-प्रदाता बैंक विवरण",
+      "provider-masters-agreement-detail": "समझौता देखें",
+      "provider-masters-agreement-new": "नया समझौता",
+      "provider-masters-agreement-edit": "समझौता संपादित करें",
+      "provider-masters-providers-details": "प्रदाता विवरण",
+      "provider-masters-providers-agreement-tab": "समझौता",
+      "provider-masters-ic-corporate-mapping": "आईसी एवं कॉर्पोरेट प्रदाता मैपिंग",
+      "provider-masters-ic-corporate-mapping-add-new-network": "बल्क आईसी मैपिंग",
+      "provider-masters-excludetableview": "बहिष्करण तालिका दृश्य",
+      "provider-masters-ic-mapping": "आईसी मैपिंग",
+      "provider-masters-corporate-mapping": "कॉर्पोरेट मैपिंग",
+      "provider-masters-provider-master": "प्रदाता मास्टर",
+      "provider-masters-bulk-operations": "बल्क ऑपरेशंस",
+      "provider-masters-ic-provider-bulk-mapping": "आईसी - प्रदाता बल्क मैपिंग",
+      "provider-masters-masters": "मास्टर्स",
+      "provider-masters-dashboard": "डैशबोर्ड",
+      "provider-masters-documents": "दस्तावेज़",
+      "provider-masters-soc": "एसओसी"
+    },
+    "settings": {
+      "settings": "सेटिंग्स",
+      "general": "सामान्य",
+      "appearance": "दिखावट"
+    },
+    "tpa": {
+      "title": "टीपीए",
+      "information": "टीपीए जानकारी",
+      "fields": {
+        "tpaCode": {
+          "label": "टीपीए कोड",
+          "placeholder": "टीपीए कोड दर्ज करें"
+        },
+        "legalName": {
+          "label": "कानूनी नाम",
+          "placeholder": "कानूनी नाम दर्ज करें"
+        },
+        "cinNumber": {
+          "label": "सीआईएन नंबर",
+          "placeholder": "सीआईएन नंबर दर्ज करें"
+        },
+        "contactEmail": {
+          "label": "संपर्क ईमेल",
+          "placeholder": "संपर्क ईमेल दर्ज करें"
+        },
+        "contactPhone": {
+          "label": "संपर्क फोन",
+          "placeholder": "संपर्क फोन दर्ज करें"
+        }
+      },
+      "buttons": {
+        "edit": "संपादित करें",
+        "update": "अपडेट करें"
+      }
+    },
+    "address": {
+      "title": "पता जानकारी",
+      "fields": {
+        "address": {
+          "label": "पता",
+          "placeholder": "पता दर्ज करें"
+        },
+        "addressType": {
+          "label": "पता प्रकार",
+          "placeholder": "पता प्रकार"
+        },
+        "postalCode": {
+          "label": "पिन कोड",
+          "placeholder": "पिन कोड दर्ज करें"
+        },
+        "state": {
+          "label": "राज्य",
+          "placeholder": "राज्य"
+        },
+        "city": {
+          "label": "शहर",
+          "placeholder": "शहर"
+        }
+      },
+      "types": {
+        "physical": "भौतिक",
+        "postal": "डाक",
+        "both": "दोनों"
+      }
+    }
+  },
+  "branch": {
+    "title": "टीपीए शाखाएँ",
+    "addBranch": "शाखा जोड़ें",
+    "search": "खोज",
+    "hideSearch": "खोज छिपाएँ",
+    "filtersTitle": "टीपीए शाखा फ़िल्टर",
+    "table": {
+      "actions": "कार्य",
+      "code": "कोड",
+      "businessUnit": "व्यावसायिक इकाई",
+      "branch": "शाखा",
+      "city": "शहर",
+      "state": "राज्य",
+      "contactPhone": "संपर्क फोन",
+      "contactEmail": "संपर्क ईमेल"
+    },
+    "searchFields": {
+      "branchName": "शाखा नाम",
+      "businessUnit": "व्यावसायिक इकाई",
+      "recordStatus": "रिकॉर्ड स्थिति"
+    },
+    "confirm": {
+      "title": "क्या आप सुनिश्चित हैं?",
+      "deleteDescription": "क्या आप इस रिकॉर्ड को हटाना चाहते हैं?",
+      "deleteAction": "हटाएँ",
+      "deleteSuccess": "रिकॉर्ड हटाया गया",
+      "error": "इस समय रिकॉर्ड हटाया नहीं जा सका। कृपया बाद में पुनः प्रयास करें।"
+    },
+    "searchButton": {
+      "apply": "लागू करें",
+      "applying": "लागू किया जा रहा है...",
+      "reset": "रीसेट"
+    },
+    "paginationObj": {
+      "pageSize": "पृष्ठ आकार",
+      "page": "पृष्ठ"
+    }
+  },
+  "branchForm": {
+    "pageTitle": "टीपीए शाखाएँ",
+    "sectionTitle": "शाखा विवरण",
+    "fields": {
+      "branchName": {
+        "label": "शाखा नाम",
+        "placeholder": "शाखा नाम दर्ज करें"
+      },
+      "parentBranch": {
+        "label": "मूल शाखा",
+        "placeholder": "मूल शाखा"
+      },
+      "phoneNumber": {
+        "label": "फोन नंबर",
+        "placeholder": "कॉमा से अलग किए गए फोन नंबर दर्ज करें"
+      },
+      "email": {
+        "label": "ईमेल",
+        "placeholder": "ईमेल पता दर्ज करें"
+      },
+      "businessUnit": {
+        "label": "व्यावसायिक इकाई"
+      }
+    },
+    "buttons": {
+      "cancel": "रद्द करें",
+      "edit": "संपादित करें",
+      "submit": "जमा करें",
+      "submitting": "जमा किया जा रहा है...",
+      "update": "अपडेट करें",
+      "updating": "अपडेट किया जा रहा है...",
+      "save": "सहेजें"
+    },
+    "breadcrumb": {
+      "branches": "शाखाएँ",
+      "viewBranch": "शाखा देखें",
+      "addBranch": "शाखा जोड़ें"
+    }
+  },
+  "insurer": {
+    "pageTitle": "बीमाकर्ता कार्यालय मॉड्यूल",
+    "buttons": {
+      "search": "खोजें",
+      "hideSearch": "खोज छिपाएँ",
+      "addInsurer": "बीमाकर्ता जोड़ें"
+    },
+    "searchFields": {
+      "insuranceCompany": "बीमा कंपनी",
+      "irdaiCode": "आईआरडीएआई कोड"
+    },
+    "table": {
+      "actions": "क्रियाएँ",
+      "insuranceCompanyName": "बीमा कंपनी का नाम",
+      "irdaiCode": "आईआरडीएआई कोड",
+      "brandName": "ब्रांड नाम",
+      "insurerCode": "बीमाकर्ता कोड",
+      "type": "प्रकार",
+      "status": "स्थिति"
+    },
+    "pagination": {
+      "pageSize": "पृष्ठ आकार",
+      "page": "पृष्ठ"
+    }
+  },
+  "insurerForm": {
+    "generalInfoTitle": "सामान्य जानकारी",
+    "fields": {
+      "irdaiInsurerCode": {
+        "label": "IRDAI कोड",
+        "placeholder": "IRDAI कोड दर्ज करें"
+      },
+      "insurerCode": {
+        "label": "बीमा कोड",
+        "placeholder": "बीमा कोड दर्ज करें"
+      },
+      "insuranceCompany": {
+        "label": "बीमा कंपनी",
+        "placeholder": "बीमा कंपनी दर्ज करें"
+      },
+      "insurerType": {
+        "label": "बीमाकर्ता प्रकार",
+        "placeholder": "बीमाकर्ता प्रकार"
+      },
+      "officeCode": {
+        "label": "ऑफिस कोड",
+        "placeholder": "ऑफिस कोड दर्ज करें"
+      },
+      "pan": {
+        "label": "PAN",
+        "placeholder": "PAN दर्ज करें"
+      },
+      "gstin": {
+        "label": "GSTIN",
+        "placeholder": "GSTIN दर्ज करें"
+      },
+      "email": {
+        "label": "ईमेल",
+        "placeholder": "ईमेल दर्ज करें"
+      },
+      "phone": {
+        "label": "फोन",
+        "placeholder": "फोन दर्ज करें"
+      }
+    },
+    "brandLogo": {
+      "label": "ब्रांड लोगो",
+      "uploadSuccess": "दस्तावेज सफलतापूर्वक अपलोड हुआ",
+      "uploadFailed": "अपलोड विफल रहा"
+    },
+    "documents": {
+      "uploadDocument": "दस्तावेज अपलोड करें",
+      "document": "दस्तावेज",
+      "principalAgreement": "मुख्य अनुबंध",
+      "addendum": "परिशिष्ट",
+      "renewal": "नवीनीकरण",
+      "others": "अन्य",
+      "title": "सभी दस्तावेज",
+      "viewMore": "और देखें",
+      "viewLess": "कम देखें"
+    }
+  },
+  "contactPerson": {
+    "title": "संपर्क व्यक्ति विवरण",
+    "addButton": "संपर्क व्यक्ति जोड़ें",
+    "errors": {
+      "mobile": "मोबाइल नंबर त्रुटि"
+    },
+    "table": {
+      "action": "कार्रवाई",
+      "fullName": "पूरा नाम",
+      "designation": "पदनाम",
+      "department": "विभाग",
+      "priority": "प्राथमिकता",
+      "noData": "कोई संपर्क व्यक्ति नहीं जोड़ा गया"
+    },
+    "actions": {
+      "edit": "संपादित करें",
+      "remove": "हटाएं"
+    }
+  },
+  "contactPersonform": {
+    "title": "संपर्क व्यक्ति विवरण",
+    "addButton": "संपर्क व्यक्ति जोड़ें",
+    "fields": {
+      "prefix": "उपसर्ग",
+      "firstName": "पहला नाम",
+      "middleName": "मध्य नाम",
+      "lastName": "अंतिम नाम",
+      "domain": "डोमेन",
+      "role": "भूमिका",
+      "gender": "लिंग",
+      "dateOfBirth": "जन्म तिथि",
+      "designation": "पदनाम",
+      "department": "विभाग",
+      "priority": "प्राथमिकता",
+      "notes": "टिप्पणियाँ",
+      "contactDetails": "संपर्क विवरण",
+      "remarks": "टिप्पणी",
+      "contactType": "संपर्क प्रकार",
+      "contactValue": "संपर्क मान",
+      "addContact": "संपर्क जोड़ें"
+    },
+    "placeholders": {
+      "firstName": "पहला नाम दर्ज करें",
+      "middleName": "मध्य नाम दर्ज करें",
+      "lastName": "अंतिम नाम दर्ज करें",
+      "designation": "पदनाम दर्ज करें",
+      "department": "विभाग दर्ज करें",
+      "notes": "टिप्पणियाँ दर्ज करें",
+      "dateOfBirth": "YYYY-MM-DD",
+      "remarks": "टिप्पणी दर्ज करें"
+    },
+    "options": {
+      "prefix": {
+        "mr": "श्री",
+        "ms": "सुश्री",
+        "mrs": "श्रीमती",
+        "dr": "डॉ."
+      },
+      "gender": {
+        "male": "पुरुष",
+        "female": "महिला"
+      },
+      "priority": {
+        "1": "प्राथमिकता 1",
+        "2": "प्राथमिकता 2",
+        "3": "प्राथमिकता 3",
+        "4": "प्राथमिकता 4",
+        "5": "प्राथमिकता 5"
+      }
+    }
+  },
+  "whatsAppEnabled": "व्हाट्सएप सक्षम",
+  "breadcrumbs": {
+    "enrolmentSystem": "नामांकन प्रणाली",
+    "dashboard": "डैशबोर्ड",
+    "corporateInward": "कॉर्पोरेट इनवर्ड",
+    "insurer": "बीमाकर्ता",
+    "addInsurer": "बीमाकर्ता जोड़ें",
+    "viewInsurer": "बीमाकर्ता देखें"
+  },
+  "upload": "अपलोड करें",
+  "office": {
+    "search": {
+      "insurerName": "बीमाकर्ता का नाम",
+      "officeCode": "कार्यालय कोड",
+      "officeName": "कार्यालय का नाम",
+      "officeType": "कार्यालय प्रकार",
+      "serviceType": "सेवा प्रकार"
+    },
+    "table": {
+      "actions": "कार्यवाही",
+      "insuranceCompanyName": "बीमा कंपनी का नाम",
+      "officeName": "कार्यालय का नाम",
+      "officeType": "कार्यालय प्रकार",
+      "officeCode": "कार्यालय कोड",
+      "underwritingCenter": "क्या यह अंडरराइटिंग केंद्र है",
+      "effectiveFrom": "प्रभावी तिथि से",
+      "effectiveTo": "प्रभावी तिथि तक",
+      "status": "स्थिति",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय"
+    },
+    "actions": {
+      "view": "देखें",
+      "assignContactPerson": "संपर्क व्यक्ति नियुक्त करें"
+    },
+    "buttons": {
+      "addOffice": "कार्यालय जोड़ें",
+      "addNewOffice": "नया कार्यालय जोड़ें",
+      "edit": "संपादित करें",
+      "createOffice": "कार्यालय बनाएं",
+      "creating": "बनाया जा रहा है...",
+      "updateOffice": "कार्यालय अपडेट करें",
+      "updating": "अपडेट किया जा रहा है..."
+    },
+    "breadcrumbs": {
+      "offices": "कार्यालय",
+      "viewOffice": "कार्यालय देखें",
+      "addNewOffice": "नया कार्यालय जोड़ें"
+    }
+  },
+  "officeAdd": {
+    "sectionTitle": "कार्यालय जानकारी",
+    "insuranceCompany": "बीमा कंपनी",
+    "officeType": "कार्यालय प्रकार",
+    "officeName": "कार्यालय नाम",
+    "officeCode": "कार्यालय कोड",
+    "underwriting": "अंडरराइटिंग है",
+    "reportingOfficeType": "रिपोर्टिंग कार्यालय प्रकार",
+    "reportingOffice": "रिपोर्टिंग कार्यालय",
+    "placeholders": {
+      "insuranceCompany": "बीमा कंपनी चुनें",
+      "officeType": "कार्यालय प्रकार चुनें",
+      "officeName": "कार्यालय का नाम दर्ज करें",
+      "officeCode": "कार्यालय कोड दर्ज करें",
+      "reportingOfficeType": "रिपोर्टिंग प्रकार चुनें",
+      "reportingOffice": "रिपोर्टिंग कार्यालय चुनें"
+    },
+    "errors": {
+      "insuranceCompanyRequired": "बीमा कंपनी आवश्यक है"
+    },
+    "officeTypeOptions": {
+      "ho": "HO (मुख्य कार्यालय)",
+      "ro": "RO (क्षेत्रीय कार्यालय)",
+      "do": "DO (विभागीय कार्यालय)",
+      "uo": "UO (अंडरराइटिंग कार्यालय)"
+    }
+  },
+  "serviceDetails": {
+    "title": "सेवा विवरण",
+    "addService": "सेवा जोड़ें",
+    "noData": "कोई सेवा विवरण नहीं जोड़ा गया",
+    "table": {
+      "action": "कार्य",
+      "serviceName": "सेवा नाम",
+      "startDate": "प्रारंभ तिथि",
+      "endDate": "समाप्ति तिथि",
+      "servicingAllocation": "सेवा आवंटन"
+    },
+    "actions": {
+      "edit": "संपादित करें",
+      "remove": "हटाएं"
+    },
+    "allocation": {
+      "both": "दोनों (कॉर्पोरेट, रिटेल)"
+    }
+  },
+  "assignContactForm": {
+    "title": "संपर्क व्यक्ति नियुक्त करें",
+    "fields": {
+      "contactPerson": {
+        "label": "संपर्क व्यक्ति",
+        "placeholder": "संपर्क व्यक्ति चुनें",
+        "defaultValue": "संपर्क व्यक्ति चुनें"
+      },
+      "designation": {
+        "label": "पदनाम",
+        "placeholder": "पदनाम दर्ज करें"
+      },
+      "officeName": {
+        "label": "कार्यालय का नाम",
+        "placeholder": "कार्यालय का नाम दर्ज करें"
+      },
+      "officeCode": {
+        "label": "कार्यालय कोड",
+        "placeholder": "कार्यालय कोड दर्ज करें"
+      }
+    }
+  },
+  "servicesForm": {
+    "fields": {
+      "startDate": {
+        "label": "प्रारंभ तिथि"
+      },
+      "endDate": {
+        "label": "समाप्ति तिथि"
+      },
+      "servicingAllocation": {
+        "label": "सेवा आवंटन",
+        "defaultValue": "आवंटन"
+      }
+    }
+  },
+  "inwardList": {
+    "pageTitle": "इनवर्ड",
+    "createInward": "इनवर्ड बनाएं",
+    "downloadReport": "रिपोर्ट डाउनलोड करें",
+    "downloadExcel": "एक्सेल के रूप में डाउनलोड करें",
+    "actions": {
+      "view": "देखें"
+    },
+    "searchFields": {
+      "startDate": "प्रारंभ तिथि",
+      "endDate": "समाप्ति तिथि",
+      "inwardNumber": "इनवर्ड नंबर",
+      "corporateName": "कॉर्पोरेट नाम"
+    },
+    "tableHeaders": {
+      "srNo": "क्र.सं.",
+      "actions": "कार्रवाइयाँ",
+      "inwardNumber": "इनवर्ड नंबर",
+      "receivedAt": "प्राप्ति तिथि",
+      "createdBy": "द्वारा बनाया गया",
+      "inwardType": "इनवर्ड प्रकार",
+      "department": "विभाग",
+      "branchName": "शाखा नाम",
+      "receivedChannel": "प्राप्ति चैनल",
+      "entityName": "इकाई का नाम",
+      "policyNumber": "पॉलिसी नंबर"
+    }
+  },
+  "createInwardForm": {
+    "fields": {
+      "tpaBranch": {
+        "label": "TPA शाखा",
+        "placeholder": "TPA शाखा"
+      },
+      "receivedChannel": {
+        "label": "प्राप्ति चैनल",
+        "placeholder": "चैनल"
+      },
+      "department": {
+        "label": "विभाग",
+        "placeholder": "विभाग"
+      },
+      "sourceEntityType": {
+        "label": "स्रोत इकाई प्रकार",
+        "placeholder": "स्रोत इकाई प्रकार"
+      },
+      "sourceEntity": {
+        "label": "स्रोत इकाई",
+        "placeholder": "स्रोत इकाई"
+      },
+      "sourceReferenceNo": {
+        "label": "स्रोत संदर्भ संख्या",
+        "placeholder": "संदर्भ संख्या दर्ज करें"
+      },
+      "category": {
+        "label": "श्रेणी",
+        "placeholder": "श्रेणी"
+      },
+      "subCategory": {
+        "label": "उप श्रेणी",
+        "placeholder": "उप श्रेणी"
+      },
+      "priority": {
+        "label": "प्राथमिकता",
+        "placeholder": "प्राथमिकता"
+      }
+    },
+    "buttons": {
+      "upload": "अपलोड करें",
+      "uploading": "अपलोड हो रहा है..."
+    }
+  },
+  "modalTitles": {
+    "createManualInward": "मैनुअल इनवर्ड बनाएं",
+    "uploadRohiniHospitalList": "रोहिणी अस्पताल सूची अपलोड करें",
+    "memberDetails": "सदस्य विवरण",
+    "createInward": "इनवर्ड बनाएं",
+    "assignUser": "उपयोगकर्ता असाइन करें",
+    "uploadDocument": "दस्तावेज़ अपलोड करें",
+    "addMember": "सदस्य जोड़ें"
+  },
+  "inwardView": {
+    "breadcrumb": {
+      "inwardManagement": "इनवर्ड प्रबंधन",
+      "inward": "इनवर्ड",
+      "viewInward": "इनवर्ड देखें"
+    },
+    "tableHeaders": {
+      "srNo": "क्र.सं.",
+      "documentName": "दस्तावेज़ का नाम",
+      "documentType": "दस्तावेज़ प्रकार",
+      "action": "कार्रवाई"
+    },
+    "actions": {
+      "openInNewTab": "नए टैब में खोलें"
+    },
+    "emptyState": {
+      "title": "कोई दस्तावेज़ नहीं मिला",
+      "description": "इस इनवर्ड नंबर के लिए कोई दस्तावेज़ उपलब्ध नहीं है।"
+    }
+  },
+  "inwardUploadDoc": {
+    "title": "इनवर्ड संख्या",
+    "fields": {
+      "ocrOption": "OCR विकल्प",
+      "ocrRequired": "OCR आवश्यक",
+      "ocrNotRequired": "OCR आवश्यक नहीं",
+      "documentType": {
+        "label": "दस्तावेज़ प्रकार",
+        "placeholder": "प्रकार चुनें"
+      },
+      "uploadDocuments": "दस्तावेज़ अपलोड करें"
+    },
+    "uploadSection": {
+      "clickToUpload": "फ़ाइल अपलोड करने के लिए क्लिक करें",
+      "allowedFormats": "अनुमत: PDF, Excel, Word | प्रति फ़ाइल अधिकतम 50MB"
+    },
+    "buttons": {
+      "uploadDocuments": "दस्तावेज़ अपलोड करें"
+    }
+  },
+  "corporateGroupMaster": {
+    "title": "कॉर्पोरेट समूह",
+    "masterManagement": "मास्टर प्रबंधन",
+    "buttons": {
+      "add": "कॉर्पोरेट समूह जोड़ें",
+      "view": "देखें"
+    },
+    "search": {
+      "legalName": "कानूनी नाम",
+      "recordStatus": "रिकॉर्ड स्थिति"
+    },
+    "section": {
+      "information": "कॉर्पोरेट समूह जानकारी"
+    },
+    "table": {
+      "actions": "क्रियाएं",
+      "groupName": "समूह का नाम",
+      "groupCode": "समूह कोड",
+      "legalName": "कानूनी नाम",
+      "cin": "सीआईएन नंबर",
+      "pan": "पैन नंबर",
+      "gstin": "जीएसटीआईएन"
+    },
+    "fields": {
+      "groupName": "समूह का नाम",
+      "legalName": "कानूनी नाम",
+      "websiteUrl": "वेबसाइट URL",
+      "cin": "CIN",
+      "pan": "PAN",
+      "gstin": "GSTIN",
+      "effectiveFrom": "प्रभावी तिथि से",
+      "effectiveTo": "प्रभावी तिथि तक"
+    },
+    "placeholder": {
+      "groupName": "समूह का नाम दर्ज करें",
+      "legalName": "कानूनी नाम दर्ज करें",
+      "websiteUrl": "https://example.com",
+      "cin": "CIN दर्ज करें",
+      "pan": "PAN दर्ज करें",
+      "gstin": "GSTIN दर्ज करें"
+    }
+  },
+  "corporateMaster": {
+    "title": "कॉर्पोरेट",
+    "masterManagement": "मास्टर प्रबंधन",
+    "buttons": {
+      "add": "कॉर्पोरेट जोड़ें",
+      "view": "देखें",
+      "search": "खोजें",
+      "hideSearch": "खोज छुपाएँ"
+    },
+    "search": {
+      "legalName": "कानूनी नाम",
+      "recordStatus": "रिकॉर्ड स्थिति"
+    },
+    "table": {
+      "actions": "क्रियाएँ",
+      "legalName": "कानूनी नाम",
+      "tradeName": "व्यापार नाम",
+      "corporateType": "कॉर्पोरेट प्रकार",
+      "corporateCode": "कॉर्पोरेट कोड",
+      "corporateGroupName": "कॉर्पोरेट समूह नाम",
+      "pan": "पैन नंबर",
+      "gstin": "GSTIN",
+      "cin": "CIN नंबर",
+      "contactEmail": "संपर्क ईमेल",
+      "contactPhone": "संपर्क फ़ोन"
+    },
+    "breadcrumb": {
+      "add": "कॉर्पोरेट जोड़ें",
+      "view": "कॉर्पोरेट देखें",
+      "corporate": "कॉर्पोरेट",
+      "enrolmentSystem": "नामांकन प्रणाली",
+      "dashboard": "डैशबोर्ड",
+      "corporateInward": "कॉर्पोरेट इनवर्ड"
+    },
+    "section": {
+      "corporateInformation": "कॉर्पोरेट जानकारी",
+      "corporateHrInformation": "कॉर्पोरेट एचआर जानकारी"
+    },
+    "form": {
+      "legalName": "कानूनी नाम",
+      "corporateType": "कॉर्पोरेट प्रकार",
+      "corporateGroup": "कॉर्पोरेट समूह",
+      "pan": "PAN",
+      "gstin": "GSTIN",
+      "cin": "CIN",
+      "industrySector": "उद्योग क्षेत्र",
+      "sizeBand": "आकार श्रेणी",
+      "effectiveFrom": "प्रभावी तिथि से",
+      "effectiveTo": "प्रभावी तिथि तक",
+      "employeeCount": "कर्मचारी संख्या",
+      "websiteUrl": "वेबसाइट URL",
+      "contactEmail": "संपर्क ईमेल",
+      "phoneNumber": "फोन नंबर",
+      "corporateHrName": "कॉर्पोरेट एचआर नाम",
+      "corporateHrPhone": "फोन नंबर",
+      "corporateHrEmail": "ईमेल"
+    },
+    "placeholder": {
+      "legalName": "कानूनी नाम दर्ज करें",
+      "pan": "PAN दर्ज करें",
+      "gstin": "GSTIN दर्ज करें",
+      "cin": "CIN दर्ज करें",
+      "employeeCount": "कर्मचारियों की संख्या दर्ज करें",
+      "websiteUrl": "वेबसाइट URL दर्ज करें",
+      "contactEmail": "कॉमा से अलग ईमेल दर्ज करें",
+      "phoneNumber": "कॉमा से अलग फोन नंबर दर्ज करें",
+      "effectiveFrom": "प्रारंभ तिथि चुनें",
+      "effectiveTo": "समाप्ति तिथि चुनें",
+      "corporateHrName": "नाम दर्ज करें",
+      "corporateHrPhone": "फोन दर्ज करें",
+      "corporateHrEmail": "ईमेल दर्ज करें"
+    }
+  },
+  "brokerMaster": {
+    "title": "ब्रोकर",
+    "masterManagement": "मास्टर प्रबंधन",
+    "breadcrumb": {
+      "broker": "ब्रोकर",
+      "add": "ब्रोकर जोड़ें",
+      "view": "ब्रोकर देखें",
+      "enrolmentSystem": "नामांकन प्रणाली",
+      "dashboard": "डैशबोर्ड",
+      "corporateInward": "कॉर्पोरेट इनवर्ड"
+    },
+    "button": {
+      "add": "ब्रोकर जोड़ें"
+    },
+    "search": {
+      "brokerName": "ब्रोकर नाम",
+      "recordStatus": "रिकॉर्ड स्थिति"
+    },
+    "table": {
+      "actions": "कार्य",
+      "brokerCode": "ब्रोकर कोड",
+      "legalName": "कानूनी नाम",
+      "irdaBrokerCode": "IRDAI कोड",
+      "contactEmail": "ईमेल",
+      "contactPhone": "फोन नंबर"
+    },
+    "section": {
+      "brokerInformation": "ब्रोकर जानकारी"
+    },
+    "form": {
+      "legalName": "कानूनी नाम",
+      "irdaBrokerCode": "ब्रोकर IRDAI कोड",
+      "contactPhone": "फोन नंबर",
+      "contactEmail": "ईमेल"
+    },
+    "placeholder": {
+      "legalName": "कानूनी नाम दर्ज करें",
+      "irdaBrokerCode": "IRDAI कोड दर्ज करें",
+      "contactPhone": "कॉमा से अलग फोन नंबर दर्ज करें",
+      "contactEmail": "ईमेल पता दर्ज करें"
+    }
+  },
+  "agentMaster": {
+    "title": "एजेंट",
+    "masterManagement": "मास्टर प्रबंधन",
+    "breadcrumb": {
+      "agent": "एजेंट",
+      "add": "एजेंट जोड़ें",
+      "view": "एजेंट देखें",
+      "enrolmentSystem": "नामांकन प्रणाली",
+      "dashboard": "डैशबोर्ड",
+      "corporateInward": "कॉर्पोरेट इनवर्ड"
+    },
+    "button": {
+      "add": "एजेंट जोड़ें"
+    },
+    "search": {
+      "legalName": "कानूनी नाम",
+      "recordStatus": "रिकॉर्ड स्थिति",
+      "filterTitle": "एजेंट फ़िल्टर"
+    },
+    "table": {
+      "actions": "कार्य",
+      "legalName": "कानूनी नाम",
+      "tradeCode": "ट्रेड कोड",
+      "email": "ईमेल",
+      "phoneNumber": "फोन नंबर",
+      "agentType": "एजेंट प्रकार",
+      "agentCategory": "एजेंट श्रेणी"
+    },
+    "section": {
+      "agentInformation": "एजेंट जानकारी"
+    },
+    "form": {
+      "legalName": "कानूनी नाम",
+      "agentType": "एजेंट प्रकार",
+      "agentCode": "एजेंट कोड",
+      "email": "ईमेल",
+      "phone": "फोन",
+      "licenseValidFrom": "लाइसेंस वैध प्रारंभ",
+      "licenseValidTo": "लाइसेंस वैध समाप्ति"
+    },
+    "placeholder": {
+      "legalName": "कानूनी नाम दर्ज करें",
+      "agentCode": "कोड दर्ज करें",
+      "email": "ईमेल पता दर्ज करें",
+      "phone": "फोन नंबर दर्ज करें"
+    },
+    "dropdown": {
+      "agentType": "एजेंट प्रकार"
+    }
+  },
+  "policySearch": {
+    "title": "पॉलिसी खोज",
+    "breadcrumb": {
+      "policySearch": "पॉलिसी खोज"
+    },
+    "search": {
+      "insurerName": "बीमाकर्ता का नाम",
+      "inwardNumber": "इनवर्ड नंबर",
+      "policyNumber": "पॉलिसी नंबर",
+      "corporateName": "कॉर्पोरेट नाम"
+    },
+    "table": {
+      "actions": "कार्य",
+      "policyNumber": "पॉलिसी नंबर",
+      "proposerName": "प्रस्तावक का नाम",
+      "insurerName": "बीमाकर्ता का नाम",
+      "policyDate": "पॉलिसी तिथि",
+      "grossPremium": "सकल प्रीमियम",
+      "coverageType": "कवरेज प्रकार",
+      "memberType": "सदस्य प्रकार",
+      "brokerName": "ब्रोकर का नाम",
+      "masterProductName": "मास्टर प्रोडक्ट नाम",
+      "policyStatus": "पॉलिसी स्थिति",
+      "tpaServicingBranchName": "TPA सर्विसिंग शाखा नाम"
+    },
+    "viewMemberData": "सदस्य डेटा देखें",
+    "sections": {
+      "policyInformation": "पॉलिसी जानकारी",
+      "insurerInformation": "बीमाकर्ता जानकारी",
+      "tpaInformation": "टीपीए जानकारी",
+      "brokerInformation": "ब्रोकर जानकारी"
+    },
+    "details": {
+      "policyNumber": "पॉलिसी नंबर",
+      "previousPolicyNumber": "पिछला पॉलिसी नंबर",
+      "policyDate": "पॉलिसी तिथि",
+      "policyInsurerType": "पॉलिसी बीमाकर्ता प्रकार",
+      "policyTypeProposer": "प्रस्तावक प्रकार",
+      "proposerName": "प्रस्तावक का नाम",
+      "proposerSector": "प्रस्तावक क्षेत्र",
+      "agentCode": "एजेंट कोड",
+      "recordType": "रिकॉर्ड प्रकार",
+      "renewalType": "नवीनीकरण प्रकार",
+      "structureType": "संरचना प्रकार",
+      "previousIssueDate": "पिछली जारी तिथि",
+      "coveredFamilyCount": "कवर किए गए परिवारों की संख्या",
+      "totalInsuredPersonAtInception": "आरंभ में कुल बीमित व्यक्ति",
+      "totalEmployeeCountAtInception": "आरंभ में कुल कर्मचारी",
+      "policyNetPremium": "नेट प्रीमियम",
+      "grossPremium": "ग्रॉस प्रीमियम",
+      "policyStatus": "पॉलिसी स्थिति",
+      "insurerName": "बीमाकर्ता का नाम",
+      "insurerIssuingOfficeName": "बीमाकर्ता जारी कार्यालय का नाम",
+      "tpaFees": "टीपीए शुल्क",
+      "tpaSpocName": "टीपीए SPOC नाम",
+      "tpaSpocEmail": "टीपीए SPOC ईमेल",
+      "tpaSpocMobile": "टीपीए SPOC मोबाइल",
+      "tpaServicingBranchName": "टीपीए सेवा शाखा का नाम",
+      "brokerName": "ब्रोकर का नाम",
+      "coverageType": "कवरेज प्रकार",
+      "memberType": "सदस्य प्रकार",
+      "masterProductName": "मास्टर उत्पाद नाम"
+    }
+  },
+  "dashboard": {
+    "pageTitle": "डैशबोर्ड",
+    "totalInward": "कुल इनवर्ड",
+    "corporateInward": {
+      "title": "कॉर्पोरेट इनवर्ड",
+      "subtitle": "कॉर्पोरेट नामांकन प्रबंधित करें",
+      "recordFor": "के लिए रिकॉर्ड"
+    },
+    "retailInward": {
+      "title": "रिटेल इनवर्ड",
+      "subtitle": "रिटेल नामांकन प्रबंधित करें",
+      "recordFor": "के लिए रिकॉर्ड"
+    }
+  },
+  "corporateInward": {
+    "pageTitle": "कॉर्पोरेट इनवर्ड",
+    "breadcrumb": {
+      "dashboard": "डैशबोर्ड",
+      "corporateInward": "कॉर्पोरेट इनवर्ड"
+    },
+    "cards": {
+      "totalInwards": "कुल इनवर्ड",
+      "pending": "लंबित",
+      "qcPending": "QC लंबित",
+      "masterUpdatePending": "मास्टर अपडेट लंबित",
+      "completed": "पूर्ण",
+      "rejectedInward": "अस्वीकृत इनवर्ड"
+    },
+    "buttons": {
+      "createManualInward": "मैनुअल इनवर्ड बनाएं",
+      "downloadReport": "रिपोर्ट डाउनलोड करें",
+      "downloadExcel": "एक्सेल डाउनलोड करें",
+      "refresh": "रीफ्रेश",
+      "view": "देखें"
+    },
+    "searchFields": {
+      "insurerName": "बीमाकर्ता का नाम",
+      "inwardNumber": "इनवर्ड नंबर",
+      "corporateName": "कॉर्पोरेट नाम",
+      "policyNumber": "पॉलिसी नंबर",
+      "startDate": "प्रारंभ तिथि",
+      "endDate": "समाप्ति तिथि"
+    },
+    "columns": {
+      "action": "कार्य",
+      "srNo": "क्रमांक",
+      "inwardNumber": "इनवर्ड नंबर",
+      "policyNumber": "पॉलिसी नंबर",
+      "inwardDateTime": "इनवर्ड दिनांक और समय",
+      "inwardType": "इनवर्ड प्रकार",
+      "documentType": "दस्तावेज़ प्रकार",
+      "insurerName": "बीमाकर्ता का नाम",
+      "corporateName": "कॉर्पोरेट नाम",
+      "status": "स्थिति",
+      "remark": "टिप्पणी"
+    }
+  },
+  "endorsementSummary": {
+    "title": "अनुमोदन सारांश",
+    "viewEndorsementMemberData": "अनुमोदन सदस्य डेटा देखें",
+    "viewDocument": "दस्तावेज़ देखें",
+    "policy": {
+      "inwardNumber": "इनवर्ड नंबर",
+      "policyStatus": "पॉलिसी स्थिति",
+      "icName": "आईसी नाम",
+      "policyNumber": "पॉलिसी नंबर",
+      "previousPolicyNumber": "पिछला पॉलिसी नंबर",
+      "policyType": "पॉलिसी प्रकार",
+      "coverageType": "कवरेज प्रकार",
+      "policyStartDate": "पॉलिसी प्रारंभ तिथि",
+      "policyEndDate": "पॉलिसी समाप्ति तिथि",
+      "policyIssueDate": "पॉलिसी जारी तिथि",
+      "corporateName": "कॉर्पोरेट नाम",
+      "corporateGSTNo": "कॉर्पोरेट GST नंबर",
+      "address": "पता",
+      "state": "राज्य",
+      "district": "जिला",
+      "pincode": "पिनकोड",
+      "brokerCode": "ब्रोकर कोड",
+      "brokerName": "ब्रोकर नाम",
+      "tpaSpocName": "TPA SPOC नाम",
+      "tpaEmail": "TPA ईमेल",
+      "tpaMobile": "TPA मोबाइल",
+      "policySumInsured": "पॉलिसी बीमित राशि",
+      "netPremium": "शुद्ध प्रीमियम",
+      "grossPremium": "सकल प्रीमियम",
+      "stateGST": "राज्य GST",
+      "totalGST": "कुल GST",
+      "policyTaxInvoiceDate": "पॉलिसी टैक्स चालान तिथि",
+      "policyRenewalType": "पॉलिसी नवीनीकरण प्रकार",
+      "recordType": "रिकॉर्ड प्रकार",
+      "vipFlag": "VIP फ्लैग"
+    },
+    "endorsement": {
+      "endorsementNumber": "अनुमोदन नंबर",
+      "endorsementType": "अनुमोदन प्रकार",
+      "status": "स्थिति",
+      "requestDate": "अनुरोध तिथि",
+      "effectiveDate": "प्रभावी तिथि",
+      "receivedDate": "प्राप्ति तिथि",
+      "invoiceDate": "चालान तिथि",
+      "invoiceNumber": "चालान नंबर",
+      "creditNoteNumber": "क्रेडिट नोट नंबर",
+      "addedMembers": "जोड़े गए सदस्य",
+      "deletedMembers": "हटाए गए सदस्य",
+      "modifiedMembers": "संशोधित सदस्य",
+      "premiumAdded": "जोड़ा गया प्रीमियम",
+      "premiumDeducted": "घटाया गया प्रीमियम",
+      "netPremium": "शुद्ध प्रीमियम",
+      "totalPremium": "कुल प्रीमियम",
+      "stateGST": "राज्य GST",
+      "centralGST": "केंद्रीय GST",
+      "igst": "IGST",
+      "remark": "टिप्पणी",
+      "inwardNumber": "इनवर्ड नंबर",
+      "createdBy": "निर्माता",
+      "createdAt": "निर्माण तिथि",
+      "updatedAt": "अद्यतन तिथि"
+    },
+    "common": {
+      "yes": "हाँ",
+      "no": "नहीं"
+    }
+  },
+  "summary": {
+    "title": "सारांश",
+    "viewMemberData": "सदस्य डेटा देखें",
+    "sections": {
+      "insurerDetails": "बीमाकर्ता विवरण",
+      "corporateDetails": "कॉर्पोरेट विवरण",
+      "tpaDetails": "TPA विवरण",
+      "policyDetails": "पॉलिसी विवरण",
+      "intermediaryDetails": "मध्यस्थ विवरण"
+    },
+    "fields": {
+      "insurerName": "बीमाकर्ता का नाम",
+      "productName": "उत्पाद का नाम",
+      "insurerType": "बीमाकर्ता प्रकार",
+      "issuingOffice": "जारी करने वाला कार्यालय",
+      "corporateName": "कॉर्पोरेट नाम",
+      "groupName": "समूह का नाम",
+      "address": "पता",
+      "state": "राज्य",
+      "district": "जिला",
+      "email": "ईमेल",
+      "mobile": "मोबाइल",
+      "tpaName": "TPA शाखा का नाम",
+      "spocName": "SPOC नाम",
+      "policyNumber": "पॉलिसी नंबर",
+      "policyType": "पॉलिसी प्रकार",
+      "policyPlan": "पॉलिसी योजना",
+      "policyStatus": "पॉलिसी स्थिति",
+      "issueDate": "जारी तिथि",
+      "startDate": "प्रारंभ तिथि",
+      "endDate": "समाप्ति तिथि",
+      "totalSumInsured": "कुल बीमित राशि",
+      "totalLivesInsured": "कुल बीमित व्यक्ति",
+      "premium": "प्रीमियम",
+      "brokerName": "ब्रोकर का नाम",
+      "brokerCode": "ब्रोकर कोड",
+      "contactNumber": "संपर्क नंबर"
+    }
+  },
+  "memberData": {
+    "title": "सदस्य डेटा",
+    "search": {
+      "memberId": "सदस्य आईडी",
+      "employeeId": "कर्मचारी आईडी",
+      "nameOfInsured": "बीमित व्यक्ति का नाम",
+      "healthCardNumber": "हेल्थ कार्ड नंबर"
+    },
+    "buttons": {
+      "enrolledRecord": "नामांकित रिकॉर्ड",
+      "failedRecord": "विफल रिकॉर्ड",
+      "downloadReport": "रिपोर्ट डाउनलोड करें",
+      "downloadAsExcel": "एक्सेल डाउनलोड करें",
+      "hideSearch": "खोज छुपाएँ",
+      "search": "खोजें",
+      "viewECard": "ई-कार्ड देखें",
+      "details": "विवरण"
+    },
+    "messages": {
+      "updatingRecords": "सदस्य रिकॉर्ड अपडेट हो रहे हैं… इसमें कुछ समय लग सकता है।"
+    },
+    "stats": {
+      "totalMembers": "कुल सदस्य",
+      "self": "स्वयं",
+      "dependents": "आश्रित",
+      "enrolled": "नामांकित",
+      "failed": "विफल"
+    },
+    "columns": {
+      "action": "कार्य",
+      "memberId": "सदस्य आईडी",
+      "employeeId": "कर्मचारी आईडी",
+      "healthCardNumber": "हेल्थ कार्ड नंबर",
+      "nameOfInsured": "बीमित व्यक्ति का नाम",
+      "dateOfBirth": "जन्म तिथि",
+      "age": "आयु",
+      "gender": "लिंग",
+      "relationship": "संबंध",
+      "enrolmentStatus": "नामांकन स्थिति",
+      "enrolmentStatusReason": "नामांकन स्थिति का कारण",
+      "sumInsured": "बीमित राशि",
+      "recordStatus": "रिकॉर्ड स्थिति"
+    }
+  },
+  "endorsementMemberList": {
+    "title": "सदस्य डेटा",
+    "buttons": {
+      "search": "खोजें",
+      "hideSearch": "खोज छिपाएँ",
+      "downloadReport": "रिपोर्ट डाउनलोड करें",
+      "downloadExcel": "एक्सेल के रूप में डाउनलोड करें",
+      "viewECard": "ई-कार्ड देखें",
+      "details": "विवरण"
+    },
+    "search": {
+      "memberId": "सदस्य आईडी",
+      "employeeId": "कर्मचारी आईडी",
+      "insuredName": "बीमित व्यक्ति का नाम"
+    },
+    "tableHeaders": {
+      "action": "कार्य",
+      "memberId": "सदस्य आईडी",
+      "employeeId": "कर्मचारी आईडी",
+      "healthCardNumber": "हेल्थ कार्ड नंबर",
+      "insuredName": "बीमित व्यक्ति का नाम",
+      "dateOfBirth": "जन्म तिथि",
+      "age": "आयु",
+      "gender": "लिंग",
+      "relationship": "संबंध",
+      "sumInsured": "बीमित राशि",
+      "endorsementAction": "एंडोर्समेंट कार्रवाई",
+      "reason": "कारण"
+    },
+    "reports": {
+      "memberReport": "सदस्य रिपोर्ट एंडोर्स",
+      "failedMemberReport": "असफल सदस्य रिपोर्ट"
+    },
+    "messages": {
+      "downloadFailed": "डाउनलोड विफल हुआ"
+    }
+  },
+  "endorsementTabs": {
+    "mainTabs": {
+      "totalRequested": "कुल अनुरोधित",
+      "additionsRequested": "अनुरोधित जोड़",
+      "modificationsRequested": "अनुरोधित संशोधन",
+      "deletionsRequested": "अनुरोधित विलोपन"
+    },
+    "subTabs": {
+      "success": "सफल",
+      "failed": "असफल"
+    }
+  },
+  "memberDetails": {
+    "labels": {
+      "insurerName": "बीमाकर्ता का नाम",
+      "policyNumber": "पॉलिसी नंबर",
+      "previousPolicyNumber": "पिछला पॉलिसी नंबर",
+      "employeeId": "कर्मचारी आईडी",
+      "policyDescription": "पॉलिसी विवरण",
+      "policyStatus": "पॉलिसी स्थिति",
+      "healthCardNumber": "हेल्थ कार्ड नंबर",
+      "memberId": "सदस्य आईडी",
+      "mdid": "एमडीआईडी",
+      "corporateName": "कॉर्पोरेट नाम",
+      "riskFromDate": "जोखिम प्रारंभ तिथि",
+      "riskToDate": "जोखिम समाप्ति तिथि",
+      "dateOfJoining": "जॉइनिंग तिथि",
+      "grade": "ग्रेड",
+      "agentCode": "एजेंट कोड",
+      "insuredPersonName": "बीमित व्यक्ति का नाम",
+      "relation": "संबंध",
+      "dateOfBirth": "जन्म तिथि",
+      "ipCoveredFromDate": "आईपी कवरेज प्रारंभ तिथि",
+      "age": "आयु",
+      "gender": "लिंग",
+      "ipSumInsured": "आईपी बीमित राशि",
+      "ipPhone": "आईपी फोन",
+      "ipEmail": "आईपी ईमेल",
+      "location": "स्थान",
+      "endorsementNumber": "एंडोर्समेंट नंबर",
+      "endorsementRequestDate": "एंडोर्समेंट अनुरोध तिथि",
+      "endorsementEffectiveDate": "एंडोर्समेंट प्रभावी तिथि",
+      "endorsementReceivedDate": "एंडोर्समेंट प्राप्ति तिथि",
+      "dateOfInception": "प्रारंभ तिथि",
+      "exceptionCategory": "अपवाद श्रेणी",
+      "exceptionApprovalRemark": "अपवाद अनुमोदन टिप्पणी"
+    },
+    "messages": {
+      "loadingMemberDetails": "सदस्य विवरण लोड हो रहा है..."
+    }
+  },
+  "enrollmentSteps": {
+    "insurer": "बीमाकर्ता",
+    "corporate": "कॉर्पोरेट",
+    "policy": "पॉलिसी",
+    "intermediatory": "मध्यस्थ",
+    "tpaSpoc": "टीपीए संपर्क व्यक्ति"
+  },
+  "stepNavigation": {
+    "buttons": {
+      "back": "वापस",
+      "next": "अगला",
+      "save": "सहेजें",
+      "approve": "स्वीकृत करें",
+      "reassign": "पुनः असाइन करें"
+    },
+    "stages": {
+      "qcReviewStage": "🧐 QC समीक्षा चरण",
+      "processingStage": "⚙️ प्रोसेसिंग चरण"
+    },
+    "messages": {
+      "qcReviewPending": "QC समीक्षा लंबित है: कृपया अनुमोदन से पहले सभी जमा किए गए दस्तावेज़ों की सावधानीपूर्वक जांच करें।",
+      "processingInProgress": "प्रोसेसिंग जारी है: पॉलिसी अनुसूची के अनुसार सभी अनिवार्य विवरणों की जांच और अद्यतन करें।"
+    }
+  },
+  "memberExcel": {
+    "fields": {
+      "insurerName": "बीमाकर्ता का नाम",
+      "policyNumber": "पॉलिसी नंबर",
+      "endorsementNumber": "एंडोर्समेंट नंबर"
+    },
+    "placeholders": {
+      "insurer": "बीमाकर्ता",
+      "policyNumber": "पॉलिसी नंबर",
+      "endorsementNumber": "एंडोर्समेंट नंबर"
+    },
+    "buttons": {
+      "reset": "रीसेट करें",
+      "search": "खोजें",
+      "searching": "खोज जारी है..."
+    }
+  },
+  "spocForm": {
+    "labels": {
+      "spocName": "SPOC का नाम",
+      "spocEmailId": "SPOC ईमेल आईडी",
+      "spocMobileNumber": "SPOC मोबाइल नंबर",
+      "telephoneNumber": "टेलीफोन नंबर",
+      "tpaFees": "TPA शुल्क (प्रतिशत में)",
+      "tpaServicingBranch": "TPA सेवा शाखा",
+      "tpaSpoc": "टीपीए संपर्क व्यक्ति"
+    },
+    "placeholders": {
+      "spocName": "SPOC का नाम दर्ज करें",
+      "emailId": "ईमेल आईडी दर्ज करें",
+      "mobileNumber": "मोबाइल नंबर दर्ज करें",
+      "telephoneNumber": "टेलीफोन नंबर दर्ज करें",
+      "tpaFees": "TPA शुल्क दर्ज करें",
+      "selectBranch": "शाखा चुनें",
+      "selectSpoc": "SPOC चुनें"
+    }
+  },
+  "brokerForm": {
+    "channelType": {
+      "label": "चैनल प्रकार",
+      "placeholder": "चैनल प्रकार चुनें"
+    },
+    "channelOptions": {
+      "broker": "ब्रोकर",
+      "agent": "एजेंट",
+      "direct": "डायरेक्ट"
+    },
+    "broker": {
+      "dropdown": {
+        "label": "ब्रोकर नाम",
+        "placeholder": "ब्रोकर चुनें"
+      },
+      "fields": {
+        "code": "ब्रोकर कोड",
+        "email": "ईमेल आईडी",
+        "mobile": "मोबाइल नंबर",
+        "telephone": "टेलीफोन नंबर"
+      }
+    },
+    "agent": {
+      "dropdown": {
+        "label": "एजेंट नाम",
+        "placeholder": "एजेंट चुनें"
+      },
+      "fields": {
+        "code": "एजेंट कोड",
+        "email": "ईमेल आईडी",
+        "mobile": "मोबाइल नंबर",
+        "telephone": "टेलीफोन नंबर"
+      }
+    }
+  },
+  "icForm": {
+    "insurerName": "बीमाकर्ता नाम",
+    "insurerType": "बीमाकर्ता प्रकार",
+    "productName": "उत्पाद नाम",
+    "issuingOffice": "जारी कार्यालय",
+    "headOffice": "मुख्य कार्यालय",
+    "divisionalOffice": "विभागीय कार्यालय",
+    "placeholders": {
+      "insurer": "बीमाकर्ता",
+      "type": "प्रकार",
+      "product": "उत्पाद",
+      "issuingOffice": "जारी कार्यालय चुनें",
+      "headOffice": "मुख्य कार्यालय चुनें",
+      "divisionalOffice": "विभागीय कार्यालय चुनें"
+    }
+  },
+  "corporateForm": {
+    "labels": {
+      "corporateName": "कॉर्पोरेट नाम",
+      "groupName": "समूह नाम",
+      "email": "ईमेल",
+      "contactNumber": "संपर्क नंबर",
+      "address": "पता",
+      "telephone": "टेलीफोन नंबर",
+      "pinCode": "पिन कोड",
+      "state": "राज्य",
+      "city": "शहर",
+      "industrySector": "उद्योग क्षेत्र",
+      "panNumber": "पॉलिसी प्रस्तावक पैन नंबर",
+      "gstNumber": "पॉलिसी प्रस्तावक जीएसटी नंबर"
+    },
+    "placeholders": {
+      "corporateName": "कॉर्पोरेट नाम",
+      "groupName": "समूह नाम",
+      "email": "ईमेल दर्ज करें",
+      "contactNumber": "संपर्क नंबर दर्ज करें",
+      "address": "पता दर्ज करें",
+      "telephone": "टेलीफोन नंबर दर्ज करें",
+      "pinCode": "पिन कोड दर्ज करें",
+      "state": "राज्य",
+      "city": "शहर",
+      "industrySector": "उद्योग क्षेत्र",
+      "panNumber": "पैन नंबर दर्ज करें",
+      "gstNumber": "जीएसटी नंबर दर्ज करें"
+    },
+    "actions": {
+      "addCorporate": "कॉर्पोरेट जोड़ें"
+    }
+  },
+  "source": "स्रोत",
+  "enrolmentType": "नामांकन प्रकार",
+  "providerMaster": {
+    "moduleName": "प्रदाता प्रबंधन",
+    "providerMasterLabel": "प्रदाता मास्टर",
+    "title": {
+      "providers": "प्रदाता",
+      "addProvider": "प्रदाता जोड़ें",
+      "icCorporateMapping": "आईसी कॉर्पोरेट मैपिंग"
+    },
+    "breadcrumb": {
+      "providers": "प्रदाता",
+      "addProvider": "प्रदाता जोड़ें",
+      "providerDetails": "प्रदाता विवरण"
+    },
+    "button": {
+      "addProvider": "प्रदाता जोड़ें",
+      "cancel": "रद्द करें",
+      "saveProvider": "प्रदाता सहेजें",
+      "saving": "सहेजा जा रहा है…",
+      "add": "जोड़ें",
+      "search": "खोजें",
+      "hideSearch": "खोज छुपाएं",
+      "downloadReport": "रिपोर्ट डाउनलोड करें",
+      "save": "सहेजें"
+    },
+    "toolbar": {
+      "auditLog": "ऑडिट लॉग",
+      "auditLogTitle": "इस टैब के लिए फ़ील्ड-स्तर परिवर्तन इतिहास देखें",
+      "auditLogUnavailable": "प्रदाता ID उपलब्ध नहीं",
+      "auditLogDialogTitle": "ऑडिट लॉग — {{section}}",
+      "loadingAuditLog": "ऑडिट लॉग लोड हो रहा है…",
+      "icWiseEmpanelmentStatus": "IC वार नामांकन स्थिति",
+      "icWiseEmpanelmentStatusTitle": "बीमाकर्ता के अनुसार IC वार नामांकन स्थिति देखें",
+      "icWiseEmpanelmentStatusAria": "IC वार नामांकन स्थिति देखें",
+      "providerStatusWithIcs": "IC के साथ प्रदाता स्थिति",
+      "network": "नेटवर्क",
+      "networkType": "नेटवर्क प्रकार",
+      "tpaNetwork": "TPA नेटवर्क",
+      "insurerNetwork": "इंश्योरर नेटवर्क",
+      "viewAllNetworkTypes": "सभी देखें",
+      "viewAllNetworkTypesAria": "सभी नेटवर्क प्रकार देखें",
+      "allNetworkTypes": "सभी नेटवर्क प्रकार",
+      "agreement": "समझौता",
+      "agreementType": "समझौता प्रकार",
+      "verify": "सत्यापित करें",
+      "insurerName": "बीमाकर्ता का नाम",
+      "networkStatus": "नेटवर्क स्थिति",
+      "mappedSince": "मैप किया गया",
+      "close": "बंद करें",
+      "auditColumns": {
+        "section": "अनुभाग",
+        "certificate": "प्रमाणपत्र",
+        "recordCode": "रिकॉर्ड कोड",
+        "recordName": "रिकॉर्ड नाम",
+        "fieldName": "फ़ील्ड नाम",
+        "oldValue": "पुराना मान",
+        "newValue": "नया मान",
+        "action": "कार्रवाई",
+        "changedBy": "द्वारा बदला गया",
+        "dateTime": "दिनांक और समय"
+      }
+    },
+    "chooseFile": {
+      "chooseFile": "फ़ाइल चुनें",
+      "browse": "ब्राउज़ करें",
+      "browseButton": "ब्राउज़",
+      "dropFileHere": "फ़ाइल यहाँ छोड़ें या",
+      "dropOrBrowseAria": "{{label}}: फ़ाइल यहाँ छोड़ें या ब्राउज़ करें",
+      "noFileChosen": "कोई फ़ाइल नहीं चुनी गई",
+      "uploading": "अपलोड हो रहा है…",
+      "removing": "हटाया जा रहा है…",
+      "remove": "{{label}} हटाएं"
+    },
+    "summaryBar": {
+      "providerName": "प्रदाता नाम",
+      "address": "पता",
+      "providerCode": "प्रदाता कोड",
+      "rohiniId": "रोहिणी ID"
+    },
+    "common": {
+      "status": "स्थिति",
+      "active": "सक्रिय",
+      "inactive": "निष्क्रिय",
+      "view": "देखें",
+      "edit": "संपादित करें",
+      "delete": "हटाएं",
+      "yes": "हाँ",
+      "no": "नहीं",
+      "description": "विवरण",
+      "master": "मास्टर",
+      "actions": "कार्रवाई",
+      "download": "डाउनलोड",
+      "duplicateFileName": "समान नाम वाली फ़ाइल पहले से अपलोड है। कृपया कोई अन्य फ़ाइल चुनें।"
+    },
+    "mastersPage": {
+      "title": "मास्टर्स",
+      "breadcrumbMasters": "मास्टर्स",
+      "auditLog": "ऑडिट लॉग",
+      "auditLogTitle": "इस मास्टर के लिए परिवर्तन इतिहास देखें",
+      "deleteTitle": "क्या आप सुनिश्चित हैं?",
+      "deleteDescription": "क्या आप वाकई \"{{label}}\" हटाना चाहते हैं?",
+      "deleteAction": "हटाएं",
+      "deleteError": "इस समय रिकॉर्ड हटाने में असमर्थ। कृपया बाद में पुनः प्रयास करें।",
+      "thisRecord": "यह रिकॉर्ड",
+      "recordDeleted": "रिकॉर्ड सफलतापूर्वक हटाया गया।",
+      "identifierLevel": "पहचान स्तर",
+      "issuingAuthorityName": "जारीकर्ता प्राधिकरण नाम",
+      "applicableProviderType": "लागू प्रदाता प्रकार",
+      "effectiveFrom": "प्रभावी से",
+      "effectiveTo": "प्रभावी तक",
+      "activeFlag": "सक्रिय ध्वज",
+      "classCode": "वर्ग कोड",
+      "subclassCode": "उप-वर्ग कोड",
+      "isActive": "सक्रिय है",
+      "serviceType": "सेवा प्रकार",
+      "discountType": "छूट प्रकार",
+      "inclusionExclusionType": "प्रकार",
+      "inclusion": "समावेश",
+      "exclusion": "अपवर्जन",
+      "createTitle": "मास्टर रिकॉर्ड जोड़ें",
+      "editTitle": "मास्टर रिकॉर्ड संपादित करें",
+      "select": "चुनें",
+      "superAdminOnlyEdit": "केवल सुपर एडमिन मास्टर रिकॉर्ड संपादित कर सकते हैं।"
+    },
+    "agreement": {
+      "newAgreement": "नया समझौता",
+      "noAgreements": "कोई समझौता उपलब्ध नहीं",
+      "detailsNotFound": "प्रदाता समझौता विवरण नहीं मिला",
+      "agreementType": "समझौता प्रकार",
+      "applicableScope": "लागू दायरा",
+      "agreementName": "समझौता नाम",
+      "type": "प्रकार",
+      "scope": "दायरा",
+      "applicableIcs": "लागू IC",
+      "effectiveFrom": "प्रभावी से",
+      "soc": "SOC",
+      "discount": "छूट",
+      "addDiscount": "छूट जोड़ें",
+      "socDiscountPending": "लंबित",
+      "socDiscountComplete": "पूर्ण",
+      "sortAsc": "आरोही क्रम में क्रमबद्ध करें",
+      "sortDesc": "अवरोही क्रम में क्रमबद्ध करें",
+      "pinColumn": "कॉलम पिन करें",
+      "noPin": "कोई पिन नहीं",
+      "pinLeft": "बाएं पिन",
+      "pinRight": "दाएं पिन",
+      "chooseColumns": "कॉलम चुनें",
+      "filters": "फ़िल्टर",
+      "columns": "कॉलम",
+      "reset": "रीसेट",
+      "addFilter": "फ़िल्टर जोड़ें",
+      "filterPlaceholder": "{{label}} फ़िल्टर करें",
+      "searchPlaceholder": "खोजें...",
+      "allAgreementNames": "सभी समझौता नाम",
+      "columnMenu": "कॉलम मेनू",
+      "seeMore": "और देखें",
+      "seeLess": "कम देखें",
+      "removeFilter": "{{label}} फ़िल्टर हटाएं",
+      "insuranceCompany": "बीमा कंपनी",
+      "effectiveFromInvolvement": "प्रभावी से (भागीदारी)",
+      "uploadedOn": "{{date}} को अपलोड किया गया",
+      "noDataAvailable": "कोई डेटा उपलब्ध नहीं",
+      "noGipsaRemarksAvailable": "कोई GIPSA टिप्पणी उपलब्ध नहीं",
+      "psuPpnCityCreateGipsaAgreement": "Provider belongs to a PPN city. Please create a GIPSA Agreement.",
+      "agreementTypesTitle": "समझौता प्रकार",
+      "noAgreementTypes": "कोई समझौता प्रकार उपलब्ध नहीं",
+      "moreAgreementTypes": "+{{count}} और",
+      "moreAgreementTypesAria": "{{count}} और समझौता प्रकार दिखाएं",
+      "sections": {
+        "basicDetails": "समझौता मूल विवरण",
+        "terms": "समझौता शर्तें",
+        "document": "समझौता दस्तावेज़",
+        "scope": "लागू दायरा",
+        "remarks": "टिप्पणियाँ"
+      },
+      "fields": {
+        "agreementName": "समझौता नाम",
+        "agreementType": "समझौता प्रकार",
+        "agreementVersion": "समझौता संस्करण",
+        "status": "स्थिति",
+        "dateOfEmpanelment": "पैनल में शामिल होने की तिथि",
+        "gicInceptionDate": "GIC प्रारंभ तिथि",
+        "ppnInceptionDate": "PPN प्रारंभ तिथि",
+        "signAgreementSentDate": "हस्ताक्षर समझौता भेजने की तिथि",
+        "agreementCopyAvailable": "समझौता प्रति उपलब्ध",
+        "providerSignatoryName": "प्रदाता हस्ताक्षरकर्ता नाम",
+        "providerSignatoryDesignation": "प्रदाता हस्ताक्षरकर्ता पद",
+        "effectiveFrom": "प्रभावी से",
+        "effectiveTo": "प्रभावी तक",
+        "agreementDurationDays": "समझौता अवधि (दिन)",
+        "agreementDocument": "समझौता दस्तावेज़",
+        "supportingDocument": "सहायक दस्तावेज़",
+        "remarks": "टिप्पणियाँ",
+        "selectAgreementName": "समझौता नाम चुनें",
+        "select": "चुनें",
+        "selectInsurer": "बीमाकर्ता चुनें",
+        "selectInsurers": "बीमाकर्ता चुनें",
+        "enterRemarks": "टिप्पणी दर्ज करें",
+        "ppnState": "PPN राज्य",
+        "ppnCity": "PPN शहर"
+      },
+      "filterOptions": {
+        "allTypes": "सभी प्रकार",
+        "bipartite": "द्विपक्षीय",
+        "tripartite": "त्रिपक्षीय",
+        "allScopes": "सभी दायरे",
+        "psu": "PSU",
+        "selectedIcs": "चयनित IC",
+        "allStatus": "सभी स्थिति",
+        "active": "सक्रिय",
+        "terminated": "समाप्त",
+        "expired": "समाप्त अवधि",
+        "draft": "ड्राफ्ट"
+      },
+      "mappingSuccess": {
+        "title": "Confirmation",
+        "close": "Close",
+        "view": "View",
+        "gic": "GIC -All active Insurance Companies have been mapped successfully.",
+        "gipsa": "GIPSA- ALL PSUs have been mapped successfully."
+      }
+    },
+    "search": {
+      "filterTitle": "प्रदाता फ़िल्टर",
+      "hospitalName": "प्रदाता नाम",
+      "rohiniCode": "प्रदाता रोहिणी कोड",
+      "providerCode": "प्रदाता कोड",
+      "agreementType": "Agreement Type",
+      "state": "State",
+      "city": "City",
+      "insurerCompany": "Insurer Company",
+      "expiringInDays": "अगले (दिनों) में रोहिणी समाप्ति",
+      "rohiniExpiryDate": "ROHINI Expiry Date",
+      "rohiniExpiryStatus": "ROHINI Expiry Status",
+      "rohiniExpiryStatusAll": "All",
+      "rohiniExpiryStatusActive": "Active",
+      "rohiniExpiryStatusExpired": "Expired",
+      "providerNetworkType": "प्रदाता नेटवर्क प्रकार",
+      "providerType": "प्रदाता प्रकार",
+      "networkSource": "नेटवर्क स्रोत"
+    },
+    "table": {
+      "providerCode": "प्रदाता कोड",
+      "providerName": "प्रदाता नाम",
+      "providerType": "प्रदाता प्रकार",
+      "providerNetworkType": "प्रदाता नेटवर्क प्रकार",
+      "networkSource": "नेटवर्क स्रोत",
+      "providerRohiniCode": "प्रदाता रोहिणी कोड",
+      "rohiniExpiryAlert": "रोहिणी समाप्ति अलर्ट",
+      "noOfBeds": "बिस्तरों की संख्या",
+      "city": "शहर",
+      "state": "राज्य",
+      "address": "पता"
+    },
+    "export": {
+      "noData": "वर्तमान फ़िल्टर के साथ निर्यात करने के लिए कोई डेटा नहीं।",
+      "hint": "वर्तमान खोज फ़िल्टर और स्थिति कार्ड (टेबल स्कोप) का उपयोग करके निर्यात।",
+      "exporting": "निर्यात हो रहा है…",
+      "downloadExcel": "Excel के रूप में डाउनलोड करें",
+      "failed": "निर्यात विफल"
+    },
+    "network": {
+      "both": "दोनों",
+      "network": "नेटवर्क",
+      "nonNetwork": "गैर-नेटवर्क",
+      "insurer": "बीमाकर्ता",
+      "tpa": "TPA"
+    },
+    "tabs": {
+      "hospital-details": "अवलोकन",
+      "agreement": "समझौते",
+      "provider-owner": "मालिक",
+      "infrastructure-facility": "अवसंरचना और सुविधा",
+      "owners-info": "संपर्क",
+      "ic-corporate": "नेटवर्क प्रबंधन",
+      "bank-details": "बैंकिंग विवरण",
+      "hospital-document": "दस्तावेज़",
+      "soc": "SOC",
+      "hospital-discount": "छूट"
+    },
+    "mappingSubTab": {
+      "ic": "बीमा कंपनी",
+      "corporate": "कॉर्पोरेट"
+    },
+    "breadcrumbTrail": {
+      "editAgreement": "समझौता संपादित करें",
+      "viewAgreement": "समझौता देखें",
+      "newAgreement": "नया समझौता",
+      "addSoc": "SOC जोड़ें",
+      "editSoc": "SOC संपादित करें",
+      "viewSoc": "SOC देखें",
+      "addOwner": "मालिक जोड़ें",
+      "editOwner": "मालिक संपादित करें",
+      "providerRestrictions": "प्रदाता प्रतिबंध",
+      "editRestriction": "प्रतिबंध संपादित करें",
+      "viewRestriction": "प्रतिबंध देखें",
+      "addRestriction": "प्रतिबंध जोड़ें",
+      "newIcMapping": "नई IC मैपिंग",
+      "newCorporateMapping": "नई कॉर्पोरेट मैपिंग",
+      "editCorporateMapping": "कॉर्पोरेट मैपिंग संपादित करें",
+      "editIcMapping": "IC मैपिंग संपादित करें",
+      "viewCorporateMapping": "कॉर्पोरेट मैपिंग देखें",
+      "viewIcMapping": "IC मैपिंग देखें"
+    },
+    "addForm": {
+      "providerDetails": "प्रदाता विवरण",
+      "providerName": "प्रदाता नाम",
+      "providerNamePlaceholder": "प्रदाता नाम दर्ज करें",
+      "providerType": "प्रदाता प्रकार",
+      "providerNetworkType": "प्रदाता नेटवर्क प्रकार",
+      "providerNetworkTypeDefault": "चयन करें",
+      "networkProvider": "नेटवर्क प्रदाता",
+      "nonNetworkProvider": "गैर-नेटवर्क प्रदाता",
+      "icSelection": "IC चयन",
+      "icSelectionDefault": "एक या अधिक चुनें",
+      "empanelmentSource": "एम्पेनलमेंट स्रोत",
+      "empanelmentSourceDefault": "चयन करें",
+      "openExistingProvider": "मौजूदा प्रदाता खोलें",
+      "duplicateRohiniTitle": "प्रदाता पहले से मौजूद है",
+      "duplicateRohiniMessage": "इस ROHINI ID वाला प्रदाता पहले से मौजूद है",
+      "duplicateRohiniRedirect": "Redirect",
+      "duplicateRohiniCancel": "रद्द करें",
+      "rohiniNumber": "रोहिणी नंबर",
+      "rohiniPlaceholder": "13-अंकीय रोहिणी नंबर",
+      "providerCategory": "प्रदाता श्रेणी",
+      "providerCategoryDefault": "प्रदाता श्रेणी",
+      "providerSubclass": "प्रदाता उप-वर्ग",
+      "ownershipType": "स्वामित्व प्रकार",
+      "addressDetails": "पता विवरण",
+      "addressLine1": "पता पंक्ति 1",
+      "addressLine2": "पता पंक्ति 2",
+      "pincode": "पिनकोड",
+      "pincodePlaceholder": "6-अंकीय पिनकोड",
+      "city": "शहर",
+      "cityPlaceholder": "पिनकोड से स्वतः भरा जाएगा",
+      "state": "राज्य",
+      "statePlaceholder": "पिनकोड से स्वतः भरा जाएगा",
+      "district": "ज़िला",
+      "districtPlaceholder": "ज़िला दर्ज करें",
+      "contactDetails": "संपर्क विवरण",
+      "clinicalSpeciality": "क्लिनिकल विशेषता",
+      "clinicalSpecialityDefault": "एक या अधिक चुनें",
+      "websiteUrl": "वेबसाइट URL",
+      "websitePlaceholder": "https://",
+      "mobileNo": "मोबाइल नं.",
+      "mobilePlaceholder": "10-अंकीय मोबाइल नंबर",
+      "telephoneNo": "टेलीफोन नं.",
+      "telephonePlaceholder": "टेलीफोन नंबर",
+      "faxNo": "फैक्स नं.",
+      "faxPlaceholder": "फैक्स नंबर",
+      "email": "ईमेल",
+      "emailPlaceholder": "ईमेल पता दर्ज करें",
+      "address": "पता",
+      "addressPlaceholder": "पता दर्ज करें",
+      "panNo": "PAN No",
+      "panPlaceholder": "ABCDE1234F",
+      "providerTypeDefault": "अस्पताल"
+    },
+    "errors": {
+      "noWritePermission": "लिखने की अनुमति नहीं"
+    },
+    "rohiniMaster": {
+      "title": "रोहिणी मास्टर",
+      "filterTitle": "रोहिणी मास्टर फ़िल्टर",
+      "upload": "अपलोड",
+      "versionLog": "संस्करण लॉग",
+      "viewDetails": "रोहिणी विवरण",
+      "recordStatus": "रिकॉर्ड स्थिति",
+      "filterAll": "सभी",
+      "rohiniCode": "रोहिणी कोड",
+      "rohiniExpiryDate": "रोहिणी समाप्ति तिथि",
+      "nextRenewalDue": "अगली नवीनीकरण तिथि",
+      "location": "स्थान",
+      "cityTown": "शहर / कस्बा",
+      "cityVillageTown": "शहर / गाँव / कस्बा",
+      "pinCode": "पिन कोड",
+      "emailId": "ईमेल आईडी",
+      "contactNumber": "संपर्क नंबर",
+      "registrationStatus": "पंजीकरण स्थिति",
+      "networkType": "नेटवर्क प्रकार",
+      "recordStatusField": "रिकॉर्ड स्थिति",
+      "latitude": "अक्षांश",
+      "longitude": "देशांतर",
+      "rohiniExpiredDate": "रोहिणी समाप्ति तिथि",
+      "rohiniNextRenewalDueDate": "रोहिणी अगली नवीनीकरण तिथि",
+      "openMapFor": "{{coords}} के लिए मानचित्र खोलें",
+      "viewOnMap": "मानचित्र पर देखें: {{coords}}",
+      "locationDialogTitle": "स्थान",
+      "close": "बंद करें",
+      "noCoordinates": "कोई निर्देशांक उपलब्ध नहीं",
+      "mapAriaLabel": "स्थान दिखाने वाला मानचित्र",
+      "fetchListFailed": "रोहिणी सूची लोड करने में विफल",
+      "loadVersionLogFailed": "संस्करण लॉग लोड करने में विफल",
+      "exportHint": "वर्तमान खोज फ़िल्टर (तालिका दायरा) का उपयोग करके निर्यात।",
+      "versionLogSearch": {
+        "inwardNumber": "इनवर्ड नंबर",
+        "fileName": "फ़ाइल नाम",
+        "fromDate": "प्रारंभ तिथि",
+        "toDate": "समाप्ति तिथि"
+      },
+      "versionLogColumns": {
+        "inwardNumber": "इनवर्ड नंबर",
+        "fileName": "फ़ाइल नाम",
+        "userName": "उपयोगकर्ता नाम",
+        "createdDate": "निर्माण तिथि"
+      },
+      "uploadForm": {
+        "atLeastOneFile": "कम से कम एक फ़ाइल आवश्यक है",
+        "fileSizeMax": "प्रत्येक फ़ाइल 50MB से कम होनी चाहिए",
+        "excelOnly": "केवल Excel फ़ाइलें (.xls, .xlsx) अनुमत हैं",
+        "unsupportedFormat": "असमर्थित फ़ाइल प्रारूप",
+        "excelHint": "अनुमत: केवल Excel (.xls, .xlsx) | प्रति फ़ाइल अधिकतम 50MB",
+        "clickToUploadExcel": "Excel फ़ाइल अपलोड करने के लिए क्लिक करें",
+        "clickToUploadFile": "फ़ाइल अपलोड करने के लिए क्लिक करें",
+        "processing": "प्रसंस्करण…",
+        "loadingBranchDepartment": "TPA शाखा और विभाग लोड हो रहे हैं…",
+        "branchNotAvailable": "TPA शाखा \"{{branch}}\" उपलब्ध नहीं है।",
+        "departmentNotAvailable": "विभाग \"{{department}}\" उपलब्ध नहीं है।",
+        "branchDepartmentLoading": "शाखा और विभाग अभी भी लोड हो रहे हैं। कृपया पुनः प्रयास करें।",
+        "couldNotResolveBranch": "TPA शाखा \"{{branch}}\" हल नहीं हो सकी।",
+        "couldNotResolveDepartment": "विभाग \"{{department}}\" हल नहीं हो सका।",
+        "uploadFailed": "अपलोड विफल",
+        "uploadMissingInwardOrFile": "अपलोड पूर्ण हुआ लेकिन इनवर्ड नंबर या फ़ाइल आईडी गायब है। रोहिणी मास्टर पंजीकृत नहीं हो सकता।",
+        "registrationCompleted": "रोहिणी मास्टर पंजीकरण पूर्ण।",
+        "registeringWithMaster": "रोहिणी मास्टर के साथ पंजीकरण…",
+        "inwardCreatedOnUpload": "Excel फ़ाइल अपलोड करने पर आपका इनवर्ड नंबर बनता है। फिर हम इसे रोहिणी मास्टर के साथ पंजीकृत करते हैं।",
+        "uploadDocumentsLabel": "दस्तावेज़ अपलोड करें",
+        "uploadDocumentsAction": "दस्तावेज़ अपलोड करें",
+        "noInwardReturned": "अपलोड सफल लेकिन कोई इनवर्ड नंबर नहीं मिला। रोहिणी मास्टर के साथ पंजीकरण नहीं हो सकता।",
+        "noFileReference": "अपलोड सफल लेकिन कोई फ़ाइल संदर्भ नहीं मिला। रोहिणी मास्टर से लिंक नहीं हो सकता।",
+        "missingInwardNumber": "अपलोड सफल लेकिन इनवर्ड नंबर गायब है। रोहिणी मास्टर के साथ पंजीकरण नहीं हो सकता।",
+        "documentsUploadedSuccess": "दस्तावेज़ सफलतापूर्वक अपलोड हुए",
+        "inwardNoLabel": "इनवर्ड नं.:"
+      }
+    },
+    "expiry": {
+      "noDate": "कोई समाप्ति तिथि नहीं",
+      "expiredLessThanOneDay": "1 दिन से भी कम समय पहले समाप्त",
+      "expiredAgo": "{{days}} {{unit}} पहले समाप्त",
+      "warningExpiresIn": "चेतावनी: {{days}} {{unit}} में समाप्त",
+      "expiresIn": "{{days}} {{unit}} में समाप्त",
+      "day": "दिन",
+      "days": "दिन",
+      "emptyValue": "—"
+    },
+    "detailTabs": {
+      "documents": {
+        "upload": "अपलोड",
+        "uploadSuccessful": "अपलोड सफल",
+        "uploadSuccessMessage": "दस्तावेज़ सफलतापूर्वक अपलोड किया गया।",
+        "uploadDocument": "दस्तावेज़ अपलोड करें",
+        "selectDocument": "दस्तावेज़ चुनें",
+        "documentLabel": "दस्तावेज़",
+        "startDateOptional": "प्रारंभ तिथि (वैकल्पिक)",
+        "validTillOptional": "वैध तिथि (वैकल्पिक)",
+        "chooseDocumentType": "दस्तावेज़ प्रकार चुनें...",
+        "noIcInfo": "कोई IC जानकारी उपलब्ध नहीं"
+      },
+      "bank": {
+        "title": "बैंक विवरण",
+        "cancelCheque": "रद्द चेक",
+        "panCard": "PAN कार्ड",
+        "verifyingIfsc": "IFSC सत्यापित हो रहा है...",
+        "verifyIfsc": "IFSC सत्यापित करें",
+        "ifscVerified": "IFSC सत्यापित",
+        "ifscNotVerified": "IFSC सत्यापित नहीं",
+        "ifscVerify": "IFSC सत्यापित करें",
+        "bankAddressPlaceholder": "पूरा पता",
+        "documents": {
+          "preview": "दस्तावेज़ पूर्वावलोकन",
+          "noDocumentUploaded": "कोई दस्तावेज़ अपलोड नहीं किया गया।",
+          "uploadingDocument": "दस्तावेज़ अपलोड हो रहा है…",
+          "loadingDocument": "दस्तावेज़ लोड हो रहा है…",
+          "clickOrDropToReplace": "बदलने के लिए क्लिक करें या छोड़ें",
+          "dropFileHere": "फ़ाइल यहाँ छोड़ें या",
+          "browse": "ब्राउज़ करें",
+          "uploadHint": "PDF, JPG, JPEG, या PNG"
+        },
+        "validation": {
+          "completeRequiredFields": "सभी आवश्यक बैंक फ़ील्ड पूर्ण करें",
+          "uploadDocuments": "रद्द चेक और PAN कार्ड अपलोड करें",
+          "accountTypeRequired": "खाता प्रकार आवश्यक है",
+          "accountHolderTypeRequired": "खाताधारक प्रकार आवश्यक है"
+        },
+        "fields": {
+          "accountHolderName": "खाताधारक का नाम",
+          "accountNumber": "खाता संख्या",
+          "accountType": "खाता प्रकार",
+          "accountHolderType": "खाताधारक प्रकार",
+          "bankName": "बैंक का नाम",
+          "bankBranch": "बैंक शाखा",
+          "ifscCode": "IFSC कोड",
+          "micrCode": "MICR कोड",
+          "panNo": "PAN नं.",
+          "panHolderName": "PAN धारक का नाम",
+          "tanNo": "TAN नं.",
+          "bankAddress": "बैंक पता"
+        }
+      },
+      "owner": {
+        "addOwner": "मालिक जोड़ें",
+        "noOwnerInfo": "कोई मालिक जानकारी उपलब्ध नहीं",
+        "noIcInfo": "कोई IC जानकारी उपलब्ध नहीं",
+        "deletingContact": "संपर्क व्यक्ति हटाया जा रहा है",
+        "deleteContact": "संपर्क व्यक्ति हटाएं",
+        "deleting": "हटाया जा रहा है…",
+        "sections": {
+          "ownerDetails": "मालिक विवरण",
+          "address": "पता",
+          "details": "विवरण",
+          "contact": "संपर्क"
+        },
+        "fields": {
+          "ownerName": "मालिक का नाम",
+          "designation": "पद",
+          "qualification": "योग्यता",
+          "gender": "लिंग",
+          "selectGender": "लिंग चुनें",
+          "male": "पुरुष",
+          "female": "महिला",
+          "pinCode": "पिन कोड"
+        }
+      },
+      "contactPersons": {
+        "addContactPerson": "संपर्क व्यक्ति जोड़ें",
+        "noContactDetails": "दिखाने के लिए कोई संपर्क विवरण नहीं",
+        "noContactPersonsOnFile": "कोई संपर्क व्यक्ति दर्ज नहीं",
+        "noNameOnFile": "कोई नाम दर्ज नहीं",
+        "defaultRole": "संपर्क व्यक्ति",
+        "noDesignation": "कोई पद नहीं",
+        "fields": {
+          "role": "भूमिका",
+          "name": "नाम",
+          "mobile": "मोबाइल",
+          "telephone": "टेलीफोन"
+        },
+        "roles": {
+          "keyContactPerson": "मुख्य संपर्क व्यक्ति",
+          "billingDepartment": "बिलिंग विभाग",
+          "issueHandler": "मुद्दा हैंडलर",
+          "tpaCoordinator": "TPA समन्वयक",
+          "contactPerson": "संपर्क व्यक्ति",
+          "ceo": "CEO",
+          "chiefExecutive": "मुख्य कार्यकारी अधिकारी"
+        }
+      },
+      "providerDetails": {
+        "providerInformation": "प्रदाता जानकारी",
+        "addressDetails": "पता विवरण",
+        "contactDetails": "संपर्क विवरण",
+        "certificates": "प्रमाणपत्र",
+        "removeCertificate": "प्रमाणपत्र हटाएं",
+        "noIcInfo": "कोई IC जानकारी उपलब्ध नहीं",
+        "changeBeforeSave": "सहेजने से पहले कम से कम एक फ़ील्ड बदलें।",
+        "identifierDetails": "पहचानकर्ता विवरण",
+        "oldProviderCodes": "पुराने प्रदाता कोड",
+        "noIdentifierData": "कोई पहचानकर्ता डेटा उपलब्ध नहीं",
+        "noCertificateAvailable": "कोई प्रमाणपत्र उपलब्ध नहीं",
+        "certificateFileNotAvailable": "प्रमाणपत्र फ़ाइल उपलब्ध नहीं है।",
+        "notRegistered": "पंजीकृत नहीं",
+        "viewCertificate": "प्रमाणपत्र देखें",
+        "removeRohiniNumber": "रोहिणी नंबर हटाएं",
+        "removeOldProviderCode": "पुराना प्रदाता कोड हटाएं",
+        "fields": {
+          "grade": "ग्रेड",
+          "careTier": "देखभाल स्तर",
+          "dayCare": "डे केयर",
+          "signatoryName": "हस्ताक्षरकर्ता नाम",
+          "signatoryDesignation": "हस्ताक्षरकर्ता पद",
+          "systemOfMedicine": "चिकित्सा प्रणाली",
+          "tpaServicingBranch": "TPA सेवा शाखा",
+          "serviceEmail": "सेवा ईमेल",
+          "zone": "क्षेत्र",
+          "pinCode": "पिन कोड",
+          "location": "स्थान",
+          "telePhoneNo": "टेलीफोन नं.",
+          "mobNo": "मोबाइल नं.",
+          "websiteAvailable": "वेबसाइट उपलब्ध",
+          "category": "श्रेणी",
+          "registrationNo": "पंजीकरण संख्या",
+          "registrationAct": "पंजीकरण अधिनियम",
+          "providerRohiniId": "प्रदाता रोहिणी ID",
+          "certName": "नाम",
+          "certValidFrom": "वैध से",
+          "certValidTo": "वैध तक"
+        }
+      }
+    },
+    "icMapping": {
+      "bulkMapping": "बल्क आईसी मैपिंग",
+      "upload": "अपलोड",
+      "loading": {
+        "networkMappings": "नेटवर्क मैपिंग लोड हो रही है...",
+        "inward": "इनवर्ड {{inwardNo}} लोड हो रहा है..."
+      },
+      "search": {
+        "networkSummaryTitle": "नेटवर्क सारांश खोज",
+        "inwardTitle": "बल्क मैपिंग इनवर्ड खोज",
+        "providerName": "प्रदाता नाम",
+        "rohiniNumber": "रोहिणी नंबर",
+        "insuranceCompany": "बीमा कंपनी",
+        "inwardNo": "इनवर्ड नंबर",
+        "insurerName": "बीमाकर्ता नाम"
+      },
+      "export": {
+        "landingHint": "वर्तमान खोज फ़िल्टर का उपयोग करके वर्तमान पृष्ठ निर्यात करता है।"
+      },
+      "columns": {
+        "insuranceCompany": "बीमा कंपनी",
+        "corporateName": "कॉर्पोरेट नाम",
+        "providerName": "प्रदाता नाम",
+        "providerCode": "प्रदाता कोड",
+        "rohiniNumber": "रोहिणी नंबर",
+        "icProviderCode": "IC प्रदाता कोड",
+        "networkSource": "नेटवर्क स्रोत",
+        "networkMode": "नेटवर्क मोड",
+        "tariffType": "टैरिफ प्रकार",
+        "cashlessStatus": "कैशलेस स्थिति",
+        "reimbursement": "प्रतिपूर्ति",
+        "status": "स्थिति",
+        "statusActive": "सक्रिय",
+        "statusInactive": "निष्क्रिय",
+        "bankMatch": "बैंक मिलान",
+        "networkActive": "नेटवर्क सक्रिय",
+        "agreementStatus": "अनुबंध स्थिति"
+      },
+      "toolbar": {
+        "newIcMapping": "नई IC मैपिंग",
+        "newCorporate": "नया कॉर्पोरेट",
+        "networkMappingTypeAria": "नेटवर्क मैपिंग प्रकार"
+      },
+      "empty": {
+        "noIcMapping": "कोई IC नेटवर्क मैपिंग नहीं मिली",
+        "noCorporateMapping": "कोई कॉर्पोरेट नेटवर्क मैपिंग नहीं मिली",
+        "noCorporateMappingHint": "इस प्रदाता के लिए पहली मैपिंग जोड़ने हेतु ऊपर \"+ नया कॉर्पोरेट\" का उपयोग करें।"
+      },
+      "actions": {
+        "unmap": "अनमैप"
+      },
+      "searchFields": {
+        "corporateName": "कॉर्पोरेट नाम",
+        "insuranceCompanyName": "बीमा कंपनी नाम",
+        "icProviderCode": "IC प्रदाता कोड",
+        "bankMatchStatus": "बैंक मिलान स्थिति",
+        "insurerName": "बीमाकर्ता नाम",
+        "all": "सभी",
+        "matched": "मिलान",
+        "mismatch": "अमिलान",
+        "pending": "लंबित"
+      },
+      "formToolbar": {
+        "updateMapping": "मैपिंग अपडेट करें",
+        "updating": "अपडेट हो रहा है...",
+        "loading": "लोड हो रहा है..."
+      },
+      "bankMatch": {
+        "matched": "मिलान",
+        "mismatch": "अमिलान",
+        "pending": "लंबित"
+      },
+      "form": {
+        "mappingEntityAria": "मैपिंग इकाई",
+        "insuranceCompany": "बीमा कंपनी",
+        "selectInsuranceCompany": "बीमा कंपनी चुनें",
+        "corporate": "कॉर्पोरेट",
+        "selectCorporate": "कॉर्पोरेट चुनें",
+        "isDepanel": "De-empanel",
+        "hospitalListFile": "अस्पताल सूची फ़ाइल",
+        "uploadFile": "फ़ाइल अपलोड करें",
+        "submitting": "सबमिट हो रहा है…",
+        "submit": "सबमिट"
+      },
+      "validation": {
+        "insuranceCompanyRequired": "बीमा कंपनी आवश्यक है",
+        "corporateRequired": "कॉर्पोरेट आवश्यक है",
+        "hospitalListFileRequired": "अस्पताल सूची फ़ाइल आवश्यक है",
+        "hospitalListFileInvalidFormat": "केवल .xlsx, .xls और .csv फ़ाइलें समर्थित हैं",
+        "effectiveDateOrder": "प्रभावी से तिथि, प्रभावी तक तिथि से पहले या उसी दिन होनी चाहिए।",
+        "icProviderCodeSpecialChar": "विशेष वर्ण स्वीकार नहीं किए जाते",
+        "icProviderCodeAlphanumeric": "केवल अक्षर, संख्या और हाइफ़न की अनुमति है"
+      },
+      "errors": {
+        "branchUnavailable": "TPA शाखा \"Pune-HO\" उपलब्ध नहीं है।",
+        "departmentUnavailable": "विभाग \"Provider Network\" उपलब्ध नहीं है।",
+        "contextLoading": "शाखा और विभाग अभी भी लोड हो रहे हैं। कृपया पुनः प्रयास करें।",
+        "uploadFailed": "अस्पताल सूची फ़ाइल अपलोड करने में विफल।",
+        "inwardNotFound": "इनवर्ड नहीं मिला",
+        "loadInwardFailed": "इनवर्ड लोड करने में विफल"
+      },
+      "success": {
+        "uploadWithInward": "अस्पताल सूची सफलतापूर्वक अपलोड की गई। इनवर्ड नं.: {{inwardNo}}"
+      },
+      "agreementStatus": {
+        "completed": "पूर्ण",
+        "pending": "लंबित"
+      },
+      "bankMatchCompare": {
+        "compare": "तुलना करें",
+        "clickCompareHint": "विवरण देखने के लिए तुलना करें पर क्लिक करें",
+        "title": "बैंक विवरण तुलना",
+        "insurer": "बीमाकर्ता",
+        "mismatchFields": "अमेल फ़ील्ड: {{count}}",
+        "updateProviderDetails": "प्रदाता विवरण अपडेट करें",
+        "columns": {
+          "field": "फ़ील्ड",
+          "provider": "प्रदाता",
+          "status": "स्थिति"
+        },
+        "fields": {
+          "accountName": "खाता नाम",
+          "accountNumber": "खाता संख्या",
+          "ifscCode": "IFSC कोड",
+          "bankName": "बैंक नाम",
+          "branch": "शाखा"
+        }
+      }
+    },
+    "soc": {
+      "innerTab": {
+        "soc": "SOC",
+        "discount": "छूट",
+        "ariaLabel": "SOC या छूट"
+      },
+      "toolbar": {
+        "addSoc": "SOC जोड़ें",
+        "addDiscount": "छूट जोड़ें"
+      },
+      "search": {
+        "title": "SOC खोज"
+      },
+      "empty": {
+        "notFound": "SOC नहीं मिला",
+        "hint": "इस प्रदाता के लिए पहला शुल्क अनुसूची जोड़ने हेतु ऊपर \"SOC जोड़ें\" का उपयोग करें।"
+      },
+      "columns": {
+        "viewSoc": "SOC देखें",
+        "version": "संस्करण",
+        "socName": "SOC नाम",
+        "applicableIcs": "लागू IC",
+        "lastUpdated": "अंतिम अपडेट",
+        "startDate": "प्रारंभ तिथि",
+        "endDate": "समाप्ति तिथि",
+        "duration": "अवधि"
+      },
+      "searchFields": {
+        "allStatus": "सभी स्थिति"
+      },
+      "details": {
+        "title": "SOC विवरण",
+        "agreementName": "अनुबंध नाम",
+        "selectAgreementName": "अनुबंध नाम चुनें",
+        "ppnVariantLabel": "SOC प्रकार",
+        "selectSocType": "SOC प्रकार चुनें",
+        "lastUpdatedOn": "SOC अंतिम अपडेट तिथि",
+        "startDate": "SOC प्रारंभ तिथि",
+        "endDate": "SOC समाप्ति तिथि",
+        "startDateView": "प्रारंभ तिथि",
+        "endDateView": "समाप्ति तिथि",
+        "lastUpdatedOnView": "अंतिम अपडेट तिथि"
+      },
+      "versionHistory": {
+        "title": "संस्करण इतिहास",
+        "active": "सक्रिय",
+        "openInNewTab": "नए टैब में खोलें",
+        "openDocument": "दस्तावेज़ खोलें",
+        "viewInNewTab": "{{name}} नए टैब में देखें",
+        "openNamed": "{{name}} खोलें",
+        "activeSoc": "{{name}} सक्रिय SOC",
+        "noDocument": "अभी तक कोई SOC दस्तावेज़ अपलोड नहीं किया गया।",
+        "showFewer": "कम संस्करण दिखाएं",
+        "viewAll": "सभी संस्करण देखें"
+      },
+      "upload": {
+        "selectFile": "फ़ाइल चुनें",
+        "removeFile": "चयनित फ़ाइल हटाएं"
+      },
+      "applicableIc": {
+        "title": "लागू बीमा कंपनियां",
+        "selectInsurerSr": "बीमाकर्ता कंपनियां चुनें",
+        "loadingInsurers": "बीमाकर्ता कंपनियां लोड हो रही हैं...",
+        "selectInsurers": "बीमाकर्ता कंपनियां चुनें",
+        "noInsurersYet": "अभी तक कोई बीमाकर्ता कंपनी नहीं जोड़ी गई",
+        "addInsurers": "बीमाकर्ता कंपनियां जोड़ें",
+        "insurerName": "बीमाकर्ता नाम",
+        "effectiveFrom": "प्रभावी से",
+        "action": "कार्रवाई",
+        "removeInsurer": "{{name}} हटाएं",
+        "noIcInfo": "कोई IC जानकारी उपलब्ध नहीं",
+        "oneIcSelected": "1 IC चयनित",
+        "icsSelected": "{{count}} IC चयनित",
+        "scopes": {
+          "selectIc": "IC चुनें",
+          "allIcs": "सभी IC",
+          "gipsa": "GIPSA",
+          "gic": "GIC",
+          "psu": "PSU"
+        },
+        "gipsaVariants": {
+          "select": "PPN / Non PPN SOC चुनें",
+          "ppnSoc": "PPN SOC",
+          "nonPpnSoc": "Non PPN SOC"
+        }
+      },
+      "discount": {
+        "title": "छूट",
+        "standaloneHint": "इस प्रदाता के लिए छूट नियम बनाएं।",
+        "viewHint": "इस SOC के लिए छूट कॉन्फ़िगरेशन।",
+        "editHint": "इस SOC के लिए छूट कॉन्फ़िगर करें।",
+        "type": "छूट प्रकार",
+        "category": "छूट श्रेणी",
+        "categoryMultiSelect": "छूट श्रेणी (व्यक्तिगत छूट – बहु-चयन)",
+        "enterPercentHint": "प्रत्येक चयनित श्रेणी के लिए छूट % दर्ज करें",
+        "ppnDiscount": "PPN छूट",
+        "enterPpn": "PPN दर्ज करें",
+        "tatForDiscount": "छूट के लिए TAT",
+        "tatDaysPlaceholder": "दिन...",
+        "days": "दिन",
+        "applicableOn": "छूट लागू पर",
+        "inclusion": "समावेश",
+        "searchInclusion": "समावेश खोजें और चुनें",
+        "exclusion": "अपवर्जन",
+        "searchExclusion": "अपवर्जन खोजें और चुनें",
+        "ipd": "IPD",
+        "opd": "OPD",
+        "selected": "चयनित",
+        "serviceType": "सेवा प्रकार",
+        "serviceTypeRequired": "IPD या OPD चुनें।",
+        "selectServiceTypeToChooseDiscounts": "छूट प्रकार चुनने के लिए IPD या OPD चुनें।",
+        "selectIpdDiscount": "IPD छूट चुनें",
+        "selectOpdDiscount": "OPD छूट चुनें",
+        "opdDiscountRequired": "OPD छूट चुनें और % दर्ज करें।",
+        "discountPercent": "छूट %",
+        "enterDiscountPercent": "% दर्ज करें",
+        "additionalDiscount": "अतिरिक्त छूट",
+        "effectiveFrom": "प्रभावी से",
+        "effectiveTo": "प्रभावी तक",
+        "selectDate": "तिथि चुनें",
+        "remarks": "टिप्पणियां",
+        "remarksPlaceholder": "टिप्पणियां जोड़ें...",
+        "supportingDocument": "सहायक दस्तावेज़",
+        "supportingDocumentHint": "PDF, DOC, या DOCX (अधिकतम 10MB)",
+        "done": "पूर्ण",
+        "searchSelect": "खोजें और चुनें...",
+        "componentDiscounts": {
+          "title": "घटक छूट",
+          "add": "जोड़ें",
+          "selectComponent": "घटक चुनें",
+          "emptyHint": "कम से कम एक घटक चुनें और % दर्ज करें।",
+          "component": "घटक",
+          "discountPercent": "छूट %",
+          "applicableOn": "लागू पर",
+          "removeRow": "पंक्ति हटाएं"
+        },
+        "sections": {
+          "agreement": "समझौता",
+          "scope": "समझौता और दायरा",
+          "insuranceCo": "बीमा कंपनी",
+          "corporate": "कॉर्पोरेट",
+          "category": "श्रेणी",
+          "discount": "छूट",
+          "inclExcl": "समावेश / अपवर्जन",
+          "inclExclDetails": "समावेश, अपवर्जन और विवरण",
+          "details": "विवरण"
+        },
+        "search": {
+          "title": "छूट खोज"
+        },
+        "empty": {
+          "notFound": "छूट नहीं मिली",
+          "hint": "छूट नियम बनाने के लिए छूट जोड़ें पर क्लिक करें, या अपनी खोज समायोजित करें।"
+        },
+        "columns": {
+          "viewDiscount": "छूट देखें",
+          "version": "SOC संस्करण",
+          "agreementType": "समझौता प्रकार",
+          "insuranceCo": "बीमा कंपनी",
+          "corporate": "कॉर्पोरेट",
+          "discountType": "छूट प्रकार",
+          "categories": "श्रेणियाँ",
+          "ppnDiscount": "PPN छूट",
+          "applicableIcs": "लागू IC",
+          "effectiveFrom": "प्रभावी से"
+        },
+        "types": {
+          "select": "चुनें",
+          "individual": "व्यक्तिगत छूट",
+          "netBill": "नेट बिल छूट",
+          "approvedAmount": "स्वीकृत राशि छूट",
+          "package": "पैकेज छूट"
+        },
+        "panelTitles": {
+          "individual": "व्यक्तिगत",
+          "netBill": "नेट बिल",
+          "approvedAmountDiscount": "स्वीकृत राशि",
+          "package": "पैकेज"
+        },
+        "applicableOnOptions": {
+          "select": "चुनें",
+          "ppnSoc": "PPN SOC",
+          "privateIcSoc": "Private IC SOC",
+          "nonPpnPackage": "Non PPN Package",
+          "noPackage": "No Package"
+        },
+        "fields": {
+          "agreementName": "समझौता नाम",
+          "agreementType": "समझौता प्रकार",
+          "soc": "SOC",
+          "selectSoc": "SOC चुनें",
+          "selectAgreementName": "समझौता नाम चुनें",
+          "allIc": "सभी IC",
+          "allPolicyholders": "सभी पॉलिसीधारक",
+          "insurers": "बीमा कंपनियां",
+          "corporate": "कॉर्पोरेट"
+        },
+        "validation": {
+          "completeRequiredFields": "सहेजने से पहले आवश्यक छूट फ़ील्ड पूरा करें।"
+        }
+      }
+    },
+    "standaloneAgreement": {
+      "notFound": "समझौता नहीं मिला",
+      "validation": {
+        "pdfOnly": "केवल PDF फ़ाइलें अनुमत हैं।",
+        "supportingDocTypes": "केवल PDF, DOCX, PNG, JPG, JPEG, और EML फ़ाइलें अनुमत हैं।"
+      }
+    },
+    "excludedProvider": {
+      "bulkExclude": {
+        "label": "बल्क बहिष्कृत",
+        "search": {
+          "inwardTitle": "बल्क बहिष्कृत इनवर्ड खोज"
+        },
+        "loadingInwards": "बल्क बहिष्कृत इनवर्ड लोड हो रहे हैं…",
+        "loadingInward": "इनवर्ड {{inwardNo}} लोड हो रहा है…",
+        "errors": {
+          "inwardNotFound": "इनवर्ड नहीं मिला।",
+          "loadInwardFailed": "इनवर्ड लोड करने में विफल।"
+        }
+      },
+      "filterTitle": "बहिष्कृत अस्पताल फ़िल्टर",
+      "viewDetails": "बहिष्कृत अस्पताल विवरण",
+      "uploadListTitle": "बहिष्कृत प्रदाता सूची अपलोड करें",
+      "uploadSuccessful": "अपलोड सफल",
+      "requestFailed": "अनुरोध विफल",
+      "inwardValidated": "इनवर्ड सफलतापूर्वक बनाया गया। प्रोसेस करने के लिए इनवर्ड खोलें।",
+      "uploadOrValidationFailed": "अपलोड या सत्यापन विफल",
+      "inwardMissing": "इनवर्ड नंबर गायब है। प्रदाता सूची अपलोड करने से पहले इनवर्ड बनाएं।",
+      "selectBothDocuments": "दस्तावेज़ और सहायक दस्तावेज़ दोनों चुनें।",
+      "validating": "सत्यापित किया जा रहा है…",
+      "preparingExport": "निर्यात तैयार किया जा रहा है…",
+      "exportHint": "वर्तमान खोज फ़िल्टर (तालिका के समान दायरा) का उपयोग करके निर्यात।",
+      "pincodeNumbersOnly": "पिनकोड में केवल संख्याएँ होनी चाहिए",
+      "search": {
+        "insurerName": "बीमाकर्ता का नाम",
+        "restrictedBy": "द्वारा प्रतिबंधित"
+      },
+      "restrictedBy": {
+        "tpa": "TPA",
+        "insurer": "INSURER"
+      },
+      "table": {
+        "insurerCompanyName": "बीमा कंपनी का नाम",
+        "effectiveFrom": "प्रभावी से"
+      },
+      "view": {
+        "providerName": "प्रदाता का नाम",
+        "insurerCompanyName": "बीमा कंपनी का नाम",
+        "providerCode": "प्रदाता कोड",
+        "rohiniCode": "रोहिणी कोड",
+        "effectiveFrom": "प्रभावी से",
+        "effectiveTo": "प्रभावी तक",
+        "remarkCategory": "टिप्पणी श्रेणी",
+        "status": "स्थिति",
+        "claimScope": "दावा दायरा",
+        "remarks": "टिप्पणियाँ",
+        "facilities": "सुविधाएँ",
+        "excludedBy": "द्वारा बहिष्कृत"
+      },
+      "uploadDialog": {
+        "selectBlacklistedBy": "ब्लैकलिस्ट करने वाला चुनें",
+        "selectRestrictionType": "प्रतिबंध प्रकार चुनें",
+        "selectInvestigationType": "जांच प्रकार चुनें",
+        "selectIc": "IC चुनें",
+        "selectRestrictionApplicableFor": "प्रतिबंध लागू चुनें",
+        "restrictionType": "प्रतिबंध प्रकार",
+        "restrictedBy": "द्वारा प्रतिबंधित",
+        "effectiveFrom": "प्रभावी से",
+        "insurerCompany": "बीमा कंपनी",
+        "restrictionApplicableFor": "प्रतिबंध लागू",
+        "investigationType": "जांच प्रकार",
+        "document": "दस्तावेज़ (Excel, CSV या PDF)",
+        "supportingDocument": "सहायक दस्तावेज़ (PDF, DOCX, PNG, JPG, JPEG, EML)",
+        "remark": "टिप्पणी",
+        "remarkPlaceholder": "वैकल्पिक टिप्पणी...",
+        "excluded": "बहिष्कृत",
+        "watchlisted": "वॉचलिस्ट",
+        "fullInvestigation": "पूर्ण जांच",
+        "partialInvestigation": "आंशिक जांच",
+        "cashlessOnHold": "कैशलेस होल्ड पर",
+        "reimbursement": "प्रतिपूर्ति",
+        "submit": "जमा करें",
+        "submitting": "जमा हो रहा है…",
+        "inwardNoLabel": "इनवर्ड नं.:"
+      },
+      "uploadResult": {
+        "exclude": "बहिष्कृत",
+        "newAdd": "नया जोड़",
+        "total": "कुल"
+      }
+    }
+  }
+}

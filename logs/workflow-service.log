@@ -1,0 +1,102 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-10-04T15:33:40.921+05:30  INFO 21980 --- [workflow-service] [           main] c.m.e.w.WorkflowServiceApplication       : Starting WorkflowServiceApplication v1.0.0-SNAPSHOT using Java 21.0.12.1 with PID 21980 (C:\MY-Workspace\Learning-Java\workflow-service\target\workflow-service-1.0.0-SNAPSHOT.jar started by Gajanan in C:\MY-Workspace\Learning-Java)
+2026-10-04T15:33:40.932+05:30  INFO 21980 --- [workflow-service] [           main] c.m.e.w.WorkflowServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-04T15:33:45.859+05:30  INFO 21980 --- [workflow-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-04T15:33:46.229+05:30  INFO 21980 --- [workflow-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 321 ms. Found 2 JPA repository interfaces.
+2026-10-04T15:33:50.400+05:30  INFO 21980 --- [workflow-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8084 (http)
+2026-10-04T15:33:50.476+05:30  INFO 21980 --- [workflow-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-04T15:33:50.477+05:30  INFO 21980 --- [workflow-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-10-04T15:33:50.632+05:30  INFO 21980 --- [workflow-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-04T15:33:50.637+05:30  INFO 21980 --- [workflow-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9460 ms
+2026-10-04T15:33:53.683+05:30  INFO 21980 --- [workflow-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-04T15:33:55.805+05:30  INFO 21980 --- [workflow-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11c78080
+2026-10-04T15:33:55.811+05:30  INFO 21980 --- [workflow-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-04T15:33:55.958+05:30  INFO 21980 --- [workflow-service] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/enrolment (PostgreSQL 17.5)
+2026-10-04T15:33:55.990+05:30  WARN 21980 --- [workflow-service] [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: PostgreSQL 17.5 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 16.
+2026-10-04T15:33:56.092+05:30  INFO 21980 --- [workflow-service] [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table "public"."flyway_history_workflow" does not exist yet
+2026-10-04T15:33:56.102+05:30  INFO 21980 --- [workflow-service] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.075s)
+2026-10-04T15:33:56.153+05:30  INFO 21980 --- [workflow-service] [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "public"."flyway_history_workflow" with baseline ...
+2026-10-04T15:33:56.280+05:30  INFO 21980 --- [workflow-service] [           main] o.f.core.internal.command.DbBaseline     : Successfully baselined schema with version: 0
+2026-10-04T15:33:56.364+05:30  INFO 21980 --- [workflow-service] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 0
+2026-10-04T15:33:56.395+05:30  INFO 21980 --- [workflow-service] [           main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version "1 - create tables"
+2026-10-04T15:33:56.414+05:30  WARN 21980 --- [workflow-service] [           main] o.f.c.i.s.DefaultSqlScriptExecutor       : DB: relation "workflow_instances" already exists, skipping (SQL State: 42P07 - Error Code: 0)
+2026-10-04T15:33:56.417+05:30  WARN 21980 --- [workflow-service] [           main] o.f.c.i.s.DefaultSqlScriptExecutor       : DB: relation "workflow_transitions" already exists, skipping (SQL State: 42P07 - Error Code: 0)
+2026-10-04T15:33:56.463+05:30  INFO 21980 --- [workflow-service] [           main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version "2 - seed data"
+2026-10-04T15:33:56.497+05:30  INFO 21980 --- [workflow-service] [           main] o.f.core.internal.command.DbMigrate      : Successfully applied 2 migrations to schema "public", now at version v2 (execution time 00:00.052s)
+2026-10-04T15:33:56.918+05:30  INFO 21980 --- [workflow-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-04T15:33:57.143+05:30  INFO 21980 --- [workflow-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-10-04T15:33:57.269+05:30  INFO 21980 --- [workflow-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-04T15:33:58.529+05:30  INFO 21980 --- [workflow-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-04T15:33:58.705+05:30  WARN 21980 --- [workflow-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-04T15:34:01.702+05:30  INFO 21980 --- [workflow-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-04T15:34:01.888+05:30  INFO 21980 --- [workflow-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-04T15:34:05.711+05:30  WARN 21980 --- [workflow-service] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-04T15:34:07.643+05:30  INFO 21980 --- [workflow-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8084 (http) with context path '/'
+2026-10-04T15:34:07.670+05:30  INFO 21980 --- [workflow-service] [           main] c.m.e.w.WorkflowServiceApplication       : Started WorkflowServiceApplication in 28.969 seconds (process running for 31.709)
+2026-10-04T15:34:53.689+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-04T15:34:53.690+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-04T15:34:53.692+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-04T15:34:53.871+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=b7de651f-2afc-5219-670b-0d0e5eb0e15f, totalSessions=1
+2026-10-04T15:35:59.858+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-2] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=b7de651f-2afc-5219-670b-0d0e5eb0e15f, remainingSessions=0
+2026-10-04T15:36:00.443+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-3] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=7c126a8f-6a69-5b15-134f-4cddbe11aa53, totalSessions=1
+2026-10-04T15:36:46.072+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-4] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=7c126a8f-6a69-5b15-134f-4cddbe11aa53, remainingSessions=0
+2026-10-04T15:37:05.752+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-5] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=1e42253c-fc60-9e13-079c-ab74ccab0251, totalSessions=1
+2026-10-04T15:37:27.625+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-6] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=1e42253c-fc60-9e13-079c-ab74ccab0251, remainingSessions=0
+2026-10-04T15:37:28.189+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-7] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=5fe8f662-b260-1cf4-9962-c9dbf3ad346e, totalSessions=1
+2026-10-04T15:56:28.309+05:30  INFO 21980 --- [workflow-service] [io-8084-exec-10] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=5fe8f662-b260-1cf4-9962-c9dbf3ad346e, remainingSessions=0
+2026-10-04T15:56:30.224+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=62f3c358-d47f-8b94-1928-9ae7aa0b3c20, totalSessions=1
+2026-10-04T15:56:39.778+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-2] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=62f3c358-d47f-8b94-1928-9ae7aa0b3c20, remainingSessions=0
+2026-10-04T15:56:40.407+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-3] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=6eb269da-9cc3-947b-36b4-55b009a8bb17, totalSessions=1
+2026-10-04T16:09:56.837+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-4] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=6eb269da-9cc3-947b-36b4-55b009a8bb17, remainingSessions=0
+2026-10-04T16:09:57.888+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-5] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=f15b4b04-e7c6-2d6a-9f30-3fb39f26d0d2, totalSessions=1
+2026-10-04T16:09:58.239+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-6] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=f15b4b04-e7c6-2d6a-9f30-3fb39f26d0d2, remainingSessions=0
+2026-10-04T16:10:03.632+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-7] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=c86f232c-2aa9-b8c6-ed1e-dd008275fef7, totalSessions=1
+2026-10-04T16:21:58.602+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-8] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=c86f232c-2aa9-b8c6-ed1e-dd008275fef7, remainingSessions=0
+2026-10-04T16:21:59.775+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-9] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=bd79128b-a278-bf11-bf48-2052a664b8ec, totalSessions=1
+2026-10-04T16:26:29.225+05:30  INFO 21980 --- [workflow-service] [io-8084-exec-10] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=bd79128b-a278-bf11-bf48-2052a664b8ec, remainingSessions=0
+2026-10-04T16:26:59.757+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=50f878cd-cf8b-bf9f-260e-47e572dec216, totalSessions=1
+2026-10-04T16:27:41.397+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-2] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=50f878cd-cf8b-bf9f-260e-47e572dec216, remainingSessions=0
+2026-10-04T16:27:46.421+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-3] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=ba6bc242-227e-ccb1-43b6-3c7890956ea8, totalSessions=1
+2026-10-04T16:27:46.715+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-4] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=ba6bc242-227e-ccb1-43b6-3c7890956ea8, remainingSessions=0
+2026-10-04T16:27:49.333+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-5] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=2ed123d5-f4c3-19af-2fa6-0a60043c4da5, totalSessions=1
+2026-10-04T16:28:29.504+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-6] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=2ed123d5-f4c3-19af-2fa6-0a60043c4da5, remainingSessions=0
+2026-10-04T16:29:31.723+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-7] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=610eb0f8-ba09-f5de-1aa2-eb8580971a35, totalSessions=1
+2026-10-04T16:31:44.087+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-8] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=610eb0f8-ba09-f5de-1aa2-eb8580971a35, remainingSessions=0
+2026-10-04T16:31:45.073+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-9] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=4c1149f6-77d2-aa34-b67c-ef48f506322e, totalSessions=1
+2026-10-04T16:42:34.373+05:30  INFO 21980 --- [workflow-service] [io-8084-exec-10] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=4c1149f6-77d2-aa34-b67c-ef48f506322e, remainingSessions=0
+2026-10-04T16:42:35.904+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=30a81cf2-7109-72d8-d5d8-1fd96d4d5ea5, totalSessions=1
+2026-10-04T16:42:48.752+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-2] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=30a81cf2-7109-72d8-d5d8-1fd96d4d5ea5, remainingSessions=0
+2026-10-04T16:43:00.041+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-3] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=da55c8aa-277b-1261-50e1-fc6c17b65aff, totalSessions=1
+2026-10-04T16:48:49.410+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-4] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=da55c8aa-277b-1261-50e1-fc6c17b65aff, remainingSessions=0
+2026-10-04T16:48:50.252+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-5] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=28a62f8e-8169-c5a4-2b1b-33aea3e53986, totalSessions=1
+2026-10-04T16:50:20.387+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-6] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=28a62f8e-8169-c5a4-2b1b-33aea3e53986, remainingSessions=0
+2026-10-04T16:50:22.214+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-7] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=cbc6c487-49af-0e94-f6b5-d944d0ec5783, totalSessions=1
+2026-10-04T16:51:47.449+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-8] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=cbc6c487-49af-0e94-f6b5-d944d0ec5783, remainingSessions=0
+2026-10-04T16:52:03.750+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-9] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=4e68bb01-da26-405a-75fe-9a834270c2ca, totalSessions=1
+2026-10-04T16:55:06.376+05:30  INFO 21980 --- [workflow-service] [io-8084-exec-10] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=4e68bb01-da26-405a-75fe-9a834270c2ca, remainingSessions=0
+2026-10-04T16:55:09.747+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=562b9a63-1648-409c-83d7-1ec998f95a08, totalSessions=1
+2026-10-04T16:55:22.107+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-2] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=562b9a63-1648-409c-83d7-1ec998f95a08, remainingSessions=0
+2026-10-04T16:55:24.181+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-3] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=2a1e1fd5-9c31-48ea-335d-293ebec5a4d6, totalSessions=1
+2026-10-04T16:57:55.686+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-4] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=2a1e1fd5-9c31-48ea-335d-293ebec5a4d6, remainingSessions=0
+2026-10-04T16:57:58.186+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-5] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=750eb0e8-3a91-dc93-3716-5e9a7fa47024, totalSessions=1
+2026-10-04T16:59:38.866+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-6] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=750eb0e8-3a91-dc93-3716-5e9a7fa47024, remainingSessions=0
+2026-10-04T16:59:39.838+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-7] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=4bb3d7c4-a11f-88f9-8557-ba9d5dbdaef6, totalSessions=1
+2026-10-04T17:37:51.098+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-8] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=4bb3d7c4-a11f-88f9-8557-ba9d5dbdaef6, remainingSessions=0
+2026-10-04T17:37:57.762+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-9] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=69f3dc6c-57a3-151d-37be-dfe8a44dd77f, totalSessions=1
+2026-10-04T17:38:00.789+05:30  INFO 21980 --- [workflow-service] [io-8084-exec-10] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=69f3dc6c-57a3-151d-37be-dfe8a44dd77f, remainingSessions=0
+2026-10-04T18:24:28.924+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-1] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=c0cb9165-f1ae-72aa-b2e3-71ecbcb3d883, totalSessions=1
+2026-10-04T18:24:29.902+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-2] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=c0cb9165-f1ae-72aa-b2e3-71ecbcb3d883, remainingSessions=0
+2026-10-05T00:24:40.208+05:30  WARN 21980 --- [workflow-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h47m6s56ms628µs500ns).
+2026-10-05T00:26:00.289+05:30  WARN 21980 --- [workflow-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s519ms821µs700ns).
+2026-10-05T00:28:45.755+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-3] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=349a4b69-808e-4390-0ab0-5846bf5b8a4f, totalSessions=1
+2026-10-05T00:29:53.615+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-5] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] Client disconnected: id=349a4b69-808e-4390-0ab0-5846bf5b8a4f, remainingSessions=0
+2026-10-05T00:29:55.946+05:30  INFO 21980 --- [workflow-service] [nio-8084-exec-6] c.m.e.workflow.config.WebSocketConfig    : [WebSocket] New client connected: id=a0d0ce74-4b18-c4c2-a5ee-ea344b618942, totalSessions=1

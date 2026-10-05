@@ -1,0 +1,79 @@
+[
+  {
+    "id": "diagnostic-services",
+    "name": "Diagnostic Services",
+    "types": [
+      { "name": "Radiology / Imaging", "description": "X-Ray, CT, MRI and imaging services" },
+      { "name": "Ultrasound", "description": "Ultrasound / sonography service" },
+      { "name": "ECG", "description": "Electrocardiography service" },
+      { "name": "Echo / TMT", "description": "Echocardiography and treadmill test" },
+      { "name": "EEG / EMG", "description": "Neuro-diagnostic services" },
+      { "name": "Endoscopy", "description": "Diagnostic endoscopy service" },
+      { "name": "PFT", "description": "Pulmonary function test" }
+    ]
+  },
+  {
+    "id": "laboratory-services",
+    "name": "Laboratory Services",
+    "types": [
+      { "name": "Clinical Pathology", "description": "Routine pathology investigations" },
+      { "name": "Haematology", "description": "Blood-related laboratory tests" },
+      { "name": "Biochemistry", "description": "Biochemical laboratory tests" },
+      { "name": "Microbiology", "description": "Microbiology and culture tests" },
+      { "name": "Histopathology", "description": "Tissue and biopsy examination" },
+      { "name": "Molecular / Genetics", "description": "Molecular diagnostics" }
+    ]
+  },
+  {
+    "id": "pharmacy-services",
+    "name": "Pharmacy Services",
+    "types": [
+      { "name": "In-patient Pharmacy", "description": "Pharmacy for admitted patients" },
+      { "name": "Out-patient Pharmacy", "description": "Pharmacy for OPD patients" },
+      { "name": "24x7 Pharmacy", "description": "Round-the-clock pharmacy" },
+      { "name": "Chemotherapy Pharmacy", "description": "Oncology drug dispensing" }
+    ]
+  },
+  {
+    "id": "blood-bank-services",
+    "name": "Blood Bank Services",
+    "types": [
+      { "name": "Blood Bank", "description": "Blood storage and issue" },
+      { "name": "Blood Storage Centre", "description": "Blood storage unit" },
+      { "name": "Apheresis", "description": "Component apheresis service" }
+    ]
+  },
+  {
+    "id": "therapy-services",
+    "name": "Therapy & Rehabilitation",
+    "types": [
+      { "name": "Physiotherapy", "description": "Physiotherapy service" },
+      { "name": "Occupational Therapy", "description": "Occupational therapy service" },
+      { "name": "Speech Therapy", "description": "Speech and language therapy" },
+      { "name": "Dialysis", "description": "Haemodialysis / peritoneal dialysis" }
+    ]
+  },
+  {
+    "id": "emergency-services",
+    "name": "Emergency & Transport",
+    "types": [
+      { "name": "Casualty / Emergency", "description": "Emergency department" },
+      { "name": "Ambulance - Basic", "description": "Basic life support ambulance" },
+      { "name": "Ambulance - ALS", "description": "Advanced life support ambulance" },
+      { "name": "Trauma Care", "description": "Trauma care unit" }
+    ]
+  },
+  {
+    "id": "support-services",
+    "name": "Support Services",
+    "types": [
+      { "name": "Housekeeping", "description": "Housekeeping service" },
+      { "name": "Laundry", "description": "Linen and laundry service" },
+      { "name": "CSSD", "description": "Central sterile services department" },
+      { "name": "Dietary / Kitchen", "description": "Dietary and food service" },
+      { "name": "Biomedical Waste Management", "description": "BMW handling and disposal" },
+      { "name": "Medical Gas / Oxygen Plant", "description": "Medical gas pipeline / oxygen plant" },
+      { "name": "Mortuary", "description": "Mortuary service" }
+    ]
+  }
+]

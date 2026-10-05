@@ -1,0 +1,1 @@
+export { formatFileSizeKb } from "./socConfig";

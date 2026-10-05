@@ -1,0 +1,14 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: insurer-service
+  datasource:
+    # This service owns its own database (insurer_db); it shares nothing with the other services.
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/insurer_db}
+    driverClassName: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root}
+  flyway:
+    table: flyway_history_insurer

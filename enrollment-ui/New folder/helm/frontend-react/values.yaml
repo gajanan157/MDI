@@ -1,0 +1,29 @@
+replicaCount: 2
+
+image:
+  repository: ""
+  tag: ""
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 8442
+      targetPort: http
+    - name: https
+      port: 8443
+      targetPort: https
+
+tlsSecret: ""
+
+# 🔥 NEW: Runtime environment variables
+env: {}
+
+resources:
+  requests:
+    cpu: 200m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi

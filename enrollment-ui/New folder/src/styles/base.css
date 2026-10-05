@@ -1,0 +1,248 @@
+/* Basic styles */
+html {
+  /* Declare before @apply so min-h-[var(--app-vh)] resolves; 100dvh matches PWA viewport */
+  --app-vh: 100vh;
+  @apply flex h-full min-h-[var(--app-vh)] flex-col [--surface-1:var(--color-dark-450)] [--surface-2:var(--color-dark-500)] [--surface-3:var(--color-dark-600)] [-webkit-tap-highlight-color:transparent] [text-rendering:optimizeLegibility];
+}
+
+@supports (height: 100dvh) {
+  html {
+    --app-vh: 100dvh;
+  }
+}
+
+ .css-olqui2-singleValue{
+  color: black !important;
+ }
+ .css-1dimb5e-singleValue{
+  color: black !important;
+ }
+
+html[data-card-skin="bordered"] {
+  @apply [--surface-1:var(--color-dark-500)] [--surface-2:var(--color-dark-600)] [--surface-3:var(--color-dark-700)];
+}
+
+html.dark {
+  @apply [color-scheme:dark];
+}
+
+body {
+  @apply dark:bg-dark-900 dark:text-dark-200 flex min-h-0 flex-1 flex-col bg-gray-50 font-sans text-sm leading-5 text-gray-700 antialiased [text-rendering:optimizeLegibility] dark:[color-scheme:dark];
+}
+
+[data-card-skin="bordered"] body {
+  @apply dark:bg-dark-900 bg-white;
+}
+
+.dark[data-card-skin="bordered"] body {
+  @apply bg-dark-900;
+}
+
+body.is-monochrome::before {
+  @apply pointer-events-none fixed inset-0 z-999999 -m-[5rem] h-[calc(100%+10rem)] w-[calc(100%+10rem)] backdrop-grayscale backdrop-opacity-[.92] content-[''];
+}
+
+.transition-content {
+  @apply [transition-property:width,padding-left,padding-right,margin-left,margin-right] duration-[.25s] ease-in;
+}
+
+.is-sidebar-open .transition-content {
+  @apply ease-out;
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle-btn span {
+  @apply h-[2px] w-5 translate-x-0 bg-current transition-all duration-[.25s] ease-in-out;
+}
+
+.sidebar-toggle-btn span:nth-child(2) {
+  @apply w-3;
+}
+
+.sidebar-toggle-btn.active span {
+  @apply ml-2 w-[11px] -translate-x-2;
+}
+
+.sidebar-toggle-btn.active span:nth-child(1) {
+  @apply -rotate-45 rtl:rotate-45;
+}
+
+.sidebar-toggle-btn.active span:nth-child(2) {
+  @apply hidden;
+}
+
+.sidebar-toggle-btn.active span:nth-child(3) {
+  @apply rotate-45 rtl:-rotate-45;
+}
+
+.min-h-100vh {
+  min-height: 100vh;
+}
+
+@supports (height: 100dvh) {
+  .min-h-100vh {
+    min-height: 100dvh;
+  }
+}
+
+/* Demo inline space */
+.inline-space > :not([hidden]) {
+  @apply mr-2.5 mb-2.5;
+}
+
+.inline-code code {
+  @apply text-xs-plus text-secondary dark:bg-dark-800 dark:text-secondary-lighter rounded-sm bg-gray-100 px-1 py-0.5;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  @apply hidden;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  @apply [-ms-overflow-style:none] [scrollbar-width:none];
+}
+
+@supports selector(::-webkit-scrollbar) {
+  /* Global small scrollbar styling */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(156, 163, 175, 0.8) transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.8);
+    border-radius: 3px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(156, 163, 175, 1);
+  }
+
+  .dark *::-webkit-scrollbar-thumb {
+    background-color: rgba(76, 79, 87, 0.8);
+  }
+
+  .dark *::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(131, 135, 148, 0.8);
+  }
+
+  .custom-scrollbar {
+    @apply [--margin-scroll:0px] [--scrollbar-size:.25rem];
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply size-(--scrollbar-size);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-300/80;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-dark-400;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-clip-content;
+    border-left: var(--margin-scroll) solid transparent;
+    border-right: var(--margin-scroll) solid transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400;
+  }
+
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-dark-300;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera Hide input number arrow*/
+input.hide-number-arrow::-webkit-outer-spin-button,
+input.hide-number-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox Hide input number arrow*/
+input[type="number"].hide-number-arrow {
+  -moz-appearance: textfield;
+}
+
+.css-4h2ut7-control {
+  background-color: transparent !important;
+  border-color: #e2e8f0 !important;
+  /* margin-top: -2px !important; */
+}
+
+.select-form__indicator {
+  padding: 0 8px !important;
+}
+
+.select-form__control {
+  height: 33px !important;
+  overflow: clip !important;
+}
+
+/* Multiselect: grow and wrap chips instead of fixed height + horizontal clip/scroll */
+.select-form--multi .select-form__control {
+  height: auto !important;
+  min-height: 33px !important;
+  max-height: 120px;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.select-form--multi .select-form__value-container {
+  flex-wrap: wrap !important;
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+/* Multiselect: single-line chips with horizontal scroll */
+.select-form--multi-scroll-x .select-form__control {
+  height: 34px !important;
+  min-height: 34px !important;
+  max-height: 34px !important;
+  overflow: hidden !important;
+  flex-wrap: nowrap !important;
+}
+
+.select-form--multi-scroll-x .select-form__value-container {
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  max-height: 32px !important;
+  min-width: 0 !important;
+  flex: 1 1 0% !important;
+  scrollbar-width: thin;
+}
+
+.select-form--multi-scroll-x .select-form__multi-value {
+  flex-shrink: 0 !important;
+}
+
+.select-form--multi-scroll-x .select-form__multi-value-label {
+  white-space: nowrap !important;
+}
+
+.select-form--multi-scroll-x .select-form__indicators {
+  flex-shrink: 0 !important;
+}
+
+.search-active {
+  outline: 2px solid #2563eb;
+  background-color: rgba(59, 130, 246, 0.08);
+  transition: all 0.3s ease;
+}

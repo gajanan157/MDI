@@ -1,0 +1,14 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: provider-service
+  datasource:
+    # This service owns its own database (provider_db); it shares nothing with the other services.
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/provider_db}
+    driverClassName: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:root}
+  flyway:
+    table: flyway_history_provider

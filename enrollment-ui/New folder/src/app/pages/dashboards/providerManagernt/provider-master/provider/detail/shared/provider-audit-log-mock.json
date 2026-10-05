@@ -1,0 +1,196 @@
+{
+  "hospital-details": [
+    {
+      "id": "pd-1",
+      "changedAt": "2025-02-10T11:45:00",
+      "changedBy": "Priya Jain",
+      "section": "Certificates",
+      "certificate": "Rohini Registration Certificate",
+      "fieldName": "Valid To",
+      "oldValue": "2025-Dec-31",
+      "newValue": "2026-Dec-31",
+      "action": "UPDATE"
+    },
+    {
+      "id": "pd-2",
+      "changedAt": "2025-02-09T16:20:00",
+      "changedBy": "Rahul Sharma",
+      "section": "Certificates",
+      "certificate": "Rohini Registration Certificate",
+      "fieldName": "Registration Number",
+      "oldValue": "RH-10022",
+      "newValue": "RH-10045",
+      "action": "UPDATE"
+    },
+    {
+      "id": "pd-3",
+      "changedAt": "2025-02-08T10:05:00",
+      "changedBy": "Admin",
+      "section": "Provider Information",
+      "certificate": "—",
+      "fieldName": "Provider Name",
+      "oldValue": "Ruby Hall",
+      "newValue": "Ruby Hall Clinic",
+      "action": "UPDATE"
+    },
+    {
+      "id": "pd-4",
+      "changedAt": "2025-02-07T14:30:00",
+      "changedBy": "Priya Jain",
+      "section": "Provider Information",
+      "certificate": "—",
+      "fieldName": "Care Tier",
+      "oldValue": "SECONDARY",
+      "newValue": "TERTIARY",
+      "action": "UPDATE"
+    },
+    {
+      "id": "pd-5",
+      "changedAt": "2025-02-06T09:15:00",
+      "changedBy": "Rahul Sharma",
+      "section": "Address Details",
+      "certificate": "—",
+      "fieldName": "City",
+      "oldValue": "Mumbai",
+      "newValue": "Pune",
+      "action": "UPDATE"
+    },
+    {
+      "id": "pd-6",
+      "changedAt": "2025-02-05T17:40:00",
+      "changedBy": "Admin",
+      "section": "Address Details",
+      "certificate": "—",
+      "fieldName": "Address",
+      "oldValue": "Camp, Pune",
+      "newValue": "Senapati Bapat Road, Pune",
+      "action": "UPDATE"
+    }
+  ],
+  "agreement": [
+    {
+      "id": "ag-1",
+      "changedAt": "2025-02-04T12:00:00",
+      "changedBy": "Priya Jain",
+      "section": "Agreement",
+      "certificate": "—",
+      "fieldName": "Effective From",
+      "oldValue": "2024-01-01",
+      "newValue": "2025-01-01",
+      "action": "UPDATE"
+    },
+    {
+      "id": "ag-2",
+      "changedAt": "2025-02-03T15:30:00",
+      "changedBy": "Admin",
+      "section": "Agreement",
+      "certificate": "—",
+      "fieldName": "Discount Agreed",
+      "oldValue": "No",
+      "newValue": "Yes",
+      "action": "UPDATE"
+    }
+  ],
+  "provider-owner": [
+    {
+      "id": "own-1",
+      "changedAt": "2025-02-05T10:00:00",
+      "changedBy": "Priya Jain",
+      "section": "Owner Info",
+      "certificate": "—",
+      "fieldName": "Owner Name",
+      "oldValue": "Mahesh S",
+      "newValue": "Mahesh Mahesh",
+      "action": "UPDATE"
+    }
+  ],
+  "infrastructure-facility": [
+    {
+      "id": "inf-1",
+      "changedAt": "2025-02-02T11:00:00",
+      "changedBy": "Rahul Sharma",
+      "section": "Infrastructure",
+      "certificate": "—",
+      "fieldName": "Total Beds",
+      "oldValue": "120",
+      "newValue": "150",
+      "action": "UPDATE"
+    },
+    {
+      "id": "fm-1",
+      "changedAt": "2025-02-01T10:30:00",
+      "changedBy": "Admin",
+      "section": "Facility Management",
+      "certificate": "—",
+      "fieldName": "Facility Type",
+      "oldValue": "Multi-speciality",
+      "newValue": "Super-speciality",
+      "action": "UPDATE"
+    }
+  ],
+  "owners-info": [
+    {
+      "id": "cp-1",
+      "changedAt": "2025-01-31T14:15:00",
+      "changedBy": "Priya Jain",
+      "section": "Contact Persons Information",
+      "certificate": "—",
+      "fieldName": "Mobile No.",
+      "oldValue": "9876543210",
+      "newValue": "9876501234",
+      "action": "UPDATE"
+    }
+  ],
+  "ic-corporate": [
+    {
+      "id": "ic-1",
+      "changedAt": "2025-01-30T16:45:00",
+      "changedBy": "Rahul Sharma",
+      "section": " Insurance Company & Corporate",
+      "certificate": "—",
+      "fieldName": "IC Provider Code",
+      "oldValue": "IC-001",
+      "newValue": "IC-001-A",
+      "action": "UPDATE"
+    }
+  ],
+  "bank-details": [
+    {
+      "id": "bk-1",
+      "changedAt": "2025-01-29T09:20:00",
+      "changedBy": "Admin",
+      "section": "Bank Details",
+      "certificate": "—",
+      "fieldName": "IFSC Code",
+      "oldValue": "HDFC0001234",
+      "newValue": "HDFC0005678",
+      "action": "UPDATE"
+    }
+  ],
+  "hospital-document": [
+    {
+      "id": "doc-1",
+      "changedAt": "2025-01-28T13:10:00",
+      "changedBy": "Priya Jain",
+      "section": "Documents",
+      "certificate": "—",
+      "fieldName": "Document Status",
+      "oldValue": "Pending",
+      "newValue": "Verified",
+      "action": "UPDATE"
+    }
+  ],
+  "soc": [
+    {
+      "id": "soc-1",
+      "changedAt": "2025-01-27T11:55:00",
+      "changedBy": "Rahul Sharma",
+      "section": "SOC and Discount",
+      "certificate": "—",
+      "fieldName": "SOC End Date",
+      "oldValue": "2024-03-31",
+      "newValue": "2025-03-31",
+      "action": "UPDATE"
+    }
+  ]
+}

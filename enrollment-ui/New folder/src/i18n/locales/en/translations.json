@@ -1,0 +1,2984 @@
+{
+    "nav": {
+        "insurermanagement": {
+            "insurermanagement": "Insurer Office Module",
+            "insurer": "Insurer",
+            "office": "Office",
+            "contact-person": "Contact Person",
+            "brand-history": "Brand History",
+            "merger": "Merger"
+        },
+        "dashboards": {
+            "dashboards": "Dashboards",
+            "insurermanagement": "Insurer Office Module",
+            "insurer": "Insurer",
+            "ic-checklist": "IC Onboarding Check List",
+            "office": "Office",
+            "contact-person": "Contact Person",
+            "brand-history": "Brand History",
+            "merger": "Merger",
+            "home": "Home",
+            "tpamanagement": "Branch Module",
+            "tpa": "TPA ",
+            "branches": "Branches",
+            "escalation-matrix": "Escalation Matrix",
+            "officeHierarchy": "Office Hierarchy",
+            "dashboard": "Dashboard",
+            "adminDashboard": "Admin Dashboard",
+            "policy-benefit": "Policy Benefit",
+            "master-product": "Master Product",
+            "mbmmanagement": "MBM Management",
+            "enrollmentsystem": "Enrolment System",
+            "inwardtsystem": "Inward System",
+            "inward": "Inward",
+            "psu-inward": "PSU Inward",
+            "assignment-management": "Assignment Management",
+            "inward-management": "Inward Management",
+            "user-management": "User Management",
+            "user": "Users",
+            "masterManagement": "Master Management",
+            "corporate1": "Corporate Master",
+            "corporate": "Corporate-Group",
+            "broker": "Broker Master",
+            "agent": "Agent Master",
+            "create": "Create Master",
+            "empanel": "Empanel",
+            "provider-masters": "Provider Management",
+            "policy-searcch": "Policy Search",
+            "e-card": "E-Card Configuration",
+            "ecard": "E-Cards",
+            "ecardmanagement": "E Card Management",
+            "policy-mapping": "Policy Mapping",
+            "provider-masters-empanel": "Empanel",
+            "provider-masters-create": "Create",
+            "provider-masters-providers": "Providers",
+            "provider-masters-network-providers": "Network Providers",
+            "provider-masters-network-hospitals": "Network Hospitals",
+            "provider-masters-non-network-providers": "Non-Network Providers",
+            "provider-masters-non-network-hospitals": "Non-Network Hospitals",
+            "provider-masters-blacklist-master": "Blacklist Master",
+            "provider-masters-excluded-hospitals": "Excluded Providers",
+            "provider-masters-excluded-hospitals-bulk-exclude": "Bulk Exclude",
+            "provider-masters-rohini-master": "Rohini Master",
+            "provider-masters-ic-provider-code-master": "IC Provider Code Master",
+            "provider-masters-ic-provisioning": "IC Provisioning",
+            "provider-masters-bank-verification": "IC-Provider Bank Details",
+            "provider-masters-bank-verification-upload": "Bulk Bank Verification",
+            "provider-masters-agreement-detail": "View agreement",
+            "provider-masters-agreement-new": "New agreement",
+            "provider-masters-agreement-edit": "Edit agreement",
+            "provider-masters-providers-details": "Providers Details",
+            "provider-masters-providers-agreement-tab": "Agreement",
+            "provider-masters-ic-corporate-mapping": "IC & Corp Provider Mapping",
+            "provider-masters-ic-corporate-mapping-add-new-network": "Bulk Ic Mapping",
+            "provider-masters-excludetableview": "Exclude Table View",
+            "provider-masters-ic-mapping": "IC Mapping",
+            "provider-masters-corporate-mapping": "Corporate Mapping",
+            "provider-masters-provider-master": "Provider Master",
+            "provider-masters-bulk-operations": "Bulk Operations",
+            "provider-masters-ic-provider-bulk-mapping": "IC-Provider Bulk Mapping",
+            "provider-masters-masters": "Masters",
+            "provider-masters-dashboard": "Dashboard",
+            "provider-masters-documents": "Documents",
+            "provider-masters-soc": "SOC"
+        },
+        "settings": {
+            "settings": "Settings",
+            "general": "General",
+            "appearance": "Appearance"
+        },
+        "tpa": {
+            "title": "TPA",
+            "information": "TPA Information",
+            "fields": {
+                "tpaCode": {
+                    "label": "TPA Code",
+                    "placeholder": "Enter TPA Code"
+                },
+                "legalName": {
+                    "label": "Legal Name",
+                    "placeholder": "Enter Legal Name"
+                },
+                "cinNumber": {
+                    "label": "CIN Number",
+                    "placeholder": "Enter CIN Number"
+                },
+                "contactEmail": {
+                    "label": "Contact Email",
+                    "placeholder": "Enter Contact Email"
+                },
+                "contactPhone": {
+                    "label": "Contact Phone",
+                    "placeholder": "Enter Contact Phone"
+                }
+            },
+            "buttons": {
+                "edit": "Edit",
+                "update": "Update"
+            }
+        },
+        "address": {
+            "title": "Address Information",
+            "fields": {
+                "address": {
+                    "label": "Address",
+                    "placeholder": "Enter Address"
+                },
+                "addressType": {
+                    "label": "Address Type",
+                    "placeholder": "Address Type"
+                },
+                "postalCode": {
+                    "label": "Pin Code",
+                    "placeholder": "Enter Pin Code"
+                },
+                "state": {
+                    "label": "State",
+                    "placeholder": "State"
+                },
+                "city": {
+                    "label": "City",
+                    "placeholder": "City"
+                }
+            },
+            "types": {
+                "physical": "Physical",
+                "postal": "Postal",
+                "both": "Both"
+            }
+        }
+    },
+    "branch": {
+        "title": "TPA Branches",
+        "addBranch": "Add Branch",
+        "search": "Search",
+        "hideSearch": "Hide Search",
+        "filtersTitle": "TPA Branch Filters",
+        "table": {
+            "actions": "Actions",
+            "code": "Code",
+            "businessUnit": "Business Unit",
+            "branch": "Branch",
+            "city": "City",
+            "state": "State",
+            "contactPhone": "Contact Phone",
+            "contactEmail": "Contact Email"
+        },
+        "searchFields": {
+            "branchName": "Branch Name",
+            "businessUnit": "Business Unit",
+            "recordStatus": "Record Status"
+        },
+        "confirm": {
+            "title": "Are you sure?",
+            "deleteDescription": "Are you sure you want to delete this record?",
+            "deleteAction": "Delete",
+            "deleteSuccess": "Record Deleted",
+            "error": "Unable to delete the record at the moment. Please try again later."
+        },
+        "searchButton": {
+            "apply": "Apply",
+            "applying": "Applying...",
+            "reset": "Reset"
+        },
+        "paginationObj": {
+            "pageSize": "Page Size",
+            "page": "Page "
+        }
+    },
+    "branchForm": {
+        "pageTitle": "TPA Branches",
+        "sectionTitle": "Branch Details",
+        "fields": {
+            "branchName": {
+                "label": "Branch Name",
+                "placeholder": "Enter Branch Name"
+            },
+            "parentBranch": {
+                "label": "Parent Branch",
+                "placeholder": "Parent Branch"
+            },
+            "phoneNumber": {
+                "label": "Phone Number",
+                "placeholder": "Enter phone numbers separated by comma"
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": "Enter Email Address"
+            },
+            "businessUnit": {
+                "label": "Business Unit"
+            }
+        },
+        "buttons": {
+            "cancel": "Cancel",
+            "edit": "Edit",
+            "submit": "Submit",
+            "submitting": "Submitting...",
+            "update": "Update",
+            "updating": "Updating...",
+            "save": "Save"
+        },
+        "breadcrumb": {
+            "branches": "Branches",
+            "viewBranch": "View Branch",
+            "addBranch": "Add Branch"
+        }
+    },
+    "insurer": {
+        "pageTitle": "Insurer Office Module",
+        "buttons": {
+            "search": "Search",
+            "hideSearch": "Hide Search",
+            "addInsurer": "Add Insurer"
+        },
+        "searchFields": {
+            "insuranceCompany": "Insurance Company",
+            "irdaiCode": "IRDAI Code"
+        },
+        "table": {
+            "actions": "Actions",
+            "insuranceCompanyName": "Insurance Company Name",
+            "irdaiCode": "IRDAI Code",
+            "brandName": "Brand Name",
+            "insurerCode": "Insurer Code",
+            "type": "Type",
+            "status": "Status"
+        },
+        "pagination": {
+            "pageSize": "Page Size",
+            "page": "Page"
+        }
+    },
+    "insurerForm": {
+        "generalInfoTitle": "General Information",
+        "fields": {
+            "irdaiInsurerCode": {
+                "label": "IRDAI Code",
+                "placeholder": "Enter IRDAI Code"
+            },
+            "insurerCode": {
+                "label": "Insurer Code",
+                "placeholder": "Enter Insurer Code"
+            },
+            "insuranceCompany": {
+                "label": "Insurance Company",
+                "placeholder": "Enter Insurance Company"
+            },
+            "insurerType": {
+                "label": "Insurer Type",
+                "placeholder": "Insurer Type"
+            },
+            "officeCode": {
+                "label": "Office Code",
+                "placeholder": "Enter Office Code"
+            },
+            "pan": {
+                "label": "PAN",
+                "placeholder": "Enter PAN"
+            },
+            "gstin": {
+                "label": "GSTIN",
+                "placeholder": "Enter GST"
+            },
+            "email": {
+                "label": "Contact Email",
+                "placeholder": "Enter Contact Email"
+            },
+            "phone": {
+                "label": "Contact Phone",
+                "placeholder": "Enter Contact Phone"
+            }
+        },
+        "brandLogo": {
+            "label": "Brand Logo",
+            "uploadSuccess": "Document uploaded successfully",
+            "uploadFailed": "Document upload failed"
+        },
+        "documents": {
+            "uploadDocument": "Upload Document",
+            "document": "Document",
+            "principalAgreement": "Principal Agreement",
+            "addendum": "Addendum",
+            "renewal": "Renewal",
+            "others": "Others",
+            "title": "All Uploaded Documents",
+            "viewMore": "View more",
+            "viewLess": "View less"
+        }
+    },
+    "contactPerson": {
+        "title": "Contact Person Details",
+        "addButton": "Add Contact Person",
+        "errors": {
+            "mobile": "Mobile number error"
+        },
+        "table": {
+            "action": "Action",
+            "fullName": "Full Name",
+            "designation": "Designation",
+            "department": "Department",
+            "priority": "Priority",
+            "noData": "No contact persons added"
+        },
+        "actions": {
+            "edit": "Edit",
+            "remove": "Remove"
+        }
+    },
+    "contactPersonform": {
+        "title": "Contact Person Details",
+        "addButton": "Add Contact Person",
+        "fields": {
+            "prefix": "Prefix",
+            "firstName": "First Name",
+            "middleName": "Middle Name",
+            "lastName": "Last Name",
+            "domain": "Domain",
+            "role": "Role",
+            "gender": "Gender",
+            "dateOfBirth": "Date of Birth",
+            "designation": "Designation",
+            "department": "Department",
+            "priority": "Priority",
+            "notes": "Notes",
+            "contactDetails": "Contact Details",
+            "remarks": "Remarks",
+            "contactType": "Contact Type",
+            "contactValue": "Contact Value",
+            "addContact": "Add Contact"
+        },
+        "placeholders": {
+            "firstName": "Enter First Name",
+            "middleName": "Enter Middle Name",
+            "lastName": "Enter Last Name",
+            "designation": "Enter Designation",
+            "department": "Enter Department",
+            "notes": "Enter Notes",
+            "dateOfBirth": "YYYY-MM-DD",
+            "remarks": "Enter Remark"
+        },
+        "options": {
+            "prefix": {
+                "mr": "Mr",
+                "ms": "Ms",
+                "mrs": "Mrs",
+                "dr": "Dr"
+            },
+            "gender": {
+                "male": "Male",
+                "female": "Female"
+            },
+            "priority": {
+                "1": "Priority 1",
+                "2": "Priority 2",
+                "3": "Priority 3",
+                "4": "Priority 4",
+                "5": "Priority 5"
+            }
+        },
+        "errors": {
+            "mobile": "Mobile number error"
+        },
+        "table": {
+            "action": "Action",
+            "fullName": "Full Name",
+            "designation": "Designation",
+            "department": "Department",
+            "priority": "Priority",
+            "noData": "No contact persons added"
+        },
+        "actions": {
+            "edit": "Edit",
+            "remove": "Remove"
+        }
+    },
+    "whatsAppEnabled": "WhatsApp Enabled",
+    "breadcrumbs": {
+        "enrolmentSystem": "Enrolment System",
+        "dashboard": "Dashboard",
+        "corporateInward": "Corporate Inward",
+        "insurer": "Insurer",
+        "addInsurer": "Add Insurer",
+        "viewInsurer": "View Insurer"
+    },
+    "upload": "Upload",
+    "office": {
+        "search": {
+            "insurerName": "Insurer Name",
+            "officeCode": "Office Code",
+            "officeName": "Office Name",
+            "officeType": "Office Type",
+            "serviceType": "Service Type"
+        },
+        "table": {
+            "actions": "Actions",
+            "insuranceCompanyName": "Insurance Company Name",
+            "officeName": "Office Name",
+            "officeType": "Office Type",
+            "officeCode": "Office Code",
+            "underwritingCenter": "Is Underwriting Center",
+            "effectiveFrom": "Effective From",
+            "effectiveTo": "Effective To",
+            "status": "Status",
+            "active": "Active",
+            "inactive": "Inactive"
+        },
+        "actions": {
+            "view": "View",
+            "assignContactPerson": "Assign Contact Person"
+        },
+        "buttons": {
+            "addOffice": "Add Office",
+            "addNewOffice": "Add New Office",
+            "edit": "Edit",
+            "createOffice": "Create Office",
+            "creating": "Creating...",
+            "updateOffice": "Update Office",
+            "updating": "Updating..."
+        },
+        "breadcrumbs": {
+            "offices": "Offices",
+            "viewOffice": "View Office",
+            "addNewOffice": "Add New Office"
+        }
+    },
+    "officeAdd": {
+        "sectionTitle": "Office Information",
+        "insuranceCompany": "Insurance Company",
+        "officeType": "Office Type",
+        "officeName": "Office Name",
+        "officeCode": "Office Code",
+        "underwriting": "Is Underwriting",
+        "reportingOfficeType": "Reporting Off Type",
+        "reportingOffice": "Reporting Office",
+        "placeholders": {
+            "insuranceCompany": "Insurance Company",
+            "officeType": "Office Type",
+            "officeName": "Enter office name",
+            "officeCode": "Enter office code",
+            "reportingOfficeType": "Reporting Off Type",
+            "reportingOffice": "Reporting Office"
+        },
+        "errors": {
+            "insuranceCompanyRequired": "Insurance company is required"
+        },
+        "officeTypeOptions": {
+            "ho": "HO (Head Office)",
+            "ro": "RO (Regional Office)",
+            "do": "DO (Divisional Office)",
+            "uo": "UO (Under Writing Office)"
+        }
+    },
+    "serviceDetails": {
+        "title": "Service Details",
+        "addService": "Add Service",
+        "noData": "No Service Details added",
+        "table": {
+            "action": "Action",
+            "serviceName": "Service Name",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "servicingAllocation": "Servicing Allocation"
+        },
+        "actions": {
+            "edit": "Edit",
+            "remove": "Remove"
+        },
+        "allocation": {
+            "both": "Both (Corporate, Retail)"
+        }
+    },
+    "assignContactForm": {
+        "title": "Assign Contact Person",
+        "fields": {
+            "contactPerson": {
+                "label": "Contact Person",
+                "placeholder": "Select Contact Person",
+                "defaultValue": "Select Contact Person"
+            },
+            "designation": {
+                "label": "Designation",
+                "placeholder": "Enter Designation"
+            },
+            "officeName": {
+                "label": "Office Name",
+                "placeholder": "Enter Office Name"
+            },
+            "officeCode": {
+                "label": "Office Code",
+                "placeholder": "Enter Office Code"
+            }
+        }
+    },
+    "servicesForm": {
+        "fields": {
+            "startDate": {
+                "label": "Start Date"
+            },
+            "endDate": {
+                "label": "End Date"
+            },
+            "servicingAllocation": {
+                "label": "Servicing Allocation",
+                "defaultValue": "Allocation"
+            }
+        }
+    },
+    "inwardList": {
+        "pageTitle": "Inward",
+        "createInward": "Create Inward",
+        "downloadReport": "Download Report",
+        "downloadExcel": "Download as Excel",
+        "actions": {
+            "view": "View"
+        },
+        "searchFields": {
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "inwardNumber": "Inward Number",
+            "corporateName": "Corporate Name"
+        },
+        "tableHeaders": {
+            "srNo": "Sr. No.",
+            "actions": "Actions",
+            "inwardNumber": "Inward Number",
+            "receivedAt": "Received At",
+            "createdBy": "Created By",
+            "inwardType": "Inward Type",
+            "department": "Department",
+            "branchName": "Branch Name",
+            "receivedChannel": "Received Channel",
+            "entityName": "Entity Name",
+            "policyNumber": "Policy Number"
+        }
+    },
+    "createInwardForm": {
+        "fields": {
+            "tpaBranch": {
+                "label": "TPA Branch",
+                "placeholder": "TPA Branch"
+            },
+            "receivedChannel": {
+                "label": "Received Channel",
+                "placeholder": "Channel"
+            },
+            "department": {
+                "label": "Department",
+                "placeholder": "Department"
+            },
+            "sourceEntityType": {
+                "label": "Source Entity Type",
+                "placeholder": "Source Entity Type"
+            },
+            "sourceEntity": {
+                "label": "Source Entity",
+                "placeholder": "Source Entity"
+            },
+            "sourceReferenceNo": {
+                "label": "Reference Number",
+                "placeholder": "Enter Reference Number"
+            },
+            "category": {
+                "label": "Category",
+                "placeholder": "Category"
+            },
+            "subCategory": {
+                "label": "Sub Category",
+                "placeholder": "Sub Category"
+            },
+            "priority": {
+                "label": "Priority",
+                "placeholder": "Priority"
+            }
+        },
+        "dropdowns": {
+            "receivedChannel": {
+                "email": "Email",
+                "portal": "Portal",
+                "physicalFile": "Physical File",
+                "courier": "Courier"
+            },
+            "sourceEntityType": {
+                "corporate": "Corporate",
+                "broker": "Broker",
+                "agent": "Agent",
+                "insurer": "Insurer",
+                "policy": "Policy"
+            },
+            "priority": {
+                "high": "High",
+                "medium": "Medium",
+                "low": "Low"
+            }
+        },
+        "buttons": {
+            "upload": "Upload",
+            "uploading": "Uploading..."
+        }
+    },
+    "modalTitles": {
+        "createManualInward": "Create Manual Inward",
+        "uploadRohiniHospitalList": "Upload Rohini Hospital List",
+        "memberDetails": "Member Details",
+        "createInward": "Create Inward",
+        "assignUser": "Assign User",
+        "uploadDocument": "Upload Document",
+        "addMember": "Add Member"
+    },
+    "inwardView": {
+        "breadcrumb": {
+            "inwardManagement": "Inward Management",
+            "inward": "Inward",
+            "viewInward": "View Inward"
+        },
+        "tableHeaders": {
+            "srNo": "Sr. No.",
+            "documentName": "Document Name",
+            "documentType": "Document Type",
+            "action": "Action"
+        },
+        "actions": {
+            "openInNewTab": "Open in new tab",
+            "download": "Download"
+        },
+        "emptyState": {
+            "title": "No Documents Found",
+            "description": "There are no documents available for this inward number."
+        }
+    },
+    "inwardUploadDoc": {
+        "title": "Inward No",
+        "fields": {
+            "ocrOption": "OCR Option",
+            "ocrRequired": "OCR Required",
+            "ocrNotRequired": "OCR Not Required",
+            "documentType": {
+                "label": "Document Type",
+                "placeholder": "Select Type"
+            },
+            "uploadDocuments": "Upload Documents"
+        },
+        "uploadSection": {
+            "clickToUpload": "Click to upload files",
+            "allowedFormats": "Allowed: PDF, Excel, Word | Max 50MB per file"
+        },
+        "buttons": {
+            "uploadDocuments": "Upload Documents"
+        }
+    },
+    "corporateGroupMaster": {
+        "title": "Corporate Group",
+        "masterManagement": "Master Management",
+        "buttons": {
+            "add": "Add Corporate Group",
+            "view": "View"
+        },
+        "breadcrumb": {
+            "add": "Add Corporate Group",
+            "view": "View Corporate Group"
+        },
+        "search": {
+            "legalName": "Legal Name",
+            "recordStatus": "Record Status"
+        },
+        "section": {
+            "information": "Corporate Group Information"
+        },
+        "table": {
+            "actions": "Actions",
+            "groupName": "Group Name",
+            "groupCode": "Group Code",
+            "legalName": "Legal Name",
+            "cin": "CIN Number",
+            "pan": "PAN Number",
+            "gstin": "GSTIN"
+        },
+        "fields": {
+            "groupName": "Group Name",
+            "legalName": "Legal Name",
+            "websiteUrl": "Website Url",
+            "cin": "CIN",
+            "pan": "PAN",
+            "gstin": "GSTIN",
+            "effectiveFrom": "Effective From",
+            "effectiveTo": "Effective To"
+        },
+        "placeholder": {
+            "groupName": "Enter Group Name",
+            "legalName": "Enter Legal Name",
+            "websiteUrl": "Enter Website Url",
+            "cin": "Enter CIN",
+            "pan": "Enter PAN",
+            "gstin": "Enter GSTIN"
+        }
+    },
+    "corporateMaster": {
+        "title": "Corporate",
+        "masterManagement": "Master Management",
+        "buttons": {
+            "add": "Add Corporate",
+            "view": "View",
+            "search": "Search",
+            "hideSearch": "Hide Search"
+        },
+        "search": {
+            "legalName": "Legal Name",
+            "recordStatus": "Record Status"
+        },
+        "table": {
+            "actions": "Actions",
+            "legalName": "Legal Name",
+            "tradeName": "Trade Name",
+            "corporateType": "Corporate Type",
+            "corporateCode": "Corporate Code",
+            "corporateGroupName": "Corporate Group Name",
+            "pan": "PAN Number",
+            "gstin": "GSTIN",
+            "cin": "CIN Number",
+            "contactEmail": "Contact Email",
+            "contactPhone": "Contact Phone"
+        },
+        "breadcrumb": {
+            "add": "Add Corporate",
+            "view": "View Corporate",
+            "corporate": "Corporate",
+            "enrolmentSystem": "Enrolment System",
+            "dashboard": "Dashboard",
+            "corporateInward": "Corporate Inward"
+        },
+        "section": {
+            "corporateInformation": "Corporate Information",
+            "corporateHrInformation": "Corporate HR Information"
+        },
+        "form": {
+            "legalName": "Legal Name",
+            "corporateType": "Corporate Type",
+            "corporateGroup": "Corporate Group",
+            "pan": "PAN",
+            "gstin": "GSTIN",
+            "cin": "CIN",
+            "industrySector": "Industry Sector",
+            "sizeBand": "Size Band",
+            "effectiveFrom": "Effective From",
+            "effectiveTo": "Effective To",
+            "employeeCount": "Employee Count",
+            "websiteUrl": "Website Url",
+            "contactEmail": "Contact Email",
+            "phoneNumber": "Phone Number",
+            "corporateHrName": "Corporate HR Name",
+            "corporateHrPhone": "Phone No",
+            "corporateHrEmail": "Email"
+        },
+        "placeholder": {
+            "legalName": "Enter legal name",
+            "pan": "Enter PAN",
+            "gstin": "Enter GSTIN",
+            "cin": "Enter CIN",
+            "employeeCount": "Enter number of employees",
+            "websiteUrl": "Enter Website Url",
+            "contactEmail": "Enter emails separated by comma",
+            "phoneNumber": "Enter phone numbers separated by comma",
+            "effectiveFrom": "Select start date",
+            "effectiveTo": "Select end date",
+            "corporateHrName": "Enter name",
+            "corporateHrPhone": "Enter phone",
+            "corporateHrEmail": "Enter email"
+        }
+    },
+    "brokerMaster": {
+        "title": "Broker",
+        "masterManagement": "Master Management",
+        "breadcrumb": {
+            "broker": "Broker",
+            "add": "Add Broker",
+            "view": "View Broker",
+            "enrolmentSystem": "Enrolment System",
+            "dashboard": "Dashboard",
+            "corporateInward": "Corporate Inward"
+        },
+        "button": {
+            "add": "Add Broker"
+        },
+        "search": {
+            "brokerName": "Broker Name",
+            "recordStatus": "Record Status"
+        },
+        "table": {
+            "actions": "Actions",
+            "brokerCode": "Broker Code",
+            "legalName": "Legal Name",
+            "irdaBrokerCode": "IRDAI Code",
+            "contactEmail": "Email",
+            "contactPhone": "Phone Number"
+        },
+        "section": {
+            "brokerInformation": "Broker Information"
+        },
+        "form": {
+            "legalName": "Legal Name",
+            "irdaBrokerCode": "Broker IRDAI Code",
+            "contactPhone": "Phone Number",
+            "contactEmail": "Email"
+        },
+        "placeholder": {
+            "legalName": "Enter Legal Name",
+            "irdaBrokerCode": "Enter broker IRDA code",
+            "contactPhone": "Enter phone numbers separated by comma",
+            "contactEmail": "Enter Email Address"
+        }
+    },
+    "agentMaster": {
+        "title": "Agent",
+        "masterManagement": "Master Management",
+        "breadcrumb": {
+            "agent": "Agent",
+            "add": "Add Agent",
+            "view": "View Agent",
+            "enrolmentSystem": "Enrolment System",
+            "dashboard": "Dashboard",
+            "corporateInward": "Corporate Inward"
+        },
+        "button": {
+            "add": "Add Agent"
+        },
+        "search": {
+            "legalName": "Legal Name",
+            "recordStatus": "Record Status",
+            "filterTitle": "Agent Filters"
+        },
+        "table": {
+            "actions": "Actions",
+            "legalName": "Legal Name",
+            "tradeCode": "Trade Code",
+            "email": "Email",
+            "phoneNumber": "Phone Number",
+            "agentType": "Agent Type",
+            "agentCategory": "Agent Category"
+        },
+        "section": {
+            "agentInformation": "Agent Information"
+        },
+        "form": {
+            "legalName": "Legal Name",
+            "agentType": "Agent Type",
+            "agentCode": "Agent Code",
+            "email": "Email",
+            "phone": "Phone",
+            "licenseValidFrom": "License Valid From",
+            "licenseValidTo": "License Valid To"
+        },
+        "placeholder": {
+            "legalName": "Enter Legal Name",
+            "agentCode": "Enter code",
+            "email": "Enter Email Address",
+            "phone": "Enter Phone Number(s)"
+        },
+        "dropdown": {
+            "agentType": "Agent Type"
+        }
+    },
+    "policySearch": {
+        "title": "Policy Search",
+        "breadcrumb": {
+            "policySearch": "Policy Search"
+        },
+        "search": {
+            "insurerName": "Insurer Name",
+            "inwardNumber": "Inward Number",
+            "policyNumber": "Policy Number",
+            "corporateName": "Corporate Name"
+        },
+        "table": {
+            "actions": "Actions",
+            "policyNumber": "Policy Number",
+            "proposerName": "Proposer Name",
+            "insurerName": "Insurer Name",
+            "policyDate": "Policy Date",
+            "grossPremium": "Gross Premium",
+            "coverageType": "Coverage Type",
+            "memberType": "Member Type",
+            "brokerName": "Broker Name",
+            "masterProductName": "Master Product Name",
+            "policyStatus": "Policy Status",
+            "tpaServicingBranchName": "TPA Servicing Branch Name"
+        },
+        "viewMemberData": "View Member Data",
+        "sections": {
+            "policyInformation": "Policy Information",
+            "insurerInformation": "Insurer Information",
+            "tpaInformation": "TPA Information",
+            "brokerInformation": "Broker Information"
+        },
+        "details": {
+            "policyNumber": "Policy Number",
+            "previousPolicyNumber": "Previous Policy Number",
+            "policyDate": "Policy Date",
+            "policyInsurerType": "Policy Insurer Type",
+            "policyTypeProposer": "Policy Type Proposer",
+            "proposerName": "Proposer Name",
+            "proposerSector": "Proposer Sector",
+            "agentCode": "Agent Code",
+            "recordType": "Record Type",
+            "renewalType": "Renewal Type",
+            "structureType": "Structure Type",
+            "previousIssueDate": "Previous Issue Date",
+            "coveredFamilyCount": "Covered Family Count",
+            "totalInsuredPersonAtInception": "Total Insured Person at Inception",
+            "totalEmployeeCountAtInception": "Total Employee Count at Inception",
+            "policyNetPremium": "Policy Net Premium",
+            "grossPremium": "Gross Premium",
+            "policyStatus": "Policy Status",
+            "insurerName": "Insurer Name",
+            "insurerIssuingOfficeName": "Insurer Issuing Office Name",
+            "tpaFees": "TPA Fees",
+            "tpaSpocName": "TPA SPOC Name",
+            "tpaSpocEmail": "TPA SPOC Email",
+            "tpaSpocMobile": "TPA SPOC Mobile",
+            "tpaServicingBranchName": "TPA Servicing Branch Name",
+            "brokerName": "Broker Name",
+            "coverageType": "Coverage Type",
+            "memberType": "Member Type",
+            "masterProductName": "Master Product Name"
+        }
+    },
+    "dashboard": {
+        "pageTitle": "Dashboard",
+        "totalInward": "Total Inward",
+        "corporateInward": {
+            "title": "Corporate Inward",
+            "subtitle": "Manage corporate enrolments",
+            "recordFor": "Records for"
+        },
+        "retailInward": {
+            "title": "Retail Inward",
+            "subtitle": "Manage retail enrolments",
+            "recordFor": "Records for"
+        }
+    },
+    "corporateInward": {
+        "pageTitle": "Corporate Inward",
+        "breadcrumb": {
+            "dashboard": "Dashboard",
+            "corporateInward": "Corporate Inward"
+        },
+        "cards": {
+            "totalInwards": "Total Inwards",
+            "pending": "Pending",
+            "qcPending": "QC Pending",
+            "masterUpdatePending": "Master Update Pending",
+            "completed": "Completed",
+            "rejectedInward": "Rejected Inward"
+        },
+        "buttons": {
+            "createManualInward": "Create Manual Inward",
+            "downloadReport": "Download Report",
+            "downloadExcel": "Download as Excel",
+            "refresh": "Refresh",
+            "view": "View"
+        },
+        "searchFields": {
+            "insurerName": "Insurer Name",
+            "inwardNumber": "Inward Number",
+            "corporateName": "Corporate Name",
+            "policyNumber": "Policy Number",
+            "startDate": "Start Date",
+            "endDate": "End Date"
+        },
+        "columns": {
+            "action": "Action",
+            "srNo": "Sr. No.",
+            "inwardNumber": "Inward Number",
+            "policyNumber": "Policy Number",
+            "inwardDateTime": "Inward Date & Time",
+            "inwardType": "Inward Type",
+            "documentType": "Document Type",
+            "insurerName": "Insurer Name",
+            "corporateName": "Corporate Name",
+            "status": "Status",
+            "remark": "Remark"
+        }
+    },
+    "endorsementSummary": {
+        "title": "Endorsement Summary",
+        "viewEndorsementMemberData": "View Endorsement Member Data",
+        "viewDocument": "View Document",
+        "policy": {
+            "inwardNumber": "Inward Number",
+            "policyStatus": "Policy Status",
+            "icName": "IC Name",
+            "policyNumber": "Policy Number",
+            "previousPolicyNumber": "Previous Policy Number",
+            "policyType": "Policy Type",
+            "coverageType": "Coverage Type",
+            "policyStartDate": "Policy Start Date",
+            "policyEndDate": "Policy End Date",
+            "policyIssueDate": "Policy Issue Date",
+            "corporateName": "Corporate Name",
+            "corporateGSTNo": "Corporate GST No",
+            "address": "Address",
+            "state": "State",
+            "district": "District",
+            "pincode": "Pincode",
+            "brokerCode": "Broker Code",
+            "brokerName": "Broker Name",
+            "tpaSpocName": "TPA SPOC Name",
+            "tpaEmail": "TPA Email",
+            "tpaMobile": "TPA Mobile",
+            "policySumInsured": "Policy Sum Insured",
+            "netPremium": "Net Premium",
+            "grossPremium": "Gross Premium",
+            "stateGST": "State GST",
+            "totalGST": "Total GST",
+            "policyTaxInvoiceDate": "Policy Tax Invoice Date",
+            "policyRenewalType": "Policy Renewal Type",
+            "recordType": "Record Type",
+            "vipFlag": "VIP Flag"
+        },
+        "endorsement": {
+            "endorsementNumber": "Endorsement Number",
+            "endorsementType": "Endorsement Type",
+            "status": "Status",
+            "requestDate": "Request Date",
+            "effectiveDate": "Effective Date",
+            "receivedDate": "Received Date",
+            "invoiceDate": "Invoice Date",
+            "invoiceNumber": "Invoice Number",
+            "creditNoteNumber": "Credit Note Number",
+            "addedMembers": "Added Members",
+            "deletedMembers": "Deleted Members",
+            "modifiedMembers": "Modified Members",
+            "premiumAdded": "Premium Added",
+            "premiumDeducted": "Premium Deducted",
+            "netPremium": "Net Premium",
+            "totalPremium": "Total Premium",
+            "stateGST": "State GST",
+            "centralGST": "Central GST",
+            "igst": "IGST",
+            "remark": "Remark",
+            "inwardNumber": "Inward Number",
+            "createdBy": "Created By",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+        },
+        "common": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "summary": {
+        "title": "Summary",
+        "viewMemberData": "View Member Data",
+        "sections": {
+            "insurerDetails": "Insurer Details",
+            "corporateDetails": "Corporate Details",
+            "tpaDetails": "TPA Details",
+            "policyDetails": "Policy Details",
+            "intermediaryDetails": "Intermediary Details"
+        },
+        "fields": {
+            "insurerName": "Insurer Name",
+            "productName": "Product Name",
+            "insurerType": "Insurer Type",
+            "issuingOffice": "Issuing Office",
+            "corporateName": "Corporate Name",
+            "groupName": "Group Name",
+            "address": "Address",
+            "state": "State",
+            "district": "District",
+            "email": "Email",
+            "mobile": "Mobile",
+            "tpaName": "TPA Branch Name",
+            "spocName": "SPOC Name",
+            "policyNumber": "Policy Number",
+            "policyType": "Policy Type",
+            "policyPlan": "Policy Plan",
+            "policyStatus": "Policy Status",
+            "issueDate": "Issue Date",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "totalSumInsured": "Total Sum Insured",
+            "totalLivesInsured": "Total Lives Insured",
+            "premium": "Premium",
+            "brokerName": "Broker Name",
+            "brokerCode": "Broker Code",
+            "contactNumber": "Contact Number"
+        }
+    },
+    "memberData": {
+        "title": "Member Data",
+        "search": {
+            "memberId": "Member ID",
+            "employeeId": "Employee ID",
+            "nameOfInsured": "Name of Insured",
+            "healthCardNumber": "Health Card Number"
+        },
+        "buttons": {
+            "enrolledRecord": "ENROLLED RECORD",
+            "failedRecord": "FAILED RECORD",
+            "downloadReport": "Download Report",
+            "downloadAsExcel": "Download as Excel",
+            "hideSearch": "Hide Search",
+            "search": "Search",
+            "viewECard": "View E-Card",
+            "details": "Details"
+        },
+        "messages": {
+            "updatingRecords": "Updating member records… this may take a moment."
+        },
+        "stats": {
+            "totalMembers": "Total Members",
+            "self": "Self",
+            "dependents": "Dependents",
+            "enrolled": "Enrolled",
+            "failed": "Failed"
+        },
+        "columns": {
+            "action": "Action",
+            "memberId": "Member ID",
+            "employeeId": "Employee ID",
+            "healthCardNumber": "Health Card Number",
+            "nameOfInsured": "Name of Insured",
+            "dateOfBirth": "Date of Birth",
+            "age": "Age",
+            "gender": "Gender",
+            "relationship": "Relationship",
+            "enrolmentStatus": "Enrolment Status",
+            "enrolmentStatusReason": "Enrolment Status Reason",
+            "sumInsured": "Sum Insured",
+            "recordStatus": "Record Status"
+        }
+    },
+    "endorsementMemberList": {
+        "title": "Member Data",
+        "buttons": {
+            "search": "Search",
+            "hideSearch": "Hide Search",
+            "downloadReport": "Download Report",
+            "downloadExcel": "Download as Excel",
+            "viewECard": "View E-Card",
+            "details": "Details"
+        },
+        "search": {
+            "memberId": "Member ID",
+            "employeeId": "Employee ID",
+            "insuredName": "Name of Insured"
+        },
+        "tableHeaders": {
+            "action": "Action",
+            "memberId": "Member ID",
+            "employeeId": "Employee ID",
+            "healthCardNumber": "Health Card Number",
+            "insuredName": "Name of Insured",
+            "dateOfBirth": "Date of Birth",
+            "age": "Age",
+            "gender": "Gender",
+            "relationship": "Relationship",
+            "sumInsured": "Sum Insured",
+            "endorsementAction": "Endorsement Action",
+            "reason": "Reason"
+        },
+        "reports": {
+            "memberReport": "Member Report Endorse",
+            "failedMemberReport": "Member Failed Report"
+        },
+        "messages": {
+            "downloadFailed": "Download failed"
+        }
+    },
+    "endorsementTabs": {
+        "mainTabs": {
+            "totalRequested": "Total Requested",
+            "additionsRequested": "Additions Requested",
+            "modificationsRequested": "Modifications Requested",
+            "deletionsRequested": "Deletions Requested"
+        },
+        "subTabs": {
+            "success": "Success",
+            "failed": "Failed"
+        }
+    },
+    "memberDetails": {
+        "labels": {
+            "insurerName": "Insurer Name",
+            "policyNumber": "Policy Number",
+            "previousPolicyNumber": "Previous Policy Number",
+            "employeeId": "Employee Id",
+            "policyDescription": "Policy Description",
+            "policyStatus": "Policy Status",
+            "healthCardNumber": "Health Card Number",
+            "memberId": "Member ID",
+            "mdid": "MDID",
+            "corporateName": "Corporate Name",
+            "riskFromDate": "Risk From Date",
+            "riskToDate": "Risk To Date",
+            "dateOfJoining": "Date Of Joining",
+            "grade": "Grade",
+            "agentCode": "Agent Code",
+            "insuredPersonName": "Insured Person Name",
+            "relation": "Relation",
+            "dateOfBirth": "Date Of Birth",
+            "ipCoveredFromDate": "IP Covered From Date",
+            "age": "Age",
+            "gender": "Gender",
+            "ipSumInsured": "IP Sum Insured",
+            "ipPhone": "IP Phone",
+            "ipEmail": "IP Email",
+            "location": "Location",
+            "endorsementNumber": "Endorsement Number",
+            "endorsementRequestDate": "Endorsement Request Date",
+            "endorsementEffectiveDate": "Endorsement Effective Date",
+            "endorsementReceivedDate": "Endorsement Received Date",
+            "dateOfInception": "Date Of Inception",
+            "exceptionCategory": "Exception Category",
+            "exceptionApprovalRemark": "Exception Approval Remark"
+        },
+        "messages": {
+            "loadingMemberDetails": "Loading member details..."
+        }
+    },
+    "enrollmentSteps": {
+        "insurer": "Insurer",
+        "corporate": "Corporate",
+        "policy": "Policy",
+        "intermediatory": "Intermediary",
+        "tpaSpoc": "TPA SPOC"
+    },
+    "stepNavigation": {
+        "buttons": {
+            "back": "Back",
+            "next": "Next",
+            "save": "Save",
+            "approve": "Approve",
+            "reassign": "Reassign"
+        },
+        "stages": {
+            "qcReviewStage": "🧐 QC Review Stage",
+            "processingStage": "⚙️ Processing Stage"
+        },
+        "messages": {
+            "qcReviewPending": "QC Review Pending: Please verify all submitted documents carefully before approval.",
+            "processingInProgress": "Processing in Progress: Verify and update all mandatory details in accordance with the policy schedule."
+        }
+    },
+    "memberExcel": {
+        "fields": {
+            "insurerName": "Insurer Name",
+            "policyNumber": "Policy Number",
+            "endorsementNumber": "Endorsement Number"
+        },
+        "placeholders": {
+            "insurer": "Insurer",
+            "policyNumber": "Policy Number",
+            "endorsementNumber": "Endorsement Number"
+        },
+        "buttons": {
+            "reset": "Reset",
+            "search": "Search",
+            "searching": "Searching..."
+        }
+    },
+    "spocForm": {
+        "labels": {
+            "spocName": "SPOC Name",
+            "spocEmailId": "SPOC Email ID",
+            "spocMobileNumber": "SPOC Mobile Number",
+            "telephoneNumber": "Telephone Number",
+            "tpaFees": "TPA Fees (In Percentage)",
+            "tpaServicingBranch": "TPA Servicing Branch",
+            "tpaSpoc": "TPA SPOC"
+        },
+        "placeholders": {
+            "spocName": "Enter SPOC Name",
+            "emailId": "Enter Email ID",
+            "mobileNumber": "Enter Mobile Number",
+            "telephoneNumber": "Enter Telephone Number",
+            "tpaFees": "Enter TPA Fees",
+            "selectBranch": "Select Branch",
+            "selectSpoc": "Select SPOC"
+        }
+    },
+    "brokerForm": {
+        "channelType": {
+            "label": "Channel Type",
+            "placeholder": "Select Channel Type"
+        },
+        "channelOptions": {
+            "broker": "Broker",
+            "agent": "Agent",
+            "direct": "Direct"
+        },
+        "broker": {
+            "dropdown": {
+                "label": "Broker Name",
+                "placeholder": "Select Broker"
+            },
+            "fields": {
+                "code": "Broker Code",
+                "email": "Email ID",
+                "mobile": "Mobile Number",
+                "telephone": "Telephone Number"
+            }
+        },
+        "agent": {
+            "dropdown": {
+                "label": "Agent Name",
+                "placeholder": "Select Agent"
+            },
+            "fields": {
+                "code": "Agent Code",
+                "email": "Email ID",
+                "mobile": "Mobile Number",
+                "telephone": "Telephone Number"
+            }
+        }
+    },
+    "icForm": {
+        "insurerName": "Insurer Name",
+        "insurerType": "Insurer Type",
+        "productName": "Product Name",
+        "issuingOffice": "Issuing Office",
+        "headOffice": "Head Office",
+        "divisionalOffice": "Divisional Office",
+        "placeholders": {
+            "insurer": "Insurer",
+            "type": "Type",
+            "product": "Product",
+            "issuingOffice": "Issuing Office",
+            "headOffice": "Head Office",
+            "divisionalOffice": "Divisional Office"
+        }
+    },
+    "corporateForm": {
+        "labels": {
+            "corporateName": "Corporate Name",
+            "groupName": "Group Name",
+            "email": "Email",
+            "contactNumber": "Contact Number",
+            "address": "Address",
+            "telephone": "Telephone No",
+            "pinCode": "Pin Code",
+            "state": "State",
+            "city": "City",
+            "industrySector": "Industry Sector",
+            "panNumber": "Policy Proposer Pan Number",
+            "gstNumber": "Policy Proposer GST Number"
+        },
+        "placeholders": {
+            "corporateName": "Corporate Name",
+            "groupName": "Group Name",
+            "email": "Enter Email",
+            "contactNumber": "Enter contact number",
+            "address": "Enter Address",
+            "telephone": "Enter telephone number",
+            "pinCode": "Enter Pin Code",
+            "state": "State",
+            "city": "City",
+            "industrySector": "Industry Sector",
+            "panNumber": "Enter PAN number",
+            "gstNumber": "Enter GST number"
+        },
+        "actions": {
+            "addCorporate": "Add Corporate"
+        }
+    },
+    "source": "Source",
+    "enrolmentType": "Enrolment Type",
+    "providerMaster": {
+        "moduleName": "Provider Management",
+        "providerMasterLabel": "Provider Master",
+        "title": {
+            "providers": "Providers",
+            "addProvider": "Add Provider",
+            "icCorporateMapping": "IC Corporate Mapping"
+        },
+        "breadcrumb": {
+            "providers": "Providers",
+            "addProvider": "Add Provider",
+            "providerDetails": "Providers Details"
+        },
+        "dashboard": {
+            "pageTitle": "Provider Dashboard",
+            "tabs": {
+                "ariaLabel": "Dashboard views",
+                "analytics": "Analytics Dashboard",
+                "inward": "Inward Dashboard"
+            },
+            "inward": {
+                "title": "Inward Dashboard",
+                "subtitle": "Monitor and track all inbound requests in one place.",
+                "createInward": "Create Inward",
+                "lastUpdated": "Last Updated",
+                "filters": "Filters",
+                "todayBreakup": "Today's Status Breakup:",
+                "advancedFilters": "Advanced Filters",
+                "reset": "Reset",
+                "export": "Export",
+                "exporting": "Exporting…",
+                "refresh": "Refresh",
+                "cards": {
+                    "total": "Total Inward",
+                    "today": "Today's Inward",
+                    "pending": "Pending",
+                    "processing": "Processing",
+                    "completed": "Completed",
+                    "rejected": "Rejected",
+                    "todayHelper": "+{{count}} today",
+                    "todayDelta": "today",
+                    "fromYesterday": "from yesterday"
+                },
+                "charts": {
+                    "statusOverview": "Inward Status Overview",
+                    "statusOverviewSub": "Distribution by status",
+                    "todayStatusOverview": "Today's Inward Status",
+                    "todayStatus": "Today's Status",
+                    "total": "Total",
+                    "workloadByUser": "Workload by User",
+                    "viewAllUsers": "View all users"
+                },
+                "quickActions": {
+                    "title": "Quick Actions",
+                    "bulkUpload": "Bulk Upload",
+                    "viewReports": "View Reports",
+                    "settings": "Inward Settings"
+                },
+                "search": {
+                    "filterTitle": "Inward Filters",
+                    "query": "Search",
+                    "placeholder": "Search inward…",
+                    "inwardNo": "Inward Number",
+                    "sourceEntity": "Source Entity",
+                    "fromDate": "From Date",
+                    "toDate": "To Date"
+                },
+                "table": {
+                    "inwardNo": "Inward No.",
+                    "createdDate": "Created Date",
+                    "sourceEntity": "Source Entity",
+                    "documentType": "Document Type",
+                    "subcategory": "Subcategory",
+                    "status": "Status",
+                    "assignedTo": "Assigned To",
+                    "createdBy": "Created By"
+                },
+                "taskAssignment": {
+                    "title": "Task Assignment",
+                    "showAssignPanel": "Assign",
+                    "hideAssignPanel": "Hide Assign",
+                    "assignTasks": "Assign Tasks",
+                    "manage": "Manage",
+                    "overallProgress": "Overall Progress",
+                    "pending": "Pending",
+                    "assigned": "Assigned",
+                    "completed": "Completed",
+                    "searchPlaceholder": "Search tasks by name, stage, or assignee…",
+                    "searchTasks": "Search tasks",
+                    "filterTitle": "Task Filters",
+                    "filters": "Filters",
+                    "tasksFound": "{{count}} tasks found",
+                    "completedLabel": "{{percent}}% completed",
+                    "colTaskDetails": "Task Details",
+                    "colPriority": "Priority",
+                    "colDueDate": "Due Date",
+                    "showingTasks": "Showing {{from}} to {{to}} of {{total}} tasks",
+                    "selectedBadge": "{{count}} selected",
+                    "selectUserToAssign": "Select user to assign",
+                    "assignTo": "Assign to",
+                    "setPriority": "Priority",
+                    "selectPriority": "Select priority",
+                    "applyPriority": "Apply",
+                    "assignModeSelected": "Selected ({{count}})",
+                    "assignModeAllPending": "All pending ({{count}})",
+                    "selectAllPending": "Select all pending tasks",
+                    "assignSelectedShort": "Assign Selected",
+                    "assignAllPending": "Assign All Pending",
+                    "comments": "Comments",
+                    "assignTabSelected": "Assign Selected ({{count}})",
+                    "assignTabAll": "Assign All ({{count}})",
+                    "colAuditLog": "Audit",
+                    "colActions": "Action",
+                    "openWorkflow": "Open workflow — {{stage}}",
+                    "viewWorkflow": "View workflow",
+                    "workflowDialogTitle": "Workflow — {{task}}",
+                    "workflowDueDate": "Due date: {{date}}",
+                    "workflowCurrentStage": "Current stage",
+                    "workflowTimelineTitle": "Workflow Timeline",
+                    "inwardAuditLogTitle": "Audit Log — Inward {{inwardNo}}",
+                    "auditLogShort": "Log",
+                    "viewAuditLog": "View audit log",
+                    "auditLogTitle": "Audit Log — {{task}}",
+                    "auditColDate": "Date",
+                    "auditColAction": "Action",
+                    "auditColUser": "User",
+                    "auditColRemarks": "Remarks",
+                    "reassignHint": "To reassign: pick a new user and click Apply. Current assignee is removed first, then the new user is assigned.",
+                    "allStatuses": "All statuses",
+                    "allAssignees": "All assignees",
+                    "unassigned": "Unassigned",
+                    "sortPriority": "Sort: Priority",
+                    "sortDueDate": "Sort: Due date",
+                    "sortStatus": "Sort: Status",
+                    "sortBy": "Sort by",
+                    "taskCount": "{{count}} tasks",
+                    "selectTask": "Select {{name}}",
+                    "selectUser": "Select user",
+                    "assign": "Assign",
+                    "reassign": "Reassign",
+                    "assignSelectedTitle": "Assign selected tasks",
+                    "assignSelected": "Assign selected ({{count}})",
+                    "assignAllTitle": "Assign all pending tasks",
+                    "assignAllWarning": "All pending tasks under the selected subcategory will be assigned to the selected user.",
+                    "assignAll": "Assign all",
+                    "confirmAssignAllTitle": "Confirm bulk assignment",
+                    "confirmAssignAllMessage": "Assign all {{count}} pending tasks under \"{{subcategory}}\" to the selected user?",
+                    "emptyTitle": "No tasks match your filters",
+                    "emptyDescription": "Try adjusting search or filter criteria to find workflow tasks for this inward.",
+                    "toastSelectedAssigned": "Selected tasks assigned successfully.",
+                    "toastTaskAssigned": "Task assigned successfully.",
+                    "toastAllAssigned": "All pending tasks assigned successfully.",
+                    "toastPriorityUpdated": "Task priority updated.",
+                    "toastBulkPriorityUpdated": "Priority updated for selected tasks.",
+                    "setDeadline": "Set task deadline",
+                    "dueDateRemark": "Due date remark",
+                    "dueDateRemarkPlaceholder": "Reason for deadline change…",
+                    "reassignTask": "Reassign task",
+                    "toastDueDateUpdated": "Task deadline updated.",
+                    "overdue": "Overdue",
+                    "totalTasks": "Total Tasks",
+                    "view": "View",
+                    "providerName": "Provider",
+                    "subcategory": "Subcategory",
+                    "workflowName": "Workflow",
+                    "colWorkflowStage": "Workflow Stage",
+                    "colSla": "SLA",
+                    "allPriorities": "All priorities",
+                    "allStages": "All stages",
+                    "allDueDates": "All due dates",
+                    "dueToday": "Due today",
+                    "dueThisWeek": "Due this week",
+                    "resetFilters": "Reset",
+                    "savedFilters": "Saved Filters",
+                    "savedFiltersHint": "Saved filters coming soon",
+                    "clearAllFilters": "Clear all",
+                    "clearFilters": "Clear Filters",
+                    "density": "Row density",
+                    "tasksSelected": "{{count}} tasks selected",
+                    "clearSelection": "Clear selection",
+                    "removeAssignment": "Remove assignment",
+                    "applyChanges": "Apply",
+                    "toastBulkChangesApplied": "Changes applied to selected tasks.",
+                    "applyBulkHint": "Pick user, priority, or due date — then Apply. Reassigning removes the current assignee first, then assigns the new user.",
+                    "assignAllDisabledHint": "Assign all is only available when pending tasks share the same subcategory.",
+                    "unassignedOnly": "Unassigned only",
+                    "noRowActions": "No actions available",
+                    "rowActions": "Row actions",
+                    "viewTimeline": "View Timeline",
+                    "viewAudit": "View Audit",
+                    "taskDetails": "Task Details",
+                    "assignTasksTitle": "Assign Tasks",
+                    "reassignTasks": "Reassign Tasks",
+                    "selectedCount": "{{count}} selected",
+                    "selectedTasks": "Selected Tasks",
+                    "commentPlaceholder": "Add assignment notes for the team…",
+                    "notifyAssignee": "Notify assignee via email",
+                    "assignAndNotify": "Assign & Notify",
+                    "estimatedWorkload": "{{count}} active cases in queue",
+                    "availabilityIndicator": "Availability: {{level}}",
+                    "availabilityHigh": "High",
+                    "availabilityMedium": "Moderate",
+                    "availabilityLow": "Limited",
+                    "undo": "Undo",
+                    "toastAssignedAndNotified": "Tasks assigned and notification sent.",
+                    "toastRemovedAssignment": "Assignment removed successfully.",
+                    "toastTimelinePlaceholder": "Task timeline will open here when API is connected.",
+                    "toastAuditPlaceholder": "Audit history will open here when API is connected.",
+                    "toastDetailsPlaceholder": "Details for \"{{name}}\" will open here when API is connected."
+                }
+            }
+        },
+        "button": {
+            "addProvider": "Add Provider",
+            "cancel": "Cancel",
+            "saveProvider": "Save Provider",
+            "saving": "Saving…",
+            "add": "Add",
+            "search": "Search",
+            "hideSearch": "Hide Search",
+            "downloadReport": "Download Report",
+            "save": "Save",
+            "view": "View",
+            "viewDetails": "View Details"
+        },
+        "list": {
+            "noProviders": "No providers to display.",
+            "cityState": "City / State",
+            "copyCode": "Copy code",
+            "copied": "Copied",
+            "moreActions": "More actions",
+            "closeMenu": "Close menu"
+        },
+        "toolbar": {
+            "auditLog": "Audit Log",
+            "auditLogShort": "Log",
+            "auditLogTitle": "View field-level change history for this tab",
+            "auditLogUnavailable": "Provider ID unavailable",
+            "auditLogDialogTitle": "Audit Log — {{section}}",
+            "loadingAuditLog": "Loading audit log…",
+            "icWiseEmpanelmentStatus": "IC Wise Empanelment Status",
+            "icWiseEmpanelmentStatusTitle": "View IC Wise Empanelment Status by Insurer",
+            "icWiseEmpanelmentStatusAria": "View IC Wise Empanelment Status",
+            "providerStatusWithIcs": "Provider Status with ICs",
+            "network": "Network",
+            "networkType": "Network Type",
+            "tpaNetwork": "TPA Network",
+            "insurerNetwork": "Insurer Network",
+            "viewAllNetworkTypes": "View All",
+            "viewAllNetworkTypesAria": "View all network types",
+            "allNetworkTypes": "All Network Types",
+            "agreement": "Agreement",
+            "agreementType": "Agreement Type",
+            "verify": "Verify",
+            "insurerName": "Insurer name",
+            "networkStatus": "Network status",
+            "mappedSince": "Mapped since",
+            "close": "Close",
+            "auditColumns": {
+                "section": "Section",
+                "certificate": "Certificate",
+                "recordCode": "Record Code",
+                "recordName": "Record Name",
+                "fieldName": "Field Name",
+                "oldValue": "Old Value",
+                "newValue": "New Value",
+                "action": "Action",
+                "changedBy": "Changed By",
+                "dateTime": "Date & Time"
+            }
+        },
+        "chooseFile": {
+            "chooseFile": "Choose File",
+            "browse": "browse",
+            "browseButton": "Browse",
+            "dropFileHere": "Drop file here or",
+            "dropOrBrowseAria": "{{label}}: drop file here or browse",
+            "noFileChosen": "No file chosen",
+            "uploading": "Uploading…",
+            "removing": "Removing…",
+            "remove": "Remove {{label}}"
+        },
+        "summaryBar": {
+            "providerName": "Provider Name",
+            "address": "Address",
+            "providerCode": "Provider Code",
+            "rohiniId": "Rohini ID"
+        },
+        "common": {
+            "status": "Status",
+            "active": "Active",
+            "inactive": "Inactive",
+            "view": "View",
+            "edit": "Edit",
+            "delete": "Delete",
+            "yes": "Yes",
+            "no": "No",
+            "description": "Description",
+            "master": "Master",
+            "actions": "Actions",
+            "download": "Download",
+            "viewInwardDocumentsTitle": "View inward documents",
+            "viewInwardDocuments": "View documents for {{inwardNo}}",
+            "duplicateFileName": "A file with the same name is already uploaded. Please choose a different file."
+        },
+        "mastersPage": {
+            "title": "Masters",
+            "breadcrumbMasters": "Masters",
+            "auditLog": "Audit Log",
+            "auditLogTitle": "View change history for this master",
+            "deleteTitle": "Are you sure?",
+            "deleteDescription": "Are you sure you want to delete \"{{label}}\"?",
+            "deleteAction": "Delete",
+            "deleteError": "Unable to delete the record at the moment. Please try again later or contact support if the issue persists.",
+            "thisRecord": "this record",
+            "recordDeleted": "Record deleted successfully.",
+            "identifierLevel": "Identifier Level",
+            "issuingAuthorityName": "Issuing Authority Name",
+            "applicableProviderType": "Applicable Provider Type",
+            "effectiveFrom": "Effective From",
+            "effectiveTo": "Effective To",
+            "activeFlag": "Active Flag",
+            "classCode": "Class Code",
+            "subclassCode": "Subclass Code",
+            "isActive": "Is Active",
+            "serviceType": "Service Type",
+            "discountType": "Discount Type",
+            "inclusionExclusionType": "Type",
+            "inclusion": "Inclusion",
+            "exclusion": "Exclusion",
+            "createTitle": "Add Master Record",
+            "editTitle": "Edit Master Record",
+            "select": "Select",
+            "superAdminOnlyEdit": "Only Super Admin can edit master records."
+        },
+        "agreement": {
+            "newAgreement": "New Agreement",
+            "noAgreements": "No agreements available",
+            "detailsNotFound": "Provider agreement details not found",
+            "agreementType": "Agreement Type",
+            "applicableScope": "Applicable Scope",
+            "agreementName": "Agreement Name",
+            "type": "Type",
+            "scope": "Scope",
+            "applicableIcs": "Applicable ICs",
+            "effectiveFrom": "Effective From",
+            "socDiscount": "Soc & Discount",
+            "soc": "Soc",
+            "discount": "Discount",
+            "addDiscount": "Add Discount",
+            "socDiscountPending": "Pending",
+            "socDiscountComplete": "Complete",
+            "sortAsc": "Sort Ascending",
+            "sortDesc": "Sort Descending",
+            "pinColumn": "Pin Column",
+            "noPin": "No Pin",
+            "pinLeft": "Pin Left",
+            "pinRight": "Pin Right",
+            "chooseColumns": "Choose Columns",
+            "filters": "Filters",
+            "columns": "Columns",
+            "reset": "Reset",
+            "addFilter": "Add Filter",
+            "filterPlaceholder": "Filter {{label}}",
+            "searchPlaceholder": "Search...",
+            "allAgreementNames": "All Agreement Names",
+            "columnMenu": "Column menu",
+            "seeMore": "See more",
+            "seeLess": "See less",
+            "removeFilter": "Remove {{label}} filter",
+            "insuranceCompany": "Insurance company",
+            "effectiveFromInvolvement": "Effective From",
+            "uploadedOn": "Uploaded on {{date}}",
+            "noDataAvailable": "No data available",
+            "removeIc": "Remove {{name}}",
+            "noGipsaRemarksAvailable": "No GIPSA remarks available",
+            "psuPpnCityCreateGipsaAgreement": "Provider belongs to a PPN city. Please create a GIPSA Agreement.",
+            "agreementTypesTitle": "Agreement Types",
+            "noAgreementTypes": "No agreement types available",
+            "moreAgreementTypes": "+{{count}} More",
+            "moreAgreementTypesAria": "Show {{count}} more agreement types",
+            "sections": {
+                "basicDetails": "Agreement Basic Details",
+                "terms": "Agreement Terms",
+                "document": "Agreement Document",
+                "scope": "Applicable Scope",
+                "remarks": "Remarks"
+            },
+            "fields": {
+                "agreementName": "Agreement Name",
+                "agreementType": "Agreement Type",
+                "agreementVersion": "Agreement Version",
+                "status": "Status",
+                "dateOfEmpanelment": "Date of Empanelment",
+                "gicInceptionDate": "GIC Inception Date",
+                "ppnInceptionDate": "PPN Inception Date",
+                "signAgreementSentDate": "Agreement Signed Date",
+                "agreementCopyAvailable": "Agreement Copy Available",
+                "providerSignatoryName": "Provider Signatory Name",
+                "providerSignatoryDesignation": "Provider Signatory Designation",
+                "effectiveFrom": "Effective From",
+                "effectiveTo": "Effective To",
+                "agreementDurationDays": "Agreement Duration (Days)",
+                "agreementDocument": "Agreement Document",
+                "supportingDocument": "Supporting Document",
+                "remarks": "Remarks",
+                "selectAgreementName": "Select agreement name",
+                "select": "Select",
+                "selectInsurer": "Select insurer",
+                "selectInsurers": "Select insurers",
+                "enterRemarks": "Enter remarks",
+                "ppnState": "PPN State",
+                "ppnCity": "PPN City"
+            },
+            "filterOptions": {
+                "allTypes": "All Types",
+                "bipartite": "Bipartite",
+                "tripartite": "Tripartite",
+                "allScopes": "All Scopes",
+                "psu": "PSU",
+                "selectedIcs": "Selected Insurer",
+                "allStatus": "All Status",
+                "active": "Active",
+                "terminated": "Terminated",
+                "expired": "Expired",
+                "draft": "Draft"
+            },
+            "mappingSuccess": {
+                "title": "Confirmation",
+                "close": "Close",
+                "view": "View",
+                "gic": "GIC -All active Insurance Companies have been mapped successfully.",
+                "gipsa": "GIPSA- ALL PSUs have been mapped successfully."
+            }
+        },
+        "search": {
+            "filterTitle": "Provider Filters",
+            "hospitalName": "Provider Name",
+            "rohiniCode": "Provider ROHINI Code",
+            "providerCode": "Provider Code",
+            "agreementType": "Agreement Type",
+            "state": "State",
+            "city": "City",
+            "insurerCompany": "Insurer Company",
+            "expiringInDays": "Rohini expiry in next (days)",
+            "rohiniExpiryDate": "ROHINI Expiry Date",
+            "rohiniExpiryStatus": "ROHINI Expiry Status",
+            "rohiniExpiryStatusAll": "All",
+            "rohiniExpiryStatusActive": "Active",
+            "rohiniExpiryStatusExpired": "Expired",
+            "providerNetworkType": "Provider Network Type",
+            "providerType": "Provider Type",
+            "networkSource": "Network Source"
+        },
+        "table": {
+            "providerCode": "Provider Code",
+            "providerName": "Provider Name",
+            "providerType": "Provider Type",
+            "providerNetworkType": "Provider Network Type",
+            "networkSource": "Network Source",
+            "providerRohiniCode": "Provider Rohini Code",
+            "rohiniExpiryAlert": "Rohini Expiry Alert",
+            "noOfBeds": "No. of Beds",
+            "city": "City",
+            "state": "State",
+            "address": "Address"
+        },
+        "export": {
+            "noData": "No data to export with the current filters.",
+            "hint": "Exports using current Search filters and status cards (table scope).",
+            "exporting": "Exporting…",
+            "downloadExcel": "Download as Excel",
+            "failed": "Export failed"
+        },
+        "network": {
+            "both": "Both",
+            "network": "Network",
+            "nonNetwork": "Non-Network",
+            "insurer": "Insurer",
+            "tpa": "TPA"
+        },
+        "nonNetworkTabBlocked": "This provider is currently a Non-Network Provider. The selected section is available only for Network Providers.",
+        "tabs": {
+            "hospital-details": "Overview",
+            "agreement": "Agreements",
+            "provider-owner": "Owner",
+            "infrastructure-facility": "Infra & Facility",
+            "owners-info": "Contacts",
+            "ic-corporate": "Network Management",
+            "bank-details": "Banking Details",
+            "hospital-document": "Documents",
+            "soc": "SOC",
+            "hospital-discount": "Discount"
+        },
+        "mappingSubTab": {
+            "ic": "Insurance Company",
+            "corporate": "Corporate"
+        },
+        "breadcrumbTrail": {
+            "editAgreement": "Edit Agreement",
+            "viewAgreement": "View Agreement",
+            "newAgreement": "New Agreement",
+            "addSoc": "Add SOC",
+            "editSoc": "Edit SOC",
+            "viewSoc": "View SOC",
+            "addDiscount": "Add Discount",
+            "editDiscount": "Edit Discount",
+            "viewDiscount": "View Discount",
+            "addOwner": "Add Owner",
+            "editOwner": "Edit Owner",
+            "providerRestrictions": "Provider Restrictions",
+            "editRestriction": "Edit Restriction",
+            "viewRestriction": "View Restriction",
+            "addRestriction": "Add Restriction",
+            "newIcMapping": "New IC mapping",
+            "newCorporateMapping": "New Corporate mapping",
+            "editCorporateMapping": "Edit Corporate mapping",
+            "editIcMapping": "Edit IC mapping",
+            "viewCorporateMapping": "View Corporate mapping",
+            "viewIcMapping": "View IC mapping"
+        },
+        "addForm": {
+            "providerDetails": "Provider details",
+            "providerName": "Provider Name",
+            "providerNamePlaceholder": "Enter provider name",
+            "providerType": "Provider Type",
+            "providerNetworkType": "Provider Network Type",
+            "providerNetworkTypeDefault": "Select",
+            "networkProvider": "Network Provider",
+            "nonNetworkProvider": "Non-Network Provider",
+            "icSelection": "IC Selection",
+            "icSelectionDefault": "Select one or more",
+            "empanelmentSource": "Empanelment Source",
+            "empanelmentSourceDefault": "Select",
+            "openExistingProvider": "Open existing provider",
+            "duplicateRohiniTitle": "Provider already exists",
+            "duplicateRohiniMessage": "A provider with this ROHINI ID already exists",
+            "duplicateRohiniRedirect": "Redirect",
+            "duplicateRohiniCancel": "Cancel",
+            "rohiniNumber": "Rohini Number",
+            "rohiniPlaceholder": "13-digit Rohini number",
+            "providerCategory": "Provider Category",
+            "providerCategoryDefault": "Provider Category",
+            "providerSubclass": "Provider Subclass",
+            "ownershipType": "Ownership Type",
+            "addressDetails": "Address details",
+            "addressLine1": "Address Line 1",
+            "addressLine2": "Address Line 2",
+            "pincode": "Pincode",
+            "pincodePlaceholder": "6-digit pincode",
+            "city": "City",
+            "cityPlaceholder": "Auto-filled from pincode",
+            "state": "State",
+            "statePlaceholder": "Auto-filled from pincode",
+            "district": "District",
+            "districtPlaceholder": "Enter district",
+            "contactDetails": "Contact details",
+            "clinicalSpeciality": "Clinical Speciality",
+            "clinicalSpecialityDefault": "Select one or more",
+            "clinicalSpecialitySingleDefault": "Select",
+            "websiteUrl": "Website Url",
+            "websitePlaceholder": "https://",
+            "mobileNo": "Mobile No",
+            "mobilePlaceholder": "10-digit mobile number",
+            "telephoneNo": "Telephone No",
+            "telephonePlaceholder": "Telephone number",
+            "faxNo": "Fax No",
+            "faxPlaceholder": "Fax number",
+            "email": "Email",
+            "emailPlaceholder": "Enter email address",
+            "address": "Address",
+            "addressPlaceholder": "Enter address",
+            "panNo": "PAN No",
+            "panPlaceholder": "ABCDE1234F",
+            "providerTypeDefault": "Hospital"
+        },
+        "errors": {
+            "noWritePermission": "No write permission"
+        },
+        "rohiniMaster": {
+            "title": "Rohini Master",
+            "filterTitle": "Rohini Master Filters",
+            "upload": "Upload",
+            "versionLog": "Version Log",
+            "viewDetails": "Rohini Details",
+            "recordStatus": "Record status",
+            "filterAll": "All",
+            "rohiniCode": "ROHINI Code",
+            "rohiniExpiryDate": "ROHINI Expiry Date",
+            "nextRenewalDue": "Next Renewal Due",
+            "location": "Location",
+            "cityTown": "City / Town",
+            "cityVillageTown": "City / Village / Town",
+            "pinCode": "Pin Code",
+            "emailId": "Email Id",
+            "contactNumber": "Contact Number",
+            "registrationStatus": "Registration Status",
+            "networkType": "Network Type",
+            "recordStatusField": "Record Status",
+            "latitude": "Latitude",
+            "longitude": "Longitude",
+            "rohiniExpiredDate": "ROHINI Expired Date",
+            "rohiniNextRenewalDueDate": "ROHINI Next Renewal Due Date",
+            "openMapFor": "Open map for {{coords}}",
+            "viewOnMap": "View on map: {{coords}}",
+            "locationDialogTitle": "Location",
+            "close": "Close",
+            "noCoordinates": "No coordinates available",
+            "mapAriaLabel": "Map showing location",
+            "fetchListFailed": "Failed to fetch Rohini list",
+            "loadVersionLogFailed": "Failed to load version log",
+            "exportHint": "Exports using current Search filters (table scope).",
+            "versionLogSearch": {
+                "inwardNumber": "Inward number",
+                "fileName": "File name",
+                "fromDate": "From date",
+                "toDate": "To date"
+            },
+            "versionLogColumns": {
+                "inwardNumber": "Inward Number",
+                "fileName": "File Name",
+                "userName": "User Name",
+                "createdDate": "Created Date"
+            },
+            "uploadForm": {
+                "atLeastOneFile": "At least one file is required",
+                "fileSizeMax": "Each file must be less than 50MB",
+                "excelOnly": "Only Excel files (.xls, .xlsx) are allowed",
+                "unsupportedFormat": "Unsupported file format",
+                "excelHint": "Allowed: Excel (.xls, .xlsx) only | Max 50MB per file",
+                "clickToUploadExcel": "Click to upload Excel file",
+                "clickToUploadFile": "Click to upload file",
+                "processing": "Processing…",
+                "loadingBranchDepartment": "Loading TPA branch and department…",
+                "branchNotAvailable": "TPA branch \"{{branch}}\" is not available.",
+                "departmentNotAvailable": "Department \"{{department}}\" is not available.",
+                "branchDepartmentLoading": "Branch and department are still loading. Please try again.",
+                "couldNotResolveBranch": "Could not resolve TPA branch \"{{branch}}\".",
+                "couldNotResolveDepartment": "Could not resolve department \"{{department}}\".",
+                "uploadFailed": "Upload failed",
+                "uploadMissingInwardOrFile": "Upload completed but inward number or file id was missing. Cannot register Rohini master.",
+                "registrationCompleted": "Rohini master registration completed.",
+                "registeringWithMaster": "Registering with Rohini master…",
+                "inwardCreatedOnUpload": "Your inward number is created when you upload the Excel file. We then register it with Rohini master.",
+                "uploadDocumentsLabel": "Upload Documents",
+                "uploadDocumentsAction": "Upload Documents",
+                "noInwardReturned": "Upload succeeded but no inward number was returned. Cannot register with Rohini master.",
+                "noFileReference": "Upload succeeded but no file reference was returned. Cannot link to Rohini master.",
+                "missingInwardNumber": "Upload succeeded but inward number is missing. Cannot register with Rohini master.",
+                "documentsUploadedSuccess": "Documents uploaded successfully",
+                "inwardNoLabel": "Inward No:"
+            }
+        },
+        "expiry": {
+            "noDate": "No expiry date",
+            "expiredLessThanOneDay": "Expired less than 1 day ago",
+            "expiredAgo": "Expired {{days}} {{unit}} ago",
+            "warningExpiresIn": "Warning: expires in {{days}} {{unit}}",
+            "expiresIn": "Expires in {{days}} {{unit}}",
+            "day": "day",
+            "days": "days",
+            "emptyValue": "—"
+        },
+        "detailTabs": {
+            "documents": {
+                "upload": "Upload",
+                "uploadSuccessful": "Upload successful",
+                "uploadSuccessMessage": "Document uploaded successfully.",
+                "uploadDocument": "Upload document",
+                "selectDocument": "Select document",
+                "documentLabel": "Document",
+                "startDateOptional": "Start Date (optional)",
+                "validTillOptional": "Valid Till (optional)",
+                "chooseDocumentType": "Choose document type...",
+                "noIcInfo": "No IC information available"
+            },
+            "bank": {
+                "title": "Bank details",
+                "cancelCheque": "Cancel cheque",
+                "panCard": "PAN card",
+                "verifyingIfsc": "Verifying IFSC...",
+                "verifyIfsc": "Verify IFSC",
+                "ifscVerified": "IFSC verified",
+                "ifscNotVerified": "IFSC not verified",
+                "ifscVerify": "IFSC verify",
+                "bankAddressPlaceholder": "Full address",
+                "documents": {
+                    "preview": "Document preview",
+                    "noDocumentUploaded": "No document uploaded.",
+                    "uploadingDocument": "Uploading document…",
+                    "loadingDocument": "Loading document…",
+                    "clickOrDropToReplace": "Click or drop to replace",
+                    "dropFileHere": "Drop file here or",
+                    "browse": "browse",
+                    "uploadHint": "PDF, JPG, JPEG, or PNG"
+                },
+                "validation": {
+                    "completeRequiredFields": "Complete all required bank fields",
+                    "uploadDocuments": "Upload cancel cheque and PAN card",
+                    "accountTypeRequired": "Account Type is required",
+                    "accountHolderTypeRequired": "Account Holder Type is required",
+                    "accountHolderNameAlphabets": "Account Holder Name must contain only alphabets when Holder Type is SELF",
+                    "panHolderNameAlphabets": "PAN Holder Name must contain only alphabets when Holder Type is SELF",
+                    "accountNumberNoSpaces": "Account number cannot contain spaces"
+                },
+                "fields": {
+                    "accountHolderName": "Account Holder Name",
+                    "accountNumber": "Account Number",
+                    "accountType": "Account Type",
+                    "accountHolderType": "Account Holder Type",
+                    "bankName": "Bank Name",
+                    "bankBranch": "Bank Branch",
+                    "ifscCode": "IFSC Code",
+                    "micrCode": "MICR Code",
+                    "panNo": "PAN No",
+                    "panHolderName": "PAN Holder Name",
+                    "tanNo": "TAN No",
+                    "bankAddress": "Bank Address"
+                }
+            },
+            "owner": {
+                "addOwner": "Add Owner",
+                "noOwnerInfo": "No owner information available",
+                "noIcInfo": "No IC information available",
+                "deletingContact": "Deleting contact person",
+                "deleteContact": "Delete contact person",
+                "deleting": "Deleting…",
+                "sections": {
+                    "ownerDetails": "Owner details",
+                    "address": "Address",
+                    "details": "Details",
+                    "contact": "Contact"
+                },
+                "fields": {
+                    "ownerName": "Owner Name",
+                    "designation": "Designation",
+                    "qualification": "Qualification",
+                    "gender": "Gender",
+                    "selectGender": "Select gender",
+                    "male": "Male",
+                    "female": "Female",
+                    "pinCode": "Pin Code"
+                }
+            },
+            "contactPersons": {
+                "addContactPerson": "Add Contact Person",
+                "noContactDetails": "No contact details to show",
+                "noContactPersonsOnFile": "No contact persons on file",
+                "noNameOnFile": "No name on file",
+                "defaultRole": "Contact person",
+                "noDesignation": "No designation",
+                "fields": {
+                    "role": "Role",
+                    "name": "Name",
+                    "mobile": "Mobile",
+                    "telephone": "Telephone"
+                },
+                "roles": {
+                    "keyContactPerson": "Key Contact Person",
+                    "billingDepartment": "Billing Department",
+                    "issueHandler": "Issue Handler",
+                    "tpaCoordinator": "TPA Coordinator",
+                    "contactPerson": "Contact person",
+                    "ceo": "CEO",
+                    "chiefExecutive": "Chief Executive Officer"
+                }
+            },
+            "providerDetails": {
+                "providerInformation": "Provider Information",
+                "addressDetails": "Address Details",
+                "contactDetails": "Contact Details",
+                "certificates": "Certificates",
+                "removeCertificate": "Remove certificate",
+                "noIcInfo": "No IC information available",
+                "changeBeforeSave": "Change at least one field before saving.",
+                "identifierDetails": "Identifier Details",
+                "oldProviderCodes": "Old Provider Codes",
+                "noIdentifierData": "No identifier data available",
+                "noCertificateAvailable": "No Certificate Available",
+                "certificateFileNotAvailable": "Certificate file is not available.",
+                "notRegistered": "Not Registered",
+                "viewCertificate": "View certificate",
+                "removeRohiniNumber": "Remove Rohini number",
+                "removeOldProviderCode": "Remove old provider code",
+                "fields": {
+                    "grade": "Grade",
+                    "careTier": "Care Tier",
+                    "dayCare": "Day Care",
+                    "signatoryName": "Signatory Name",
+                    "signatoryDesignation": "Signatory Designation",
+                    "systemOfMedicine": "System of Medicine",
+                    "tpaServicingBranch": "TPA Servicing Branch",
+                    "serviceEmail": "Service Email",
+                    "zone": "Zone",
+                    "pinCode": "Pin Code",
+                    "location": "Location",
+                    "telePhoneNo": "Tele Phone No",
+                    "mobNo": "Mob No",
+                    "websiteAvailable": "Website Available",
+                    "category": "Category",
+                    "registrationNo": "Registration No",
+                    "registrationAct": "Registration Act",
+                    "providerRohiniId": "Provider Rohini ID",
+                    "certName": "Name",
+                    "certValidFrom": "Valid From",
+                    "certValidTo": "Valid To"
+                }
+            }
+        },
+        "icMapping": {
+            "bulkMapping": "Bulk IC Mapping",
+            "upload": "Upload",
+            "loading": {
+                "networkMappings": "Loading network mappings...",
+                "inward": "Loading inward {{inwardNo}}..."
+            },
+            "search": {
+                "networkSummaryTitle": "Network summary search",
+                "inwardTitle": "Bulk mapping inward search",
+                "providerName": "Provider Name",
+                "rohiniNumber": "ROHINI Number",
+                "insuranceCompany": "Insurance Company",
+                "inwardNo": "Inward Number",
+                "insurerName": "Insurer Name"
+            },
+            "export": {
+                "landingHint": "Exports the current page using Search filters."
+            },
+            "columns": {
+                "insuranceCompany": "Insurance Company",
+                "corporateName": "Corporate Name",
+                "providerName": "Provider Name",
+                "providerCode": "Provider Code",
+                "rohiniNumber": "Rohini Number",
+                "icProviderCode": "IC Provider Code",
+                "networkSource": "Network Source",
+                "networkMode": "Network Mode",
+                "tariffType": "Tariff Type",
+                "cashlessStatus": "Cashless Status",
+                "reimbursement": "Reimbursement",
+                "status": "Status",
+                "statusActive": "Active",
+                "statusInactive": "Inactive",
+                "statusDepanelled": "Depanelled",
+                "statusEmpanelled": "Empanelled",
+                "statusWatchlist": "Watchlist",
+                "statusBlacklist": "Blacklist",
+                "agreementStatus": "Agreement Status",
+                "bankMatch": "Bank Match",
+                "networkActive": "Network Active"
+            },
+            "agreementStatus": {
+                "completed": "Completed",
+                "pending": "Pending"
+            },
+            "toolbar": {
+                "newIcMapping": "New IC Mapping",
+                "newCorporate": "New Corporate",
+                "networkMappingTypeAria": "Network mapping type"
+            },
+            "empty": {
+                "noIcMapping": "No IC network mapping found",
+                "noCorporateMapping": "No corporate network mapping found",
+                "noCorporateMappingHint": "Use \"+ New Corporate\" above to add the first mapping for this provider."
+            },
+            "actions": {
+                "unmap": "De-Empanel"
+            },
+            "searchFields": {
+                "corporateName": "Corporate Name",
+                "insuranceCompanyName": "Insurance Company Name",
+                "icProviderCode": "IC Provider Code",
+                "bankMatchStatus": "Bank Match Status",
+                "insurerName": "Insurer Name",
+                "all": "All",
+                "matched": "Matched",
+                "mismatch": "Not Matched",
+                "pending": "Pending"
+            },
+            "formToolbar": {
+                "updateMapping": "Update",
+                "updating": "Updating...",
+                "loading": "Loading..."
+            },
+            "bankMatch": {
+                "matched": "Matched",
+                "mismatch": "Not Matched",
+                "pending": "Pending"
+            },
+            "bankMatchCompare": {
+                "compare": "Compare",
+                "clickCompareHint": "Click Compare to view details",
+                "title": "Bank Details Comparison",
+                "insurer": "Insurer",
+                "mismatchFields": "Mismatch Fields: {{count}}",
+                "updateProviderDetails": "Update Provider Details",
+                "columns": {
+                    "field": "Field",
+                    "provider": "Provider",
+                    "status": "Status"
+                },
+                "fields": {
+                    "accountName": "Account Name",
+                    "accountNumber": "Account Number",
+                    "ifscCode": "IFSC Code",
+                    "bankName": "Bank Name",
+                    "branch": "Branch"
+                }
+            },
+            "form": {
+                "mappingEntityAria": "Mapping entity",
+                "insuranceCompany": "Insurance Company",
+                "selectInsuranceCompany": "Select insurance company",
+                "corporate": "Corporate",
+                "selectCorporate": "Select corporate",
+                "isDepanel": "De-empanel",
+                "hospitalListFile": "Hospital list file",
+                "uploadFile": "Upload file",
+                "submitting": "Submitting…",
+                "submit": "Submit"
+            },
+            "validation": {
+                "insuranceCompanyRequired": "Insurance company is required",
+                "corporateRequired": "Corporate is required",
+                "hospitalListFileRequired": "Hospital list file is required",
+                "hospitalListFileInvalidFormat": "Only .xlsx, .xls, and .csv files are supported",
+                "effectiveDateOrder": "Effective from must be on or before effective to.",
+                "icProviderCodeSpecialChar": "Special characters are not accepted",
+                "icProviderCodeAlphanumeric": "Only letters, numbers, and hyphen are allowed"
+            },
+            "errors": {
+                "branchUnavailable": "TPA branch \"Pune-HO\" is not available.",
+                "departmentUnavailable": "Department \"Provider Network\" is not available.",
+                "contextLoading": "Branch and department are still loading. Please try again.",
+                "uploadFailed": "Failed to upload hospital list file.",
+                "inwardNotFound": "Inward not found",
+                "loadInwardFailed": "Failed to load inward"
+            },
+            "success": {
+                "uploadWithInward": "Hospital list uploaded successfully. Inward No: {{inwardNo}}"
+            }
+        },
+        "soc": {
+            "innerTab": {
+                "soc": "SOC",
+                "discount": "Discount",
+                "ariaLabel": "SOC or Discount"
+            },
+            "toolbar": {
+                "addSoc": "Add SOC",
+                "addDiscount": "Add Discount"
+            },
+            "search": {
+                "title": "SOC search"
+            },
+            "empty": {
+                "notFound": "SOC not found",
+                "hint": "Use \"Add SOC\" above to add the first schedule of charges for this provider."
+            },
+            "columns": {
+                "viewSoc": "View SOC",
+                "version": "Version",
+                "socName": "SOC Name",
+                "applicableIcs": "Applicable ICs",
+                "lastUpdated": "Last Updated",
+                "startDate": "Start Date",
+                "endDate": "End Date",
+                "duration": "Duration"
+            },
+            "searchFields": {
+                "allStatus": "All Status"
+            },
+            "details": {
+                "title": "SOC Details",
+                "agreementName": "Agreement Name",
+                "selectAgreementName": "Select agreement name",
+                "ppnVariantLabel": "SOC Type",
+                "selectSocType": "Select SOC Type",
+                "lastUpdatedOn": "SOC Last Updated On",
+                "startDate": "SOC Start Date",
+                "endDate": "SOC End Date",
+                "startDateView": "Start Date",
+                "endDateView": "End Date",
+                "lastUpdatedOnView": "Last Updated On",
+                "corporate": "Corporate",
+                "corporateCheckboxLabel": "Corporate SOC",
+                "corporateName": "Corporate Name",
+                "insurerPsu": "Insurer",
+                "selectInsurerPsu": "Select insurer",
+                "selectCorporate": "Select corporate",
+                "selectIcForCorporate": "Select corporate",
+                "corporateYes": "Yes",
+                "corporateNo": "No",
+                "validation": {
+                    "agreementRequired": "Agreement type is required.",
+                    "startDateRequired": "SOC Start Date is required.",
+                    "endDateBeforeStart": "End Date must be greater than or equal to Start Date.",
+                    "insurerRequired": "Insurer company is required for this agreement type.",
+                    "insurerRequiredForCorporate": "Select an insurer company before selecting corporates.",
+                    "insurerPsuRequired": "Select an insurer before selecting corporates.",
+                    "corporateRequired": "Select at least one corporate.",
+                    "corporateNotAllowed": "Corporate SOC is not allowed for this agreement type.",
+                    "completeRequiredFields": "Complete all required fields before saving."
+                }
+            },
+            "applicableCorporate": {
+                "title": "Applicable for Corporate",
+                "noCorporatesYet": "No corporates selected yet"
+            },
+            "versionHistory": {
+                "title": "Version History",
+                "active": "Active",
+                "openInNewTab": "Open in new tab",
+                "openDocument": "Open document",
+                "viewInNewTab": "View {{name}} in new tab",
+                "openNamed": "Open {{name}}",
+                "activeSoc": "{{name}} active SOC",
+                "noDocument": "No SOC document uploaded yet.",
+                "noDocumentHint": "Upload a document to maintain version history.",
+                "showFewer": "Show fewer versions",
+                "viewAll": "View all versions"
+            },
+            "upload": {
+                "selectFile": "Select File",
+                "chooseFile": "Choose File",
+                "dropHint": "Upload SOC Document",
+                "fileTypes": "PDF up to 10MB",
+                "removeFile": "Remove selected file"
+            },
+            "applicableIc": {
+                "title": "Applicable Insurer Companies",
+                "selectInsurerSr": "Select insurer companies",
+                "loadingInsurers": "Loading insurer companies...",
+                "selectInsurers": "Select insurer companies",
+                "noInsurersYet": "No Insurer Companies Added Yet",
+                "addInsurers": "Add Insurer Companies",
+                "insurerName": "Insurer Name",
+                "name": "Name",
+                "insurerRow": "Insurer",
+                "corporateRow": "Corporate",
+                "corporateColumn": "Corporate",
+                "effectiveDate": "Effective Date",
+                "effectiveFrom": "Effective From",
+                "status": "Status",
+                "activeStatus": "Active",
+                "action": "Action",
+                "removeInsurer": "Remove {{name}}",
+                "editInsurer": "Edit {{name}}",
+                "noIcInfo": "No IC information available",
+                "oneIcSelected": "1 IC Selected",
+                "icsSelected": "{{count}} ICs Selected",
+                "selectedCount": "{{count}} Selected",
+                "searchInsurer": "Search insurer company...",
+                "searchCorporate": "Search corporate...",
+                "titleWithCorporate": "Applicable Insurer Companies",
+                "noCorporatesYet": "No corporates selected yet. Select corporate name(s) above.",
+                "selectInsurerForCorporate": "Select an insurer above to load corporates.",
+                "noCorporatesMatchSearch": "No corporates match your search.",
+                "noInsurersMatchSearch": "No insurer companies match your search.",
+                "scopes": {
+                    "selectIc": "Select IC",
+                    "allIcs": "All ICs",
+                    "gipsa": "GIPSA",
+                    "gic": "GIC",
+                    "psu": "PSU"
+                },
+                "gipsaVariants": {
+                    "select": "Select PPN / Non PPN SOC",
+                    "ppnSoc": "PPN SOC",
+                    "nonPpnSoc": "Non PPN SOC"
+                }
+            },
+            "discount": {
+                "title": "Discount",
+                "standaloneHint": "Create a discount rule for this provider.",
+                "viewHint": "Discount configuration for this SOC.",
+                "editHint": "Configure discount for this SOC.",
+                "type": "Discount type",
+                "typeMultiSelect": "Discount type (multi-select)",
+                "discountTypesTitle": "Discount types",
+                "typePickerHint": "Select one or more discount types. Configuration appears below in the same order.",
+                "typesSelectedCount": "{{count}} discount type(s) selected",
+                "selectTypesHint": "Choose at least one discount type above to configure PPN, bulk discounts, or component-level discounts.",
+                "bulkSectionTitle": "Bulk discount settings",
+                "bulkSectionHint": "Configure discount % and applicable basis for each selected type (up to 3 per row).",
+                "allDiscountConfigTitle": "See all discount configuration",
+                "allDiscountConfigHint": "Configure PPN and each selected type in the order shown below.",
+                "seeAllDiscounts": "See all discounts",
+                "showLessDiscounts": "Show less",
+                "seeAllDiscountsCollapsedHint": "Expand to configure PPN and each discount type in sequence.",
+                "individualSectionHint": "Individual discount uses component-level rows — add one row per bill component.",
+                "ppnHint": "Optional. Applies as a shared PPN discount across the selected discount types.",
+                "configComplete": "Configuration complete",
+                "requiredFields": "Required",
+                "zeroPercentNotAllowed": "Discount % must be greater than 0.",
+                "category": "Discount category",
+                "categoryMultiSelect": "Discount category (individual discount – multi-select)",
+                "enterPercentHint": "Enter discount % for each selected category",
+                "ppnDiscount": "PPN Discount",
+                "enterPpn": "Enter PPN",
+                "packagePpnType": "PPN type",
+                "packagePpnTypeAria": "Package PPN or Non PPN",
+                "ppn": "PPN",
+                "nonPpn": "Non PPN",
+                "discountPercent": "Discount %",
+                "enterDiscountPercent": "Enter %",
+                "tatForDiscount": "TAT for discount",
+                "tatDaysPlaceholder": "Days...",
+                "days": "days",
+                "applicableOn": "Discount applicable on",
+                "inclusion": "Inclusion",
+                "searchInclusion": "Search and select inclusion",
+                "exclusion": "Exclusion",
+                "searchExclusion": "Search and select exclusion",
+                "alreadySelectedInInclusion": "Already selected in Inclusion",
+                "alreadySelectedInExclusion": "Already selected in Exclusion",
+                "ipd": "IPD",
+                "opd": "OPD",
+                "selected": "Selected",
+                "serviceType": "Service type",
+                "serviceTypeRequired": "Select IPD or OPD.",
+                "selectServiceTypeToChooseDiscounts": "Select IPD or OPD to choose discount types.",
+                "selectIpdDiscount": "Select IPD discount",
+                "selectOpdDiscount": "Select OPD discount",
+                "opdDiscountRequired": "Select an OPD discount and enter %.",
+                "notCovered": "NOT COVERED",
+                "additionalDiscount": "Additional discount",
+                "effectiveFrom": "Effective from",
+                "effectiveTo": "Effective to",
+                "effectiveFromRequired": "Effective from is required",
+                "effectiveToRequired": "Effective to is required",
+                "selectDate": "Select date",
+                "remarks": "Remarks",
+                "remarksPlaceholder": "Add remarks...",
+                "supportingDocument": "Supporting document",
+                "supportingDocumentHint": "PDF, DOCX, PNG, JPG, JPEG, or EML (max 10MB)",
+                "supportingDocumentUploading": "Uploading document...",
+                "supportingDocumentLoading": "Loading document...",
+                "supportingDocumentView": "View document",
+                "supportingDocumentUploadFailed": "Failed to upload supporting document",
+                "supportingDocumentDeleteFailed": "Failed to remove supporting document",
+                "done": "Done",
+                "searchSelect": "Search and select...",
+                "componentDiscounts": {
+                    "title": "Component Discounts",
+                    "add": "Add",
+                    "selectComponent": "Select component",
+                    "emptyHint": "Select at least one component and enter %.",
+                    "component": "Component",
+                    "discountPercent": "Discount %",
+                    "applicableOn": "Applicable On",
+                    "removeRow": "Remove row"
+                },
+                "sections": {
+                    "agreement": "Agreement",
+                    "scope": "Agreement & scope",
+                    "insuranceCo": "Insurance Company",
+                    "corporate": "Corporate",
+                    "category": "Category",
+                    "discount": "Discount",
+                    "inclExcl": "Incl / Excl",
+                    "inclExclDetails": "Inclusion, exclusion & details",
+                    "details": "Details"
+                },
+                "fields": {
+                    "agreementName": "Agreement name",
+                    "agreementType": "Agreement type",
+                    "soc": "SOC",
+                    "selectSoc": "Select SOC",
+                    "selectAgreementName": "Select agreement name",
+                    "agreementTypePlaceholder": "e.g. TPA Bipartite",
+                    "agreementTypeFromAgreement": "Filled from selected agreement",
+                    "selectAgreementFirst": "Select an agreement first to load insurance companies from its mappings.",
+                    "selectAgreementOrWaitInsurers": "Select an agreement, or wait for insurance companies to load.",
+                    "selectServiceType": "Select at least one discount type — IPD or OPD.",
+                    "noInsurersOnAgreement": "No insurance companies are mapped on the selected agreement.",
+                    "insurers": "Insurance companies",
+                    "searchInsurers": "Search insurer...",
+                    "allIc": "All IC",
+                    "selectedIc": "Selected IC",
+                    "allPsu": "All PSU",
+                    "selectedPsu": "Selected PSU",
+                    "allPsus": "All PSUs",
+                    "allIcHint": "Discount will apply to all {{count}} insurance companies mapped on this agreement.",
+                    "allPsuHint": "Discount will apply to all {{count}} PSUs mapped on this agreement.",
+                    "selectedIcHint": "Search and select one or more insurance companies for this discount.",
+                    "insuranceScopeStep": "Step 1 — Insurance companies",
+                    "corporateScopeStep": "Step 2 — Corporates",
+                    "selectIcScopeHint": "Choose whether this discount applies to all insurance companies on the agreement or selected ones only.",
+                    "selectCorporateScopeHint": "Choose all policyholders under the selected insurance companies, or pick corporates per IC.",
+                    "selectedCorporates": "Selected corporates",
+                    "selectIcThenCorporateHint": "Select an insurance company first, then choose corporates for that IC. Repeat for each IC as needed.",
+                    "configuredCorporates": "Configured corporates",
+                    "corporateCount": "{{count}} selected",
+                    "selectIcInCorporateHint": "Use Step 1 to choose All IC or Selected IC, then configure corporates in Step 2.",
+                    "allPolicyholdersForSelectedIc": "All policyholders under the selected insurance companies.",
+                    "corporatePerSelectedIcHint": "Choose corporates for each selected insurance company.",
+                    "corporate": "Corporate",
+                    "selectCorporate": "Select corporate...",
+                    "searchCorporate": "Search corporate...",
+                    "allPolicyholders": "All policyholders",
+                    "uncheckAllPolicyholdersHint": "Uncheck All policyholders to choose corporates for each insurance company.",
+                    "corporateInsurers": "Insurance companies (for corporates)",
+                    "searchCorporateInsurers": "Search and select insurers...",
+                    "corporateForIc": "Corporates for this IC",
+                    "corporateForIcNamed": "Corporate — {{insurer}}",
+                    "corporateInsurer": "Insurance company (for corporates)",
+                    "selectCorporateInsurer": "Select insurer...",
+                    "selectInsurersFirst": "Select insurance companies in Step 1 (All IC or Selected IC) to configure corporates per IC.",
+                    "insurerHasCorporatesError": "Cannot add {{name}} — already configured with specific corporates in Step 2. Remove those corporates first."
+                },
+                "validation": {
+                    "completeRequiredFields": "Complete required discount fields before saving."
+                },
+                "search": {
+                    "title": "Discount search"
+                },
+                "empty": {
+                    "notFound": "Discount not found",
+                    "hint": "Click Add Discount to create a discount rule, or adjust your search."
+                },
+                "columns": {
+                    "viewDiscount": "View discount",
+                    "version": "SOC Version",
+                    "agreementName": "Agreement Name",
+                    "agreementType": "Agreement Type",
+                    "insuranceCo": "Insurance Company",
+                    "corporate": "Corporate",
+                    "discountType": "Discount Type",
+                    "categories": "Categories",
+                    "ppnDiscount": "PPN Discount",
+                    "applicableIcs": "Applicable ICs",
+                    "effectiveFrom": "Effective From"
+                },
+                "statusValues": {
+                    "active": "Active",
+                    "terminated": "Terminated",
+                    "expired": "Expired",
+                    "inactive": "Inactive",
+                    "draft": "Draft"
+                },
+                "types": {
+                    "select": "Select",
+                    "individual": "Individual Discount",
+                    "netBill": "Net Bill Discount",
+                    "approvedAmount": "Approved Amount Discount",
+                    "package": "Package Discount"
+                },
+                "panelTitles": {
+                    "individual": "Individual",
+                    "netBill": "Net Bill",
+                    "approvedAmountDiscount": "Approved Amount",
+                    "package": "Package"
+                },
+                "applicableOnOptions": {
+                    "select": "Select",
+                    "ppnSoc": "PPN SOC",
+                    "privateIcSoc": "Private Ic SOC",
+                    "nonPpnPackage": "Non PPN Package",
+                    "noPackage": "No Package"
+                }
+            }
+        },
+        "standaloneAgreement": {
+            "notFound": "Agreement not found",
+            "validation": {
+                "pdfOnly": "Only PDF files allowed.",
+                "supportingDocTypes": "Only PDF, DOCX, PNG, JPG, JPEG, and EML files are allowed."
+            }
+        },
+        "icProvisioning": {
+            "configuredProvisions": "Configured Provisions",
+            "addNewConfiguration": "Add New Configuration",
+            "newConfigurationTitle": "New IC Provisioning Configuration",
+            "editConfigurationTitle": "Edit IC Provisioning Configuration",
+            "saveSuccess": "Configuration saved successfully.",
+            "updateSuccess": "Configuration updated successfully.",
+            "table": {
+                "icCode": "IC Code",
+                "configType": "Config Type",
+                "fileType": "File Type",
+                "matchingFields": "Matching Field(s)",
+                "frequency": "Frequency",
+                "commMode": "Comm Mode",
+                "passwordProtected": "Password Protected"
+            },
+            "form": {
+                "configurationType": "Configuration Type",
+                "documentType": "Document Type",
+                "frequency": "Frequency",
+                "passwordProtected": "Is the file password protected?",
+                "insuranceCompany": "Insurance Company",
+                "addNewIc": "Add New IC",
+                "selectIcFromMaster": "Select IC from Master...",
+                "matchingFields": "Provider Matching Fields",
+                "panNumber": "PAN Number",
+                "rohiniCode": "ROHINI Code",
+                "communicationMode": "Communication Mode",
+                "saveConfiguration": "Save Configuration",
+                "fileConfiguration": "File Configuration",
+                "insuranceSetup": "Insurance Setup"
+            },
+            "validation": {
+                "configTypeRequired": "Configuration type is required",
+                "documentTypeRequired": "Document type is required",
+                "insuranceCompanyRequired": "Insurance company is required",
+                "matchingFieldsRequired": "Select at least one provider matching field",
+                "frequencyRequired": "Frequency is required",
+                "commModeRequired": "Communication mode is required"
+            }
+        },
+        "bankDetailsComparison": {
+            "title": "Bank Details Comparison",
+            "subtitle": "Review and compare bank details side by side",
+            "summaryMismatch": "{{count}} mismatches found. Please review the differences below.",
+            "all": "All",
+            "matched": "Matched",
+            "mismatched": "Mismatched",
+            "allMatched": "All bank details match.",
+            "statusMatch": "Match",
+            "statusMismatch": "Mismatch",
+            "statusNotApplicable": "Not Applicable",
+            "providerColumnDefault": "MD India (TPA)",
+            "insurerColumnDefault": "Insurance Company",
+            "insurerColumnWithName": "Insurance Company ({{name}})",
+            "columns": {
+                "field": "Field",
+                "status": "Status"
+            },
+            "fields": {
+                "accountHolderName": "Account Holder Name",
+                "accountNumber": "Account Number",
+                "ifscCode": "IFSC Code",
+                "accountType": "Account Type",
+                "bankName": "Bank Name",
+                "branch": "Bank Branch",
+                "pan": "PAN"
+            }
+        },
+        "bankVerification": {
+            "uploadTitle": "Upload Provider Details File",
+            "selectConfiguredIc": "Select Configured IC",
+            "dataFile": "Data File (CSV/Excel/PDF)",
+            "emailFile": "Supporting Email File (.eml)",
+            "chooseFile": "Choose file...",
+            "optionalEmailFile": "Optional email file...",
+            "uploadAndVerify": "Upload & Verify",
+            "uploading": "Uploading...",
+            "upload": "Upload",
+            "bulkUpload": "Bulk Bank Verification",
+            "inwardList": "Inward List",
+            "uploadSuccess": "File uploaded successfully. Inward {{inwardNo}} created.",
+            "viewInward": "View inward {{inwardNo}}",
+            "downloadInward": "Download {{fileName}} for inward {{inwardNo}}",
+            "loading": {
+                "summary": "Loading IC-Provider bank details...",
+                "inward": "Loading inward {{inwardNo}}..."
+            },
+            "errors": {
+                "uploadFailed": "Failed to upload bank details file.",
+                "loadInwardFailed": "Failed to load bank verification inward."
+            },
+            "table": {
+                "inwardNo": "Inward Number",
+                "insurerName": "Insurer Name",
+                "uploadedAt": "Uploaded Date & Time",
+                "uploadedBy": "Uploaded By"
+            },
+            "search": {
+                "summaryTitle": "IC-Provider bank details search",
+                "providerName": "Provider Name",
+                "rohiniNumber": "ROHINI Number",
+                "insuranceCompany": "Insurance Company",
+                "panNumber": "PAN Number",
+                "matchStatus": "Bank Match Status",
+                "recordSource": "Record Source",
+                "inwardTitle": "Bank verification inward search",
+                "inwardNo": "Inward Number",
+                "insurerName": "Insurer Name"
+            },
+            "columns": {
+                "panNumber": "PAN Number",
+                "panHolderName": "PAN Holder Name",
+                "accountNo": "Account Number",
+                "ifscCode": "IFSC Code",
+                "accountHolderName": "Account Holder Name",
+                "recordSource": "Record Source"
+            },
+            "validation": {
+                "configuredIcRequired": "Configured IC is required",
+                "dataFileRequired": "Data file is required",
+                "dataFileInvalidFormat": "Only CSV, Excel, or PDF files are allowed",
+                "emailFileRequired": "Supporting email file is required",
+                "emailFileInvalidFormat": "Only .eml email files are allowed"
+            },
+            "results": {
+                "title": "Verification Results",
+                "inwardLabel": "Inward {{inwardNo}} · {{insurerName}}",
+                "inwardNotFound": "Inward {{inwardNo}} was not found.",
+                "noJobFound": "No processing job found for this inward yet.",
+                "total": "Total",
+                "processed": "Processed",
+                "totalRecords": "Total Records",
+                "matched": "Matched",
+                "notMatched": "Not Matched",
+                "pending": "Pending",
+                "bankDetailsMissing": "Bank Details Missing",
+                "providerNotFound": "Provider Not Found",
+                "failed": "Failed",
+                "validationFailed": "Validation Failed",
+                "processingFailed": "Processing Failed",
+                "statusMatched": "Matched",
+                "statusNotMatched": "Not Matched",
+                "statusPending": "Pending",
+                "statusBankDetailsMissing": "Bank Details Missing",
+                "statusProviderNotFound": "Provider Not Found",
+                "statusFailed": "Failed",
+                "statusValidationFailed": "Validation Failed",
+                "statusProcessingFailed": "Processing Failed",
+                "tpaCode": "TPA Code",
+                "rohini": "ROHINI",
+                "insurerCode": "Insurer Provider Code",
+                "ic": "IC",
+                "providerName": "Provider Name",
+                "pan": "PAN",
+                "accountNo": "Account No.",
+                "ifsc": "IFSC",
+                "branch": "Branch",
+                "accountType": "Acct Type",
+                "accountHolder": "Acct Holder",
+                "city": "City",
+                "state": "State",
+                "providerStatus": "Provider Status",
+                "remark": "Remark",
+                "filters": "Filters",
+                "addProvider": "Add Provider",
+                "showingRecords": "Showing {{start}} to {{end}} of {{total}} records",
+                "downloadStarted": "Preparing verification results download…",
+                "addProviderSoon": "Add provider will be available when API is connected.",
+                "sendEmail": "Send email",
+                "email": "Email",
+                "viewRow": "View details for {{providerName}}",
+                "emailRow": "Send email for {{providerName}}",
+                "comparisonFailed": "Failed to load bank details comparison.",
+                "comparisonMissingId": "Staging record id is missing."
+            }
+        },
+        "excludedProvider": {
+            "bulkExclude": {
+                "label": "Bulk Exclude",
+                "search": {
+                    "inwardTitle": "Bulk exclude inward search"
+                },
+                "loadingInwards": "Loading bulk exclude inwards…",
+                "loadingInward": "Loading inward {{inwardNo}}…",
+                "errors": {
+                    "inwardNotFound": "Inward not found.",
+                    "loadInwardFailed": "Failed to load inward."
+                }
+            },
+            "filterTitle": "Excluded Hospital Filters",
+            "viewDetails": "Excluded Hospital Details",
+            "uploadListTitle": "Upload Excluded Providers List",
+            "uploadSuccessful": "Upload successful",
+            "requestFailed": "Request failed",
+            "inwardValidated": "Inward created successfully. Open the inward to process.",
+            "inward": {
+                "providerDetailsTab": "Provider Details",
+                "statusLabel": "Status",
+                "inwardDetails": "Inward Details",
+                "restrictionDetails": "Restriction Details",
+                "blacklistTableTitle": "Blacklisted Providers",
+                "watchlistTableTitle": "Watchlisted Providers",
+                "effectiveDate": "Effective Date",
+                "stagingSearch": "Staging provider search",
+                "matchingRecords": "Matching records",
+                "matchingRecordsFor": "{{name}}",
+                "showMatchingRecords": "Show matching records",
+                "noMatchingRecords": "No matching records found.",
+                "loadMatchingFailed": "Failed to load matching records.",
+                "stagingIdMissing": "Staging id is missing.",
+                "selectMatchingRecord": "Select a matching record to submit.",
+                "matchScore": "Match Score",
+                "match": "Match",
+                "submit": "Submit",
+                "bandLockedHint": "91–100% similarity records are auto-matched — no manual action needed.",
+                "notFound": "Not Found",
+                "confirmMatchTitle": "Confirm Provider Match",
+                "confirmMatchMessage": "Review the differences below before confirming this match.",
+                "confirmMatchProvider": "Provider",
+                "confirmMatchProviderName": "Provider Name",
+                "confirmMatchAction": "Confirm Match",
+                "confirmMatchWarningTitle": "Please verify the highlighted differences before confirming this provider match.",
+                "confirmMatchWarningBody": "Once confirmed, this selection will be used as the final Provider Master record.",
+                "matchScoreHintWithDiff": "The records match, but some differences were found.",
+                "matchScoreHintExact": "The selected records look closely aligned.",
+                "differencesFound": "{{count}} Differences Found",
+                "differencesFoundHint": "Please review the details carefully.",
+                "providerComparison": "Provider Comparison",
+                "compareStatusMatch": "Match",
+                "compareStatusDifferent": "Different",
+                "compareStatusMissingIncoming": "Missing in incoming",
+                "compareField": "Field",
+                "compareIncoming": "Incoming Provider",
+                "compareSelected": "Selected Provider Master",
+                "compareStatus": "Status",
+                "compareSelectedShort": "Master",
+                "compareDiffBadge": "{{count}} diff",
+                "compareNoDiffBadge": "No diff",
+                "compareDiffHint": "Highlighted rows show differences between incoming and selected master.",
+                "confirmNotFoundTitle": "Confirm Not Found",
+                "confirmNotFoundMessage": "Are you sure the provider is not found in the displayed matching records (50%–70% match range)?",
+                "confirmNotFoundAction": "Confirm Not Found",
+                "matchSuccess": "Provider matched successfully.",
+                "matchFailed": "Failed to match provider.",
+                "notFoundSuccess": "Provider Not Found processed successfully.",
+                "notFoundFailed": "Failed to process Not Found.",
+                "notFoundBulkSelectHint": "Select at least one record to submit.",
+                "notFoundBulkConfirmTitle": "Confirm Submit",
+                "notFoundBulkConfirmMessage": "Selected records are not found. Do you want to create them as new providers?",
+                "notFoundBulkSubmitting": "Submitting...",
+                "notFoundBulkSubmitSuccess": "Selected Not Found records submitted successfully.",
+                "notFoundBulkPartialSuccess": "{{created}} records submitted successfully and {{failed}} record failed.",
+                "notFoundBulkPartialSuccessPlural": "{{created}} records submitted successfully and {{failed}} records failed.",
+                "notFoundBulkSubmitFailed": "Unable to submit the selected records. Please try again."
+            },
+            "uploadOrValidationFailed": "Upload or validation failed",
+            "inwardMissing": "Inward number is missing. Generate an inward before uploading the provider list.",
+            "selectBothDocuments": "Select both document and supporting document.",
+            "validating": "Uploading…",
+            "preparingExport": "Preparing export…",
+            "exportHint": "Exports using current Search filters (same scope as the table).",
+            "pincodeNumbersOnly": "Pincode must contain numbers only",
+            "search": {
+                "insurerName": "Insurer Name",
+                "restrictedBy": "Restricted by"
+            },
+            "restrictedBy": {
+                "tpa": "TPA",
+                "insurer": "INSURER"
+            },
+            "table": {
+                "insurerCompanyName": "Insurer Company Name",
+                "effectiveFrom": "Effective From"
+            },
+            "view": {
+                "providerName": "Provider Name",
+                "insurerCompanyName": "Insurer Company Name",
+                "providerCode": "Provider Code",
+                "rohiniCode": "Rohini code",
+                "effectiveFrom": "Effective From",
+                "effectiveTo": "Effective To",
+                "remarkCategory": "Remark category",
+                "status": "Status",
+                "claimScope": "Claim scope",
+                "remarks": "Remarks",
+                "facilities": "Facilities",
+                "excludedBy": "Excluded By"
+            },
+            "uploadDialog": {
+                "selectBlacklistedBy": "Select blacklisted by",
+                "selectRestrictionType": "Select Restriction type",
+                "selectInvestigationType": "Select Investigation type",
+                "selectIc": "Select IC",
+                "selectRestrictionApplicableFor": "Select restriction applicable for",
+                "restrictionType": "Restriction type",
+                "restrictedBy": "Restricted by",
+                "effectiveFrom": "Effective from",
+                "insurerCompany": "Insurer Company",
+                "restrictionApplicableFor": "Restriction Applicable For",
+                "investigationRequired": "Investigation required",
+                "investigationApplicableFor": "Investigation applicable for",
+                "selectInvestigationApplicableFor": "Select cashless or reimbursement",
+                "emergencyException": "Emergency Exception",
+                "document": "Document (Excel, CSV or PDF)",
+                "documentInvalidFormat": "Only CSV, Excel, or PDF files are allowed",
+                "supportingDocument": "Supporting Document (PDF, DOCX, PNG, JPG, JPEG, EML)",
+                "remark": "Remark",
+                "remarkPlaceholder": "Optional remark...",
+                "excluded": "Excluded",
+                "watchlisted": "Watchlisted",
+                "fullInvestigation": "Full Investigation",
+                "partialInvestigation": "Partial Investigation",
+                "cashlessOnHold": "Cashless On hold",
+                "cashless": "Cashless",
+                "reimbursement": "Reimbursement",
+                "submit": "Submit",
+                "submitting": "Submitting…",
+                "inwardNoLabel": "Inward No:"
+            },
+            "uploadResult": {
+                "exclude": "Exclude",
+                "newAdd": "New add",
+                "total": "Total"
+            }
+        }
+    }
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "bed-infrastructure",
+    "name": "Bed Infrastructure",
+    "types": [
+      { "name": "General Ward", "description": "General ward bed capacity" },
+      { "name": "ICU Bed", "description": "Intensive care unit bed" },
+      { "name": "NICU Bed", "description": "Neonatal intensive care bed" },
+      { "name": "PICU Bed", "description": "Paediatric intensive care bed" },
+      { "name": "SICU Bed", "description": "Surgical intensive care bed" },
+      { "name": "ICCU Bed", "description": "Intensive coronary care bed" },
+      { "name": "Dialysis Bed", "description": "Dialysis treatment bed" },
+      { "name": "Emergency Bed", "description": "Emergency department bed" },
+      { "name": "Isolation Bed", "description": "Isolation ward bed" },
+      { "name": "Day Care Bed", "description": "Day care treatment bed" }
+    ]
+  },
+  {
+    "id": "room-infrastructure",
+    "name": "Room Infrastructure",
+    "types": [
+      { "name": "General Ward", "description": "Shared general ward room" },
+      { "name": "Semi Private", "description": "Semi-private patient room" },
+      { "name": "Private Room", "description": "Private patient room" },
+      { "name": "Deluxe Room", "description": "Deluxe category room" },
+      { "name": "ICU / Critical Care", "description": "Critical care room" },
+      { "name": "Day Care", "description": "Day care room" },
+      { "name": "Suite", "description": "Suite category room" }
+    ]
+  },
+  {
+    "id": "ot-infrastructure",
+    "name": "OT Infrastructure",
+    "types": [
+      { "name": "Major OT", "description": "Operation theatre used for major surgeries" },
+      { "name": "Minor OT", "description": "Operation theatre used for minor procedures" },
+      { "name": "Modular OT", "description": "Advanced modular operation theatre" },
+      { "name": "Emergency OT", "description": "OT used for emergency surgeries" },
+      { "name": "Labour OT", "description": "OT used for maternity/delivery procedures" }
+    ]
+  },
+  {
+    "id": "icu-critical-care",
+    "name": "ICU / Critical Care Infrastructure",
+    "types": [
+      { "name": "ICU", "description": "Intensive Care Unit" },
+      { "name": "ICCU", "description": "Intensive Coronary Care Unit" },
+      { "name": "CCU", "description": "Coronary Care Unit" },
+      { "name": "MICU", "description": "Medical Intensive Care Unit" },
+      { "name": "NICU", "description": "Neonatal Intensive Care Unit" },
+      { "name": "SICU", "description": "Surgical Intensive Care Unit" },
+      { "name": "HDU", "description": "High Dependency Unit" }
+    ]
+  },
+  {
+    "id": "diagnostic-infrastructure",
+    "name": "Diagnostic Infrastructure",
+    "types": [
+      { "name": "MRI", "description": "MRI scan facility" },
+      { "name": "CT Scan", "description": "CT scan facility" },
+      { "name": "X-Ray", "description": "X-Ray imaging facility" },
+      { "name": "Ultrasound", "description": "Sonography/Ultrasound facility" },
+      { "name": "Mammography", "description": "Breast imaging facility" },
+      { "name": "Pathology Lab", "description": "Laboratory for pathology testing" },
+      { "name": "Sample Collection Room", "description": "Room used for patient sample collection" }
+    ]
+  },
+  {
+    "id": "emergency-infrastructure",
+    "name": "Emergency Infrastructure",
+    "types": [
+      { "name": "Casualty Room", "description": "Emergency treatment room" },
+      { "name": "Emergency Ward", "description": "Ward used for emergency patients" },
+      { "name": "Triage Area", "description": "Patient emergency assessment area" },
+      { "name": "Ambulance Bay", "description": "Ambulance support and parking area" }
+    ]
+  },
+  {
+    "id": "utility-infrastructure",
+    "name": "Utility Infrastructure",
+    "types": [
+      { "name": "Generator", "description": "Power backup generator system" },
+      { "name": "UPS System", "description": "Uninterrupted power backup system" },
+      { "name": "Oxygen Pipeline", "description": "Central oxygen supply system" },
+      { "name": "Medical Gas Pipeline", "description": "Medical gas distribution system" },
+      { "name": "Water Purification System", "description": "Water filtration and purification system" }
+    ]
+  },
+  {
+    "id": "safety-infrastructure",
+    "name": "Safety Infrastructure",
+    "types": [
+      { "name": "Fire Extinguisher", "description": "Fire safety extinguishing equipment" },
+      { "name": "Fire Exit", "description": "Emergency evacuation/fire exit" },
+      { "name": "Fire Alarm", "description": "Fire alert and warning system" },
+      { "name": "CCTV", "description": "Surveillance and monitoring system" }
+    ]
+  },
+  {
+    "id": "accessibility-infrastructure",
+    "name": "Accessibility Infrastructure",
+    "types": [
+      { "name": "Ramp", "description": "Ramp for wheelchair and patient movement" },
+      { "name": "Lift", "description": "Elevator facility" },
+      { "name": "Wheelchair Access", "description": "Disabled-friendly wheelchair accessibility" },
+      { "name": "Disabled Toilet", "description": "Toilet facility for disabled patients" }
+    ]
+  },
+  {
+    "id": "support-infrastructure",
+    "name": "Support Infrastructure",
+    "types": [
+      { "name": "CSSD Facility", "description": "Central sterilization department" },
+      { "name": "Laundry Facility", "description": "Hospital laundry service area" },
+      { "name": "Waste Disposal", "description": "Biomedical waste management system" },
+      { "name": "Waiting Lounge", "description": "Patient attendant waiting area" },
+      { "name": "Kitchen Facility", "description": "Hospital kitchen and food preparation area" }
+    ]
+  },
+  {
+    "id": "equipment-infrastructure",
+    "name": "Equipment Infrastructure",
+    "types": [
+      { "name": "Ventilator", "description": "Breathing support machine" },
+      { "name": "ECG Machine", "description": "Heart activity monitoring machine" },
+      { "name": "Pulse Oximeter", "description": "Oxygen level monitoring device" },
+      { "name": "Infusion Pump", "description": "Controlled medicine/fluid pump" },
+      { "name": "Syringe Pump", "description": "Controlled syringe medicine pump" },
+      { "name": "Dialysis Machine", "description": "Kidney dialysis machine" },
+      { "name": "Multipara Monitor", "description": "Multi-parameter patient monitoring device" },
+      { "name": "Defibrillator", "description": "Emergency cardiac shock machine" }
+    ]
+  },
+  {
+    "id": "pharmacy-infrastructure",
+    "name": "Pharmacy Infrastructure",
+    "types": [
+      { "name": "In-house Pharmacy", "description": "Hospital in-house pharmacy" },
+      { "name": "Retail Pharmacy", "description": "Retail pharmacy counter" }
+    ]
+  },
+  {
+    "id": "laboratory-infrastructure",
+    "name": "Laboratory Infrastructure",
+    "types": [
+      { "name": "Clinical Lab", "description": "Clinical diagnostic laboratory" },
+      { "name": "Microbiology Lab", "description": "Microbiology testing laboratory" }
+    ]
+  },
+  {
+    "id": "infection-control-infrastructure",
+    "name": "Infection Control Infrastructure",
+    "types": [
+      { "name": "Isolation Ward", "description": "Infection isolation ward" },
+      { "name": "Sterilization Unit", "description": "Sterilization and infection control unit" }
+    ]
+  },
+  {
+    "id": "digital-mis-infrastructure",
+    "name": "Digital / MIS Infrastructure",
+    "types": [
+      { "name": "HMIS", "description": "Hospital management information system" },
+      { "name": "EMR System", "description": "Electronic medical records system" }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+.simplebar-scrollbar:before {
+  @apply bg-gray-300/80!;
+}
+
+.dark .simplebar-scrollbar:before {
+  @apply bg-dark-400!;
+}
+
+.simplebar-content-wrapper {
+  @apply outline-hidden;
+}
+
+/* Sidebar nav: SimpleBar can apply default top padding — flush first item to top */
+.sidebar-menu-simplebar .simplebar-content {
+  padding-top: 0 !important;
+}

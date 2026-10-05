@@ -1,0 +1,2362 @@
+{
+  "nav": {
+    "insurermanagement": {
+      "insurermanagement": "காப்பீட்டாளர் அலுவலக தொகுதி",
+      "insurer": "காப்பீட்டாளர்",
+      "office": "அலுவலகம்",
+      "contact-person": "தொடர்பு நபர்",
+      "brand-history": "பிராண்ட் வரலாறு",
+      "merger": "இணைப்பு"
+    },
+    "dashboards": {
+      "dashboards": "டாஷ்போர்டுகள்",
+      "insurermanagement": "காப்பீட்டாளர் அலுவலக தொகுதி",
+      "insurer": "காப்பீட்டாளர்",
+      "ic-checklist": "IC சேர்க்கை சரிபார்ப்பு பட்டியல்",
+      "office": "அலுவலகம்",
+      "contact-person": "தொடர்பு நபர்",
+      "brand-history": "பிராண்ட் வரலாறு",
+      "merger": "இணைப்பு",
+      "home": "முகப்பு",
+      "tpamanagement": "கிளை தொகுதி",
+      "tpa": "TPA",
+      "branches": "கிளைகள்",
+      "escalation-matrix": "உயர்த்தல் அட்டவணை",
+      "officeHierarchy": "அலுவலக வரிசை அமைப்பு",
+      "dashboard": "டாஷ்போர்டு",
+      "adminDashboard": "நிர்வாகி டாஷ்போர்டு",
+      "policy-benefit": "பாலிசி நன்மை",
+      "master-product": "மாஸ்டர் தயாரிப்பு",
+      "mbmmanagement": "MBM மேலாண்மை",
+      "enrollmentsystem": "சேர்க்கை அமைப்பு",
+      "inwardtsystem": "உள்வரும் அமைப்பு",
+      "inward": "உள்வரும்",
+      "psu-inward": "PSU உள்வரவு",
+      "assignment-management": "பணியளிப்பு மேலாண்மை",
+      "inward-management": "உள்வரும் மேலாண்மை",
+      "user-management": "பயனர் மேலாண்மை",
+      "user": "பயனர்கள்",
+      "masterManagement": "மாஸ்டர் மேலாண்மை",
+      "corporate1": "கார்ப்பரேட் மாஸ்டர்",
+      "corporate": "கார்ப்பரேட் குழு",
+      "broker": "தரகர் மாஸ்டர்",
+      "agent": "முகவர் மாஸ்டர்",
+      "create": "மாஸ்டர் உருவாக்கு",
+      "empanel": "பட்டியலிடு",
+      "provider-masters": "சேவை வழங்குநர் மேலாண்மை",
+      "policy-searcch": "பாலிசி தேடல்",
+      "e-card": "இ-அட்டை அமைப்புகள்",
+      "ecard": "இ-அட்டை",
+      "ecardmanagement": "மின்னணு அட்டை மேலாண்மை",
+      "policy-mapping": "பாலிசி வரைபடம்",
+      "provider-masters-empanel": "பட்டியலிடு",
+      "provider-masters-create": "உருவாக்கு",
+      "provider-masters-providers": "சேவை வழங்குநர்கள்",
+      "provider-masters-network-providers": "நெட்வொர்க் வழங்குநர்கள்",
+      "provider-masters-network-hospitals": "நெட்வொர்க் மருத்துவமனைகள்",
+      "provider-masters-non-network-providers": "நெட்வொர்க் அல்லாத வழங்குநர்கள்",
+      "provider-masters-non-network-hospitals": "நெட்வொர்க் அல்லாத மருத்துவமனைகள்",
+      "provider-masters-blacklist-master": "கருப்புப்பட்டி மாஸ்டர்",
+      "provider-masters-excluded-hospitals": "விலக்கப்பட்ட வழங்குநர்கள்",
+      "provider-masters-excluded-hospitals-bulk-exclude": "மொத்த விலக்கு",
+      "provider-masters-rohini-master": "ரோஹினி மாஸ்டர்",
+      "provider-masters-ic-provider-code-master": "IC வழங்குநர் குறியீடு மாஸ்டர்",
+      "provider-masters-ic-provisioning": "IC வழங்கல்",
+      "provider-masters-bank-verification": "IC-Provider வங்கி விவரங்கள்",
+      "provider-masters-agreement-detail": "ஒப்பந்தத்தைப் பார்க்கவும்",
+      "provider-masters-agreement-new": "புதிய ஒப்பந்தம்",
+      "provider-masters-agreement-edit": "ஒப்பந்தத்தைத் திருத்து",
+      "provider-masters-providers-details": "வழங்குநர் விவரங்கள்",
+      "provider-masters-providers-agreement-tab": "ஒப்பந்தம்",
+      "provider-masters-ic-corporate-mapping": "IC & கார்ப்பரேட் வழங்குநர் மேப்பிங்",
+      "provider-masters-ic-corporate-mapping-add-new-network": "மொத்த IC மேப்பிங்",
+      "provider-masters-excludetableview": "விலக்கு அட்டவணை காட்சி",
+      "provider-masters-ic-mapping": "IC மேப்பிங்",
+      "provider-masters-corporate-mapping": "கார்ப்பரேட் மேப்பிங்",
+      "provider-masters-provider-master": "வழங்குநர் மாஸ்டர்",
+      "provider-masters-bulk-operations": "மொத்த செயல்பாடுகள்",
+      "provider-masters-ic-provider-bulk-mapping": "IC - Provider Bulk Mapping",
+      "provider-masters-masters": "மாஸ்டர்கள்",
+      "provider-masters-dashboard": "டாஷ்போர்டு",
+      "provider-masters-documents": "ஆவணங்கள்",
+      "provider-masters-soc": "SOC"
+    },
+    "settings": {
+      "settings": "அமைப்புகள்",
+      "general": "பொது",
+      "appearance": "தோற்றம்"
+    },
+    "tpa": {
+      "title": "TPA",
+      "information": "TPA தகவல்",
+      "fields": {
+        "tpaCode": {
+          "label": "TPA குறியீடு",
+          "placeholder": "TPA குறியீட்டை உள்ளிடவும்"
+        },
+        "legalName": {
+          "label": "சட்டப்பூர்வ பெயர்",
+          "placeholder": "சட்டப்பூர்வ பெயரை உள்ளிடவும்"
+        },
+        "cinNumber": {
+          "label": "CIN எண்",
+          "placeholder": "CIN எண்ணை உள்ளிடவும்"
+        },
+        "contactEmail": {
+          "label": "தொடர்பு மின்னஞ்சல்",
+          "placeholder": "தொடர்பு மின்னஞ்சலை உள்ளிடவும்"
+        },
+        "contactPhone": {
+          "label": "தொடர்பு தொலைபேசி",
+          "placeholder": "தொடர்பு தொலைபேசி எண்ணை உள்ளிடவும்"
+        }
+      },
+      "buttons": {
+        "edit": "திருத்து",
+        "update": "புதுப்பி"
+      }
+    },
+    "address": {
+      "title": "முகவரி தகவல்",
+      "fields": {
+        "address": {
+          "label": "முகவரி",
+          "placeholder": "முகவரியை உள்ளிடவும்"
+        },
+        "addressType": {
+          "label": "முகவரி வகை",
+          "placeholder": "முகவரி வகை"
+        },
+        "postalCode": {
+          "label": "அஞ்சல் குறியீடு",
+          "placeholder": "அஞ்சல் குறியீட்டை உள்ளிடவும்"
+        },
+        "state": {
+          "label": "மாநிலம்",
+          "placeholder": "மாநிலம்"
+        },
+        "city": {
+          "label": "நகரம்",
+          "placeholder": "நகரம்"
+        }
+      },
+      "types": {
+        "physical": "நேரடி",
+        "postal": "அஞ்சல்",
+        "both": "இரண்டும்"
+      }
+    }
+  },
+  "branch": {
+    "title": "TPA கிளைகள்",
+    "addBranch": "கிளை சேர்க்கவும்",
+    "search": "தேடல்",
+    "hideSearch": "தேடலை மறை",
+    "filtersTitle": "TPA கிளை வடிகட்டிகள்",
+    "table": {
+      "actions": "செயல்கள்",
+      "code": "குறியீடு",
+      "businessUnit": "வணிக அலகு",
+      "branch": "கிளை",
+      "city": "நகரம்",
+      "state": "மாநிலம்",
+      "contactPhone": "தொடர்பு தொலைபேசி",
+      "contactEmail": "தொடர்பு மின்னஞ்சல்"
+    },
+    "searchFields": {
+      "branchName": "கிளை பெயர்",
+      "businessUnit": "வணிக அலகு",
+      "recordStatus": "பதிவு நிலை"
+    },
+    "confirm": {
+      "title": "நீங்கள் உறுதியாக இருக்கிறீர்களா?",
+      "deleteDescription": "இந்த பதிவை நீக்க விரும்புகிறீர்களா?",
+      "deleteAction": "நீக்கு",
+      "deleteSuccess": "பதிவு நீக்கப்பட்டது",
+      "error": "தற்போது பதிவை நீக்க முடியவில்லை. பின்னர் மீண்டும் முயற்சிக்கவும்."
+    },
+    "searchButton": {
+      "apply": "பயன்படுத்து",
+      "applying": "பயன்படுத்தப்படுகிறது...",
+      "reset": "மீட்டமை"
+    },
+    "paginationObj": {
+      "pageSize": "பக்க அளவு",
+      "page": "பக்கம்"
+    }
+  },
+  "branchForm": {
+    "pageTitle": "TPA கிளைகள்",
+    "sectionTitle": "கிளை விவரங்கள்",
+    "fields": {
+      "branchName": {
+        "label": "கிளை பெயர்",
+        "placeholder": "கிளை பெயரை உள்ளிடவும்"
+      },
+      "parentBranch": {
+        "label": "மூல கிளை",
+        "placeholder": "மூல கிளை"
+      },
+      "phoneNumber": {
+        "label": "தொலைபேசி எண்",
+        "placeholder": "கமாவால் பிரிக்கப்பட்ட தொலைபேசி எண்களை உள்ளிடவும்"
+      },
+      "email": {
+        "label": "மின்னஞ்சல்",
+        "placeholder": "மின்னஞ்சல் முகவரியை உள்ளிடவும்"
+      },
+      "businessUnit": {
+        "label": "வணிக அலகு"
+      }
+    },
+    "buttons": {
+      "cancel": "ரத்து செய்",
+      "edit": "திருத்து",
+      "submit": "சமர்ப்பிக்கவும்",
+      "submitting": "சமர்ப்பிக்கப்படுகிறது...",
+      "update": "புதுப்பிக்கவும்",
+      "updating": "புதுப்பிக்கப்படுகிறது...",
+      "save": "சேமிக்கவும்"
+    },
+    "breadcrumb": {
+      "branches": "கிளைகள்",
+      "viewBranch": "கிளையைப் பார்க்கவும்",
+      "addBranch": "கிளை சேர்க்கவும்"
+    }
+  },
+  "insurer": {
+    "pageTitle": "காப்பீட்டாளர் அலுவலக தொகுதி",
+    "buttons": {
+      "search": "தேடல்",
+      "hideSearch": "தேடலை மறை",
+      "addInsurer": "காப்பீட்டாளர் சேர்க்கவும்"
+    },
+    "searchFields": {
+      "insuranceCompany": "காப்பீட்டு நிறுவனம்",
+      "irdaiCode": "IRDAI குறியீடு"
+    },
+    "table": {
+      "actions": "செயல்கள்",
+      "insuranceCompanyName": "காப்பீட்டு நிறுவன பெயர்",
+      "irdaiCode": "IRDAI குறியீடு",
+      "brandName": "பிராண்ட் பெயர்",
+      "insurerCode": "காப்பீட்டாளர் குறியீடு",
+      "type": "வகை",
+      "status": "நிலை"
+    },
+    "pagination": {
+      "pageSize": "பக்க அளவு",
+      "page": "பக்கம்"
+    }
+  },
+  "insurerForm": {
+    "generalInfoTitle": "பொது தகவல்",
+    "fields": {
+      "irdaiInsurerCode": {
+        "label": "IRDAI குறியீடு",
+        "placeholder": "IRDAI குறியீட்டை உள்ளிடவும்"
+      },
+      "insurerCode": {
+        "label": "காப்பீட்டு குறியீடு",
+        "placeholder": "காப்பீட்டு குறியீட்டை உள்ளிடவும்"
+      },
+      "insuranceCompany": {
+        "label": "காப்பீட்டு நிறுவனம்",
+        "placeholder": "காப்பீட்டு நிறுவனத்தை உள்ளிடவும்"
+      },
+      "insurerType": {
+        "label": "காப்பீட்டாளர் வகை",
+        "placeholder": "காப்பீட்டாளர் வகை"
+      },
+      "officeCode": {
+        "label": "அலுவலக குறியீடு",
+        "placeholder": "அலுவலக குறியீட்டை உள்ளிடவும்"
+      },
+      "pan": {
+        "label": "PAN",
+        "placeholder": "PAN உள்ளிடவும்"
+      },
+      "gstin": {
+        "label": "GSTIN",
+        "placeholder": "GSTIN உள்ளிடவும்"
+      },
+      "email": {
+        "label": "மின்னஞ்சல்",
+        "placeholder": "மின்னஞ்சலை உள்ளிடவும்"
+      },
+      "phone": {
+        "label": "தொலைபேசி",
+        "placeholder": "தொலைபேசி எண்ணை உள்ளிடவும்"
+      }
+    },
+    "brandLogo": {
+      "label": "பிராண்ட் லோகோ",
+      "uploadSuccess": "ஆவணம் வெற்றிகரமாக பதிவேற்றப்பட்டது",
+      "uploadFailed": "பதிவேற்றம் தோல்வி"
+    },
+    "documents": {
+      "uploadDocument": "ஆவணம் பதிவேற்றம்",
+      "document": "ஆவணம்",
+      "principalAgreement": "முதன்மை ஒப்பந்தம்",
+      "addendum": "கூடுதல் ஆவணம்",
+      "renewal": "புதுப்பிப்பு",
+      "others": "மற்றவை",
+      "title": "அனைத்து ஆவணங்கள்",
+      "viewMore": "மேலும் காண்க",
+      "viewLess": "குறைவாக காண்க"
+    }
+  },
+  "contactPerson": {
+    "title": "தொடர்பு நபர் விவரங்கள்",
+    "addButton": "தொடர்பு நபரை சேர்க்கவும்",
+    "errors": {
+      "mobile": "மொபைல் எண் பிழை"
+    },
+    "table": {
+      "action": "செயல்",
+      "fullName": "முழு பெயர்",
+      "designation": "பதவி",
+      "department": "துறை",
+      "priority": "முன்னுரிமை",
+      "noData": "தொடர்பு நபர்கள் சேர்க்கப்படவில்லை"
+    },
+    "actions": {
+      "edit": "திருத்து",
+      "remove": "அகற்று"
+    }
+  },
+  "contactPersonform": {
+    "title": "தொடர்பு நபர் விவரங்கள்",
+    "addButton": "தொடர்பு நபரைச் சேர்க்கவும்",
+    "fields": {
+      "prefix": "முன்னொட்டு",
+      "firstName": "முதல் பெயர்",
+      "middleName": "நடுத்தர பெயர்",
+      "lastName": "கடைசி பெயர்",
+      "domain": "டொமைன்",
+      "role": "பங்கு",
+      "gender": "பாலினம்",
+      "dateOfBirth": "பிறந்த தேதி",
+      "designation": "பதவி",
+      "department": "துறை",
+      "priority": "முன்னுரிமை",
+      "notes": "குறிப்புகள்",
+      "contactDetails": "தொடர்பு விவரங்கள்",
+      "remarks": "குறிப்பு",
+      "contactType": "தொடர்பு வகை",
+      "contactValue": "தொடர்பு மதிப்பு",
+      "addContact": "தொடர்பைச் சேர்க்கவும்"
+    },
+    "placeholders": {
+      "firstName": "முதல் பெயரை உள்ளிடவும்",
+      "middleName": "நடுத்தர பெயரை உள்ளிடவும்",
+      "lastName": "கடைசி பெயரை உள்ளிடவும்",
+      "designation": "பதவியை உள்ளிடவும்",
+      "department": "துறையை உள்ளிடவும்",
+      "notes": "குறிப்புகளை உள்ளிடவும்",
+      "dateOfBirth": "YYYY-MM-DD",
+      "remarks": "குறிப்பை உள்ளிடவும்"
+    },
+    "options": {
+      "prefix": {
+        "mr": "திரு",
+        "ms": "செல்வி",
+        "mrs": "திருமதி",
+        "dr": "டாக்டர்"
+      },
+      "gender": {
+        "male": "ஆண்",
+        "female": "பெண்"
+      },
+      "priority": {
+        "1": "முன்னுரிமை 1",
+        "2": "முன்னுரிமை 2",
+        "3": "முன்னுரிமை 3",
+        "4": "முன்னுரிமை 4",
+        "5": "முன்னுரிமை 5"
+      }
+    }
+  },
+  "whatsAppEnabled": "வாட்ஸ்அப் செயல்படுத்தப்பட்டது",
+  "breadcrumbs": {
+    "enrolmentSystem": "பதிவு அமைப்பு",
+    "dashboard": "டாஷ்போர்டு",
+    "corporateInward": "கார்ப்பரேட் இன்போர்ட்",
+    "insurer": "காப்பீட்டாளர்",
+    "addInsurer": "காப்பீட்டாளரைச் சேர்க்கவும்",
+    "viewInsurer": "காப்பீட்டாளரைப் பார்க்கவும்"
+  },
+  "upload": "பதிவேற்றவும்",
+  "office": {
+    "search": {
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "officeCode": "அலுவலக குறியீடு",
+      "officeName": "அலுவலக பெயர்",
+      "officeType": "அலுவலக வகை",
+      "serviceType": "சேவை வகை"
+    },
+    "table": {
+      "actions": "செயல்கள்",
+      "insuranceCompanyName": "காப்பீட்டு நிறுவனத்தின் பெயர்",
+      "officeName": "அலுவலக பெயர்",
+      "officeType": "அலுவலக வகை",
+      "officeCode": "அலுவலக குறியீடு",
+      "underwritingCenter": "அண்டர்ரைட்டிங் மையமா",
+      "effectiveFrom": "செயல்படும் தேதி முதல்",
+      "effectiveTo": "செயல்படும் தேதி வரை",
+      "status": "நிலை",
+      "active": "செயலில்",
+      "inactive": "செயலற்ற"
+    },
+    "actions": {
+      "view": "பார்க்க",
+      "assignContactPerson": "தொடர்பு நபரை ஒதுக்கவும்"
+    },
+    "buttons": {
+      "addOffice": "அலுவலகம் சேர்க்கவும்",
+      "addNewOffice": "புதிய அலுவலகம் சேர்க்கவும்",
+      "edit": "திருத்து",
+      "createOffice": "அலுவலகத்தை உருவாக்கு",
+      "creating": "உருவாக்கப்படுகிறது...",
+      "updateOffice": "அலுவலகத்தை புதுப்பிக்கவும்",
+      "updating": "புதுப்பிக்கப்படுகிறது..."
+    },
+    "breadcrumbs": {
+      "offices": "அலுவலகங்கள்",
+      "viewOffice": "அலுவலகத்தை பார்க்கவும்",
+      "addNewOffice": "புதிய அலுவலகத்தைச் சேர்க்கவும்"
+    }
+  },
+  "officeAdd": {
+    "sectionTitle": "அலுவலக தகவல்",
+    "insuranceCompany": "காப்பீட்டு நிறுவனம்",
+    "officeType": "அலுவலக வகை",
+    "officeName": "அலுவலக பெயர்",
+    "officeCode": "அலுவலக குறியீடு",
+    "underwriting": "அண்டர்ரைட்டிங்",
+    "reportingOfficeType": "அறிக்கை அலுவலக வகை",
+    "reportingOffice": "அறிக்கை அலுவலகம்",
+    "placeholders": {
+      "insuranceCompany": "நிறுவனத்தைத் தேர்ந்தெடுக்கவும்",
+      "officeType": "அலுவலக வகையைத் தேர்ந்தெடுக்கவும்",
+      "officeName": "அலுவலக பெயரை உள்ளிடவும்",
+      "officeCode": "அலுவலக குறியீட்டை உள்ளிடவும்",
+      "reportingOfficeType": "அறிக்கை வகையைத் தேர்ந்தெடுக்கவும்",
+      "reportingOffice": "அறிக்கை அலுவலகத்தைத் தேர்ந்தெடுக்கவும்"
+    },
+    "errors": {
+      "insuranceCompanyRequired": "காப்பீட்டு நிறுவனம் தேவை"
+    },
+    "officeTypeOptions": {
+      "ho": "HO (முதன்மை அலுவலகம்)",
+      "ro": "RO (பிராந்திய அலுவலகம்)",
+      "do": "DO (மண்டல அலுவலகம்)",
+      "uo": "UO (அண்டர்ரைட்டிங் அலுவலகம்)"
+    }
+  },
+  "serviceDetails": {
+    "title": "சேவை விவரங்கள்",
+    "addService": "சேவையைச் சேர்க்கவும்",
+    "noData": "சேவை விவரங்கள் எதுவும் சேர்க்கப்படவில்லை",
+    "table": {
+      "action": "செயல்",
+      "serviceName": "சேவை பெயர்",
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி",
+      "servicingAllocation": "சேவை ஒதுக்கீடு"
+    },
+    "actions": {
+      "edit": "திருத்து",
+      "remove": "நீக்கு"
+    },
+    "allocation": {
+      "both": "இரண்டும் (நிறுவனம், சில்லறை)"
+    }
+  },
+  "assignContactForm": {
+    "title": "தொடர்பு நபரை ஒதுக்கவும்",
+    "fields": {
+      "contactPerson": {
+        "label": "தொடர்பு நபர்",
+        "placeholder": "தொடர்பு நபரைத் தேர்ந்தெடுக்கவும்",
+        "defaultValue": "தொடர்பு நபரைத் தேர்ந்தெடுக்கவும்"
+      },
+      "designation": {
+        "label": "பதவி",
+        "placeholder": "பதவியை உள்ளிடவும்"
+      },
+      "officeName": {
+        "label": "அலுவலக பெயர்",
+        "placeholder": "அலுவலக பெயரை உள்ளிடவும்"
+      },
+      "officeCode": {
+        "label": "அலுவலக குறியீடு",
+        "placeholder": "அலுவலக குறியீட்டை உள்ளிடவும்"
+      }
+    }
+  },
+  "servicesForm": {
+    "fields": {
+      "startDate": {
+        "label": "தொடக்க தேதி"
+      },
+      "endDate": {
+        "label": "முடிவு தேதி"
+      },
+      "servicingAllocation": {
+        "label": "சேவை ஒதுக்கீடு",
+        "defaultValue": "ஒதுக்கீடு"
+      }
+    }
+  },
+  "inwardList": {
+    "pageTitle": "உள்வரவு",
+    "createInward": "உள்வரவை உருவாக்கு",
+    "downloadReport": "அறிக்கையை பதிவிறக்கு",
+    "downloadExcel": "எக்செலாக பதிவிறக்கு",
+    "actions": {
+      "view": "பார்"
+    },
+    "searchFields": {
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி",
+      "inwardNumber": "உள்வரவு எண்",
+      "corporateName": "நிறுவன பெயர்"
+    },
+    "tableHeaders": {
+      "srNo": "வரிசை எண்",
+      "actions": "செயல்கள்",
+      "inwardNumber": "உள்வரவு எண்",
+      "receivedAt": "பெறப்பட்ட தேதி",
+      "createdBy": "உருவாக்கியவர்",
+      "inwardType": "உள்வரவு வகை",
+      "department": "துறை",
+      "branchName": "கிளை பெயர்",
+      "receivedChannel": "பெறப்பட்ட சேனல்",
+      "entityName": "நிறுவன பெயர்",
+      "policyNumber": "பாலிசி எண்"
+    }
+  },
+  "createInwardForm": {
+    "fields": {
+      "tpaBranch": {
+        "label": "TPA கிளை",
+        "placeholder": "TPA கிளை"
+      },
+      "receivedChannel": {
+        "label": "பெறப்பட்ட சேனல்",
+        "placeholder": "சேனல்"
+      },
+      "department": {
+        "label": "துறை",
+        "placeholder": "துறை"
+      },
+      "sourceEntityType": {
+        "label": "மூல நிறுவனம் வகை",
+        "placeholder": "மூல நிறுவனம் வகை"
+      },
+      "sourceEntity": {
+        "label": "மூல நிறுவனம்",
+        "placeholder": "மூல நிறுவனம்"
+      },
+      "sourceReferenceNo": {
+        "label": "மூல குறிப்பு எண்",
+        "placeholder": "குறிப்பு எண்ணை உள்ளிடவும்"
+      },
+      "category": {
+        "label": "வகை",
+        "placeholder": "வகை"
+      },
+      "subCategory": {
+        "label": "துணை வகை",
+        "placeholder": "துணை வகை"
+      },
+      "priority": {
+        "label": "முன்னுரிமை",
+        "placeholder": "முன்னுரிமை"
+      }
+    },
+    "buttons": {
+      "upload": "பதிவேற்று",
+      "uploading": "பதிவேற்றப்படுகிறது..."
+    }
+  },
+  "modalTitles": {
+    "createManualInward": "கைமுறை உள்வரவை உருவாக்கு",
+    "uploadRohiniHospitalList": "ரோஹினி மருத்துவமனை பட்டியலை பதிவேற்று",
+    "memberDetails": "உறுப்பினர் விவரங்கள்",
+    "createInward": "உள்வரவை உருவாக்கு",
+    "assignUser": "பயனரை ஒதுக்கு",
+    "uploadDocument": "ஆவணத்தை பதிவேற்று",
+    "addMember": "உறுப்பினரை சேர்"
+  },
+  "inwardView": {
+    "breadcrumb": {
+      "inwardManagement": "உள்வரவு மேலாண்மை",
+      "inward": "உள்வரவு",
+      "viewInward": "உள்வரவை காண்க"
+    },
+    "tableHeaders": {
+      "srNo": "வரிசை எண்",
+      "documentName": "ஆவணத்தின் பெயர்",
+      "documentType": "ஆவண வகை",
+      "action": "செயல்"
+    },
+    "actions": {
+      "openInNewTab": "புதிய தாவலில் திற"
+    },
+    "emptyState": {
+      "title": "ஆவணங்கள் எதுவும் கிடைக்கவில்லை",
+      "description": "இந்த உள்வரவு எண்ணிற்கான ஆவணங்கள் எதுவும் இல்லை."
+    }
+  },
+  "inwardUploadDoc": {
+    "title": "உள்வரவு எண்",
+    "fields": {
+      "ocrOption": "OCR விருப்பம்",
+      "ocrRequired": "OCR தேவை",
+      "ocrNotRequired": "OCR தேவையில்லை",
+      "documentType": {
+        "label": "ஆவண வகை",
+        "placeholder": "வகையைத் தேர்ந்தெடுக்கவும்"
+      },
+      "uploadDocuments": "ஆவணங்களை பதிவேற்று"
+    },
+    "uploadSection": {
+      "clickToUpload": "கோப்புகளை பதிவேற்ற கிளிக் செய்யவும்",
+      "allowedFormats": "அனுமதி: PDF, Excel, Word | ஒரு கோப்பிற்கு அதிகபட்சம் 50MB"
+    },
+    "buttons": {
+      "uploadDocuments": "ஆவணங்களை பதிவேற்று"
+    }
+  },
+  "corporateGroupMaster": {
+    "title": "நிறுவனக் குழு",
+    "masterManagement": "மாஸ்டர் மேலாண்மை",
+    "buttons": {
+      "add": "நிறுவனக் குழுவைச் சேர்க்கவும்",
+      "search": "தேடு",
+      "hideSearch": "தேடலை மறை",
+      "view": "பார்"
+    },
+    "search": {
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "recordStatus": "பதிவு நிலை"
+    },
+    "section": {
+      "information": "நிறுவனக் குழு தகவல்"
+    },
+    "table": {
+      "actions": "செயல்கள்",
+      "groupName": "குழு பெயர்",
+      "groupCode": "குழு குறியீடு",
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "cin": "CIN எண்",
+      "pan": "PAN எண்",
+      "gstin": "GSTIN"
+    },
+    "fields": {
+      "groupName": "குழுவின் பெயர்",
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "websiteUrl": "இணையதள URL",
+      "cin": "CIN",
+      "pan": "PAN",
+      "gstin": "GSTIN",
+      "effectiveFrom": "செயல்படும் தேதி முதல்",
+      "effectiveTo": "செயல்படும் தேதி வரை"
+    },
+    "placeholder": {
+      "groupName": "குழுவின் பெயரை உள்ளிடவும்",
+      "legalName": "சட்டப்பூர்வ பெயரை உள்ளிடவும்",
+      "websiteUrl": "https://example.com",
+      "cin": "CIN ஐ உள்ளிடவும்",
+      "pan": "PAN ஐ உள்ளிடவும்",
+      "gstin": "GSTIN ஐ உள்ளிடவும்"
+    }
+  },
+  "corporateMaster": {
+    "title": "நிறுவனம்",
+    "masterManagement": "மாஸ்டர் மேலாண்மை",
+    "buttons": {
+      "add": "நிறுவனத்தைச் சேர்க்கவும்",
+      "view": "பார்க்கவும்",
+      "search": "தேடு",
+      "hideSearch": "தேடலை மறை"
+    },
+    "search": {
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "recordStatus": "பதிவு நிலை"
+    },
+    "table": {
+      "actions": "செயல்கள்",
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "tradeName": "வர்த்தக பெயர்",
+      "corporateType": "நிறுவன வகை",
+      "corporateCode": "நிறுவன குறியீடு",
+      "corporateGroupName": "நிறுவனக் குழு பெயர்",
+      "pan": "PAN எண்",
+      "gstin": "GSTIN",
+      "cin": "CIN எண்",
+      "contactEmail": "தொடர்பு மின்னஞ்சல்",
+      "contactPhone": "தொடர்பு தொலைபேசி"
+    },
+    "breadcrumb": {
+      "add": "நிறுவனத்தைச் சேர்க்கவும்",
+      "view": "நிறுவனத்தைப் பார்க்கவும்",
+      "corporate": "நிறுவனம்",
+      "enrolmentSystem": "பதிவு அமைப்பு",
+      "dashboard": "டாஷ்போர்டு",
+      "corporateInward": "நிறுவன உள்ளீடு"
+    },
+    "section": {
+      "corporateInformation": "நிறுவன தகவல்",
+      "corporateHrInformation": "நிறுவன HR தகவல்"
+    },
+    "form": {
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "corporateType": "நிறுவன வகை",
+      "corporateGroup": "நிறுவனக் குழு",
+      "pan": "PAN",
+      "gstin": "GSTIN",
+      "cin": "CIN",
+      "industrySector": "தொழில் துறை",
+      "sizeBand": "அளவு பிரிவு",
+      "effectiveFrom": "செயல்படும் தேதி முதல்",
+      "effectiveTo": "செயல்படும் தேதி வரை",
+      "employeeCount": "பணியாளர் எண்ணிக்கை",
+      "websiteUrl": "இணையதள URL",
+      "contactEmail": "தொடர்பு மின்னஞ்சல்",
+      "phoneNumber": "தொலைபேசி எண்",
+      "corporateHrName": "நிறுவன HR பெயர்",
+      "corporateHrPhone": "தொலைபேசி எண்",
+      "corporateHrEmail": "மின்னஞ்சல்"
+    },
+    "placeholder": {
+      "legalName": "சட்டப்பூர்வ பெயரை உள்ளிடவும்",
+      "pan": "PAN ஐ உள்ளிடவும்",
+      "gstin": "GSTIN ஐ உள்ளிடவும்",
+      "cin": "CIN ஐ உள்ளிடவும்",
+      "employeeCount": "பணியாளர் எண்ணிக்கையை உள்ளிடவும்",
+      "websiteUrl": "இணையதள URL ஐ உள்ளிடவும்",
+      "contactEmail": "காற்புள்ளியால் பிரிக்கப்பட்ட மின்னஞ்சல்களை உள்ளிடவும்",
+      "phoneNumber": "காற்புள்ளியால் பிரிக்கப்பட்ட தொலைபேசி எண்களை உள்ளிடவும்",
+      "effectiveFrom": "தொடக்க தேதியைத் தேர்ந்தெடுக்கவும்",
+      "effectiveTo": "முடிவு தேதியைத் தேர்ந்தெடுக்கவும்",
+      "corporateHrName": "பெயரை உள்ளிடவும்",
+      "corporateHrPhone": "தொலைபேசி எண்ணை உள்ளிடவும்",
+      "corporateHrEmail": "மின்னஞ்சலை உள்ளிடவும்"
+    }
+  },
+  "brokerMaster": {
+    "title": "தரகர்",
+    "masterManagement": "முதன்மை மேலாண்மை",
+    "breadcrumb": {
+      "broker": "தரகர்",
+      "add": "தரகரைச் சேர்க்கவும்",
+      "view": "தரகரைப் பார்க்கவும்",
+      "enrolmentSystem": "பதிவு அமைப்பு",
+      "dashboard": "டாஷ்போர்டு",
+      "corporateInward": "கார்ப்பரேட் உள்ளீடு"
+    },
+    "button": {
+      "add": "தரகரைச் சேர்க்கவும்"
+    },
+    "search": {
+      "brokerName": "தரகர் பெயர்",
+      "recordStatus": "பதிவு நிலை"
+    },
+    "table": {
+      "actions": "செயல்கள்",
+      "brokerCode": "தரகர் குறியீடு",
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "irdaBrokerCode": "IRDAI குறியீடு",
+      "contactEmail": "மின்னஞ்சல்",
+      "contactPhone": "தொலைபேசி எண்"
+    },
+    "section": {
+      "brokerInformation": "தரகர் தகவல்"
+    },
+    "form": {
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "irdaBrokerCode": "தரகர் IRDAI குறியீடு",
+      "contactPhone": "தொலைபேசி எண்",
+      "contactEmail": "மின்னஞ்சல்"
+    },
+    "placeholder": {
+      "legalName": "சட்டப்பூர்வ பெயரை உள்ளிடவும்",
+      "irdaBrokerCode": "IRDAI குறியீட்டை உள்ளிடவும்",
+      "contactPhone": "காற்புள்ளியால் பிரிக்கப்பட்ட தொலைபேசி எண்களை உள்ளிடவும்",
+      "contactEmail": "மின்னஞ்சல் முகவரியை உள்ளிடவும்"
+    }
+  },
+  "agentMaster": {
+    "title": "முகவர்",
+    "masterManagement": "முதன்மை மேலாண்மை",
+    "breadcrumb": {
+      "agent": "முகவர்",
+      "add": "முகவரைச் சேர்க்கவும்",
+      "view": "முகவரைப் பார்க்கவும்",
+      "enrolmentSystem": "பதிவு அமைப்பு",
+      "dashboard": "டாஷ்போர்டு",
+      "corporateInward": "கார்ப்பரேட் உள்ளீடு"
+    },
+    "button": {
+      "add": "முகவரைச் சேர்க்கவும்"
+    },
+    "search": {
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "recordStatus": "பதிவு நிலை",
+      "filterTitle": "முகவர் வடிகட்டிகள்"
+    },
+    "table": {
+      "actions": "செயல்கள்",
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "tradeCode": "வர்த்தக குறியீடு",
+      "email": "மின்னஞ்சல்",
+      "phoneNumber": "தொலைபேசி எண்",
+      "agentType": "முகவர் வகை",
+      "agentCategory": "முகவர் பிரிவு"
+    },
+    "section": {
+      "agentInformation": "முகவர் தகவல்"
+    },
+    "form": {
+      "legalName": "சட்டப்பூர்வ பெயர்",
+      "agentType": "முகவர் வகை",
+      "agentCode": "முகவர் குறியீடு",
+      "email": "மின்னஞ்சல்",
+      "phone": "தொலைபேசி",
+      "licenseValidFrom": "உரிமம் செல்லுபடியாகும் தொடக்கம்",
+      "licenseValidTo": "உரிமம் செல்லுபடியாகும் முடிவு"
+    },
+    "placeholder": {
+      "legalName": "சட்டப்பூர்வ பெயரை உள்ளிடவும்",
+      "agentCode": "குறியீட்டை உள்ளிடவும்",
+      "email": "மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+      "phone": "தொலைபேசி எண்ணை உள்ளிடவும்"
+    },
+    "dropdown": {
+      "agentType": "முகவர் வகை"
+    }
+  },
+  "policySearch": {
+    "title": "பாலிசி தேடல்",
+    "breadcrumb": {
+      "policySearch": "பாலிசி தேடல்"
+    },
+    "search": {
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "inwardNumber": "இன்வார்டு எண்",
+      "policyNumber": "பாலிசி எண்",
+      "corporateName": "நிறுவனத்தின் பெயர்"
+    },
+    "table": {
+      "actions": "செயல்கள்",
+      "policyNumber": "பாலிசி எண்",
+      "proposerName": "முன்மொழிபவரின் பெயர்",
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "policyDate": "பாலிசி தேதி",
+      "grossPremium": "மொத்த பிரீமியம்",
+      "coverageType": "கவரேஜ் வகை",
+      "memberType": "உறுப்பினர் வகை",
+      "brokerName": "புரோக்கர் பெயர்",
+      "masterProductName": "மாஸ்டர் தயாரிப்பு பெயர்",
+      "policyStatus": "பாலிசி நிலை",
+      "tpaServicingBranchName": "TPA சேவை கிளை பெயர்"
+    },
+    "viewMemberData": "உறுப்பினர் தரவை காண்க",
+    "sections": {
+      "policyInformation": "கொள்கை தகவல்",
+      "insurerInformation": "காப்பீட்டாளர் தகவல்",
+      "tpaInformation": "TPA தகவல்",
+      "brokerInformation": "தரகர் தகவல்"
+    },
+    "details": {
+      "policyNumber": "கொள்கை எண்",
+      "previousPolicyNumber": "முந்தைய கொள்கை எண்",
+      "policyDate": "கொள்கை தேதி",
+      "policyInsurerType": "கொள்கை காப்பீட்டாளர் வகை",
+      "policyTypeProposer": "முன்மொழிவாளர் வகை",
+      "proposerName": "முன்மொழிவாளர் பெயர்",
+      "proposerSector": "முன்மொழிவாளர் துறை",
+      "agentCode": "முகவர் குறியீடு",
+      "recordType": "பதிவு வகை",
+      "renewalType": "புதுப்பிப்பு வகை",
+      "structureType": "கட்டமைப்பு வகை",
+      "previousIssueDate": "முந்தைய வெளியீட்டு தேதி",
+      "coveredFamilyCount": "காப்பளிக்கப்பட்ட குடும்பங்களின் எண்ணிக்கை",
+      "totalInsuredPersonAtInception": "தொடக்கத்தில் மொத்த காப்பீடு செய்யப்பட்டோர்",
+      "totalEmployeeCountAtInception": "தொடக்கத்தில் மொத்த பணியாளர்கள்",
+      "policyNetPremium": "நிகர காப்பீட்டு கட்டணம்",
+      "grossPremium": "மொத்த காப்பீட்டு கட்டணம்",
+      "policyStatus": "கொள்கை நிலை",
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "insurerIssuingOfficeName": "காப்பீட்டாளர் வழங்கும் அலுவலக பெயர்",
+      "tpaFees": "TPA கட்டணம்",
+      "tpaSpocName": "TPA SPOC பெயர்",
+      "tpaSpocEmail": "TPA SPOC மின்னஞ்சல்",
+      "tpaSpocMobile": "TPA SPOC மொபைல்",
+      "tpaServicingBranchName": "TPA சேவை கிளை பெயர்",
+      "brokerName": "தரகர் பெயர்",
+      "coverageType": "காப்பளிப்பு வகை",
+      "memberType": "உறுப்பினர் வகை",
+      "masterProductName": "முதன்மை தயாரிப்பு பெயர்"
+    }
+  },
+  "dashboard": {
+    "pageTitle": "டாஷ்போர்டு",
+    "totalInward": "மொத்த இன்வர்ட்",
+    "corporateInward": {
+      "title": "கார்ப்பரேட் இன்வர்ட்",
+      "subtitle": "கார்ப்பரேட் பதிவுகளை நிர்வகிக்கவும்",
+      "recordFor": "இதற்கான பதிவுகள்"
+    },
+    "retailInward": {
+      "title": "ரீட்டெயில் இன்வர்ட்",
+      "subtitle": "ரீட்டெயில் பதிவுகளை நிர்வகிக்கவும்",
+      "recordFor": "இதற்கான பதிவுகள்"
+    }
+  },
+  "corporateInward": {
+    "pageTitle": "கார்ப்பரேட் இன்வர்ட்",
+    "breadcrumb": {
+      "dashboard": "டாஷ்போர்டு",
+      "corporateInward": "கார்ப்பரேட் இன்வர்ட்"
+    },
+    "cards": {
+      "totalInwards": "மொத்த இன்வர்ட்கள்",
+      "pending": "நிலுவையில்",
+      "qcPending": "QC நிலுவையில்",
+      "masterUpdatePending": "மாஸ்டர் புதுப்பிப்பு நிலுவையில்",
+      "completed": "முடிக்கப்பட்டது",
+      "rejectedInward": "நிராகரிக்கப்பட்ட இன்வர்ட்"
+    },
+    "buttons": {
+      "createManualInward": "கைமுறை இன்வர்டை உருவாக்கு",
+      "downloadReport": "அறிக்கையை பதிவிறக்கு",
+      "downloadExcel": "Excel ஆக பதிவிறக்கு",
+      "refresh": "புதுப்பிக்கவும்",
+      "view": "பார்க்க"
+    },
+    "searchFields": {
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "inwardNumber": "இன்வர்ட் எண்",
+      "corporateName": "நிறுவனத்தின் பெயர்",
+      "policyNumber": "பாலிசி எண்",
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி"
+    },
+    "columns": {
+      "action": "செயல்",
+      "srNo": "வரிசை எண்",
+      "inwardNumber": "இன்வர்ட் எண்",
+      "policyNumber": "பாலிசி எண்",
+      "inwardDateTime": "இன்வர்ட் தேதி & நேரம்",
+      "inwardType": "இன்வர்ட் வகை",
+      "documentType": "ஆவண வகை",
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "corporateName": "நிறுவனத்தின் பெயர்",
+      "status": "நிலை",
+      "remark": "குறிப்பு"
+    }
+  },
+  "endorsementSummary": {
+    "title": "எண்டார்ஸ்மென்ட் சுருக்கம்",
+    "viewEndorsementMemberData": "எண்டார்ஸ்மென்ட் உறுப்பினர் தரவை காண்க",
+    "viewDocument": "ஆவணத்தை காண்க",
+    "policy": {
+      "inwardNumber": "உள்வரவு எண்",
+      "policyStatus": "கொள்கை நிலை",
+      "icName": "IC பெயர்",
+      "policyNumber": "கொள்கை எண்",
+      "previousPolicyNumber": "முந்தைய கொள்கை எண்",
+      "policyType": "கொள்கை வகை",
+      "coverageType": "கவரேஜ் வகை",
+      "policyStartDate": "கொள்கை தொடக்க தேதி",
+      "policyEndDate": "கொள்கை முடிவு தேதி",
+      "policyIssueDate": "கொள்கை வழங்கிய தேதி",
+      "corporateName": "நிறுவனத்தின் பெயர்",
+      "corporateGSTNo": "நிறுவன GST எண்",
+      "address": "முகவரி",
+      "state": "மாநிலம்",
+      "district": "மாவட்டம்",
+      "pincode": "அஞ்சல் குறியீடு",
+      "brokerCode": "புரோக்கர் குறியீடு",
+      "brokerName": "புரோக்கர் பெயர்",
+      "tpaSpocName": "TPA SPOC பெயர்",
+      "tpaEmail": "TPA மின்னஞ்சல்",
+      "tpaMobile": "TPA கைபேசி",
+      "policySumInsured": "காப்பீட்டு தொகை",
+      "netPremium": "நிகர பிரீமியம்",
+      "grossPremium": "மொத்த பிரீமியம்",
+      "stateGST": "மாநில GST",
+      "totalGST": "மொத்த GST",
+      "policyTaxInvoiceDate": "கொள்கை வரி விலைப்பட்டியல் தேதி",
+      "policyRenewalType": "கொள்கை புதுப்பிப்பு வகை",
+      "recordType": "பதிவு வகை",
+      "vipFlag": "VIP குறியீடு"
+    },
+    "endorsement": {
+      "endorsementNumber": "எண்டார்ஸ்மென்ட் எண்",
+      "endorsementType": "எண்டார்ஸ்மென்ட் வகை",
+      "status": "நிலை",
+      "requestDate": "கோரிக்கை தேதி",
+      "effectiveDate": "செயல்பாட்டு தேதி",
+      "receivedDate": "பெறப்பட்ட தேதி",
+      "invoiceDate": "விலைப்பட்டியல் தேதி",
+      "invoiceNumber": "விலைப்பட்டியல் எண்",
+      "creditNoteNumber": "கிரெடிட் நோட் எண்",
+      "addedMembers": "சேர்க்கப்பட்ட உறுப்பினர்கள்",
+      "deletedMembers": "நீக்கப்பட்ட உறுப்பினர்கள்",
+      "modifiedMembers": "திருத்தப்பட்ட உறுப்பினர்கள்",
+      "premiumAdded": "சேர்க்கப்பட்ட பிரீமியம்",
+      "premiumDeducted": "கழிக்கப்பட்ட பிரீமியம்",
+      "netPremium": "நிகர பிரீமியம்",
+      "totalPremium": "மொத்த பிரீமியம்",
+      "stateGST": "மாநில GST",
+      "centralGST": "மத்திய GST",
+      "igst": "IGST",
+      "remark": "குறிப்பு",
+      "inwardNumber": "உள்வரவு எண்",
+      "createdBy": "உருவாக்கியவர்",
+      "createdAt": "உருவாக்கப்பட்ட தேதி",
+      "updatedAt": "புதுப்பிக்கப்பட்ட தேதி"
+    },
+    "common": {
+      "yes": "ஆம்",
+      "no": "இல்லை"
+    }
+  },
+  "summary": {
+    "title": "சுருக்கம்",
+    "viewMemberData": "உறுப்பினர் தரவை காண்க",
+    "sections": {
+      "insurerDetails": "காப்பீட்டாளர் விவரங்கள்",
+      "corporateDetails": "நிறுவன விவரங்கள்",
+      "tpaDetails": "TPA விவரங்கள்",
+      "policyDetails": "கொள்கை விவரங்கள்",
+      "intermediaryDetails": "இடைநிலை விவரங்கள்"
+    },
+    "fields": {
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "productName": "தயாரிப்பு பெயர்",
+      "insurerType": "காப்பீட்டாளர் வகை",
+      "issuingOffice": "வழங்கும் அலுவலகம்",
+      "corporateName": "நிறுவன பெயர்",
+      "groupName": "குழு பெயர்",
+      "address": "முகவரி",
+      "state": "மாநிலம்",
+      "district": "மாவட்டம்",
+      "email": "மின்னஞ்சல்",
+      "mobile": "மொபைல்",
+      "tpaName": "TPA கிளை பெயர்",
+      "spocName": "SPOC பெயர்",
+      "policyNumber": "கொள்கை எண்",
+      "policyType": "கொள்கை வகை",
+      "policyPlan": "கொள்கை திட்டம்",
+      "policyStatus": "கொள்கை நிலை",
+      "issueDate": "வழங்கப்பட்ட தேதி",
+      "startDate": "தொடக்க தேதி",
+      "endDate": "முடிவு தேதி",
+      "totalSumInsured": "மொத்த காப்பீட்டு தொகை",
+      "totalLivesInsured": "மொத்த காப்பீடு செய்யப்பட்டோர்",
+      "premium": "பிரீமியம்",
+      "brokerName": "புரோக்கர் பெயர்",
+      "brokerCode": "புரோக்கர் குறியீடு",
+      "contactNumber": "தொடர்பு எண்"
+    }
+  },
+  "memberData": {
+    "title": "உறுப்பினர் தரவு",
+    "search": {
+      "memberId": "உறுப்பினர் ஐடி",
+      "employeeId": "பணியாளர் ஐடி",
+      "nameOfInsured": "காப்பீடு செய்யப்பட்ட நபரின் பெயர்",
+      "healthCardNumber": "சுகாதார அட்டை எண்"
+    },
+    "buttons": {
+      "enrolledRecord": "பதிவுசெய்யப்பட்ட பதிவுகள்",
+      "failedRecord": "தோல்வியடைந்த பதிவுகள்",
+      "downloadReport": "அறிக்கையை பதிவிறக்கவும்",
+      "downloadAsExcel": "எக்செலாக பதிவிறக்கவும்",
+      "hideSearch": "தேடலை மறை",
+      "search": "தேடு",
+      "viewECard": "இ-கார்டைப் பார்க்கவும்",
+      "details": "விவரங்கள்"
+    },
+    "messages": {
+      "updatingRecords": "உறுப்பினர் பதிவுகள் புதுப்பிக்கப்படுகின்றன... தயவுசெய்து காத்திருக்கவும்."
+    },
+    "stats": {
+      "totalMembers": "மொத்த உறுப்பினர்கள்",
+      "self": "சுயம்",
+      "dependents": "சார்ந்தவர்கள்",
+      "enrolled": "பதிவுசெய்யப்பட்டவர்கள்",
+      "failed": "தோல்வியடைந்தவர்கள்"
+    },
+    "columns": {
+      "action": "செயல்",
+      "memberId": "உறுப்பினர் ஐடி",
+      "employeeId": "பணியாளர் ஐடி",
+      "healthCardNumber": "சுகாதார அட்டை எண்",
+      "nameOfInsured": "காப்பீடு செய்யப்பட்ட நபரின் பெயர்",
+      "dateOfBirth": "பிறந்த தேதி",
+      "age": "வயது",
+      "gender": "பாலினம்",
+      "relationship": "உறவு",
+      "enrolmentStatus": "பதிவு நிலை",
+      "enrolmentStatusReason": "பதிவு நிலைக்கான காரணம்",
+      "sumInsured": "காப்பீட்டு தொகை",
+      "recordStatus": "பதிவு நிலை"
+    }
+  },
+  "endorsementMemberList": {
+    "title": "உறுப்பினர் தரவு",
+    "buttons": {
+      "search": "தேடல்",
+      "hideSearch": "தேடலை மறை",
+      "downloadReport": "அறிக்கையை பதிவிறக்கு",
+      "downloadExcel": "எக்செலாக பதிவிறக்கு",
+      "viewECard": "இ-கார்டைப் பார்க்க",
+      "details": "விவரங்கள்"
+    },
+    "search": {
+      "memberId": "உறுப்பினர் ஐடி",
+      "employeeId": "பணியாளர் ஐடி",
+      "insuredName": "காப்பீடு செய்யப்பட்டவரின் பெயர்"
+    },
+    "tableHeaders": {
+      "action": "செயல்",
+      "memberId": "உறுப்பினர் ஐடி",
+      "employeeId": "பணியாளர் ஐடி",
+      "healthCardNumber": "சுகாதார அட்டை எண்",
+      "insuredName": "காப்பீடு செய்யப்பட்டவரின் பெயர்",
+      "dateOfBirth": "பிறந்த தேதி",
+      "age": "வயது",
+      "gender": "பாலினம்",
+      "relationship": "உறவு",
+      "sumInsured": "காப்பீட்டு தொகை",
+      "endorsementAction": "எண்டார்ஸ்மென்ட் செயல்",
+      "reason": "காரணம்"
+    },
+    "reports": {
+      "memberReport": "உறுப்பினர் அறிக்கை",
+      "failedMemberReport": "தோல்வியடைந்த உறுப்பினர் அறிக்கை"
+    },
+    "messages": {
+      "downloadFailed": "பதிவிறக்கம் தோல்வியடைந்தது"
+    }
+  },
+  "endorsementTabs": {
+    "mainTabs": {
+      "totalRequested": "மொத்த கோரிக்கைகள்",
+      "additionsRequested": "சேர்க்கை கோரிக்கைகள்",
+      "modificationsRequested": "திருத்த கோரிக்கைகள்",
+      "deletionsRequested": "நீக்க கோரிக்கைகள்"
+    },
+    "subTabs": {
+      "success": "வெற்றி",
+      "failed": "தோல்வி"
+    }
+  },
+  "memberDetails": {
+    "labels": {
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "policyNumber": "பாலிசி எண்",
+      "previousPolicyNumber": "முந்தைய பாலிசி எண்",
+      "employeeId": "பணியாளர் ஐடி",
+      "policyDescription": "பாலிசி விளக்கம்",
+      "policyStatus": "பாலிசி நிலை",
+      "healthCardNumber": "சுகாதார அட்டை எண்",
+      "memberId": "உறுப்பினர் ஐடி",
+      "mdid": "எம்.டி.ஐ.டி",
+      "corporateName": "நிறுவன பெயர்",
+      "riskFromDate": "ஆபத்து தொடக்க தேதி",
+      "riskToDate": "ஆபத்து முடிவு தேதி",
+      "dateOfJoining": "சேர்ந்த தேதி",
+      "grade": "தரம்",
+      "agentCode": "முகவர் குறியீடு",
+      "insuredPersonName": "காப்பீடு செய்யப்பட்ட நபரின் பெயர்",
+      "relation": "உறவு",
+      "dateOfBirth": "பிறந்த தேதி",
+      "ipCoveredFromDate": "IP கவரேஜ் தொடக்க தேதி",
+      "age": "வயது",
+      "gender": "பாலினம்",
+      "ipSumInsured": "IP காப்பீட்டு தொகை",
+      "ipPhone": "IP தொலைபேசி",
+      "ipEmail": "IP மின்னஞ்சல்",
+      "location": "இடம்",
+      "endorsementNumber": "எண்டார்ஸ்மென்ட் எண்",
+      "endorsementRequestDate": "எண்டார்ஸ்மென்ட் கோரிக்கை தேதி",
+      "endorsementEffectiveDate": "எண்டார்ஸ்மென்ட் அமல்படுத்தும் தேதி",
+      "endorsementReceivedDate": "எண்டார்ஸ்மென்ட் பெறப்பட்ட தேதி",
+      "dateOfInception": "தொடக்க தேதி",
+      "exceptionCategory": "விதிவிலக்கு வகை",
+      "exceptionApprovalRemark": "விதிவிலக்கு ஒப்புதல் குறிப்பு"
+    },
+    "messages": {
+      "loadingMemberDetails": "உறுப்பினர் விவரங்கள் ஏற்றப்படுகின்றன..."
+    }
+  },
+  "enrollmentSteps": {
+    "insurer": "காப்பீட்டாளர்",
+    "corporate": "நிறுவனம்",
+    "policy": "பாலிசி",
+    "intermediatory": "இடைநிலையாளர்",
+    "tpaSpoc": "TPA தொடர்பு நபர்"
+  },
+  "stepNavigation": {
+    "buttons": {
+      "back": "பின்னால்",
+      "next": "அடுத்து",
+      "save": "சேமி",
+      "approve": "அனுமதி",
+      "reassign": "மீண்டும் ஒதுக்கு"
+    },
+    "stages": {
+      "qcReviewStage": "🧐 QC மதிப்பாய்வு நிலை",
+      "processingStage": "⚙️ செயலாக்க நிலை"
+    },
+    "messages": {
+      "qcReviewPending": "QC மதிப்பாய்வு நிலுவையில் உள்ளது: அனுமதிக்கும் முன் சமர்ப்பிக்கப்பட்ட அனைத்து ஆவணங்களையும் கவனமாக சரிபார்க்கவும்.",
+      "processingInProgress": "செயலாக்கம் நடைபெற்று வருகிறது: பாலிசி அட்டவணைக்கு ஏற்ப அனைத்து கட்டாய விவரங்களையும் சரிபார்த்து புதுப்பிக்கவும்."
+    }
+  },
+  "memberExcel": {
+    "fields": {
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "policyNumber": "பாலிசி எண்",
+      "endorsementNumber": "எண்டார்ஸ்மென்ட் எண்"
+    },
+    "placeholders": {
+      "insurer": "காப்பீட்டாளர்",
+      "policyNumber": "பாலிசி எண்",
+      "endorsementNumber": "எண்டார்ஸ்மென்ட் எண்"
+    },
+    "buttons": {
+      "reset": "மீட்டமை",
+      "search": "தேடு",
+      "searching": "தேடப்படுகிறது..."
+    },
+    "validation": {
+      "insurerRequired": "காப்பீட்டாளர் அவசியம்",
+      "policyNumberRequired": "பாலிசி எண் அவசியம்",
+      "endorsementNumberRequired": "எண்டார்ஸ்மென்ட் எண் அவசியம்"
+    },
+    "messages": {
+      "success": "வெற்றி",
+      "error": "ஏதோ தவறு ஏற்பட்டது"
+    }
+  },
+  "spocForm": {
+    "labels": {
+      "spocName": "SPOC பெயர்",
+      "spocEmailId": "SPOC மின்னஞ்சல் ஐடி",
+      "spocMobileNumber": "SPOC கைபேசி எண்",
+      "telephoneNumber": "தொலைபேசி எண்",
+      "tpaFees": "TPA கட்டணம் (சதவீதத்தில்)",
+      "tpaServicingBranch": "TPA சேவை கிளை",
+      "tpaSpoc": "TPA தொடர்பு நபர்"
+    },
+    "placeholders": {
+      "spocName": "SPOC பெயரை உள்ளிடவும்",
+      "emailId": "மின்னஞ்சல் ஐடியை உள்ளிடவும்",
+      "mobileNumber": "கைபேசி எண்ணை உள்ளிடவும்",
+      "telephoneNumber": "தொலைபேசி எண்ணை உள்ளிடவும்",
+      "tpaFees": "TPA கட்டணத்தை உள்ளிடவும்",
+      "selectBranch": "கிளையைத் தேர்ந்தெடுக்கவும்",
+      "selectSpoc": "SPOC பஸ்பிக்கவும்"
+    }
+  },
+  "brokerForm": {
+    "channelType": {
+      "label": "சேனல் வகை",
+      "placeholder": "சேனல் வகையைத் தேர்ந்தெடுக்கவும்"
+    },
+    "channelOptions": {
+      "broker": "ப்ரோக்கர்",
+      "agent": "ஏஜெண்ட்",
+      "direct": "நேரடி"
+    },
+    "broker": {
+      "dropdown": {
+        "label": "ப்ரோக்கர் பெயர்",
+        "placeholder": "ப்ரோக்கரை தேர்ந்தெடுக்கவும்"
+      },
+      "fields": {
+        "code": "ப்ரோக்கர் குறியீடு",
+        "email": "மின்னஞ்சல் ஐடி",
+        "mobile": "மொபைல் எண்",
+        "telephone": "தொலைபேசி எண்"
+      }
+    },
+    "agent": {
+      "dropdown": {
+        "label": "ஏஜெண்ட் பெயர்",
+        "placeholder": "ஏஜெண்டை தேர்ந்தெடுக்கவும்"
+      },
+      "fields": {
+        "code": "ஏஜெண்ட் குறியீடு",
+        "email": "மின்னஞ்சல் ஐடி",
+        "mobile": "மொபைல் எண்",
+        "telephone": "தொலைபேசி எண்"
+      }
+    }
+  },
+  "icForm": {
+    "insurerName": "காப்பீட்டாளர் பெயர்",
+    "insurerType": "காப்பீட்டாளர் வகை",
+    "productName": "தயாரிப்பு பெயர்",
+    "issuingOffice": "வழங்கும் அலுவலகம்",
+    "headOffice": "தலைமை அலுவலகம்",
+    "divisionalOffice": "மண்டல அலுவலகம்",
+    "placeholders": {
+      "insurer": "காப்பீட்டாளர்",
+      "type": "வகை",
+      "product": "தயாரிப்பு",
+      "issuingOffice": "அலுவலகத்தைத் தேர்ந்தெடுக்கவும்",
+      "headOffice": "முகமை அலுவலகத்தைத் தேர்ந்தெடுக்கவும்",
+      "divisionalOffice": "மண்டல அலுவலகத்தைத் தேர்ந்தெடுக்கவும்"
+    },
+    "options": {
+      "psu": "அரசு நிறுவனம்",
+      "private": "தனியார்"
+    }
+  },
+  "corporateForm": {
+    "labels": {
+      "corporateName": "கார்ப்பரேட் பெயர்",
+      "groupName": "குழு பெயர்",
+      "email": "மின்னஞ்சல்",
+      "contactNumber": "தொடர்பு எண்",
+      "address": "முகவரி",
+      "telephone": "தொலைபேசி எண்",
+      "pinCode": "பின் கோடு",
+      "state": "மாநிலம்",
+      "city": "நகரம்",
+      "industrySector": "தொழில் துறை",
+      "panNumber": "பாலிசி முன்மொழிவாளர் PAN எண்",
+      "gstNumber": "பாலிசி முன்மொழிவாளர் GST எண்"
+    },
+    "placeholders": {
+      "corporateName": "கார்ப்பரேட் பெயர்",
+      "groupName": "குழு பெயர்",
+      "email": "மின்னஞ்சலை உள்ளிடவும்",
+      "contactNumber": "தொடர்பு எண்ணை உள்ளிடவும்",
+      "address": "முகவரியை உள்ளிடவும்",
+      "telephone": "தொலைபேசி எண்ணை உள்ளிடவும்",
+      "pinCode": "பின் கோடை உள்ளிடவும்",
+      "state": "மாநிலம்",
+      "city": "நகரம்",
+      "industrySector": "தொழில் துறை",
+      "panNumber": "PAN எண்ணை உள்ளிடவும்",
+      "gstNumber": "GST எண்ணை உள்ளிடவும்"
+    },
+    "actions": {
+      "addCorporate": "கார்ப்பரேட் சேர்க்கவும்"
+    }
+  },
+  "source": "மூலம்",
+  "enrolmentType": "பதிவு வகை",
+  "providerMaster": {
+    "moduleName": "சேவை வழங்குநர் மேலாண்மை",
+    "providerMasterLabel": "வழங்குநர் மாஸ்டர்",
+    "title": {
+      "providers": "சேவை வழங்குநர்கள்",
+      "addProvider": "வழங்குநரைச் சேர்க்கவும்",
+      "icCorporateMapping": "IC கார்ப்பரேட் மேப்பிங்"
+    },
+    "breadcrumb": {
+      "providers": "சேவை வழங்குநர்கள்",
+      "addProvider": "வழங்குநரைச் சேர்க்கவும்",
+      "providerDetails": "வழங்குநர் விவரங்கள்"
+    },
+    "button": {
+      "addProvider": "வழங்குநரைச் சேர்க்கவும்",
+      "cancel": "ரத்து செய்",
+      "saveProvider": "வழங்குநரைச் சேமிக்கவும்",
+      "saving": "சேமிக்கிறது…",
+      "add": "சேர்",
+      "search": "தேடு",
+      "hideSearch": "தேடலை மறை",
+      "downloadReport": "அறிக்கையை பதிவிறக்கு",
+      "save": "சேமி"
+    },
+    "toolbar": {
+      "auditLog": "ஆடிட் பதிவு",
+      "auditLogTitle": "இந்த தாவலுக்கான புல-நிலை மாற்ற வரலாற்றைக் காண்க",
+      "auditLogUnavailable": "வழங்குநர் ID கிடைக்கவில்லை",
+      "auditLogDialogTitle": "ஆடிட் பதிவு — {{section}}",
+      "loadingAuditLog": "ஆடிட் பதிவு ஏற்றப்படுகிறது…",
+      "icWiseEmpanelmentStatus": "IC வாரியான சேர்ப்பு நிலை",
+      "icWiseEmpanelmentStatusTitle": "காப்பீட்டாளரின்படி IC வாரியான சேர்ப்பு நிலையைக் காண்க",
+      "icWiseEmpanelmentStatusAria": "IC வாரியான சேர்ப்பு நிலையைக் காண்க",
+      "providerStatusWithIcs": "ICகளுடன் வழங்குநர் நிலை",
+      "network": "நெட்வொர்க்",
+      "networkType": "நெட்வொர்க் வகை",
+      "tpaNetwork": "TPA நெட்வொர்க்",
+      "insurerNetwork": "இன்சூரர் நெட்வொர்க்",
+      "viewAllNetworkTypes": "அனைத்தையும் காண்க",
+      "viewAllNetworkTypesAria": "அனைத்து நெட்வொர்க் வகைகளையும் காண்க",
+      "allNetworkTypes": "அனைத்து நெட்வொர்க் வகைகள்",
+      "agreement": "ஒப்பந்தம்",
+      "agreementType": "ஒப்பந்த வகை",
+      "verify": "சரிபார்",
+      "insurerName": "காப்பீட்டாளர் பெயர்",
+      "networkStatus": "நெட்வொர்க் நிலை",
+      "mappedSince": "மேப் செய்யப்பட்டது",
+      "close": "மூடு",
+      "auditColumns": {
+        "section": "பிரிவு",
+        "certificate": "சான்றிதழ்",
+        "recordCode": "பதிவு குறியீடு",
+        "recordName": "பதிவு பெயர்",
+        "fieldName": "புல பெயர்",
+        "oldValue": "பழைய மதிப்பு",
+        "newValue": "புதிய மதிப்பு",
+        "action": "செயல்",
+        "changedBy": "மாற்றியவர்",
+        "dateTime": "தேதி & நேரம்"
+      }
+    },
+    "chooseFile": {
+      "chooseFile": "கோப்பைத் தேர்ந்தெடு",
+      "noFileChosen": "கோப்பு எதுவும் தேர்ந்தெடுக்கப்படவில்லை",
+      "uploading": "பதிவேற்றுகிறது…",
+      "removing": "நீக்குகிறது…",
+      "remove": "{{label}} ஐ அகற்று",
+      "browse": "உலாவு",
+      "browseButton": "உலாவு",
+      "dropFileHere": "கோப்பை இங்கே விடவும் அல்லது",
+      "dropOrBrowseAria": "{{label}}: கோப்பை இங்கே விடவும் அல்லது உலாவவும்"
+    },
+    "summaryBar": {
+      "providerName": "வழங்குநர் பெயர்",
+      "address": "முகவரி",
+      "providerCode": "வழங்குநர் குறியீடு",
+      "rohiniId": "ரோஹிணி ID"
+    },
+    "common": {
+      "status": "நிலை",
+      "active": "செயலில்",
+      "inactive": "செயலற்ற",
+      "view": "பார்",
+      "edit": "திருத்து",
+      "delete": "நீக்கு",
+      "yes": "ஆம்",
+      "no": "இல்லை",
+      "description": "விளக்கம்",
+      "master": "மாஸ்டர்",
+      "actions": "செயல்கள்",
+      "download": "பதிவிறக்கம்",
+      "duplicateFileName": "அதே பெயருள்ள கோப்பு ஏற்கனவே பதிவேற்றப்பட்டுள்ளது. வேறு கோப்பைத் தேர்ந்தெடுக்கவும்."
+    },
+    "mastersPage": {
+      "title": "மாஸ்டர்கள்",
+      "breadcrumbMasters": "மாஸ்டர்கள்",
+      "auditLog": "ஆடிட் பதிவு",
+      "auditLogTitle": "இந்த மாஸ்டருக்கான மாற்ற வரலாற்றைப் பார்",
+      "deleteTitle": "நீங்கள் உறுதியாக இருக்கிறீர்களா?",
+      "deleteDescription": "\"{{label}}\" ஐ நீக்க விரும்புகிறீர்களா?",
+      "deleteAction": "நீக்கு",
+      "deleteError": "இப்போது பதிவை நீக்க முடியவில்லை. பின்னர் மீண்டும் முயற்சிக்கவும்.",
+      "thisRecord": "இந்த பதிவு",
+      "recordDeleted": "பதிவு வெற்றிகரமாக நீக்கப்பட்டது.",
+      "identifierLevel": "அடையாள நிலை",
+      "issuingAuthorityName": "வழங்கும் அதிகாரி பெயர்",
+      "applicableProviderType": "பொருந்தும் வழங்குநர் வகை",
+      "effectiveFrom": "நடைமுறை தேதி முதல்",
+      "effectiveTo": "நடைமுறை தேதி வரை",
+      "activeFlag": "செயலில் கொடி",
+      "classCode": "வகுப்பு குறியீடு",
+      "subclassCode": "துணை வகுப்பு குறியீடு",
+      "isActive": "செயலில் உள்ளது",
+      "serviceType": "சேவை வகை",
+      "discountType": "தள்ளுபடி வகை",
+      "inclusionExclusionType": "வகை",
+      "inclusion": "சேர்ப்பு",
+      "exclusion": "விலக்கு",
+      "createTitle": "மாஸ்டர் பதிவைச் சேர்",
+      "editTitle": "மாஸ்டர் பதிவைத் திருத்து",
+      "select": "தேர்ந்தெடு",
+      "superAdminOnlyEdit": "சூப்பர் அட்மின் மட்டுமே மாஸ்டர் பதிவுகளைத் திருத்த முடியும்."
+    },
+    "agreement": {
+      "newAgreement": "புதிய ஒப்பந்தம்",
+      "noAgreements": "ஒப்பந்தங்கள் இல்லை",
+      "detailsNotFound": "வழங்குநர் ஒப்பந்த விவரங்கள் கிடைக்கவில்லை",
+      "agreementType": "ஒப்பந்த வகை",
+      "applicableScope": "பொருந்தும் நோக்கம்",
+      "agreementName": "ஒப்பந்த பெயர்",
+      "type": "வகை",
+      "scope": "நோக்கம்",
+      "applicableIcs": "பொருந்தும் IC",
+      "effectiveFrom": "நடைமுறை தேதி முதல்",
+      "soc": "SOC",
+      "discount": "தள்ளுபடி",
+      "addDiscount": "தள்ளுபடி சேர்",
+      "socDiscountPending": "நிலுவையில்",
+      "socDiscountComplete": "முடிந்தது",
+      "sortAsc": "ஏறுவரிசையில் வரிசைப்படுத்து",
+      "sortDesc": "இறங்குவரிசையில் வரிசைப்படுத்து",
+      "pinColumn": "நெடுவரிசையை பின் செய்",
+      "noPin": "பின் இல்லை",
+      "pinLeft": "இடதுபுறம் பின்",
+      "pinRight": "வலதுபுறம் பின்",
+      "chooseColumns": "நெடுவரிசைகளைத் தேர்ந்தெடு",
+      "filters": "வடிகட்டிகள்",
+      "columns": "நெடுவரிசைகள்",
+      "reset": "மீட்டமை",
+      "addFilter": "வடிகட்டி சேர்",
+      "filterPlaceholder": "{{label}} வடிகட்டு",
+      "searchPlaceholder": "தேடு...",
+      "allAgreementNames": "அனைத்து ஒப்பந்த பெயர்கள்",
+      "columnMenu": "நெடுவரிசை மெனு",
+      "seeMore": "மேலும் பார்",
+      "seeLess": "குறைவாக பார்",
+      "removeFilter": "{{label}} வடிகட்டியை அகற்று",
+      "insuranceCompany": "காப்பீட்டு நிறுவனம்",
+      "effectiveFromInvolvement": "நடைமுறை தேதி (ஈடுபாடு)",
+      "uploadedOn": "{{date}} அன்று பதிவேற்றப்பட்டது",
+      "noDataAvailable": "தரவு எதுவும் இல்லை",
+      "sections": {
+        "basicDetails": "ஒப்பந்த அடிப்படை விவரங்கள்",
+        "terms": "ஒப்பந்த விதிமுறைகள்",
+        "document": "ஒப்பந்த ஆவணம்",
+        "scope": "பொருந்தும் நோக்கம்",
+        "remarks": "குறிப்புகள்"
+      },
+      "fields": {
+        "agreementName": "ஒப்பந்த பெயர்",
+        "agreementType": "ஒப்பந்த வகை",
+        "agreementVersion": "ஒப்பந்த பதிப்பு",
+        "status": "நிலை",
+        "dateOfEmpanelment": "பanel இணைப்பு தேதி",
+        "gicInceptionDate": "GIC தொடக்க தேதி",
+        "ppnInceptionDate": "PPN தொடக்க தேதி",
+        "signAgreementSentDate": "கையொப்ப ஒப்பந்த அனுப்பிய தேதி",
+        "agreementCopyAvailable": "ஒப்பந்த நகல் கிடைக்கிறது",
+        "providerSignatoryName": "வழங்குநர் கையொப்பம் பெயர்",
+        "providerSignatoryDesignation": "வழங்குநர் கையொப்பம் பதவி",
+        "effectiveFrom": "நடைமுறை தேதி முதல்",
+        "effectiveTo": "நடைமுறை தேதி வரை",
+        "agreementDurationDays": "ஒப்பந்த காலம் (நாட்கள்)",
+        "agreementDocument": "ஒப்பந்த ஆவணம்",
+        "supportingDocument": "Supporting ஆவணம்",
+        "remarks": "குறிப்புகள்",
+        "selectAgreementName": "ஒப்பந்த பெயரைத் தேர்ந்தெடு",
+        "select": "தேர்ந்தெடு",
+        "selectInsurer": "காப்பீட்டாளரைத் தேர்ந்தெடு",
+        "selectInsurers": "காப்பீட்டாளர்களைத் தேர்ந்தெடு",
+        "enterRemarks": "குறிப்பை உள்ளிடவும்",
+        "ppnState": "PPN மாநிலம்",
+        "ppnCity": "PPN நகரம்"
+      },
+      "filterOptions": {
+        "allTypes": "அனைத்து வகைகள்",
+        "bipartite": "இருதரப்பு",
+        "tripartite": "மூன்றுதரப்பு",
+        "allScopes": "அனைத்து நோக்கங்கள்",
+        "psu": "PSU",
+        "selectedIcs": "தேர்ந்தெடுக்கப்பட்ட IC",
+        "allStatus": "அனைத்து நிலை",
+        "active": "செயலில்",
+        "terminated": "முடிவுற்றது",
+        "expired": "காலாவதியானது",
+        "draft": "வரைவு"
+      },
+      "mappingSuccess": {
+        "title": "Confirmation",
+        "close": "Close",
+        "view": "View",
+        "gic": "GIC -All active Insurance Companies have been mapped successfully.",
+        "gipsa": "GIPSA- ALL PSUs have been mapped successfully."
+      },
+      "noGipsaRemarksAvailable": "GIPSA குறிப்புகள் எதுவும் இல்லை",
+      "psuPpnCityCreateGipsaAgreement": "Provider belongs to a PPN city. Please create a GIPSA Agreement.",
+      "agreementTypesTitle": "ஒப்பந்த வகைகள்",
+      "noAgreementTypes": "ஒப்பந்த வகைகள் எதுவும் இல்லை",
+      "moreAgreementTypes": "+{{count}} மேலும்",
+      "moreAgreementTypesAria": "{{count}} மேலும் ஒப்பந்த வகைகளைக் காட்டு"
+    },
+    "search": {
+      "filterTitle": "வழங்குநர் வடிகட்டிகள்",
+      "hospitalName": "வழங்குநர் பெயர்",
+      "rohiniCode": "வழங்குநர் ரோஹினி குறியீடு",
+      "providerCode": "வழங்குநர் குறியீடு",
+      "agreementType": "Agreement Type",
+      "state": "State",
+      "city": "City",
+      "insurerCompany": "Insurer Company",
+      "expiringInDays": "அடுத்த (நாட்களில்) ரோஹினி காலாவதி",
+      "rohiniExpiryDate": "ROHINI Expiry Date",
+      "rohiniExpiryStatus": "ROHINI Expiry Status",
+      "rohiniExpiryStatusAll": "All",
+      "rohiniExpiryStatusActive": "Active",
+      "rohiniExpiryStatusExpired": "Expired",
+      "providerNetworkType": "வழங்குநர் நெட்வொர்க் வகை",
+      "providerType": "வழங்குநர் வகை",
+      "networkSource": "நெட்வொர்க் மூலம்"
+    },
+    "table": {
+      "providerCode": "வழங்குநர் குறியீடு",
+      "providerName": "வழங்குநர் பெயர்",
+      "providerType": "வழங்குநர் வகை",
+      "providerNetworkType": "வழங்குநர் நெட்வொர்க் வகை",
+      "networkSource": "நெட்வொர்க் மூலம்",
+      "providerRohiniCode": "வழங்குநர் ரோஹினி குறியீடு",
+      "rohiniExpiryAlert": "ரோஹினி காலாவதி எச்சரிக்கை",
+      "noOfBeds": "படுக்கைகளின் எண்ணிக்கை",
+      "city": "நகரம்",
+      "state": "மாநிலம்",
+      "address": "முகவரி"
+    },
+    "export": {
+      "noData": "தற்போதைய வடிகட்டிகளுடன் ஏற்றுமதி செய்ய தரவு இல்லை.",
+      "hint": "தற்போதைய தேடல் வடிகட்டிகள் மற்றும் நிலை அட்டைகளைப் பயன்படுத்தி ஏற்றுமதி (அட்டவணை நோக்கம்).",
+      "exporting": "ஏற்றுமதி செய்கிறது…",
+      "downloadExcel": "Excel ஆக பதிவிறக்கவும்",
+      "failed": "ஏற்றுமதி தோல்வி"
+    },
+    "network": {
+      "both": "இரண்டும்",
+      "network": "நெட்வொர்க்",
+      "nonNetwork": "நெட்வொர்க் அல்லாத",
+      "insurer": "காப்பீட்டாளர்",
+      "tpa": "TPA"
+    },
+    "tabs": {
+      "hospital-details": "கண்ணோட்டம்",
+      "agreement": "ஒப்பந்தங்கள்",
+      "provider-owner": "உரிமையாளர்",
+      "infrastructure-facility": "உள்கட்டமைப்பு & வசதி",
+      "owners-info": "தொடர்புகள்",
+      "ic-corporate": "நெட்வொர்க் மேலாண்மை",
+      "bank-details": "வங்கி விவரங்கள்",
+      "hospital-document": "ஆவணங்கள்",
+      "soc": "SOC",
+      "hospital-discount": "தள்ளுபடி"
+    },
+    "mappingSubTab": {
+      "ic": "காப்பீட்டு நிறுவனம்",
+      "corporate": "கார்ப்பரேட்"
+    },
+    "breadcrumbTrail": {
+      "editAgreement": "ஒப்பந்தத்தைத் திருத்து",
+      "viewAgreement": "ஒப்பந்தத்தைப் பார்",
+      "newAgreement": "புதிய ஒப்பந்தம்",
+      "addSoc": "SOC சேர்",
+      "editSoc": "SOC திருத்து",
+      "viewSoc": "SOC பார்",
+      "addOwner": "உரிமையாளரைச் சேர்",
+      "editOwner": "உரிமையாளரைத் திருத்து",
+      "providerRestrictions": "வழங்குநர் கட்டுப்பாடுகள்",
+      "editRestriction": "கட்டுப்பாட்டைத் திருத்து",
+      "viewRestriction": "கட்டுப்பாட்டைப் பார்",
+      "addRestriction": "கட்டுப்பாட்டைச் சேர்",
+      "newIcMapping": "புதிய IC மேப்பிங்",
+      "newCorporateMapping": "புதிய கார்ப்பரேட் மேப்பிங்",
+      "editCorporateMapping": "கார்ப்பரேட் மேப்பிங் திருத்து",
+      "editIcMapping": "IC மேப்பிங் திருத்து",
+      "viewCorporateMapping": "கார்ப்பரேட் மேப்பிங் பார்",
+      "viewIcMapping": "IC மேப்பிங் பார்"
+    },
+    "addForm": {
+      "providerDetails": "வழங்குநர் விவரங்கள்",
+      "providerName": "வழங்குநர் பெயர்",
+      "providerNamePlaceholder": "வழங்குநர் பெயரை உள்ளிடவும்",
+      "providerType": "வழங்குநர் வகை",
+      "providerNetworkType": "வழங்குநர் நெட்வொர்க் வகை",
+      "providerNetworkTypeDefault": "தேர்ந்தெடுக்கவும்",
+      "networkProvider": "நெட்வொர்க் வழங்குநர்",
+      "nonNetworkProvider": "நான்-நெட்வொர்க் வழங்குநர்",
+      "icSelection": "IC தேர்வு",
+      "icSelectionDefault": "ஒன்று அல்லது மேலும் தேர்ந்தெடுக்கவும்",
+      "empanelmentSource": "எம்பேனல்மென்ட் மூலம்",
+      "empanelmentSourceDefault": "தேர்ந்தெடுக்கவும்",
+      "openExistingProvider": "ஏற்கனவே உள்ள வழங்குநரை திற",
+      "duplicateRohiniTitle": "வழங்குநர் ஏற்கனவே உள்ளது",
+      "duplicateRohiniMessage": "இந்த ROHINI ID உடன் ஒரு வழங்குநர் ஏற்கனவே உள்ளது",
+      "duplicateRohiniRedirect": "Redirect",
+      "duplicateRohiniCancel": "ரத்துசெய்",
+      "rohiniNumber": "ரோஹினி எண்",
+      "rohiniPlaceholder": "13-இலக்க ரோஹினி எண்",
+      "providerCategory": "வழங்குநர் வகைப்பாடு",
+      "providerCategoryDefault": "வழங்குநர் வகைப்பாடு",
+      "providerSubclass": "வழங்குநர் துணை வகுப்பு",
+      "ownershipType": "உரிமை வகை",
+      "addressDetails": "முகவரி விவரங்கள்",
+      "addressLine1": "முகவரி வரி 1",
+      "addressLine2": "முகவரி வரி 2",
+      "pincode": "பின்கோடு",
+      "pincodePlaceholder": "6-இலக்க பின்கோடு",
+      "city": "நகரம்",
+      "cityPlaceholder": "பின்கோடிலிருந்து தானாக நிரப்பப்படும்",
+      "state": "மாநிலம்",
+      "statePlaceholder": "பின்கோடிலிருந்து தானாக நிரப்பப்படும்",
+      "district": "மாவட்டம்",
+      "districtPlaceholder": "மாவட்டத்தை உள்ளிடவும்",
+      "contactDetails": "தொடர்பு விவரங்கள்",
+      "clinicalSpeciality": "மருத்துவ சிறப்பு",
+      "clinicalSpecialityDefault": "ஒன்று அல்லது அதற்கு மேல் தேர்ந்தெடுக்கவும்",
+      "websiteUrl": "வலைத்தள URL",
+      "websitePlaceholder": "https://",
+      "mobileNo": "மொபைல் எண்",
+      "mobilePlaceholder": "10-இலக்க மொபைல் எண்",
+      "telephoneNo": "தொலைபேசி எண்",
+      "telephonePlaceholder": "தொலைபேசி எண்",
+      "faxNo": "தொலைநகல் எண்",
+      "faxPlaceholder": "தொலைநகல் எண்",
+      "email": "மின்னஞ்சல்",
+      "emailPlaceholder": "மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+      "address": "முகவரி",
+      "addressPlaceholder": "முகவரியை உள்ளிடவும்",
+      "panNo": "PAN No",
+      "panPlaceholder": "ABCDE1234F",
+      "providerTypeDefault": "மருத்துவமனை"
+    },
+    "errors": {
+      "noWritePermission": "எழுதும் அனுமதி இல்லை"
+    },
+    "rohiniMaster": {
+      "title": "ரோஹிணி மாஸ்டர்",
+      "filterTitle": "ரோஹிணி மாஸ்டர் வடிகட்டிகள்",
+      "upload": "பதிவேற்றம்",
+      "versionLog": "பதிப்பு பதிவு",
+      "viewDetails": "ரோஹிணி விவரங்கள்",
+      "recordStatus": "பதிவு நிலை",
+      "filterAll": "அனைத்தும்",
+      "rohiniCode": "ரோஹினி குறியீடு",
+      "rohiniExpiryDate": "ரோஹினி காலாவதி தேதி",
+      "nextRenewalDue": "அடுத்த புதுப்பிப்பு தேதி",
+      "location": "இடம்",
+      "cityTown": "நகரம் / ஊர்",
+      "cityVillageTown": "நகரம் / கிராமம் / ஊர்",
+      "pinCode": "பின் குறியீடு",
+      "emailId": "மின்னஞ்சல் ஐடி",
+      "contactNumber": "தொடர்பு எண்",
+      "registrationStatus": "பதிவு நிலை",
+      "networkType": "நெட்வொர்க் வகை",
+      "recordStatusField": "பதிவு நிலை",
+      "latitude": "அட்சரேகை",
+      "longitude": "தீர்க்கரேகை",
+      "rohiniExpiredDate": "ரோஹினி காலாவதி தேதி",
+      "rohiniNextRenewalDueDate": "ரோஹினி அடுத்த புதுப்பிப்பு தேதி",
+      "openMapFor": "{{coords}} க்கான வரைபடத்தைத் திற",
+      "viewOnMap": "வரைபடத்தில் பார்: {{coords}}",
+      "locationDialogTitle": "இடம்",
+      "close": "மூடு",
+      "noCoordinates": "ஆயத்தொலைவுகள் இல்லை",
+      "mapAriaLabel": "இடத்தைக் காட்டும் வரைபடம்",
+      "fetchListFailed": "ரோஹிணி பட்டியலை ஏற்ற முடியவில்லை",
+      "loadVersionLogFailed": "பதிப்பு பதிவை ஏற்ற முடியவில்லை",
+      "exportHint": "தற்போதைய தேடல் வடிகட்டிகள் (அட்டவணை வரம்பு) மூலம் ஏற்றுமதி.",
+      "versionLogSearch": {
+        "inwardNumber": "உள்வரும் எண்",
+        "fileName": "கோப்பு பெயர்",
+        "fromDate": "தொடக்க தேதி",
+        "toDate": "முடிவு தேதி"
+      },
+      "versionLogColumns": {
+        "inwardNumber": "உள்வரும் எண்",
+        "fileName": "கோப்பு பெயர்",
+        "userName": "பயனர் பெயர்",
+        "createdDate": "உருவாக்கிய தேதி"
+      },
+      "uploadForm": {
+        "atLeastOneFile": "குறைந்தது ஒரு கோப்பு தேவை",
+        "fileSizeMax": "ஒவ்வொரு கோப்பும் 50MB-க்கு குறைவாக இருக்க வேண்டும்",
+        "excelOnly": "Excel கோப்புகள் (.xls, .xlsx) மட்டுமே அனுமதிக்கப்படும்",
+        "unsupportedFormat": "ஆதரிக்கப்படாத கோப்பு வடிவம்",
+        "excelHint": "அனுமதி: Excel (.xls, .xlsx) மட்டும் | கோப்புக்கு அதிகபட்சம் 50MB",
+        "clickToUploadExcel": "Excel கோப்பை பதிவேற்ற கிளிக் செய்யவும்",
+        "clickToUploadFile": "கோப்பை பதிவேற்ற கிளிக் செய்யவும்",
+        "processing": "செயலாக்கம்…",
+        "loadingBranchDepartment": "TPA கிளை மற்றும் துறை ஏற்றப்படுகிறது…",
+        "branchNotAvailable": "TPA கிளை \"{{branch}}\" கிடைக்கவில்லை.",
+        "departmentNotAvailable": "துறை \"{{department}}\" கிடைக்கவில்லை.",
+        "branchDepartmentLoading": "கிளை மற்றும் துறை இன்னும் ஏற்றப்படுகிறது. மீண்டும் முயற்சிக்கவும்.",
+        "couldNotResolveBranch": "TPA கிளை \"{{branch}}\" தீர்க்க முடியவில்லை.",
+        "couldNotResolveDepartment": "துறை \"{{department}}\" தீர்க்க முடியவில்லை.",
+        "uploadFailed": "பதிவேற்றம் தோல்வி",
+        "uploadMissingInwardOrFile": "பதிவேற்றம் முடிந்தது ஆனால் உள்வரும் எண் அல்லது கோப்பு ஐடி இல்லை. ரோஹிணி மாஸ்டருடன் பதிவு செய்ய முடியாது.",
+        "registrationCompleted": "ரோஹிணி மாஸ்டர் பதிவு முடிந்தது.",
+        "registeringWithMaster": "ரோஹிணி மாஸ்டருடன் பதிவு செய்யப்படுகிறது…",
+        "inwardCreatedOnUpload": "Excel கோப்பை பதிவேற்றும்போது உங்கள் உள்வரும் எண் உருவாக்கப்படும். பின்னர் ரோஹிணி மாஸ்டருடன் பதிவு செய்வோம்.",
+        "uploadDocumentsLabel": "ஆவணங்களை பதிவேற்று",
+        "uploadDocumentsAction": "ஆவணங்களை பதிவேற்று",
+        "noInwardReturned": "பதிவேற்றம் வெற்றி ஆனால் உள்வரும் எண் திரும்பவில்லை. ரோஹிணி மாஸ்டருடன் பதிவு செய்ய முடியாது.",
+        "noFileReference": "பதிவேற்றம் வெற்றி ஆனால் கோப்பு குறிப்பு திரும்பவில்லை. ரோஹிணி மாஸ்டருடன் இணைக்க முடியாது.",
+        "missingInwardNumber": "பதிவேற்றம் வெற்றி ஆனால் உள்வரும் எண் இல்லை. ரோஹிணி மாஸ்டருடன் பதிவு செய்ய முடியாது.",
+        "documentsUploadedSuccess": "ஆவணங்கள் வெற்றிகரமாக பதிவேற்றப்பட்டன",
+        "inwardNoLabel": "உள்வரும் எண்:"
+      }
+    },
+    "expiry": {
+      "noDate": "காலாவதி தேதி இல்லை",
+      "expiredLessThanOneDay": "1 நாளுக்கும் குறைவாக முன்பு காலாவதியானது",
+      "expiredAgo": "{{days}} {{unit}} முன்பு காலாவதியானது",
+      "warningExpiresIn": "எச்சரிக்கை: {{days}} {{unit}}-இல் காலாவதியாகும்",
+      "expiresIn": "{{days}} {{unit}}-இல் காலாவதியாகும்",
+      "day": "நாள்",
+      "days": "நாட்கள்",
+      "emptyValue": "—"
+    },
+    "detailTabs": {
+      "documents": {
+        "upload": "பதிவேற்றம்",
+        "uploadSuccessful": "பதிவேற்றம் வெற்றி",
+        "uploadSuccessMessage": "ஆவணம் வெற்றிகரமாக பதிவேற்றப்பட்டது.",
+        "uploadDocument": "ஆவணத்தை பதிவேற்று",
+        "selectDocument": "ஆவணத்தைத் தேர்ந்தெடு",
+        "documentLabel": "ஆவணம்",
+        "startDateOptional": "தொடக்க தேதி (விருப்பம்)",
+        "validTillOptional": "செல்லுபடி தேதி (விருப்பம்)",
+        "chooseDocumentType": "ஆவண வகையைத் தேர்ந்தெடு...",
+        "noIcInfo": "IC தகவல் இல்லை"
+      },
+      "bank": {
+        "title": "வங்கி விவரங்கள்",
+        "cancelCheque": "ரத்து செக்",
+        "panCard": "PAN அட்டை",
+        "verifyingIfsc": "IFSC சரிபார்க்கப்படுகிறது...",
+        "verifyIfsc": "IFSC சரிபார்",
+        "ifscVerified": "IFSC சரிபார்க்கப்பட்டது",
+        "ifscNotVerified": "IFSC சரிபார்க்கப்படவில்லை",
+        "ifscVerify": "IFSC சரிபார்",
+        "bankAddressPlaceholder": "முழு முகவரி",
+        "documents": {
+          "preview": "ஆவண முன்னோட்டம்",
+          "noDocumentUploaded": "ஆவணம் பதிவேற்றப்படவில்லை.",
+          "uploadingDocument": "ஆவணம் பதிவேற்றப்படுகிறது…",
+          "loadingDocument": "ஆவணம் ஏற்றப்படுகிறது…",
+          "clickOrDropToReplace": "மாற்ற கிளிக் செய்யவும் அல்லது விடவும்",
+          "dropFileHere": "கோப்பை இங்கே விடவும் அல்லது",
+          "browse": "உலாவு",
+          "uploadHint": "PDF, JPG, JPEG, அல்லது PNG"
+        },
+        "validation": {
+          "completeRequiredFields": "அனைத்து தேவையான வங்கி புலங்களையும் நிரப்பவும்",
+          "uploadDocuments": "ரத்து செக் மற்றும் PAN அட்டையை பதிவேற்றவும்",
+          "accountTypeRequired": "கணக்கு வகை தேவை",
+          "accountHolderTypeRequired": "கணக்கு உரிமையாளர் வகை தேவை"
+        },
+        "fields": {
+          "accountHolderName": "கணக்கு உரிமையாளர் பெயர்",
+          "accountNumber": "கணக்கு எண்",
+          "accountType": "கணக்கு வகை",
+          "accountHolderType": "கணக்கு உரிமையாளர் வகை",
+          "bankName": "வங்கி பெயர்",
+          "bankBranch": "வங்கி கிளை",
+          "ifscCode": "IFSC குறியீடு",
+          "micrCode": "MICR குறியீடு",
+          "panNo": "PAN எண்",
+          "panHolderName": "PAN உரிமையாளர் பெயர்",
+          "tanNo": "TAN எண்",
+          "bankAddress": "வங்கி முகவரி"
+        }
+      },
+      "owner": {
+        "addOwner": "உரிமையாளரைச் சேர்",
+        "noOwnerInfo": "உரிமையாளர் தகவல் எதுவும் இல்லை",
+        "noIcInfo": "IC தகவல் இல்லை",
+        "deletingContact": "தொடர்பு நபரை நீக்குகிறது",
+        "deleteContact": "தொடர்பு நபரை நீக்கு",
+        "deleting": "நீக்குகிறது…",
+        "sections": {
+          "ownerDetails": "உரிமையாளர் விவரங்கள்",
+          "address": "முகவரி",
+          "details": "விவரங்கள்",
+          "contact": "தொடர்பு"
+        },
+        "fields": {
+          "ownerName": "உரிமையாளர் பெயர்",
+          "designation": "பதவி",
+          "qualification": "தகுதி",
+          "gender": "பாலினம்",
+          "selectGender": "பாலினத்தைத் தேர்ந்தெடுக்கவும்",
+          "male": "ஆண்",
+          "female": "பெண்",
+          "pinCode": "பின் குறியீடு"
+        }
+      },
+      "contactPersons": {
+        "addContactPerson": "தொடர்பு நபரைச் சேர்",
+        "noContactDetails": "காட்ட தொடர்பு விவரங்கள் இல்லை",
+        "noContactPersonsOnFile": "தொடர்பு நபர்கள் பதிவு செய்யப்படவில்லை",
+        "noNameOnFile": "பெயர் பதிவு செய்யப்படவில்லை",
+        "defaultRole": "தொடர்பு நபர்",
+        "noDesignation": "பதவி இல்லை",
+        "fields": {
+          "role": "பங்கு",
+          "name": "பெயர்",
+          "mobile": "மொபைல்",
+          "telephone": "தொலைபேசி"
+        },
+        "roles": {
+          "keyContactPerson": "முக்கிய தொடர்பு நபர்",
+          "billingDepartment": "பில்லிங் துறை",
+          "issueHandler": "சிக்கல் கையாளுபவர்",
+          "tpaCoordinator": "TPA ஒருங்கிணைப்பாளர்",
+          "contactPerson": "தொடர்பு நபர்",
+          "ceo": "CEO",
+          "chiefExecutive": "தலைமை நிர்வாக அதிகாரி"
+        }
+      },
+      "providerDetails": {
+        "providerInformation": "வழங்குநர் தகவல்",
+        "addressDetails": "முகவரி விவரங்கள்",
+        "contactDetails": "தொடர்பு விவரங்கள்",
+        "certificates": "சான்றிதழ்கள்",
+        "removeCertificate": "சான்றிதழை அகற்று",
+        "noIcInfo": "IC தகவல் இல்லை",
+        "changeBeforeSave": "சேமிப்பதற்கு முன் குறைந்தது ஒரு புலத்தை மாற்றவும்.",
+        "identifierDetails": "அடையாள விவரங்கள்",
+        "oldProviderCodes": "பழைய வழங்குநர் குறியீடுகள்",
+        "noIdentifierData": "அடையாள தரவு இல்லை",
+        "noCertificateAvailable": "சான்றிதழ் இல்லை",
+        "certificateFileNotAvailable": "சான்றிதழ் கோப்பு இல்லை.",
+        "notRegistered": "பதிவு செய்யப்படவில்லை",
+        "viewCertificate": "சான்றிதழைக் காண்க",
+        "removeRohiniNumber": "ரோஹினி எண்ணை அகற்று",
+        "removeOldProviderCode": "பழைய வழங்குநர் குறியீட்டை அகற்று",
+        "fields": {
+          "grade": "தரம்",
+          "careTier": "பராமரிப்பு நிலை",
+          "dayCare": "பகல்நேர பராமரிப்பு",
+          "signatoryName": "கையொப்பமிடுபவர் பெயர்",
+          "signatoryDesignation": "கையொப்பமிடுபவர் பதவி",
+          "systemOfMedicine": "மருத்துவ முறை",
+          "tpaServicingBranch": "TPA சேவை கிளை",
+          "serviceEmail": "சேவை மின்னஞ்சல்",
+          "zone": "மண்டலம்",
+          "pinCode": "அஞ்சல் குறியீடு",
+          "location": "இடம்",
+          "telePhoneNo": "தொலைபேசி எண்",
+          "mobNo": "மொபைல் எண்",
+          "websiteAvailable": "வலைத்தளம் உள்ளது",
+          "category": "வகை",
+          "registrationNo": "பதிவு எண்",
+          "registrationAct": "பதிவு சட்டம்",
+          "providerRohiniId": "வழங்குநர் ரோஹினி ID",
+          "certName": "பெயர்",
+          "certValidFrom": "செல்லுபடி தொடக்கம்",
+          "certValidTo": "செல்லுபடி முடிவு"
+        }
+      }
+    },
+    "icMapping": {
+      "bulkMapping": "மொத்த IC மேப்பிங்",
+      "upload": "பதிவேற்றம்",
+      "loading": {
+        "networkMappings": "நெட்வொர்க் மேப்பிங்கள் ஏற்றப்படுகின்றன...",
+        "inward": "இன்வர்ட் {{inwardNo}} ஏற்றப்படுகிறது..."
+      },
+      "search": {
+        "networkSummaryTitle": "நெட்வொர்க் சுருக்க தேடல்",
+        "inwardTitle": "மொத்த மேப்பிங் இன்வர்ட் தேடல்",
+        "providerName": "வழங்குநர் பெயர்",
+        "insuranceCompany": "காப்பீட்டு நிறுவனம்",
+        "inwardNo": "இன்வர்ட் எண்",
+        "insurerName": "காப்பீட்டாளர் பெயர்",
+        "rohiniNumber": "ரோஹிணி எண்"
+      },
+      "export": {
+        "landingHint": "தற்போதைய தேடல் வடிகட்டிகளைப் பயன்படுத்தி தற்போதைய பக்கத்தை ஏற்றுமதி செய்கிறது."
+      },
+      "columns": {
+        "insuranceCompany": "காப்பீட்டு நிறுவனம்",
+        "corporateName": "கார்ப்பரேட் பெயர்",
+        "providerName": "வழங்குநர் பெயர்",
+        "providerCode": "வழங்குநர் குறியீடு",
+        "rohiniNumber": "ரோஹிணி எண்",
+        "icProviderCode": "IC வழங்குநர் குறியீடு",
+        "networkSource": "நெட்வொர்க் மூலம்",
+        "networkMode": "நெட்வொர்க் முறை",
+        "tariffType": "கட்டண வகை",
+        "cashlessStatus": "பணமில்லா நிலை",
+        "reimbursement": "பணத்திரும்பப்பெறுதல்",
+        "status": "நிலை",
+        "statusActive": "செயலில்",
+        "statusInactive": "செயலற்றது",
+        "bankMatch": "வங்கி பொருத்தம்",
+        "networkActive": "நெட்வொர்க் செயலில்",
+        "agreementStatus": "ஒப்பந்த நிலை"
+      },
+      "toolbar": {
+        "newIcMapping": "புதிய IC மேப்பிங்",
+        "newCorporate": "புதிய கார்ப்பரேட்",
+        "networkMappingTypeAria": "நெட்வொர்க் மேப்பிங் வகை"
+      },
+      "empty": {
+        "noIcMapping": "IC நெட்வொர்க் மேப்பிங் எதுவும் கிடைக்கவில்லை",
+        "noCorporateMapping": "கார்ப்பரேட் நெட்வொர்க் மேப்பிங் எதுவும் கிடைக்கவில்லை",
+        "noCorporateMappingHint": "இந்த வழங்குநருக்கு முதல் மேப்பிங்கைச் சேர்க்க மேலே \"+ புதிய கார்ப்பரேட்\" ஐப் பயன்படுத்தவும்."
+      },
+      "actions": {
+        "unmap": "அன்மேப்"
+      },
+      "searchFields": {
+        "corporateName": "கார்ப்பரேட் பெயர்",
+        "insuranceCompanyName": "காப்பீட்டு நிறுவன பெயர்",
+        "icProviderCode": "IC வழங்குநர் குறியீடு",
+        "bankMatchStatus": "வங்கி பொருத்த நிலை",
+        "insurerName": "காப்பீட்டாளர் பெயர்",
+        "all": "அனைத்தும்",
+        "matched": "பொருந்தியது",
+        "mismatch": "பொருந்தவில்லை",
+        "pending": "நிலுவையில்"
+      },
+      "formToolbar": {
+        "updateMapping": "மேப்பிங் புதுப்பிக்கவும்",
+        "updating": "புதுப்பிக்கப்படுகிறது...",
+        "loading": "ஏற்றப்படுகிறது..."
+      },
+      "bankMatch": {
+        "matched": "பொருந்தியது",
+        "mismatch": "பொருந்தவில்லை",
+        "pending": "நிலுவையில்"
+      },
+      "form": {
+        "mappingEntityAria": "மேப்பிங் நிறுவனம்",
+        "insuranceCompany": "காப்பீட்டு நிறுவனம்",
+        "selectInsuranceCompany": "காப்பீட்டு நிறுவனத்தைத் தேர்ந்தெடு",
+        "corporate": "கார்பorate",
+        "selectCorporate": "கார்பorate-ஐத் தேர்ந்தெடு",
+        "isDepanel": "De-empanel",
+        "hospitalListFile": "மருத்துவமனை பட்டியல் கோப்பு",
+        "uploadFile": "கோப்பை பதிவேற்று",
+        "submitting": "சமர்ப்பிக்கப்படுகிறது…",
+        "submit": "சமர்ப்பி"
+      },
+      "validation": {
+        "insuranceCompanyRequired": "காப்பீட்டு நிறுவனம் தேவை",
+        "corporateRequired": "கார்பorate தேவை",
+        "hospitalListFileRequired": "மருத்துவமனை பட்டியல் கோப்பு தேவை",
+        "hospitalListFileInvalidFormat": ".xlsx, .xls மற்றும் .csv கோப்புகள் மட்டுமே ஆதரிக்கப்படுகின்றன",
+        "effectiveDateOrder": "பிரபலமாகும் தேதி, பிரபலமாகும் வரை தேதிக்கு முன் அல்லது அதே நாளாக இருக்க வேண்டும்.",
+        "icProviderCodeSpecialChar": "சிறப்பு எழுத்துக்கள் ஏற்றுக்கொள்ளப்படாது",
+        "icProviderCodeAlphanumeric": "எழுத்துகள், எண்கள் மற்றும் ஹைபன் மட்டுமே அனுமதிக்கப்படும்"
+      },
+      "errors": {
+        "branchUnavailable": "TPA கிளை \"Pune-HO\" கிடைக்கவில்லை.",
+        "departmentUnavailable": "துறை \"Provider Network\" கிடைக்கவில்லை.",
+        "contextLoading": "கிளை மற்றும் துறை இன்னும் ஏற்றப்படுகின்றன. மீண்டும் முயற்சிக்கவும்.",
+        "uploadFailed": "மருத்துவமனை பட்டியல் கோப்பை பதிவேற்ற முடியவில்லை.",
+        "inwardNotFound": "இன்வர்ட் கிடைக்கவில்லை",
+        "loadInwardFailed": "இன்வர்ட் ஏற்ற முடியவில்லை"
+      },
+      "success": {
+        "uploadWithInward": "மருத்துவமனை பட்டியல் வெற்றிகரமாக பதிவேற்றப்பட்டது. இன்வர்ட் எண்: {{inwardNo}}"
+      },
+      "agreementStatus": {
+        "completed": "முடிந்தது",
+        "pending": "நிலுவையில்"
+      },
+      "bankMatchCompare": {
+        "compare": "ஒப்பிடு",
+        "clickCompareHint": "விவரங்களைப் பார்க்க ஒப்பிடு என்பதைக் கிளிக் செய்யவும்",
+        "title": "வங்கி விவர ஒப்பீடு",
+        "insurer": "காப்பீட்டாளர்",
+        "mismatchFields": "பொருந்தாத புலங்கள்: {{count}}",
+        "updateProviderDetails": "வழங்குநர் விவரங்களைப் புதுப்பிக்கவும்",
+        "columns": {
+          "field": "புலம்",
+          "provider": "வழங்குநர்",
+          "status": "நிலை"
+        },
+        "fields": {
+          "accountName": "கணக்கு பெயர்",
+          "accountNumber": "கணக்கு எண்",
+          "ifscCode": "IFSC குறியீடு",
+          "bankName": "வங்கி பெயர்",
+          "branch": "கிளை"
+        }
+      }
+    },
+    "soc": {
+      "innerTab": {
+        "soc": "SOC",
+        "discount": "தள்ளுபடி",
+        "ariaLabel": "SOC அல்லது தள்ளுபடி"
+      },
+      "toolbar": {
+        "addSoc": "SOC சேர்",
+        "addDiscount": "தள்ளுபடி சேர்"
+      },
+      "search": {
+        "title": "SOC தேடல்"
+      },
+      "empty": {
+        "notFound": "SOC கிடைக்கவில்லை",
+        "hint": "இந்த வழங்குநருக்கு முதல் கட்டண அட்டவணையைச் சேர்க்க மேலே \"SOC சேர்\" ஐப் பயன்படுத்தவும்."
+      },
+      "columns": {
+        "viewSoc": "SOC பார்",
+        "version": "பதிப்பு",
+        "socName": "SOC பெயர்",
+        "applicableIcs": "பொருந்தும் IC",
+        "lastUpdated": "கடைசி புதுப்பிப்பு",
+        "startDate": "தொடக்க தேதி",
+        "endDate": "முடிவு தேதி",
+        "duration": "காலம்"
+      },
+      "searchFields": {
+        "allStatus": "அனைத்து நிலை"
+      },
+      "details": {
+        "title": "SOC விவரங்கள்",
+        "lastUpdatedOn": "SOC கடைசி புதுப்பிப்பு தேதி",
+        "startDate": "SOC தொடக்க தேதி",
+        "endDate": "SOC முடிவு தேதி",
+        "startDateView": "தொடக்க தேதி",
+        "endDateView": "முடிவு தேதி",
+        "lastUpdatedOnView": "கடைசி புதுப்பிப்பு தேதி"
+      },
+      "versionHistory": {
+        "title": "பதிப்பு வரலாறு",
+        "active": "செயலில்",
+        "openInNewTab": "புதிய தாவலில் திற",
+        "openDocument": "ஆவணத்தைத் திற",
+        "viewInNewTab": "{{name}} புதிய தாவலில் பார்",
+        "openNamed": "{{name}} திற",
+        "activeSoc": "{{name}} செயலில் SOC",
+        "noDocument": "இன்னும் SOC ஆவணம் பதிவேற்றப்படவில்லை.",
+        "showFewer": "குறைவான பதிப்புகளைக் காட்டு",
+        "viewAll": "அனைத்து பதிப்புகளையும் பார்"
+      },
+      "upload": {
+        "selectFile": "கோப்பைத் தேர்ந்தெடு",
+        "removeFile": "தேர்ந்தெடுத்த கோப்பை அகற்று"
+      },
+      "applicableIc": {
+        "title": "பொருந்தும் காப்பீட்டு நிறுவனங்கள்",
+        "selectInsurerSr": "காப்பீட்டாளர் நிறுவனங்களைத் தேர்ந்தெடு",
+        "loadingInsurers": "காப்பீட்டாளர் நிறுவனங்கள் ஏற்றப்படுகின்றன...",
+        "selectInsurers": "காப்பீட்டாளர் நிறுவனங்களைத் தேர்ந்தெடு",
+        "noInsurersYet": "இன்னும் காப்பீட்டாளர் நிறுவனங்கள் சேர்க்கப்படவில்லை",
+        "addInsurers": "காப்பீட்டாளர் நிறுவனங்களைச் சேர்",
+        "insurerName": "காப்பீட்டாளர் பெயர்",
+        "effectiveFrom": "பயன்படுத்தும் தேதி",
+        "action": "செயல்",
+        "removeInsurer": "{{name}} அகற்று",
+        "noIcInfo": "IC தகவல் எதுவும் இல்லை",
+        "oneIcSelected": "1 IC தேர்ந்தெடுக்கப்பட்டது",
+        "icsSelected": "{{count}} IC தேர்ந்தெடுக்கப்பட்டன",
+        "scopes": {
+          "selectIc": "IC தேர்ந்தெடு",
+          "allIcs": "அனைத்து IC",
+          "gipsa": "GIPSA",
+          "gic": "GIC",
+          "psu": "PSU"
+        }
+      },
+      "discount": {
+        "title": "தள்ளுபடி",
+        "standaloneHint": "இந்த வழங்குநருக்கான தள்ளுபடி விதியை உருவாக்கவும்.",
+        "viewHint": "இந்த SOC க்கான தள்ளுபடி கட்டமைப்பு.",
+        "editHint": "இந்த SOC க்கான தள்ளுபடியை கட்டமைக்கவும்.",
+        "type": "தள்ளுபடி வகை",
+        "category": "தள்ளுபடி வகை",
+        "categoryMultiSelect": "தள்ளுபடி வகை (தனிப்பட்ட தள்ளுபடி – பல தேர்வு)",
+        "enterPercentHint": "தேர்ந்தெடுத்த ஒவ்வொரு வகைக்கும் தள்ளுபடி % உள்ளிடவும்",
+        "ppnDiscount": "PPN தள்ளுபடி",
+        "enterPpn": "PPN உள்ளிடவும்",
+        "tatForDiscount": "தள்ளுபடிக்கான TAT",
+        "tatDaysPlaceholder": "நாட்கள்...",
+        "days": "நாட்கள்",
+        "applicableOn": "தள்ளுபடி பொருந்தும்",
+        "inclusion": "சேர்க்கை",
+        "searchInclusion": "சேர்க்கையைத் தேடி தேர்ந்தெடு",
+        "exclusion": "விலக்கு",
+        "searchExclusion": "விலக்கைத் தேடி தேர்ந்தெடு",
+        "ipd": "IPD",
+        "opd": "OPD",
+        "selected": "தேர்ந்தெடுக்கப்பட்டது",
+        "serviceType": "சேவை வகை",
+        "serviceTypeRequired": "IPD அல்லது OPD ஐத் தேர்ந்தெடுக்கவும்.",
+        "selectServiceTypeToChooseDiscounts": "தள்ளுபடி வகைகளைத் தேர்ந்தெடுக்க IPD அல்லது OPD ஐத் தேர்ந்தெடுக்கவும்.",
+        "selectIpdDiscount": "IPD தள்ளுபடியைத் தேர்ந்தெடு",
+        "selectOpdDiscount": "OPD தள்ளுபடியைத் தேர்ந்தெடு",
+        "opdDiscountRequired": "OPD தள்ளுபடியைத் தேர்ந்தெடுத்து % உள்ளிடவும்.",
+        "discountPercent": "தள்ளுபடி %",
+        "enterDiscountPercent": "% உள்ளிடவும்",
+        "additionalDiscount": "கூடுதல் தள்ளுபடி",
+        "effectiveFrom": "பயன்படுத்தும் தேதி",
+        "effectiveTo": "பயன்படுத்தும் தேதி வரை",
+        "selectDate": "தேதியைத் தேர்ந்தெடு",
+        "remarks": "குறிப்புகள்",
+        "remarksPlaceholder": "குறிப்புகளைச் சேர்...",
+        "supportingDocument": "துணை ஆவணம்",
+        "supportingDocumentHint": "PDF, DOC, அல்லது DOCX (அதிகபட்சம் 10MB)",
+        "done": "முடிந்தது",
+        "searchSelect": "தேடி தேர்ந்தெடு...",
+        "componentDiscounts": {
+          "title": "கூறு தள்ளுபடி",
+          "add": "சேர்",
+          "selectComponent": "கூறைத் தேர்ந்தெடு",
+          "emptyHint": "குறைந்தது ஒரு கூறைத் தேர்ந்தெடுத்து % உள்ளிடவும்.",
+          "component": "கூறு",
+          "discountPercent": "தள்ளுபடி %",
+          "applicableOn": "பொருந்தும்",
+          "removeRow": "வரிசையை நீக்கு"
+        },
+        "sections": {
+          "agreement": "ஒப்பந்தம்",
+          "scope": "ஒப்பந்தம் மற்றும் எல்லை",
+          "insuranceCo": "காப்பீட்டு நிறுவனம்",
+          "corporate": "கார்ப்பரேட்",
+          "category": "வகை",
+          "discount": "தள்ளுபடி",
+          "inclExcl": "சேர்க்கை / விலக்கு",
+          "inclExclDetails": "சேர்க்கை, விலக்கு மற்றும் விவரங்கள்",
+          "details": "விவரங்கள்"
+        },
+        "search": {
+          "title": "தள்ளுபடி தேடல்"
+        },
+        "empty": {
+          "notFound": "தள்ளுபடி கிடைக்கவில்லை",
+          "hint": "தள்ளுபடி விதியை உருவாக்க தள்ளுபடி சேர் என்பதைக் கிளிக் செய்யவும், அல்லது உங்கள் தேடலைச் சரிசெய்யவும்."
+        },
+        "columns": {
+          "viewDiscount": "தள்ளுபடியைக் காண்க",
+          "version": "SOC பதிப்பு",
+          "agreementType": "ஒப்பந்த வகை",
+          "insuranceCo": "காப்பீட்டு நிறுவனம்",
+          "corporate": "கார்ப்பரேட்",
+          "discountType": "தள்ளுபடி வகை",
+          "categories": "வகைகள்",
+          "ppnDiscount": "PPN தள்ளுபடி",
+          "applicableIcs": "பொருந்தும் ICகள்",
+          "effectiveFrom": "அமலுக்கு வரும் தேதி"
+        },
+        "types": {
+          "select": "தேர்ந்தெடு",
+          "individual": "தனிப்பட்ட தள்ளுபடி",
+          "netBill": "நிகர பில் தள்ளுபடி",
+          "approvedAmount": "அங்கீகரிக்கப்பட்ட தொகை தள்ளுபடி",
+          "package": "தொகுப்பு தள்ளுபடி"
+        },
+        "panelTitles": {
+          "individual": "தனிப்பட்ட",
+          "netBill": "நிகர பில்",
+          "approvedAmountDiscount": "அங்கீகரிக்கப்பட்ட தொகை",
+          "package": "தொகுப்பு"
+        },
+        "applicableOnOptions": {
+          "select": "தேர்ந்தெடு",
+          "ppnSoc": "PPN SOC",
+          "privateIcSoc": "Private IC SOC",
+          "nonPpnPackage": "Non PPN Package",
+          "noPackage": "No Package"
+        },
+        "fields": {
+          "agreementName": "ஒப்பந்த பெயர்",
+          "agreementType": "ஒப்பந்த வகை",
+          "soc": "SOC",
+          "selectSoc": "SOC தேர்ந்தெடுக்கவும்",
+          "selectAgreementName": "ஒப்பந்த பெயரைத் தேர்ந்தெடு",
+          "allIc": "அனைத்து IC",
+          "allPolicyholders": "அனைத்து பாலிசிதாரர்கள்",
+          "insurers": "காப்பீட்டு நிறுவனங்கள்",
+          "corporate": "கார்ப்பரேட்"
+        },
+        "validation": {
+          "completeRequiredFields": "சேமிப்பதற்கு முன் தேவையான தள்ளுபடி புலங்களை நிரப்பவும்."
+        }
+      }
+    },
+    "standaloneAgreement": {
+      "notFound": "ஒப்பந்தம் கிடைக்கவில்லை",
+      "validation": {
+        "pdfOnly": "PDF கோப்புகள் மட்டுமே அனுமதிக்கப்படும்.",
+        "supportingDocTypes": "PDF, DOCX, PNG, JPG, JPEG, மற்றும் EML கோப்புகள் மட்டுமே அனுமதிக்கப்படும்."
+      }
+    },
+    "excludedProvider": {
+      "bulkExclude": {
+        "label": "மொத்த விலக்கு",
+        "search": {
+          "inwardTitle": "மொத்த விலக்கு உள்வரும் தேடல்"
+        },
+        "loadingInwards": "மொத்த விலக்கு உள்வரும் பதிவுகள் ஏற்றப்படுகின்றன…",
+        "loadingInward": "உள்வரும் {{inwardNo}} ஏற்றப்படுகிறது…",
+        "errors": {
+          "inwardNotFound": "உள்வரும் எண் கிடைக்கவில்லை.",
+          "loadInwardFailed": "உள்வரும் பதிவை ஏற்ற முடியவில்லை."
+        }
+      },
+      "filterTitle": "விலக்கப்பட்ட மருத்துவமனை வடிகட்டிகள்",
+      "viewDetails": "விலக்கப்பட்ட மருத்துவமனை விவரங்கள்",
+      "uploadListTitle": "விலக்கப்பட்ட வழங்குநர் பட்டியலை பதிவேற்று",
+      "uploadSuccessful": "பதிவேற்றம் வெற்றி",
+      "requestFailed": "கோரிக்கை தோல்வி",
+      "inwardValidated": "உள்வரும் எண் வெற்றிகரமாக உருவாக்கப்பட்டது. செயல்படுத்த உள்வரும் எண்ணை திறக்கவும்.",
+      "uploadOrValidationFailed": "பதிவேற்றம் அல்லது சரிபார்ப்பு தோல்வி",
+      "inwardMissing": "உள்வரும் எண் இல்லை. பட்டியலை பதிவேற்றுவதற்கு முன் உள்வரும் எண்ணை உருவாக்கவும்.",
+      "selectBothDocuments": "ஆவணம் மற்றும் ஆதரவு ஆவணம் இரண்டையும் தேர்ந்தெடுக்கவும்.",
+      "validating": "சரிபார்க்கிறது…",
+      "preparingExport": "ஏற்றுமதி தயாராகிறது…",
+      "exportHint": "தற்போதைய தேடல் வடிகட்டிகள் (அட்டவணை வரம்பு) மூலம் ஏற்றுமதி.",
+      "pincodeNumbersOnly": "பின்கோடில் எண்கள் மட்டுமே இருக்க வேண்டும்",
+      "search": {
+        "insurerName": "காப்பீட்டாளர் பெயர்",
+        "restrictedBy": "வரையறுக்கப்பட்டது"
+      },
+      "restrictedBy": {
+        "tpa": "TPA",
+        "insurer": "INSURER"
+      },
+      "table": {
+        "insurerCompanyName": "காப்பீட்டு நிறுவன பெயர்",
+        "effectiveFrom": "நடைமுறை தேதி முதல்"
+      },
+      "view": {
+        "providerName": "வழங்குநர் பெயர்",
+        "insurerCompanyName": "காப்பீட்டு நிறுவன பெயர்",
+        "providerCode": "வழங்குநர் குறியீடு",
+        "rohiniCode": "ரோஹிணி குறியீடு",
+        "effectiveFrom": "நடைமுறை தேதி முதல்",
+        "effectiveTo": "நடைமுறை தேதி வரை",
+        "remarkCategory": "குறிப்பு வகை",
+        "status": "நிலை",
+        "claimScope": "கோரிக்கை நோக்கம்",
+        "remarks": "குறிப்புகள்",
+        "facilities": "வசதிகள்",
+        "excludedBy": "விலக்கியவர்"
+      },
+      "uploadDialog": {
+        "selectBlacklistedBy": "பிளாக்லிஸ்ட் செய்தவரைத் தேர்ந்தெடு",
+        "selectRestrictionType": "கட்டுப்பாட்டு வகையைத் தேர்ந்தெடு",
+        "selectInvestigationType": "விசாரணை வகையைத் தேர்ந்தெடு",
+        "selectIc": "IC தேர்ந்தெடு",
+        "selectRestrictionApplicableFor": "பொருந்தும் கட்டுப்பாட்டைத் தேர்ந்தெடு",
+        "restrictionType": "கட்டுப்பாட்டு வகை",
+        "restrictedBy": "வரையறுக்கப்பட்டது",
+        "effectiveFrom": "நடைமுறை தேதி முதல்",
+        "insurerCompany": "காப்பீட்டு நிறுவனம்",
+        "restrictionApplicableFor": "கட்டுப்பாடு பொருந்தும்",
+        "investigationType": "விசாரணை வகை",
+        "document": "ஆவணம் (Excel, CSV அல்லது PDF)",
+        "supportingDocument": "Supporting ஆவணம் (PDF, DOCX, PNG, JPG, JPEG, EML)",
+        "remark": "குறிப்பு",
+        "remarkPlaceholder": "விருப்ப குறிப்பு...",
+        "excluded": "விலக்கப்பட்ட",
+        "watchlisted": "வாட்ச்லிஸ்ட்",
+        "fullInvestigation": "முழு விசாரணை",
+        "partialInvestigation": "பகுதி விசாரணை",
+        "cashlessOnHold": "கேஷ்லெஸ் ஹோல்டில்",
+        "reimbursement": "பணமளிப்பு",
+        "submit": "சமர்ப்பி",
+        "submitting": "சமர்ப்பிக்கிறது…",
+        "inwardNoLabel": "உள்வரும் எண்:"
+      },
+      "uploadResult": {
+        "exclude": "விலக்கு",
+        "newAdd": "புதிய சேர்ப்பு",
+        "total": "மொத்தம்"
+      }
+    }
+  }
+}

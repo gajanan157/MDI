@@ -1,0 +1,5 @@
+com\mdindia\enrollment\ecard\entity\ECardTemplateEntity.class
+com\mdindia\enrollment\ecard\controller\ECardController.class
+com\mdindia\enrollment\ecard\ECardServiceApplication.class
+com\mdindia\enrollment\ecard\entity\ECardTemplateEntity$Builder.class
+com\mdindia\enrollment\ecard\repository\ECardTemplateRepository.class

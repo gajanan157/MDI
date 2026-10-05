@@ -1,0 +1,64 @@
+/* react-datepicker — align with MDIndia form controls (no dark full-screen portal). */
+
+.react-datepicker__portal {
+  background-color: transparent !important;
+  pointer-events: none;
+}
+
+.react-datepicker__portal .react-datepicker {
+  pointer-events: auto;
+}
+
+.provider-date-picker-wrapper {
+  display: block;
+  width: 100%;
+}
+
+.provider-date-picker-wrapper .react-datepicker__input-container {
+  display: block;
+  width: 100%;
+}
+
+.provider-date-picker-wrapper .react-datepicker__input-container input {
+  width: 100%;
+}
+
+.provider-date-picker-wrapper .react-datepicker__calendar-icon {
+  padding: 0.5rem;
+  fill: #6b7280;
+  right: 0.35rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: auto;
+}
+
+.provider-date-picker-wrapper .react-datepicker__view-calendar-icon input {
+  padding-left: 0.75rem;
+  padding-right: 2rem;
+}
+
+.provider-date-picker-popper {
+  z-index: 9999 !important;
+}
+
+.provider-date-picker-popper .react-datepicker {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 0.08),
+    0 4px 6px -4px rgb(0 0 0 / 0.08);
+  font-family: inherit;
+}
+
+.provider-date-picker-popper .react-datepicker__header {
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.provider-date-picker-popper .react-datepicker__day--selected,
+.provider-date-picker-popper .react-datepicker__day--keyboard-selected {
+  background-color: var(--color-primary-600, #4f46e5);
+  border-radius: 9999px;
+}

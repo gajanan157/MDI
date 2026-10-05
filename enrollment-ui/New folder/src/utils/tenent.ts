@@ -1,0 +1,1 @@
+export  const  Tenent_Id ="ec94aeac-9b6d-43ec-8c53-4905b0e103e1"

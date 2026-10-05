@@ -1,0 +1,136 @@
+// Import Dependencies
+import {
+  Listbox,
+  ListboxButton,
+  ListboxOption,
+  ListboxOptions,
+  Transition,
+} from "@headlessui/react";
+import clsx from "clsx";
+import { useState } from "react";
+
+// Local Imports
+import { Spinner } from "@/components/ui";
+import { useLocaleContext } from "@/app/contexts/locale/context";
+import { locales, LocaleCode } from "@/i18n/langs";
+
+// ----------------------------------------------------------------------
+
+interface LanguageItem {
+  value: LocaleCode;
+  label: string;
+  shortLabel: string;
+}
+
+function getLanguageShortLabel(label: string): string {
+  return label.slice(0, 2);
+}
+
+const langs: LanguageItem[] = Object.keys(locales).map((key) => {
+  const code = key as LocaleCode;
+  const label = locales[code].label;
+  return {
+    value: code,
+    label,
+    shortLabel: getLanguageShortLabel(label),
+  };
+});
+
+function LanguageCircleBadge({
+  shortLabel,
+  selected = false,
+  size = "md",
+}: {
+  shortLabel: string;
+  selected?: boolean;
+  size?: "sm" | "md";
+}) {
+  return (
+    <span
+      className={clsx(
+        "inline-flex shrink-0 items-center justify-center rounded-full font-semibold leading-none tracking-tight shadow-sm",
+        size === "sm" ? "size-7 text-[10px]" : "size-8 text-[11px]",
+        selected
+          ? "bg-white/25 text-white ring-1 ring-white/40"
+          : "bg-primary-100 text-primary-700 ring-1 ring-primary-200/70 dark:bg-primary-900/50 dark:text-primary-200 dark:ring-primary-700/50",
+      )}
+      aria-hidden
+    >
+      {shortLabel}
+    </span>
+  );
+}
+
+const LanguageSelector = () => {
+  const [loading, setLoading] = useState<boolean>(false);
+  const { locale, updateLocale } = useLocaleContext();
+
+  const onLanguageSelect = async (lang: LocaleCode) => {
+    setLoading(true);
+    try {
+      await updateLocale(lang);
+      setLoading(false);
+    } catch (error) {
+      console.error(error);
+      setLoading(false);
+    }
+  };
+  return (
+    <Listbox as="div" value={locale} onChange={onLanguageSelect}>
+      <div className="relative">
+        <ListboxButton
+          className="rounded-full outline-hidden transition hover:opacity-90 focus:outline-hidden [&:hover_span]:bg-primary-200/90 dark:[&:hover_span]:bg-primary-900/70"
+          aria-label="Select language"
+        >
+          {loading ? (
+            <span className="flex size-8 items-center justify-center">
+              <Spinner color="primary" className="size-5" />
+            </span>
+          ) : (
+            <LanguageCircleBadge
+              shortLabel={getLanguageShortLabel(locales[locale as LocaleCode].label)}
+            />
+          )}
+        </ListboxButton>
+        <Transition
+          enter="transition ease-out"
+          enterFrom="opacity-0 translate-y-2"
+          enterTo="opacity-100 translate-y-0"
+          leave="transition ease-in"
+          leaveFrom="opacity-100 translate-y-0"
+          leaveTo="opacity-0 translate-y-2"
+        >
+          <ListboxOptions
+            anchor={{ to: "bottom end", gap: 8 }}
+            className="dark:border-dark-500 dark:bg-dark-700 z-101 w-min min-w-[10rem] overflow-y-auto rounded-lg border border-gray-300 bg-white py-1 font-medium shadow-lg shadow-gray-200/50 outline-hidden focus-visible:outline-hidden ltr:right-0 rtl:left-0 dark:shadow-none"
+          >
+            {langs.map((lang) => (
+              <ListboxOption
+                key={lang.value}
+                className={({ selected, active }) =>
+                  clsx(
+                    "relative flex cursor-pointer px-4 py-2 transition-colors select-none",
+                    active && !selected && "dark:bg-dark-600 bg-gray-100",
+                    selected
+                      ? "bg-primary-600 dark:bg-primary-500 text-white"
+                      : "dark:text-dark-100 text-gray-800",
+                  )
+                }
+                value={lang.value}
+              >
+                {({ selected }) => (
+                  <div className="flex items-center gap-3 rtl:space-x-reverse">
+                    <LanguageCircleBadge shortLabel={lang.shortLabel} selected={selected} size="sm" />
+                    <span className="block truncate">{lang.label}</span>
+                  </div>
+                )}
+              </ListboxOption>
+            ))}
+          </ListboxOptions>
+        </Transition>
+      </div>
+    </Listbox>
+  );
+};
+
+export { LanguageSelector };
