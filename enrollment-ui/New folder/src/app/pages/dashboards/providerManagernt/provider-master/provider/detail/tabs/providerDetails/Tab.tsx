@@ -45,13 +45,13 @@ function DesktopProviderDetailsColumns({
   certificates: ReactNode;
 }>) {
   return (
-    <div className="flex flex-col gap-1.5 lg:flex-row lg:items-start">
-      <div className="flex w-full min-w-0 flex-col gap-1.5 lg:w-1/2">
+    <div className="flex flex-col gap-2 lg:flex-row lg:items-start">
+      <div className="flex w-full min-w-0 flex-col gap-2 lg:w-1/2">
         {providerInformation}
         {identifierDetails}
         {!isEditMode ? addressDetails : null}
       </div>
-      <div className="flex w-full min-w-0 flex-col gap-1.5 lg:w-1/2">
+      <div className="flex w-full min-w-0 flex-col gap-2 lg:w-1/2">
         {contactDetails}
         {certificates}
         {isEditMode ? addressDetails : null}
@@ -223,13 +223,13 @@ export function ProviderDetailsTab({
   }
 
   return (
-    <div className="flex min-h-0 flex-1 flex-col gap-0.5 overflow-hidden bg-gray-50 p-1">
+    <div data-testid="provider-details-tab" className="flex min-h-0 flex-1 flex-col gap-2 overflow-hidden bg-slate-50 p-2">
       {providerBarSection ? (
         <div className="shrink-0">{providerBarSection}</div>
       ) : null}
       <div className="shrink-0">{statusBar}</div>
 
-      <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-contain pb-1">
+      <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-contain pb-2">
         <DesktopProviderDetailsColumns
           isEditMode={isEditMode}
           providerInformation={providerInformation}

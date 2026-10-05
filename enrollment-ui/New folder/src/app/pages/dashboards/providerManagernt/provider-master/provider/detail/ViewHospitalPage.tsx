@@ -11,7 +11,7 @@ export default function ViewHospitalPage() {
     <Page title={page.pageTitle}>
       <PageContent noPadding className="flex h-full min-h-0 min-w-0 w-full flex-1 flex-col overflow-hidden">
         <div className="flex min-h-0 flex-1 flex-col overflow-hidden px-0.5 py-1 sm:px-2">
-          <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-md border border-gray-200 bg-white shadow-sm sm:rounded-lg">
+          <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-lg border border-slate-200 bg-white">
             <Tabs
               tabs={tabs}
               fitTabsInOneRow

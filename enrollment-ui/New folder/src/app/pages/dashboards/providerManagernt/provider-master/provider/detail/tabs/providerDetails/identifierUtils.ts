@@ -25,7 +25,7 @@ export const IDENTIFIER_SHELL_CLASS =
   "min-w-0 overflow-hidden rounded-md border border-slate-200/90 bg-white";
 
 export const IDENTIFIER_HEADER_CLASS =
-  "border-b border-slate-200/80 bg-gray-100 px-1.5 py-0.5 text-[10px] font-bold leading-none text-gray-700";
+  "border-b border-slate-200 bg-slate-50 px-2 py-1 text-[10px] font-semibold uppercase tracking-wider leading-none text-slate-500";
 
 export const IDENTIFIER_SECTION_TITLE_CLASS =
   "text-[10px] font-bold leading-none text-gray-700";
@@ -33,15 +33,15 @@ export const IDENTIFIER_SECTION_TITLE_CLASS =
 export const IDENTIFIER_HINT_CLASS = "text-[9px] leading-tight text-slate-500";
 
 export const IDENTIFIER_VALUE_CLASS =
-  "min-w-0 break-all font-mono text-[10px] font-semibold leading-snug tabular-nums text-gray-900";
+  "min-w-0 break-all font-mono text-[11px] font-semibold leading-snug tabular-nums text-slate-900";
 
 export const IDENTIFIER_TYPE_CLASS = "text-[10px] font-bold leading-snug text-gray-700";
 
 export const IDENTIFIER_LABEL_COL_CLASS =
-  "w-[42%] shrink-0 bg-gray-100 px-1.5 py-1 text-[10px] font-bold leading-snug text-gray-700";
+  "w-[42%] shrink-0 px-2 py-1 text-[11px] font-medium leading-snug text-slate-500";
 
 export const IDENTIFIER_VALUE_COL_CLASS =
-  "flex min-w-0 flex-1 items-center gap-1.5 bg-white px-1.5 py-1";
+  "flex min-w-0 flex-1 items-center gap-1.5 bg-white px-2 py-1";
 
 export const IDENTIFIER_ROW_MAIN_CLASS =
   "flex border-b border-slate-200/80 last:border-b-0";
@@ -56,13 +56,13 @@ export const IDENTIFIER_META_VALUE_CLASS =
   "min-w-0 flex-1 break-words px-1.5 py-0.5 text-slate-800";
 
 export const IDENTIFIER_ACCORDION_BUTTON_CLASS =
-  "w-full bg-gray-100 px-1.5 py-1 text-left transition-colors hover:bg-gray-200/60";
+  "w-full bg-slate-50 px-2 py-1 text-left transition-colors hover:bg-slate-100";
 
 export const IDENTIFIER_ACCORDION_PANEL_CLASS =
   "border-t border-slate-200/80 bg-white";
 
 export const IDENTIFIER_EMPTY_MESSAGE_CLASS =
-  "rounded-md border border-slate-200/80 bg-slate-50 px-2 py-1.5 text-[10px] text-slate-600";
+  "rounded-md border border-dashed border-slate-300 bg-slate-50 px-3 py-2.5 text-xs text-slate-500";
 
 export const IDENTIFIER_STATUS_ACTIVE_CLASS =
   "inline-flex shrink-0 rounded px-1 py-px text-[9px] font-semibold uppercase leading-none text-emerald-900 ring-1 ring-emerald-300/70 bg-emerald-100/90";

@@ -300,8 +300,8 @@ export function StatusEditVerifyBar({
   return (
     <div
       className={clsx(
-        "rounded-md border border-gray-200 bg-white shadow-sm",
-        middleContent ? "px-1.5 py-0.5" : "px-2 py-1",
+        "rounded-lg border border-slate-200 bg-white",
+        middleContent ? "px-2 py-1" : "px-2.5 py-1.5",
       )}
     >
       {toolbarBody}

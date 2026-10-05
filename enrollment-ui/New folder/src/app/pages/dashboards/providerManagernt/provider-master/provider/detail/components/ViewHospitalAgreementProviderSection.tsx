@@ -47,7 +47,7 @@ function ProviderMobileSummary({
     <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
       <div className="p-3">
         <div className="flex items-start gap-2.5">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-100 text-violet-700">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-teal-700 text-white">
             <BuildingOffice2Icon className="h-6 w-6" aria-hidden />
           </div>
           <div className="min-w-0 flex-1">
@@ -163,10 +163,22 @@ export function ViewHospitalAgreementProviderSection({
   }
 
   return (
-    <div className="overflow-hidden rounded-lg border border-violet-200/80 bg-white shadow-md ring-1 ring-violet-100/80">
-      <div className="border-l-4 border-violet-500 bg-gray-50/90">
+    <div
+      data-testid="provider-detail-hero"
+      className="overflow-hidden rounded-lg border border-slate-200 bg-white"
+    >
+      <div className="border-l-[3px] border-teal-600">
         <ProviderSummaryBar
           embedded
+          status={providerDetailsFields?.recordStatus}
+          verified={providerDetailsFields?.providerIsVerified === true}
+          descriptors={[
+            providerDetailsFields?.providerTypeName ?? "",
+            providerDetailsFields?.providerCareTier ?? "",
+            [providerDetailsFields?.providerCity, providerDetailsFields?.providerStateName]
+              .filter(Boolean)
+              .join(", "),
+          ]}
           providerNetworkType={providerNetworkTypeLabel}
           tpaProviderNetwork={tpaProviderNetworkLabel}
           insurerProviderNetwork={insurerProviderNetworkLabel}

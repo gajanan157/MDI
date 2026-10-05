@@ -255,7 +255,8 @@ function NetworkChipsContent({
             ? closeLabel
             : t("providerMaster.toolbar.viewAllNetworkTypesAria")
         }
-        className="relative z-40 inline-flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-md border border-slate-200 bg-white text-slate-600 shadow-sm transition-colors hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-sky-500"
+        data-testid="provider-network-types-toggle"
+        className="relative z-40 inline-flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-md border border-slate-200 bg-white text-slate-600 transition-colors hover:border-teal-300 hover:bg-teal-50 hover:text-teal-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-teal-500"
       >
         {open ? (
           <XMarkIcon className="h-4 w-4" aria-hidden />
@@ -275,7 +276,7 @@ function NetworkChipsContent({
         leaveTo="opacity-0 translate-x-4"
       >
         <PopoverPanel
-          className="absolute right-9 top-0 z-30 w-max max-w-[min(34rem,calc(100vw-22rem))] rounded-xl border border-slate-200 bg-white p-1.5 shadow-lg"
+          className="absolute right-9 top-0 z-30 w-max max-w-[min(34rem,calc(100vw-22rem))] rounded-lg border border-slate-200 bg-white p-1.5 shadow-lg"
           aria-label={t("providerMaster.toolbar.allNetworkTypes")}
         >
           <div className="flex flex-row flex-nowrap items-stretch justify-end gap-1">

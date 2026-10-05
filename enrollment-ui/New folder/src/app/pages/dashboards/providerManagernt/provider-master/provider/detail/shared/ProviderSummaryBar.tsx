@@ -1,6 +1,4 @@
-import {
-  BuildingOffice2Icon,
-} from "@heroicons/react/24/outline";
+import { MapPinIcon } from "@heroicons/react/24/outline";
 import { useTranslation } from "react-i18next";
 import {
   getProviderSummaryBarLabel,
@@ -20,64 +18,64 @@ type ProviderSummaryBarProps = {
   insurerProviderNetwork?: string;
   /** Removes outer card chrome when nested inside a parent header shell. */
   embedded?: boolean;
+  /** Record status (e.g. ACTIVE) shown as a pill next to the name. */
+  status?: string | null;
+  /** Shows a verified pill next to the status. */
+  verified?: boolean;
+  /** Secondary descriptors (type, class, city) rendered as muted chips. */
+  descriptors?: string[];
 };
 
-const fieldLabelClass =
-  "text-[10px] font-semibold uppercase tracking-wide text-gray-500 sm:text-[9px]";
-const fieldValueClass = "mt-0 text-xs leading-4 text-gray-900 sm:text-[11px]";
+function readValue(item?: ProviderSummaryItem): string {
+  const text = String(item?.value ?? "").trim();
+  return text === "—" ? "" : text;
+}
 
-function FieldValue({
-  text,
-  wrap = false,
-  lines = 1,
-  className = "",
-}: Readonly<{
-  text: string;
-  wrap?: boolean;
-  lines?: 1 | 2;
-  className?: string;
-}>) {
-  if (wrap) {
-    return (
-      <span className={`block min-w-0 break-words ${className}`} title={text}>
-        {text}
-      </span>
-    );
-  }
+function buildInitials(name: string): string {
+  const words = name.split(/\s+/).filter(Boolean);
+  if (words.length === 0) return "PR";
+  return words
+    .slice(0, 2)
+    .map((word) => word[0]?.toUpperCase() ?? "")
+    .join("");
+}
 
-  const clampClass = lines === 2 ? "line-clamp-2" : "truncate";
-
+function StatusPill({ status }: Readonly<{ status: string }>) {
+  const normalized = status.trim().toUpperCase();
+  const isActive = normalized === "ACTIVE";
   return (
-    <span className={`block min-w-0 ${clampClass} ${className}`} title={text}>
-      {text}
+    <span
+      data-testid="provider-status-pill"
+      className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
+        isActive
+          ? "border-emerald-200 bg-emerald-50 text-emerald-700"
+          : "border-slate-200 bg-slate-50 text-slate-600"
+      }`}
+    >
+      <span
+        className={`h-1.5 w-1.5 rounded-full ${isActive ? "bg-emerald-500" : "bg-slate-400"}`}
+        aria-hidden
+      />
+      {status}
     </span>
   );
 }
 
-function SummaryField({
-  item,
-  wide = false,
-  wrap = false,
-  clampLines = 1,
-}: Readonly<{
-  item: ProviderSummaryItem;
-  wide?: boolean;
-  wrap?: boolean;
-  clampLines?: 1 | 2;
-}>) {
-  const { t } = useTranslation();
-  const text = String(item.value ?? "").trim();
-  if (!text || text === "—") return null;
-
-  const widthClass = wide
-    ? "min-w-0 flex-[1_1_0%] basis-0"
-    : "min-w-0 lg:shrink-0 lg:max-w-[9rem]";
-
+function KeyValue({
+  label,
+  value,
+  mono = false,
+}: Readonly<{ label: string; value: string; mono?: boolean }>) {
   return (
-    <div className={`px-2 py-1 sm:py-0.5 ${widthClass}`}>
-      <dt className={fieldLabelClass}>{getProviderSummaryBarLabel(item.key, t)}</dt>
-      <dd className={fieldValueClass}>
-        <FieldValue text={text} wrap={wrap} lines={clampLines} />
+    <div className="min-w-0" data-testid={`provider-summary-${label.toLowerCase().replace(/\s+/g, "-")}`}>
+      <dt className="text-[10px] font-semibold uppercase tracking-wider text-slate-500">
+        {label}
+      </dt>
+      <dd
+        className={`mt-0.5 truncate text-xs font-semibold text-slate-900 ${mono ? "font-mono tabular-nums" : ""}`}
+        title={value}
+      >
+        {value}
       </dd>
     </div>
   );
@@ -89,75 +87,96 @@ export function ProviderSummaryBar({
   tpaProviderNetwork = "",
   insurerProviderNetwork = "",
   embedded = false,
+  status,
+  verified = false,
+  descriptors = [],
 }: Readonly<ProviderSummaryBarProps>) {
   const { t } = useTranslation();
 
-  const visible = items.filter((item) => {
-    const v = String(item.value ?? "").trim();
-    return v !== "" && v !== "—";
-  });
+  const providerName = readValue(items.find((item) => item.key === "providerName"));
+  const address = readValue(items.find((item) => item.key === "address"));
+  const providerCodeItem = items.find((item) => item.key === "providerCode");
+  const rohiniItem = items.find((item) => item.key === "rohiniId");
+  const providerCode = readValue(providerCodeItem);
+  const rohiniId = readValue(rohiniItem);
+  const networkType = providerNetworkType.trim() || "-";
+  const statusText = String(status ?? "").trim();
+  const chips = descriptors.map((entry) => entry.trim()).filter(Boolean);
 
-  const providerName = visible.find((item) => item.key === "providerName");
-  const address = visible.find((item) => item.key === "address");
-  const providerCode = visible.find((item) => item.key === "providerCode");
-  const rohiniId = visible.find((item) => item.key === "rohiniId");
-
-  if (
-    visible.length === 0 &&
-    (providerNetworkType === "—" || providerNetworkType === "-")
-  ) {
+  if (!providerName && !address && !providerCode && !rohiniId && networkType === "-") {
     return null;
   }
 
-  const networkType = providerNetworkType.trim() || "-";
-
   return (
     <div
+      data-testid="provider-summary-bar"
       className={
         embedded
-          ? "bg-transparent px-0.5 py-0.5"
-          : "rounded-md border border-gray-200 bg-gray-50/90 px-0.5 py-0.5 shadow-sm"
+          ? "px-3 py-2.5"
+          : "rounded-lg border border-slate-200 bg-white px-3 py-2.5"
       }
     >
-      <div className="grid w-full grid-cols-2 gap-0.5 lg:flex lg:flex-row lg:items-center lg:gap-0 lg:divide-x lg:divide-gray-200/80">
-        {providerName || address ? (
-          <div className="col-span-2 flex min-w-0 flex-1 flex-col gap-0.5 sm:flex-row sm:items-start sm:divide-x sm:divide-gray-200/80 lg:gap-0">
-            {providerName ? (
-              <div className="flex min-w-0 flex-[1_1_0%] basis-0 gap-1 px-2 py-1 sm:py-0.5">
-                <BuildingOffice2Icon
-                  className="mt-0.5 h-3.5 w-3.5 shrink-0 text-blue-600"
-                  aria-hidden
-                />
-                <div className="min-w-0 flex-1">
-                  <dt className={fieldLabelClass}>
-                    {getProviderSummaryBarLabel(providerName.key, t)}
-                  </dt>
-                  <dd className={`${fieldValueClass} font-medium`}>
-                    <FieldValue
-                      text={String(providerName.value ?? "").trim()}
-                      wrap
-                    />
-                  </dd>
-                </div>
-              </div>
-            ) : null}
-
-            {address ? <SummaryField item={address} wide wrap /> : null}
+      <div className="flex flex-col gap-2 lg:flex-row lg:items-center lg:gap-4">
+        <div className="flex min-w-0 flex-1 items-start gap-3">
+          <div
+            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-teal-700 font-heading text-sm font-bold tracking-tight text-white"
+            aria-hidden
+          >
+            {buildInitials(providerName)}
           </div>
-        ) : null}
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+              <h2
+                className="min-w-0 truncate font-heading text-base font-bold tracking-tight text-slate-900"
+                title={providerName}
+                data-testid="provider-summary-name"
+              >
+                {providerName || "—"}
+              </h2>
+              {statusText ? <StatusPill status={statusText} /> : null}
+              {verified ? (
+                <span
+                  data-testid="provider-verified-pill"
+                  className="inline-flex items-center rounded-full border border-teal-200 bg-teal-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-teal-700"
+                >
+                  {t("providerMaster.common.verified", { defaultValue: "Verified" })}
+                </span>
+              ) : null}
+            </div>
+            <div className="mt-0.5 flex flex-wrap items-center gap-x-3 gap-y-0.5 text-xs text-slate-500">
+              {address ? (
+                <span className="inline-flex min-w-0 items-center gap-1" title={address}>
+                  <MapPinIcon className="h-3.5 w-3.5 shrink-0 text-slate-400" aria-hidden />
+                  <span className="truncate">{address}</span>
+                </span>
+              ) : null}
+              {chips.map((chip) => (
+                <span
+                  key={chip}
+                  className="rounded-sm border border-slate-200 bg-slate-50 px-1.5 py-px text-[10px] font-medium text-slate-600"
+                >
+                  {chip}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
 
-        <div className="relative col-span-2 flex min-w-0 items-center lg:ml-auto lg:divide-x lg:divide-gray-200/80">
-          {providerCode ? <SummaryField item={providerCode} clampLines={1} /> : null}
-          {rohiniId ? <SummaryField item={rohiniId} clampLines={1} /> : null}
-
-          <div className="flex shrink-0 items-center px-2 py-1 sm:py-0.5 lg:border-l-0">
+        <dl className="flex shrink-0 flex-wrap items-center gap-x-5 gap-y-1 border-slate-200 lg:border-l lg:pl-4">
+          {providerCode && providerCodeItem ? (
+            <KeyValue label={getProviderSummaryBarLabel(providerCodeItem.key, t)} value={providerCode} mono />
+          ) : null}
+          {rohiniId && rohiniItem ? (
+            <KeyValue label={getProviderSummaryBarLabel(rohiniItem.key, t)} value={rohiniId} mono />
+          ) : null}
+          <div className="flex shrink-0 items-center">
             <ProviderSummaryMetaChips
               networkType={networkType}
               tpaProviderNetwork={tpaProviderNetwork}
               insurerProviderNetwork={insurerProviderNetwork}
             />
           </div>
-        </div>
+        </dl>
       </div>
     </div>
   );

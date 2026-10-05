@@ -45,10 +45,10 @@ export function ProviderSectionCard({
   return (
     <section
       data-expanded={isExpanded ? true : undefined}
-      className={`rounded-lg border bg-white shadow-md ${isExpanded ? "overflow-visible" : "overflow-hidden"} ${fillHeight ? "flex h-full min-h-0 flex-col" : ""} ${className}`}
+      className={`rounded-lg border border-slate-200 bg-white ${isExpanded ? "overflow-visible" : "overflow-hidden"} ${fillHeight ? "flex h-full min-h-0 flex-col" : ""} ${className}`}
     >
       <div
-        className={`shrink-0 bg-gray-200 px-3 py-1.5 font-semibold text-gray-700 sm:px-2.5 sm:py-1 ${titleClassName}`}
+        className={`flex shrink-0 items-center gap-2 border-b border-slate-200 bg-slate-50/80 px-3 py-1.5 font-semibold text-slate-800 before:h-3.5 before:w-0.5 before:shrink-0 before:rounded-full before:bg-teal-600 before:content-[''] [&>*]:min-w-0 [&>*]:flex-1 ${titleClassName}`}
       >
         {title}
       </div>
@@ -82,16 +82,16 @@ export function DetailRow({
   }
 
   const rowTextSize = compact
-    ? "text-[11px] leading-tight sm:text-[10px]"
-    : "text-xs leading-snug sm:text-[11px]";
+    ? "text-[11px] leading-tight"
+    : "text-xs leading-snug";
 
   if (layout === "stacked") {
     return (
       <div className={`border-b last:border-0 ${rowTextSize}`}>
-        <dt className="bg-gray-100 px-4 py-1 font-bold text-gray-700">
+        <dt className="px-3 pt-1 font-medium text-slate-500">
           {label}
         </dt>
-        <dd className="min-w-0 break-words bg-white px-4 py-1 text-gray-900">
+        <dd className="min-w-0 break-words px-3 pb-1 font-medium text-slate-900">
           {display}
         </dd>
       </div>
@@ -99,12 +99,12 @@ export function DetailRow({
   }
 
   return (
-    <div className={`flex flex-row items-stretch border-b last:border-0 ${rowTextSize}`}>
+    <div className={`flex flex-row items-stretch border-b border-slate-100 last:border-0 ${rowTextSize}`}>
       <dt
         className={
           compact
-            ? "w-[42%] shrink-0 bg-gray-100 px-2 py-0.5 font-bold leading-tight text-gray-700 sm:w-[40%] sm:px-1 sm:py-0.5"
-            : "w-[42%] shrink-0 bg-gray-100 px-2 py-1.5 font-bold leading-tight text-gray-700 sm:w-[40%] sm:px-1 sm:py-1"
+            ? "w-[42%] shrink-0 px-1 py-1 font-medium leading-tight text-slate-500 sm:w-[40%]"
+            : "w-[42%] shrink-0 px-1 py-1.5 font-medium leading-tight text-slate-500 sm:w-[40%]"
         }
       >
         {label}
@@ -112,8 +112,8 @@ export function DetailRow({
       <dd
         className={
           compact
-            ? "w-[58%] min-w-0 break-words bg-white px-2 py-0.5 leading-tight text-gray-900 sm:w-[60%] sm:px-1 sm:py-0.5"
-            : "w-[58%] min-w-0 break-words bg-white px-2 py-1.5 leading-tight text-gray-900 sm:w-[60%] sm:px-1 sm:py-1"
+            ? "w-[58%] min-w-0 break-words px-1 py-1 font-medium leading-tight text-slate-900 sm:w-[60%]"
+            : "w-[58%] min-w-0 break-words px-1 py-1.5 font-medium leading-tight text-slate-900 sm:w-[60%]"
         }
       >
         {display}

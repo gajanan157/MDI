@@ -106,19 +106,19 @@ export function ProviderCard({
   return (
     <div
       className={clsx(
-        "min-w-0 overflow-hidden rounded-lg border border-slate-300/90 bg-white shadow-sm ring-1 ring-slate-900/[0.06]",
+        "min-w-0 overflow-hidden rounded-lg border border-slate-200 bg-white",
         className,
       )}
     >
-      <div className="flex flex-wrap items-center justify-between gap-1 border-b border-slate-300/80 bg-gradient-to-r from-slate-200 to-slate-300/70 px-2.5 py-1">
-        <h3 className="text-[11px] font-semibold tracking-tight text-slate-900">
+      <div className="flex flex-wrap items-center justify-between gap-1 border-b border-slate-200 bg-slate-50/80 px-3 py-1.5">
+        <h3 className="flex items-center gap-2 text-xs font-semibold text-slate-800 before:h-3.5 before:w-0.5 before:rounded-full before:bg-teal-600 before:content-['']">
           {title}
         </h3>
         {headerAction}
       </div>
       <div
         className={clsx(
-          isEditMode ? "bg-slate-100/55" : "bg-white",
+          isEditMode ? "bg-slate-50/60" : "bg-white",
           bodyClassName,
         )}
       >
@@ -167,7 +167,7 @@ export function ProviderSectionSeeMoreToggle({
   return (
     <button
       type="button"
-      className="text-primary-600 shrink-0 cursor-pointer text-[11px] font-medium hover:underline"
+      className="shrink-0 cursor-pointer text-[11px] font-medium text-teal-700 hover:underline"
       onClick={onToggle}
     >
       {expanded
@@ -222,11 +222,11 @@ export function ProviderCollapsibleSection({
         stretchColumn ? "flex h-full min-h-0 flex-1 flex-col" : "h-fit self-start",
         className,
       )}
-      titleClassName="text-xs sm:text-[11px]"
+      titleClassName="text-xs"
     >
       <div
         className={clsx(
-          "bg-white px-1.5 py-1.5 sm:px-2.5",
+          "bg-white px-3 py-1.5",
           stretchColumn && "flex min-h-0 flex-1 flex-col",
           bodyClass,
           bodyClassName,
@@ -596,7 +596,7 @@ function renderWebsiteUrlDetailValue(url: string): ReactNode {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="text-primary-700 hover:text-primary-800 underline-offset-2 hover:underline"
+      className="text-teal-700 underline-offset-2 hover:text-teal-800 hover:underline"
     >
       {u}
     </a>
@@ -775,7 +775,7 @@ function ProviderContactViewSection({
 }
 
 const CERTIFICATE_CARD_CLASS =
-  "border-l-primary-700 rounded-lg border border-l-[3px] border-slate-300/85 bg-white px-2 py-1.5 shadow-sm ring-1 ring-slate-900/[0.05]";
+  "rounded-md border border-l-[3px] border-slate-200 border-l-teal-600 bg-white px-2.5 py-2";
 
 function CertificateViewButton({
   fileMetadataId,
@@ -794,11 +794,11 @@ function CertificateViewButton({
           () => undefined,
         );
       }}
-      className="inline-flex items-center justify-center"
+      className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded border border-slate-200 bg-white hover:bg-teal-50"
       aria-label={label}
       title={label}
     >
-      <EyeIcon className="text-primary-600 h-4 w-4 cursor-pointer" aria-hidden />
+      <EyeIcon className="h-4 w-4 cursor-pointer text-teal-700" aria-hidden />
     </button>
   );
 }
@@ -812,7 +812,7 @@ const CERT_STATUS_POSITIVE_BADGE =
 function CertificatesEmptyMessage() {
   const { t } = useTranslation();
   return (
-    <p className="rounded-md border border-slate-300/80 bg-slate-200/40 px-2.5 py-2 text-xs text-slate-700">
+    <p className="rounded-md border border-dashed border-slate-300 bg-slate-50 px-3 py-2.5 text-xs text-slate-500">
       {t("providerMaster.detailTabs.providerDetails.noCertificateAvailable")}
     </p>
   );
@@ -853,7 +853,7 @@ function CertificateViewStat({
 
   return (
     <div className="min-w-0">
-      <div className="text-[11px] leading-tight font-medium text-slate-700">
+      <div className="text-[10px] font-semibold uppercase tracking-wider text-slate-500">
         {label}
       </div>
       <div
@@ -873,9 +873,23 @@ function CertificateViewCard({ cert }: Readonly<{ cert: ProviderDetailCertificat
   const showRegistrationAct = isClinicalEstablishmentCertificate(cert.type);
 
   return (
-    <div className={CERTIFICATE_CARD_CLASS}>
-      <div className="space-y-0.5">
-        <div className="flex items-center justify-end">
+    <div className={CERTIFICATE_CARD_CLASS} data-testid="provider-certificate-card">
+      <div className="space-y-1">
+        <div className="flex items-start justify-between gap-2">
+          <div className="grid min-w-0 flex-1 grid-cols-1 gap-x-3 sm:grid-cols-2">
+            <div className="min-w-0">
+              <CertificateViewStat label={labels.certName}>
+                <span className="font-semibold">{formatCertificateDisplayValue(cert.type)}</span>
+              </CertificateViewStat>
+            </div>
+            {showRegistrationAct ? (
+              <div className="min-w-0">
+                <CertificateViewStat label={labels.registrationAct}>
+                  {formatCertificateDisplayValue(cert.providerActName)}
+                </CertificateViewStat>
+              </div>
+            ) : null}
+          </div>
           <CertificateViewButton
             fileMetadataId={cert.fileMetadataId}
             label={labels.viewCertificate}
@@ -884,23 +898,7 @@ function CertificateViewCard({ cert }: Readonly<{ cert: ProviderDetailCertificat
             )}
           />
         </div>
-        <div className="grid grid-cols-1 gap-x-2 gap-y-0.5 sm:grid-cols-2">
-          <div
-            className={clsx("min-w-0", !showRegistrationAct && "sm:col-span-2")}
-          >
-            <CertificateViewStat label={labels.certName}>
-              {formatCertificateDisplayValue(cert.type)}
-            </CertificateViewStat>
-          </div>
-          {showRegistrationAct ? (
-            <div className="min-w-0">
-              <CertificateViewStat label={labels.registrationAct}>
-                {formatCertificateDisplayValue(cert.providerActName)}
-              </CertificateViewStat>
-            </div>
-          ) : null}
-        </div>
-        <div className="grid grid-cols-1 gap-x-2 gap-y-0.5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-2 gap-y-0.5 border-t border-slate-100 pt-1 sm:grid-cols-2 lg:grid-cols-4">
           <CertificateViewStat label={labels.registrationNo}>
             {formatCertificateDisplayValue(cert.registrationNo)}
           </CertificateViewStat>
@@ -1118,14 +1116,14 @@ function CertificatesEditList({
 }>) {
   if (fields.length === 0) {
     return (
-      <div className="bg-slate-100/55 px-2 py-1.5">
+      <div className="px-2.5 py-2">
         <CertificatesEmptyMessage />
       </div>
     );
   }
 
   return (
-    <div className="bg-slate-100/55 px-2 py-1.5">
+    <div className="px-2.5 py-2">
       <div className="space-y-1.5">
         {fields.map((field, index) => (
           <CertificateEditCard
@@ -1170,7 +1168,7 @@ export function ProviderCertificatesCard({
           <button
             type="button"
             onClick={onAppendCertificate}
-            className="border-primary-300 bg-primary-50 text-primary-700 hover:bg-primary-100 inline-flex h-6 cursor-pointer items-center rounded-md border px-2.5 text-[10px] font-semibold"
+            className="inline-flex h-6 cursor-pointer items-center rounded-md border border-teal-200 bg-teal-50 px-2.5 text-[10px] font-semibold text-teal-700 hover:bg-teal-100"
           >
             + {t("providerMaster.button.add")}
           </button>

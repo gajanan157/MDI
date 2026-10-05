@@ -176,8 +176,8 @@ function ProviderIdentifierDetailRow({
 }>) {
   return (
     <div className={clsx("flex flex-row items-center border-b text-[10px] last:border-0", className)}>
-      <dt className="w-[40%] shrink-0 bg-gray-100 px-1 py-0.5 font-bold text-gray-700">{label}</dt>
-      <dd className="w-[60%] min-w-0 bg-white px-1 py-0.5 text-gray-900">{children}</dd>
+      <dt className="w-[40%] shrink-0 px-1 py-1 font-medium text-slate-500">{label}</dt>
+      <dd className="w-[60%] min-w-0 px-1 py-1 text-slate-900">{children}</dd>
     </div>
   );
 }
@@ -197,7 +197,7 @@ function ProviderRohiniDetailRow({
       label={rohiniLabel}
       value={identifier.identifierValue}
       render={() => (
-        <span className="min-w-0 break-all font-mono font-semibold tabular-nums text-gray-900">
+        <span className="min-w-0 break-all font-mono font-semibold tabular-nums text-slate-900">
           {identifier.identifierValue}
         </span>
       )}
@@ -446,10 +446,10 @@ export function ProviderIdentifierEditContent({
 const PROVIDER_OLD_CODES_EMPTY_MESSAGE = "No old provider codes available.";
 
 const OLD_CODES_SHELL_CLASS =
-  "min-w-0 overflow-hidden rounded-md border border-slate-200/90 bg-white";
+  "min-w-0 overflow-hidden rounded-md border border-slate-200 bg-white";
 
 const OLD_CODES_HEADER_CLASS =
-  "border-b border-slate-200/80 bg-gray-100 px-2 py-0.5 text-[10px] font-bold text-gray-700";
+  "border-b border-slate-200 bg-slate-50 px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-slate-500";
 
 const OLD_CODES_BODY_CLASS = "bg-white px-2 py-1";
 
@@ -500,7 +500,7 @@ function ProviderOldCodesCardShell({
 function ProviderOldCodeColumnHeader({ active }: Readonly<{ active: boolean }>) {
   const { t } = useTranslation();
   return (
-    <div className="mb-0.5 flex items-center gap-1 text-[10px] font-bold text-gray-700">
+    <div className="mb-0.5 flex items-center gap-1 text-[10px] font-semibold text-slate-600">
       <span
         className={clsx(
           "h-1.5 w-1.5 shrink-0 rounded-full",

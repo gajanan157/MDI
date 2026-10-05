@@ -7,10 +7,10 @@ import {
 } from "./toolbarMetaChip.constants";
 
 const chipShellClass =
-  "inline-flex max-w-[11rem] items-center gap-1.5 rounded border px-1.5 py-0.5 shadow-sm";
+  "inline-flex max-w-[11rem] items-center gap-1.5 rounded border px-1.5 py-0.5";
 
 const chipShellProminentClass =
-  "inline-flex max-w-[13rem] items-center gap-2 rounded-md border px-2.5 py-1.5 shadow-md";
+  "inline-flex max-w-[13rem] items-center gap-2 rounded-md border px-2.5 py-1";
 
 function formatMetaChipDisplayValue(value: string): string {
   const trimmed = value.trim();
@@ -230,7 +230,7 @@ export function ToolbarMetaChip({
           title={expandLabel}
           aria-label={expandLabel}
           aria-expanded={expanded}
-          className="absolute right-0.5 top-0.5 flex h-3.5 w-3.5 items-center justify-center rounded text-violet-700 hover:bg-violet-100/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-violet-400"
+          className="absolute right-0.5 top-0.5 flex h-3.5 w-3.5 items-center justify-center rounded text-slate-600 hover:bg-slate-200/70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-teal-500"
         >
           {expanded ? (
             <ChevronUpIcon className="h-3 w-3" aria-hidden />

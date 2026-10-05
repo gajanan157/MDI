@@ -16,7 +16,7 @@ import {
   extractHtmlErrorTitle,
   isHtmlErrorBody,
 } from "@/utils/sanitizeApiErrorMessage";
-import { isKeycloakEnabled } from "@/utils/mockAuth";
+import { isKeycloakEnabled, isMockAuthEnabled } from "@/utils/mockAuth";
 import { getMockApiResponse } from "@/services/mockDataService";
 
 /**
@@ -31,9 +31,20 @@ declare global {
 }
 
 const ENV: Record<string, any> =
-  typeof globalThis.window !== "undefined" && globalThis.window.__ENV__
+  typeof globalThis.window !== "undefined" &&
+  globalThis.window.__ENV__ &&
+  Object.keys(globalThis.window.__ENV__).length > 0
     ? globalThis.window.__ENV__
     : import.meta.env;
+
+/** In preview/mock mode, serve sample data directly instead of calling unreachable services. */
+const shouldServeMock = (): boolean => isMockAuthEnabled();
+
+const mockResponse = <T,>(url: string, method: string, body?: unknown): ApiResponse<T> => {
+  const mock = getMockApiResponse(url, method, body);
+  const data = method === "POST" || method === "DELETE" ? mock.data : normalizeApiResponseData(mock.data);
+  return { success: true, data: data as T, message: mock.message };
+};
 
 // --------------------
 // API URLs (Runtime Based)
@@ -515,6 +526,7 @@ export const getApi = async <T>(
   url: string,
   config?: AxiosRequestConfig
 ): Promise<ApiResponse<T>> => {
+  if (shouldServeMock()) return mockResponse<T>(url, "GET");
   try {
     const response: AxiosResponse<T> = await client.get(url, config);
     const normalized = normalizeApiResponseData(response.data);
@@ -557,6 +569,7 @@ export const postApi = async <T, U>(
   body: U,
   config?: AxiosRequestConfig
 ): Promise<ApiResponse<T>> => {
+  if (shouldServeMock()) return mockResponse<T>(url, "POST", body);
   try {
     const response: AxiosResponse<T> = await client.post(url, body, config);
     const normalized = normalizeApiResponseData(response.data);
@@ -600,6 +613,7 @@ export const patchApi = async <T, U>(
   body: U,
   config?: AxiosRequestConfig
 ): Promise<ApiResponse<T>> => {
+  if (shouldServeMock()) return mockResponse<T>(url, "PATCH", body);
   try {
     const response: AxiosResponse<T> = await client.patch(url, body, config);
     const normalized = normalizeApiResponseData(response.data);
@@ -645,6 +659,7 @@ export const putApi = async <T, U>(
   body: U,
   config?: AxiosRequestConfig
 ): Promise<ApiResponse<T>> => {
+  if (shouldServeMock()) return mockResponse<T>(url, "PUT", body);
   try {
     const response: AxiosResponse<T> = await client.put(url, body, config);
     const normalized = normalizeApiResponseData(response.data);
@@ -686,6 +701,7 @@ export const deleteApi = async <T>(
   url: string,
   config?: AxiosRequestConfig
 ): Promise<ApiResponse<T>> => {
+  if (shouldServeMock()) return mockResponse<T>(url, "DELETE");
   try {
     const response: AxiosResponse<T> = await client.delete(url, config);
     return {

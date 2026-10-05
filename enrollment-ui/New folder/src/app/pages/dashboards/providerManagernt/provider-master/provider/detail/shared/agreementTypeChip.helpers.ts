@@ -11,31 +11,31 @@ export type AgreementTypeChipTone = {
 
 const CHIP_TONES = {
   gipsa: {
-    wrapper: "bg-violet-100 text-violet-700",
-    dot: "bg-violet-500",
+    wrapper: "border-teal-200 bg-teal-50 text-teal-800",
+    dot: "bg-teal-600",
   },
   government: {
-    wrapper: "bg-blue-100 text-blue-700",
-    dot: "bg-blue-500",
+    wrapper: "border-sky-200 bg-sky-50 text-sky-800",
+    dot: "bg-sky-600",
   },
   tpa: {
-    wrapper: "bg-orange-100 text-orange-700",
-    dot: "bg-orange-500",
+    wrapper: "border-amber-200 bg-amber-50 text-amber-800",
+    dot: "bg-amber-600",
   },
   insurer: {
-    wrapper: "bg-emerald-100 text-emerald-700",
-    dot: "bg-emerald-500",
+    wrapper: "border-emerald-200 bg-emerald-50 text-emerald-800",
+    dot: "bg-emerald-600",
   },
   corporate: {
-    wrapper: "bg-teal-100 text-teal-700",
-    dot: "bg-teal-500",
+    wrapper: "border-cyan-200 bg-cyan-50 text-cyan-800",
+    dot: "bg-cyan-600",
   },
   cashless: {
-    wrapper: "bg-fuchsia-100 text-fuchsia-700",
-    dot: "bg-fuchsia-500",
+    wrapper: "border-rose-200 bg-rose-50 text-rose-800",
+    dot: "bg-rose-600",
   },
   default: {
-    wrapper: "bg-slate-100 text-slate-700",
+    wrapper: "border-slate-200 bg-white text-slate-700",
     dot: "bg-slate-500",
   },
 } as const satisfies Record<string, AgreementTypeChipTone>;

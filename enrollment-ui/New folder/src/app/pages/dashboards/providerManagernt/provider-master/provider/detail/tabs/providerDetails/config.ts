@@ -280,10 +280,10 @@ export const PROVIDER_SECTION_COLLAPSED_BODY_CLASS = "h-auto";
 export const PROVIDER_SECTION_EXPANDED_BODY_CLASS = "h-auto max-h-none";
 
 /** Default detail-field preview before "See more". */
-export const PROVIDER_SECTION_INITIAL_FIELD_COUNT = 6;
+export const PROVIDER_SECTION_INITIAL_FIELD_COUNT = 10;
 
 /** Certificates section: cards shown before "See more". */
-export const PROVIDER_SECTION_INITIAL_CERTIFICATE_COUNT = 2;
+export const PROVIDER_SECTION_INITIAL_CERTIFICATE_COUNT = 3;
 
 function fieldHasValue(field: DetailFieldConfig, hideWhenEmpty: boolean): boolean {
   if (!(field.hideWhenEmpty ?? hideWhenEmpty)) return true;

@@ -37,11 +37,11 @@ export const Tabs = ({ tabs, activeTabId, onTabChange, fitTabsInOneRow }: TabsPr
 
   return (
     <div className="flex min-h-0 w-full flex-1 flex-col">
-      <div className="shrink-0 border-b">
+      <div className="shrink-0 border-b border-slate-200 bg-white">
         <div
           className={
             fitTabsInOneRow
-              ? "flex snap-x snap-mandatory flex-nowrap gap-0.5 overflow-x-auto px-1 py-0.5 [scrollbar-width:thin] sm:px-1.5"
+              ? "flex snap-x snap-mandatory flex-nowrap gap-1 overflow-x-auto px-2 pt-1 [scrollbar-width:thin]"
               : "flex flex-nowrap gap-0 overflow-x-auto overflow-y-hidden px-2"
           }
         >
@@ -49,15 +49,16 @@ export const Tabs = ({ tabs, activeTabId, onTabChange, fitTabsInOneRow }: TabsPr
             <button
               key={tab.id}
               type="button"
+              data-testid={`tab-${tab.id}`}
               onClick={() => setActiveTab(tab.id)}
               aria-disabled={tab.disabled || undefined}
               className={`
                 -mb-[1px] shrink-0 cursor-pointer snap-start rounded-t border-b-2 transition-all
-                ${fitTabsInOneRow ? "min-h-9 px-3 py-2 text-xs leading-tight whitespace-nowrap sm:min-h-0 sm:px-2 sm:py-1.5 sm:text-[11px]" : "px-2 py-1.5 text-xs whitespace-nowrap"}
+                ${fitTabsInOneRow ? "min-h-9 px-3 py-2 text-xs leading-tight whitespace-nowrap sm:min-h-0 sm:px-3 sm:py-2 sm:text-xs" : "px-2 py-1.5 text-xs whitespace-nowrap"}
                 ${
                   activeTab === tab.id
-                    ? "border-blue-600 bg-blue-50 font-semibold text-blue-700"
-                    : "border-transparent font-medium text-muted-foreground hover:bg-muted/50 hover:text-foreground"
+                    ? "border-teal-600 font-semibold text-teal-800"
+                    : "border-transparent font-medium text-slate-500 hover:border-slate-300 hover:text-slate-800"
                 }
                 ${tab.disabled ? "opacity-50" : ""}
               `}

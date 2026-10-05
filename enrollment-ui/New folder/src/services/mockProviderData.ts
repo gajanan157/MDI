@@ -397,7 +397,7 @@ export const MOCK_PROVIDER_DETAILS_MAP: Record<string, any> = {
     identifiers: [
       {
         identifierType: "ROHINI_CODE",
-        identifierTypeName: "ROHINI Code",
+        identifierTypeName: "ROHINI_CODE", isPrimary: true, identifierStatus: "ACTIVE", issuingAuthorityName: "Insurance Information Bureau of India",
         identifierValue: "ROH-APO-88912",
         validFrom: "2020-01-01",
         validTo: "2027-12-31",
@@ -405,7 +405,7 @@ export const MOCK_PROVIDER_DETAILS_MAP: Record<string, any> = {
       },
       {
         identifierType: "PAN",
-        identifierTypeName: "PAN Number",
+        identifierTypeName: "PAN NO", identifierStatus: "ACTIVE", identifierHolderName: "Apollo Hospitals Enterprise Ltd",
         identifierValue: "AAACA1234F",
         validFrom: "2015-05-10",
         validTo: "2030-12-31",
@@ -475,6 +475,10 @@ export const MOCK_PROVIDER_DETAILS_MAP: Record<string, any> = {
     agreementTypeNames: [
       "GIPSA Preferred Provider Network (PPN)",
       "Direct MD India TPA Bilateral Agreement",
+    ],
+    agreements: [
+      { providerAgreementId: "AGR-APO-001", providerAgreementName: "GIPSA_PPN_TRIPARTITE_AGREEMENT" },
+      { providerAgreementId: "AGR-APO-002", providerAgreementName: "TPA_PROVIDER_BIPARTITE_AGREEMENT" },
     ],
     infrastructure: {
       totalBedCount: 350,
@@ -553,7 +557,7 @@ export const MOCK_PROVIDER_DETAILS_MAP: Record<string, any> = {
     identifiers: [
       {
         identifierType: "ROHINI_CODE",
-        identifierTypeName: "ROHINI Code",
+        identifierTypeName: "ROHINI_CODE", isPrimary: true, identifierStatus: "ACTIVE", issuingAuthorityName: "Insurance Information Bureau of India",
         identifierValue: "ROH-FOR-77123",
         validFrom: "2021-04-15",
         validTo: "2026-04-14",
@@ -561,7 +565,7 @@ export const MOCK_PROVIDER_DETAILS_MAP: Record<string, any> = {
       },
       {
         identifierType: "PAN",
-        identifierTypeName: "PAN Number",
+        identifierTypeName: "PAN NO", identifierStatus: "ACTIVE", identifierHolderName: "Apollo Hospitals Enterprise Ltd",
         identifierValue: "AAACF5678G",
         validFrom: "2016-01-10",
         validTo: "2031-12-31",
@@ -595,6 +599,9 @@ export const MOCK_PROVIDER_DETAILS_MAP: Record<string, any> = {
       "Pediatric Cardiac Surgery",
     ],
     agreementTypeNames: ["Direct MD India TPA Bilateral Agreement"],
+    agreements: [
+      { providerAgreementId: "AGR-FOR-001", providerAgreementName: "TPA_PROVIDER_BIPARTITE_AGREEMENT" },
+    ],
     infrastructure: {
       totalBedCount: 400,
       roomDetailList: [

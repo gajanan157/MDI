@@ -6,26 +6,23 @@ export type ToolbarMetaChipTone = {
 
 export const TOOLBAR_META_CHIP_TONES = {
   icStatus: {
-    wrapper: "border-slate-200/90 bg-gradient-to-r from-slate-50 to-gray-100/80",
-    iconWrap: "bg-sky-500 text-white shadow-sm shadow-sky-200/80",
+    wrapper: "border-slate-200 bg-slate-50",
+    iconWrap: "bg-slate-600 text-white",
     label: "text-slate-600",
   },
   network: {
-    wrapper:
-      "border-sky-400/90 bg-gradient-to-br from-sky-100 via-blue-50 to-indigo-100 shadow-md shadow-sky-200/70 ring-1 ring-sky-300/60",
-    iconWrap: "bg-sky-600 text-white shadow-sm shadow-sky-400/50",
-    label: "text-sky-800",
+    wrapper: "border-teal-200 bg-teal-50",
+    iconWrap: "bg-teal-600 text-white",
+    label: "text-teal-800",
   },
   nonNetwork: {
-    wrapper:
-      "border-amber-400/90 bg-gradient-to-br from-amber-100 via-orange-50 to-yellow-100 shadow-md shadow-amber-200/70 ring-1 ring-amber-300/60",
-    iconWrap: "bg-amber-500 text-white shadow-sm shadow-amber-400/50",
-    label: "text-amber-900",
+    wrapper: "border-amber-200 bg-amber-50",
+    iconWrap: "bg-amber-600 text-white",
+    label: "text-amber-800",
   },
   insurer: {
-    wrapper:
-      "border-emerald-400/90 bg-gradient-to-br from-emerald-100 via-green-50 to-teal-100 shadow-md shadow-emerald-200/70 ring-1 ring-emerald-300/60",
-    iconWrap: "bg-emerald-600 text-white shadow-sm shadow-emerald-400/50",
+    wrapper: "border-emerald-200 bg-emerald-50",
+    iconWrap: "bg-emerald-600 text-white",
     label: "text-emerald-800",
   },
 } as const satisfies Record<string, ToolbarMetaChipTone>;
