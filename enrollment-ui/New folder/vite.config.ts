@@ -21,6 +21,7 @@ export default defineConfig(({ mode }) => {
       ? {
           host: true,
           port: 3000,
+          allowedHosts: true,
           https:
             env.VITE_ENABLE_HTTPS === "false" ||
             !fs.existsSync("certs/wildcard_api-mdi_com.key")
