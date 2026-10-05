@@ -67,6 +67,8 @@ export default defineConfig(({ mode }) => {
         }
       : undefined,
 
+    preview: { host: true, port: 3000, allowedHosts: true },
+
     plugins: [
       react(),
       svgr(),

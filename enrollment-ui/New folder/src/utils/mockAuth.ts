@@ -27,6 +27,17 @@ export function isKeycloakEnabled(): boolean {
   return true;
 }
 
+/** True when VITE_USE_MOCK="true": the app auto-signs in with the mock admin token (no backend needed). */
+export function isMockAuthEnabled(): boolean {
+  const env: Record<string, any> =
+    typeof globalThis.window !== "undefined" &&
+    globalThis.window.__ENV__ &&
+    Object.keys(globalThis.window.__ENV__).length > 0
+      ? globalThis.window.__ENV__
+      : import.meta.env;
+  return String(env?.VITE_USE_MOCK ?? "").trim().toLowerCase() === "true";
+}
+
 /**
  * Standard base64 URL encoder compatible with browser and node
  */

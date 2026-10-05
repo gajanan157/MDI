@@ -1,90 +1,195 @@
 {
-  "app_name": "Enrollment UI Modernization",
-  "app_type": "hybrid_fullstack",
-  "target_audience": "Insurance administrators, corporate employers, brokers, and healthcare providers managing policy enrolments and hospital empanelment workflows",
-  "design_context": "Dashboard & Enterprise SaaS",
-  "emotional_tone": "Precise, professional, trustworthy, frictionless, and modern",
-  "archetype": "ORGANIC & EARTHY / PERFORMANCE PRO hybrid with clean neutral slate and royal indigo accents",
+  "project_name": "Enterprise B2B Enrollment & Provider Operations Portal",
+  "app_type": "saas_app",
+  "design_direction": {
+    "name": "Precision Slate & Steel Teal (Tactical B2B Enterprise)",
+    "rationale": "Explicitly departs from generic Indigo/Slate/Plus Jakarta Sans. Designed specifically for high-density B2B operational workflows with crisp visual hierarchy, minimal scroll fatigue, precision data tables, and rapid completion speeds.",
+    "archetype": "THE PERFORMANCE PRO / ARCHITECTURAL PRECISION",
+    "theme": "Light mode default with dark mode support, crisp 1px structural borders (#E2E8F0 / #1E293B), high contrast operational states"
+  },
   "typography": {
-    "heading_font": "Plus Jakarta Sans",
-    "body_font": "Inter",
-    "mono_font": "JetBrains Mono",
-    "rules": {
-      "h1": "text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-slate-900 dark:text-white",
-      "h2": "text-2xl sm:text-3xl tracking-tight font-bold text-slate-800 dark:text-slate-100",
-      "h3": "text-xl sm:text-2xl font-semibold text-slate-800 dark:text-slate-200",
-      "h4": "text-lg sm:text-xl font-medium text-slate-700 dark:text-slate-300",
-      "body": "text-base text-slate-600 dark:text-slate-300 leading-relaxed",
-      "overlines": "text-xs uppercase tracking-[0.2em] font-bold text-indigo-600 dark:text-indigo-400"
+    "font_family_heading": "Cabinet Grotesk, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    "font_family_body": "IBM Plex Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    "font_family_mono": "JetBrains Mono, Fira Code, monospace",
+    "imports": [
+      "@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,700,500,400&display=swap');",
+      "@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');"
+    ],
+    "scale": {
+      "h1": "text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100",
+      "h2": "text-xl sm:text-2xl font-semibold tracking-tight text-slate-900 dark:text-slate-100",
+      "h3": "text-lg font-semibold tracking-tight text-slate-800 dark:text-slate-200",
+      "h4": "text-base font-medium text-slate-800 dark:text-slate-200",
+      "body": "text-sm text-slate-600 dark:text-slate-300 leading-normal",
+      "small": "text-xs text-slate-500 dark:text-slate-400 font-normal",
+      "overline": "text-[11px] font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400"
     }
   },
   "colors": {
-    "primary": "#4F46E5",
-    "primary_hover": "#4338CA",
-    "secondary": "#0EA5E9",
-    "background_light": "#F8FAFC",
-    "background_dark": "#0F172A",
-    "surface_light": "#FFFFFF",
-    "surface_dark": "#1E293B",
-    "border_light": "#E2E8F0",
-    "border_dark": "#334155",
-    "text_primary_light": "#0F172A",
-    "text_primary_dark": "#F8FAFC",
-    "text_secondary_light": "#64748B",
-    "text_secondary_dark": "#94A3B8",
-    "forbidden_colors": ["#7351B7", "#1B93A4"]
+    "brand_primary": {
+      "50": "#F0FDFA",
+      "100": "#CCFBF1",
+      "500": "#0D9488",
+      "600": "#0D9488",
+      "700": "#0F766E",
+      "800": "#115E59",
+      "900": "#134E4A"
+    },
+    "brand_secondary": {
+      "50": "#F8FAFC",
+      "100": "#F1F5F9",
+      "500": "#64748B",
+      "700": "#334155",
+      "900": "#0F172A"
+    },
+    "brand_accent": {
+      "amber": "#D97706",
+      "emerald": "#059669",
+      "rose": "#E11D48",
+      "sky": "#0284C7"
+    },
+    "surfaces": {
+      "app_bg": "#F8FAFC",
+      "card_bg": "#FFFFFF",
+      "sidebar_bg": "#0F172A",
+      "sidebar_active_item": "#1E293B",
+      "header_bg": "rgba(255, 255, 255, 0.85)",
+      "border_subtle": "#E2E8F0",
+      "border_strong": "#CBD5E1"
+    },
+    "operational_status": {
+      "approved": { "bg": "#ECFDF5", "text": "#047857", "border": "#A7F3D0" },
+      "pending": { "bg": "#FFFBEB", "text": "#B45309", "border": "#FDE68A" },
+      "rejected": { "bg": "#FEF2F2", "text": "#B91C1C", "border": "#FECACA" },
+      "in_progress": { "bg": "#F0F9FF", "text": "#0369A1", "border": "#BAE6FD" }
+    }
   },
-  "visual_enhancers": {
-    "border_radius": "rounded-xl",
-    "card_style": "flat solid surface with subtle 1px border and soft hover lift",
-    "shadows": "shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.3)]",
-    "glassmorphism": "backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-800/50"
+  "layout_architecture": {
+    "type": "Data-Dense B2B Operational Grid",
+    "shell_structure": "Collapsible left sidebar + fixed top nav header with breadcrumbs + compact main content area",
+    "spacing_philosophy": "High density, zero scroll-fatigue. Use p-4 to p-6 for main panels, p-3 for cards, compact 32px height table rows.",
+    "page_height": "h-[calc(100vh-4rem)] flex flex-col overflow-hidden (Internal scroll for data tables and multi-step forms)",
+    "sidebar": {
+      "width_expanded": "w-64",
+      "width_collapsed": "w-16",
+      "navigation_groups": [
+        {
+          "group": "Enrolment System",
+          "items": ["Dashboard", "Corporate Inward", "Retail Inward", "Policy Search", "Policy Details", "e-Card Listing"]
+        },
+        {
+          "group": "Provider Management",
+          "items": ["Provider Dashboard", "Hospital Empanelment", "Provider Masters", "SOC & Discounts", "Excluded Providers", "Bank Verification"]
+        },
+        {
+          "group": "Insurer / TPA / Master",
+          "items": ["Insurers List", "TPA & Offices", "Office Hierarchy", "Master Products", "Limit & Benefit Masters"]
+        },
+        {
+          "group": "Administration & Access",
+          "items": ["User Management", "Maker Checker Queue", "Escalation Matrix", "System Settings"]
+        }
+      ]
+    }
   },
-  "grids": {
-    "dashboard_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
-    "tetris_grid": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8"
+  "shared_components_guidelines": {
+    "header": "Glassmorphic h-14 border-b border-slate-200/80 bg-white/80 backdrop-blur-md px-4 flex items-center justify-between z-40",
+    "page_header": "Compact page header with title, status pill, breadcrumbs, and right-aligned quick action buttons. Height max 64px.",
+    "tables": "AgGrid / React-Table styled with compact height rows (36px), stick headers, search filter bar, bulk action dropdown, and crisp column borders.",
+    "forms": "Multi-step wizard layout with left progress tracker, inline field validation, structured input groups, clean select dropdowns, and sticky bottom action bar.",
+    "cards": "Subtle border (border-slate-200), zero soft shadow bloat, 12px border radius (rounded-lg), high readability contrast.",
+    "modals": "Scale-up dialogs with clear header, scrollable body area, and action footer with data-testid attributes.",
+    "badges": "Pill-shaped (rounded-full) or squared-sm with crisp status borders and legible contrast."
   },
-  "layouts": {
-    "mobile_first": true,
-    "max_width_container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
-    "spacing_philosophy": "Generous spacing (p-6, p-8, gap-6) with optical alignment and no text collision on bordered containers"
-  },
-  "motion": {
-    "transition_rules": "Use explicit transitions (e.g. transition: transform 0.2s ease, opacity 0.2s ease; DO NOT use transition: all). Respect prefers-reduced-motion."
-  },
-  "accessibility": {
-    "contrast_ratio": "Minimum 4.5:1 for normal text, 3:1 for large text and interactive components.",
-    "focus_states": "focus:ring-2 focus:ring-indigo-500 focus:outline-none"
-  },
-  "media": {
-    "images_constraints": "Max 80vh height on mobile. Proper responsive scaling."
-  },
-  "image_urls": [
+  "module_order_and_layouts": [
     {
-      "category": "dashboard_hero",
-      "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&q=85",
-      "description": "Analytics dashboard performance graphs on laptop screen"
+      "module_id": "enrolment_system",
+      "module_name": "Enrolment System",
+      "priority": 1,
+      "main_screens": [
+        "Corporate Inward Queue & Multi-step Onboarding",
+        "Retail Inward Dashboard",
+        "Policy Search & Policy Details View",
+        "e-Card Generation & Preview"
+      ],
+      "key_layout_pattern": "Split-panel layout: Left side filter & inward batch summary; Right side multi-step endorsement/policy wizard."
     },
     {
-      "category": "hospital_team",
-      "url": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?crop=entropy&cs=srgb&fm=jpg&q=85",
-      "description": "Medical professionals working together in a modern facility"
+      "module_id": "provider_management",
+      "module_name": "Provider Management",
+      "priority": 2,
+      "main_screens": [
+        "Hospital Empanelment Landing & Multi-step Form",
+        "Provider Master Listing & Detail View",
+        "SOC & Discount Configuration Matrix",
+        "Excluded Provider / Blacklist Management",
+        "Bank Verification Comparison Tool"
+      ],
+      "key_layout_pattern": "Tabbed workspace with summary stat cards at top, high-density AgGrid in middle, and side drawer for document/bank verification."
     },
     {
-      "category": "employer_analytics",
-      "url": "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?crop=entropy&cs=srgb&fm=jpg&q=85",
-      "description": "Employer dashboard showing application trends and metrics"
+      "module_id": "insurer_tpa_master",
+      "module_name": "Insurer / TPA / Master Management",
+      "priority": 3,
+      "main_screens": [
+        "Insurer Directory & Office Branch Manager",
+        "Interactive Insurer Office Hierarchy Tree",
+        "Master Product Builder & Rules Configurator",
+        "Benefit & Limit Type Master Tables"
+      ],
+      "key_layout_pattern": "Nested accordion tree layout + high-density configuration grid with live validation preview."
+    },
+    {
+      "module_id": "user_management_admin",
+      "module_name": "User Management & Admin Dashboard",
+      "priority": 4,
+      "main_screens": [
+        "User List, Role & Group Assignment",
+        "Maker-Checker Approval Queue",
+        "Escalation Matrix Rules Config",
+        "Operational SLA Admin Dashboard"
+      ],
+      "key_layout_pattern": "Summary metric cards + dual listbox for role assignments + audit log slide-over panel."
+    },
+    {
+      "module_id": "settings",
+      "module_name": "Settings",
+      "priority": 5,
+      "main_screens": [
+        "General App Preferences",
+        "Theme & Appearance Customization",
+        "System Integrations & Keycloak Config"
+      ],
+      "key_layout_pattern": "Side nav settings sidebar with compact form sections and instant save switches."
     }
   ],
+  "testing_and_accessibility": {
+    "data_testid_convention": "All interactive elements (buttons, inputs, select, tabs, table rows, badges, modal actions) MUST include data-testid attribute in kebab-case (e.g., data-testid='corporate-inward-submit-btn').",
+    "accessibility_standards": "WCAG 2.1 AA minimum 4.5:1 contrast ratio, full keyboard navigation support, focus-ring-2 focus-ring-teal-500 focus-ring-offset-1."
+  },
+  "media_assets": {
+    "avatars": [
+      {
+        "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Executive Male Portrait Avatar"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Executive Female Portrait Avatar"
+      }
+    ],
+    "logos": [
+      {
+        "url": "https://images.unsplash.com/photo-1581087659886-647ed5526c5d?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "description": "Minimal Corporate Enterprise Emblem"
+      }
+    ]
+  },
   "instructions_to_main_agent": [
-    "Modernize and polish the enrolment-ui frontend located in enrollment-ui/New folder/src with robust accessibility, pristine responsive design, beautiful typography rotation (Plus Jakarta Sans + Inter), enhanced step progress navigation, and intuitive validation feedback.",
-    "Ensure all interactive elements and buttons include proper data-testid attributes for reliable end-to-end testing.",
-    "Maintain high code quality in .js/.jsx/.ts/.tsx files, adhering strictly to the design system rules, avoiding forbidden colors (#7351B7 and #1B93A4), and ensuring no transparent backgrounds on headers or sticky menus without backdrop-blur."
-  ],
-  "universal_guidelines_for_main_agent": [
-    "Never use transition: all",
-    "Never center-align the app container",
-    "Always use explicit interactive states and accessible contrast",
-    "Include data-testid attributes on all interactive elements"
+    "Rebuild shared layout shell first: Replace old sidebar with collapsible left menu organized into the 4 module groups.",
+    "Apply global color system: Teal (#0D9488) as primary accent, Slate (#0F172A) for sidebar/headers, Soft Gray (#F8FAFC) for backgrounds.",
+    "Ensure Javascript / React (.js/.jsx) compatibility across all component modifications.",
+    "Ensure every operational button, modal trigger, filter input, and table row has a distinct data-testid attribute.",
+    "Keep pages compact and data-dense without long unnecessary marketing scrolling."
   ]
 }

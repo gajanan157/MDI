@@ -2,10 +2,12 @@ import { RouteObject } from "react-router";
 
 import AuthGuard from "@/middleware/AuthGuard";
 import { DynamicLayout } from "../layouts/DynamicLayout";
-import DynamicRedirect from "./DynamicRedirect";
+import PreviewIndex from '@/app/workspace/PreviewIndex';
 import { lazyPageRoute } from "./routeHelpers";
 
 const dashboardRoutes: RouteObject[] = [
+  lazyPageRoute("settings/general", () => import("@/app/workspace/SettingsPage")),
+  lazyPageRoute("settings/appearance", () => import("@/app/workspace/SettingsPage")),
   lazyPageRoute("home", () => import("@/app/pages/dashboards/home")),
   lazyPageRoute("insurer-management/insurer", () => import("@/app/pages/dashboards/insurerManagement/insurer"), "insurer"),
   lazyPageRoute("insurer-management/add-insurer", () => import("@/app/pages/dashboards/insurerManagement/insurer/AddInsurerForm"), "insurer"),
@@ -144,14 +146,14 @@ const protectedRoutes: RouteObject = {
       children: [
         {
           index: true,
-          element: <DynamicRedirect />,
+          element: <PreviewIndex />,
         },
         {
           path: "",
           children: [
             {
               index: true,
-              element: <DynamicRedirect />,
+              element: <PreviewIndex />,
             },
             ...dashboardRoutes,
           ],

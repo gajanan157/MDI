@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-05",
+  "source_report": "/app/test_reports/iteration_2.json",
+  "verification": "Targeted browser checks after main-agent fixes; comprehensive suite was performed before these fixes.",
+  "results": {
+    "master_agent_directory": "PASS: two populated records, legalName and irdaAgentCode mapped correctly",
+    "master_broker_corporate_group_product_directories": "PASS: all five master directory routes populated",
+    "agent_details": "PASS: Rajesh Sharma legal name displayed in drawer",
+    "required_field_validation": "PASS: unified inline error blocks progression",
+    "invalid_email_validation": "PASS: unified inline error blocks progression",
+    "desktop_dashboard_fit": "PASS: workspace clientHeight 710, scrollHeight 710 at 1920x800; table scrolling internal",
+    "footer_contrast": "PASS: 5.04:1",
+    "responsive_horizontal_overflow": "PASS at 320, 768, 1024, 1440",
+    "vite_build": "PASS",
+    "new_workspace_eslint": "PASS"
+  },
+  "reported_bugs_remaining": [],
+  "console": "/root/.emergent/automation_output/20261005_034905/console_20261005_034905.log",
+  "known_nonblocking_warnings": ["Existing empty runtime env.js warning; Vite env used", "Transient Recharts initial dimensions warning; chart visibly renders"],
+  "mocked": ["Authentication", "Microservices", "New workspace mutations are browser-local only", "Historical activity series"],
+  "test_records_created": false
+}

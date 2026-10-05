@@ -14,7 +14,12 @@ import { getUserPermissions } from "@/app/auth/permissions";
 import { useAppDispatch } from "@/store/hooks/useAppDispatch";
 import { setSelectedRoles } from "@/store/features/tpa/tpaSlice";
 import { useAppSelector } from "@/store/hooks/useAppSelector";
-import { isKeycloakEnabled } from "@/utils/mockAuth";
+import {
+  isKeycloakEnabled,
+  isMockAuthEnabled,
+  MOCK_KEYCLOAK_TOKEN,
+  MOCK_KEYCLOAK_USER_INFO,
+} from "@/utils/mockAuth";
 import {
   activeRoleFromToken,
   clearStoredToken,
@@ -362,6 +367,15 @@ export const KeycloakProvider: React.FC<{ children: ReactNode }> = ({
 
   useEffect(() => {
     if (!isKeycloakEnabled()) {
+      if (isMockAuthEnabled()) {
+        // Mock mode: no backend/database available, sign in as the mock admin automatically.
+        setToken(MOCK_KEYCLOAK_TOKEN);
+        currentToken = MOCK_KEYCLOAK_TOKEN;
+        setUserInfo(MOCK_KEYCLOAK_USER_INFO);
+        setAuthenticated(true);
+        setInitialized(true);
+        return;
+      }
       // Local login: restore the session saved by a previous sign-in, if still valid.
       const stored = getStoredToken();
       if (!stored || isTokenExpired(stored)) {
