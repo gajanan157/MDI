@@ -1,0 +1,21 @@
+{
+  "summary": "Verified Provider Details page (/provider-masters/providers/HOSP001/provider-details) after UI enhancement + mock-mode data-plumbing fix. All target assertions pass: hero shows 'Apollo Hospital International' with ACTIVE + Verified pills, chips, Provider Code MDI-HOSP-001, ROHINI ID ROH-APO-88912, TPA Network chip. Agreement Types strip shows two agreement chips (GIPSA Preferred Provider Network Agreement, Direct MD India TPA Bilateral Service Agreement) - no 'No agreement types available' message. Overview sections (Provider Information, Identifier Details, Address Details, Contact Details, Certificates with 3 cards NABH / FIRE_SAFETY / POLLUTION_CONTROL each with Registered badge and eye view button) all populated correctly. Edit flow works: Edit reveals 61 inputs including a Provider Name input prefilled with 'Apollo Hospital International'; Cancel returns to view mode cleanly. All 9 tabs render without blank screen or crash and show expected mock content (Owner: Dr. Prathap C. Reddy; Banking: HDFC; Infra: beds; etc.). Regression: Provider directory list shows 7 rows, Enrolment Overview dashboard '/' renders. Zero console/page errors across all flows. No horizontal overflow at 1920x1080. Teal/slate design system applied consistently (teal active tab underline, teal section accents, teal status pills).",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/test_reports/iteration_3.json"],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "Spec expected tab-testids tab-owner / tab-infra / tab-contacts / tab-network / tab-banking / tab-documents / tab-discount but actual ids are tab-provider-owner, tab-infrastructure-facility, tab-owners-info, tab-ic-corporate, tab-bank-details, tab-hospital-document, tab-hospital-discount, plus an extra tab-hospital-details. Not a bug (tabs work by label click too) but worth aligning naming + documenting in the review spec for stable e2e selectors."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (skipped)", "frontend": "100%"},
+  "test_credentials": "Mock auto sign-in - no credentials needed (per /app/memory/test_credentials.md)",
+  "seed_data_creation": "None - uses MOCK_PROVIDER_DETAILS_MAP['HOSP001'] from src/services/mockProviderData.ts",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "Provider Detail page under /provider-masters/providers/HOSP001/provider-details is fully functional in mock mode. Tab data-testids differ from spec (see critical_code_review_comments). Preview is served via vite preview on the existing dist (no yarn dev). Rebuild command if needed: cd '/app/enrollment-ui/New folder' && NODE_OPTIONS=--max-old-space-size=4096 yarn build:dev. Zero console errors across tested flows."
+}
