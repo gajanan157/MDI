@@ -380,7 +380,6 @@ const handleLabelChange = (uuid: string, value: string) => {
             </div>
         </Page>
     );
-    );
 };
 
 export default ECardConf;

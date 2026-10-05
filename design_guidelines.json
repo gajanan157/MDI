@@ -1,0 +1,90 @@
+{
+  "app_name": "Enrollment UI Modernization",
+  "app_type": "hybrid_fullstack",
+  "target_audience": "Insurance administrators, corporate employers, brokers, and healthcare providers managing policy enrolments and hospital empanelment workflows",
+  "design_context": "Dashboard & Enterprise SaaS",
+  "emotional_tone": "Precise, professional, trustworthy, frictionless, and modern",
+  "archetype": "ORGANIC & EARTHY / PERFORMANCE PRO hybrid with clean neutral slate and royal indigo accents",
+  "typography": {
+    "heading_font": "Plus Jakarta Sans",
+    "body_font": "Inter",
+    "mono_font": "JetBrains Mono",
+    "rules": {
+      "h1": "text-3xl sm:text-4xl lg:text-5xl tracking-tight font-extrabold text-slate-900 dark:text-white",
+      "h2": "text-2xl sm:text-3xl tracking-tight font-bold text-slate-800 dark:text-slate-100",
+      "h3": "text-xl sm:text-2xl font-semibold text-slate-800 dark:text-slate-200",
+      "h4": "text-lg sm:text-xl font-medium text-slate-700 dark:text-slate-300",
+      "body": "text-base text-slate-600 dark:text-slate-300 leading-relaxed",
+      "overlines": "text-xs uppercase tracking-[0.2em] font-bold text-indigo-600 dark:text-indigo-400"
+    }
+  },
+  "colors": {
+    "primary": "#4F46E5",
+    "primary_hover": "#4338CA",
+    "secondary": "#0EA5E9",
+    "background_light": "#F8FAFC",
+    "background_dark": "#0F172A",
+    "surface_light": "#FFFFFF",
+    "surface_dark": "#1E293B",
+    "border_light": "#E2E8F0",
+    "border_dark": "#334155",
+    "text_primary_light": "#0F172A",
+    "text_primary_dark": "#F8FAFC",
+    "text_secondary_light": "#64748B",
+    "text_secondary_dark": "#94A3B8",
+    "forbidden_colors": ["#7351B7", "#1B93A4"]
+  },
+  "visual_enhancers": {
+    "border_radius": "rounded-xl",
+    "card_style": "flat solid surface with subtle 1px border and soft hover lift",
+    "shadows": "shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:shadow-[0_8px_30px_rgb(0,0,0,0.3)]",
+    "glassmorphism": "backdrop-blur-xl bg-white/80 dark:bg-slate-900/80 border border-slate-200/50 dark:border-slate-800/50"
+  },
+  "grids": {
+    "dashboard_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+    "tetris_grid": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8"
+  },
+  "layouts": {
+    "mobile_first": true,
+    "max_width_container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing_philosophy": "Generous spacing (p-6, p-8, gap-6) with optical alignment and no text collision on bordered containers"
+  },
+  "motion": {
+    "transition_rules": "Use explicit transitions (e.g. transition: transform 0.2s ease, opacity 0.2s ease; DO NOT use transition: all). Respect prefers-reduced-motion."
+  },
+  "accessibility": {
+    "contrast_ratio": "Minimum 4.5:1 for normal text, 3:1 for large text and interactive components.",
+    "focus_states": "focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+  },
+  "media": {
+    "images_constraints": "Max 80vh height on mobile. Proper responsive scaling."
+  },
+  "image_urls": [
+    {
+      "category": "dashboard_hero",
+      "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Analytics dashboard performance graphs on laptop screen"
+    },
+    {
+      "category": "hospital_team",
+      "url": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Medical professionals working together in a modern facility"
+    },
+    {
+      "category": "employer_analytics",
+      "url": "https://images.unsplash.com/photo-1763718528755-4bca23f82ac3?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Employer dashboard showing application trends and metrics"
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Modernize and polish the enrolment-ui frontend located in enrollment-ui/New folder/src with robust accessibility, pristine responsive design, beautiful typography rotation (Plus Jakarta Sans + Inter), enhanced step progress navigation, and intuitive validation feedback.",
+    "Ensure all interactive elements and buttons include proper data-testid attributes for reliable end-to-end testing.",
+    "Maintain high code quality in .js/.jsx/.ts/.tsx files, adhering strictly to the design system rules, avoiding forbidden colors (#7351B7 and #1B93A4), and ensuring no transparent backgrounds on headers or sticky menus without backdrop-blur."
+  ],
+  "universal_guidelines_for_main_agent": [
+    "Never use transition: all",
+    "Never center-align the app container",
+    "Always use explicit interactive states and accessible contrast",
+    "Include data-testid attributes on all interactive elements"
+  ]
+}
